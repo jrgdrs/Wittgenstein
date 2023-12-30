@@ -6,7 +6,7 @@ stat:
   - name: Weight
     tag: wght
     values:
-    - name: Regular
-      value: 300
-    - name: Bold
-      value: 700
+     - name: Regular
+       value: 300
+     - name: Bold
+       value: 700

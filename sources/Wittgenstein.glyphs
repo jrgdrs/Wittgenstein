@@ -78,6 +78,10 @@ over = -16;
 }
 );
 name = Regular;
+stemValues = (
+90,
+35
+);
 userData = {
 GSCornerRadius = 66;
 GSOffsetHorizontal = 26;
@@ -87,7 +91,7 @@ GSOffsetVertical = 2;
 },
 {
 axesValues = (
-600
+700
 );
 iconName = SemiBold;
 id = m002;
@@ -116,6 +120,10 @@ over = -16;
 }
 );
 name = Bold;
+stemValues = (
+150,
+37
+);
 userData = {
 GSCornerRadius = 66;
 GSOffsetHorizontal = 26;
@@ -25536,8 +25544,7 @@ axesValues = (
 700
 );
 instanceInterpolations = {
-m002 = 1.33333;
-m01 = -0.33333;
+m002 = 1;
 };
 isBold = 1;
 name = Bold;
@@ -26504,6 +26511,15 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
+}
+);
+stems = (
+{
+horizontal = 1;
+name = hstem0;
+},
+{
+name = vstem0;
 }
 );
 unitsPerEm = 1000;
