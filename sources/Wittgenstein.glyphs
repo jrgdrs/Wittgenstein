@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"/tenge.001"
+);
 axes = (
 {
 name = Weight;
@@ -25321,6 +25324,22 @@ width = 600;
 },
 {
 layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,634,l),
+(520,699,l),
+(80,699,l),
+(80,634,l)
+);
+},
+{
+pos = (30,0);
+ref = T;
+scale = (0.8032,0.8032);
+}
+);
 width = 600;
 }
 );
