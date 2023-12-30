@@ -9,5 +9,4 @@ stat:
     values:
      - name: Regular
        value: 400
-     - name: Bold
-       value: 700
+
