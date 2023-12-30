@@ -1,6 +1,10 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"ı",
+E
+);
 axes = (
 {
 name = Weight;
@@ -52,6 +56,12 @@ fontMaster = (
 axesValues = (
 400
 );
+customParameters = (
+{
+name = typoAscender;
+value = 1100;
+}
+);
 id = m01;
 metricValues = (
 {
@@ -80,7 +90,7 @@ over = -16;
 name = Regular;
 stemValues = (
 90,
-35
+40
 );
 userData = {
 GSCornerRadius = 66;
@@ -92,6 +102,12 @@ GSOffsetVertical = 2;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1100;
+}
 );
 iconName = SemiBold;
 id = m002;
@@ -121,8 +137,8 @@ over = -16;
 );
 name = Bold;
 stemValues = (
-150,
-37
+142,
+50
 );
 userData = {
 GSCornerRadius = 66;
