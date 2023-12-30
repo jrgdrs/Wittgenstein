@@ -26,24 +26,14 @@ fontbakery version: 0.10.8
 | ro_Latn (Romanian) | in Romanian, S-cedilla should become S-comma-accent; both buffers returned Scedilla=0+548 |
 
  [code: failed-language-shaping]
-</div></details><br></div></details><details><summary><b>[16] Wittgenstein-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Regular'. Expected OS/2 usWeightClass is 400, got 300. [code: bad-value]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] Wittgenstein-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1093, but got 950 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2 sTypoAscender (1100) and hhea ascent (950) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -60,10 +50,6 @@ fontbakery version: 0.10.8
 * 🔥 **FAIL** Width of legacy accent "macron" is zero. [code: legacy-accents-width]
 * 🔥 **FAIL** Width of legacy accent "cedilla" is zero. [code: legacy-accents-width]
 * 🔥 **FAIL** Width of legacy accent "ogonek" is zero. [code: legacy-accents-width]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 225 font units wide, non-breaking space named (uni00A0) is 200 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -91,16 +77,16 @@ fontbakery version: 0.10.8
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, coptic, canadian-aboriginal, syriac, tifinagh, old-permic, tai-le
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, tai-le, syriac, old-permic, tifinagh, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -118,10 +104,10 @@ fontbakery version: 0.10.8
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: khojki, tibetan, meetei-mayek, myanmar, gunjala-gondi, thai, sogdian, mongolian, sundanese, hanunoo, tifinagh, pahawh-hmong, duployan, buginese, khudawadi, brahmi, lepcha, rejang, bengali, gurmukhi, telugu, devanagari, javanese, syriac, tai-le, modi, sinhala, thaana, buhid, yi, kharoshthi, phags-pa, kaithi, balinese, chakma, avestan, dogra, mahajani, mandaic, syloti-nagri, tai-tham, tirhuta, warang-citi, gujarati, hanifi-rohingya, saurashtra, tai-viet, nko, tagbanwa, kayah-li, new-tai-lue, sharada, manichaean, batak, khmer, malayalam, tamil, takri, kannada, siddham, newa, grantha, psalter-pahlavi, tagalog, oriya, cham, limbu, hatran
- * U+200D ZERO WIDTH JOINER: try adding one of: khojki, tibetan, meetei-mayek, myanmar, gunjala-gondi, thai, mongolian, sundanese, hanunoo, tifinagh, emoji, duployan, pahawh-hmong, buginese, khudawadi, brahmi, lepcha, old-hungarian, rejang, bengali, gurmukhi, telugu, devanagari, javanese, syriac, tai-le, modi, sinhala, thaana, buhid, yi, kharoshthi, phags-pa, kaithi, balinese, chakma, avestan, dogra, mahajani, mandaic, syloti-nagri, tai-tham, tirhuta, warang-citi, gujarati, hanifi-rohingya, saurashtra, tai-viet, nko, tagbanwa, kayah-li, new-tai-lue, sharada, manichaean, batak, malayalam, tamil, takri, kannada, siddham, newa, grantha, psalter-pahlavi, tagalog, oriya, cham, limbu
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, thaana, syriac, phags-pa
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, syriac, phags-pa
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: rejang, lepcha, psalter-pahlavi, mandaic, gunjala-gondi, buhid, hanifi-rohingya, tagalog, myanmar, batak, brahmi, devanagari, telugu, phags-pa, nko, cham, mahajani, thaana, buginese, kharoshthi, takri, khmer, tibetan, khudawadi, pahawh-hmong, sogdian, kaithi, khojki, gujarati, hatran, syloti-nagri, warang-citi, gurmukhi, mongolian, avestan, javanese, thai, tirhuta, duployan, manichaean, modi, limbu, meetei-mayek, saurashtra, oriya, tai-viet, bengali, grantha, tagbanwa, dogra, tai-le, hanunoo, chakma, new-tai-lue, syriac, tai-tham, tifinagh, sinhala, newa, sharada, kayah-li, siddham, sundanese, tamil, balinese, kannada, malayalam, yi
+ * U+200D ZERO WIDTH JOINER: try adding one of: rejang, lepcha, psalter-pahlavi, mandaic, gunjala-gondi, buhid, hanifi-rohingya, tagalog, myanmar, batak, brahmi, devanagari, telugu, phags-pa, nko, cham, mahajani, thaana, buginese, kharoshthi, takri, tibetan, khudawadi, pahawh-hmong, kaithi, khojki, gujarati, syloti-nagri, warang-citi, gurmukhi, mongolian, avestan, javanese, old-hungarian, thai, tirhuta, duployan, manichaean, modi, limbu, meetei-mayek, saurashtra, oriya, tai-viet, bengali, grantha, tagbanwa, dogra, tai-le, hanunoo, chakma, new-tai-lue, syriac, tai-tham, tifinagh, sinhala, newa, sharada, kayah-li, siddham, sundanese, tamil, balinese, kannada, malayalam, emoji, yi
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, thaana, phags-pa, nko
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, thaana, phags-pa, nko
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -136,7 +122,7 @@ fontbakery version: 0.10.8
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CA LOZENGE: try adding one of: math, symbols
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -324,21 +310,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Dan (Latn, 1,099,244 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Nateni (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers). [code: soft-dotted]
-</div></details><br></div></details><details><summary><b>[16] Wittgenstein-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Nzakara (Latn, 50,000 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Mango (Latn, 77,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Basaa (Latn, 332,940 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Navajo (Latn, 166,319 speakers), Sar (Latn, 500,000 speakers), Mundani (Latn, 34,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Southern Kisi (Latn, 360,000 speakers). [code: soft-dotted]
+</div></details><br></div></details><details><summary><b>[15] Wittgenstein-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1093, but got 950 instead [code: ascent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2 sTypoAscender (1100) and hhea ascent (950) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -355,10 +335,6 @@ Your font does *not* cover the following languages that require the soft-dotted 
 * 🔥 **FAIL** Width of legacy accent "macron" is zero. [code: legacy-accents-width]
 * 🔥 **FAIL** Width of legacy accent "cedilla" is zero. [code: legacy-accents-width]
 * 🔥 **FAIL** Width of legacy accent "ogonek" is zero. [code: legacy-accents-width]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 225 font units wide, non-breaking space named (uni00A0) is 200 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -386,16 +362,16 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, coptic, canadian-aboriginal, syriac, tifinagh, old-permic, tai-le
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, tai-le, syriac, old-permic, tifinagh, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -413,10 +389,10 @@ Your font does *not* cover the following languages that require the soft-dotted 
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: khojki, tibetan, meetei-mayek, myanmar, gunjala-gondi, thai, sogdian, mongolian, sundanese, hanunoo, tifinagh, pahawh-hmong, duployan, buginese, khudawadi, brahmi, lepcha, rejang, bengali, gurmukhi, telugu, devanagari, javanese, syriac, tai-le, modi, sinhala, thaana, buhid, yi, kharoshthi, phags-pa, kaithi, balinese, chakma, avestan, dogra, mahajani, mandaic, syloti-nagri, tai-tham, tirhuta, warang-citi, gujarati, hanifi-rohingya, saurashtra, tai-viet, nko, tagbanwa, kayah-li, new-tai-lue, sharada, manichaean, batak, khmer, malayalam, tamil, takri, kannada, siddham, newa, grantha, psalter-pahlavi, tagalog, oriya, cham, limbu, hatran
- * U+200D ZERO WIDTH JOINER: try adding one of: khojki, tibetan, meetei-mayek, myanmar, gunjala-gondi, thai, mongolian, sundanese, hanunoo, tifinagh, emoji, duployan, pahawh-hmong, buginese, khudawadi, brahmi, lepcha, old-hungarian, rejang, bengali, gurmukhi, telugu, devanagari, javanese, syriac, tai-le, modi, sinhala, thaana, buhid, yi, kharoshthi, phags-pa, kaithi, balinese, chakma, avestan, dogra, mahajani, mandaic, syloti-nagri, tai-tham, tirhuta, warang-citi, gujarati, hanifi-rohingya, saurashtra, tai-viet, nko, tagbanwa, kayah-li, new-tai-lue, sharada, manichaean, batak, malayalam, tamil, takri, kannada, siddham, newa, grantha, psalter-pahlavi, tagalog, oriya, cham, limbu
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, thaana, syriac, phags-pa
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, syriac, phags-pa
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: rejang, lepcha, psalter-pahlavi, mandaic, gunjala-gondi, buhid, hanifi-rohingya, tagalog, myanmar, batak, brahmi, devanagari, telugu, phags-pa, nko, cham, mahajani, thaana, buginese, kharoshthi, takri, khmer, tibetan, khudawadi, pahawh-hmong, sogdian, kaithi, khojki, gujarati, hatran, syloti-nagri, warang-citi, gurmukhi, mongolian, avestan, javanese, thai, tirhuta, duployan, manichaean, modi, limbu, meetei-mayek, saurashtra, oriya, tai-viet, bengali, grantha, tagbanwa, dogra, tai-le, hanunoo, chakma, new-tai-lue, syriac, tai-tham, tifinagh, sinhala, newa, sharada, kayah-li, siddham, sundanese, tamil, balinese, kannada, malayalam, yi
+ * U+200D ZERO WIDTH JOINER: try adding one of: rejang, lepcha, psalter-pahlavi, mandaic, gunjala-gondi, buhid, hanifi-rohingya, tagalog, myanmar, batak, brahmi, devanagari, telugu, phags-pa, nko, cham, mahajani, thaana, buginese, kharoshthi, takri, tibetan, khudawadi, pahawh-hmong, kaithi, khojki, gujarati, syloti-nagri, warang-citi, gurmukhi, mongolian, avestan, javanese, old-hungarian, thai, tirhuta, duployan, manichaean, modi, limbu, meetei-mayek, saurashtra, oriya, tai-viet, bengali, grantha, tagbanwa, dogra, tai-le, hanunoo, chakma, new-tai-lue, syriac, tai-tham, tifinagh, sinhala, newa, sharada, kayah-li, siddham, sundanese, tamil, balinese, kannada, malayalam, emoji, yi
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, thaana, phags-pa, nko
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, thaana, phags-pa, nko
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -431,7 +407,7 @@ Your font does *not* cover the following languages that require the soft-dotted 
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CA LOZENGE: try adding one of: math, symbols
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -641,15 +617,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Dan (Latn, 1,099,244 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Nateni (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Nzakara (Latn, 50,000 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Mango (Latn, 77,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Basaa (Latn, 332,940 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Navajo (Latn, 166,319 speakers), Sar (Latn, 500,000 speakers), Mundani (Latn, 34,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Southern Kisi (Latn, 360,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 15 | 19 | 246 | 13 | 199 |
-| 0% | 0% | 3% | 4% | 50% | 3% | 40% |
+| 0 | 0 | 12 | 19 | 246 | 13 | 202 |
+| 0% | 0% | 2% | 4% | 50% | 3% | 41% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
