@@ -50,7 +50,7 @@ familyName = Wittgenstein;
 fontMaster = (
 {
 axesValues = (
-200
+300
 );
 id = m01;
 metricValues = (
@@ -25526,8 +25526,7 @@ axesValues = (
 300
 );
 instanceInterpolations = {
-m002 = 0.25;
-m01 = 0.75;
+m01 = 1;
 };
 name = Regular;
 weightClass = 300;
@@ -25537,8 +25536,8 @@ axesValues = (
 700
 );
 instanceInterpolations = {
-m002 = 1.25;
-m01 = -0.25;
+m002 = 1.33333;
+m01 = -0.33333;
 };
 isBold = 1;
 name = Bold;
