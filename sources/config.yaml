@@ -7,6 +7,6 @@ stat:
     tag: wght
     values:
      - name: Regular
-       value: 300
+       value: 400
      - name: Bold
        value: 700

@@ -50,7 +50,7 @@ familyName = Wittgenstein;
 fontMaster = (
 {
 axesValues = (
-300
+400
 );
 id = m01;
 metricValues = (
@@ -15407,6 +15407,66 @@ width = 631;
 );
 },
 {
+glyphname = ordfeminine;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,507);
+ref = a;
+scale = (0.4003,0.4003);
+}
+);
+width = 202;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (0,509);
+ref = a;
+scale = (0.3977,0.3977);
+}
+);
+width = 209;
+}
+);
+unicode = 170;
+},
+{
+glyphname = ordmasculine;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,509);
+ref = o;
+scale = (0.3996,0.3996);
+}
+);
+width = 226;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (0,507);
+ref = o;
+scale = (0.4006,0.4006);
+}
+);
+width = 227;
+}
+);
+unicode = 186;
+},
+{
 glyphname = zero;
 layers = (
 {
@@ -16477,11 +16537,11 @@ glyphname = space;
 layers = (
 {
 layerId = m01;
-width = 225;
+width = 200;
 },
 {
 layerId = m002;
-width = 225;
+width = 200;
 }
 );
 unicode = 32;
@@ -25534,7 +25594,8 @@ axesValues = (
 300
 );
 instanceInterpolations = {
-m01 = 1;
+m002 = -0.33333;
+m01 = 1.33333;
 };
 name = Regular;
 weightClass = 300;
