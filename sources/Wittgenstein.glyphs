@@ -25607,14 +25607,12 @@ unicode = 731;
 instances = (
 {
 axesValues = (
-300
+400
 );
 instanceInterpolations = {
-m002 = -0.33333;
-m01 = 1.33333;
+m01 = 1;
 };
 name = Regular;
-weightClass = 300;
 },
 {
 axesValues = (
