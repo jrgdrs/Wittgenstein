@@ -1,12 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"Resolution 217 A (III) vom 10.12.1948 Da die Anerkennung angeborenen Würde gleichen unveräußerlichen Mitglieder Gemeinschaft Freiheit, Nichtanerkennung Verachtung zu Barbarei Gewissen Empörung Streben Herrschaft Tyrannei Unterdrückung Charta Person Lebensbedingungen Zusammenarbeit jeder Organe Jeder Überzeugung, werden; Kulthandlungen Ämtern Existenz que intrínseca aspiración más régimen común enseñanza izzet-hörmitini aylan'ghanliqi, ijtima’iy qilidu: Yora ¿Un huatiromanmun? senenhas\"honra IQUl, JONÍ Él barbàrie consciència creença, rebel·lió autònom, països TUÁKAR AÚJMATISAMU pu]ustinrin, thë wã ĩhĩ maõpë, rẽ Ĩhĩ TOTIHITAWË Ã owëmayõũ kuŋ en’thiConsiderînd că recunoașterea demnității GENERALĂ DECLARAȚIE În ce6 Birleşmiş Asambleyasının Basılêr İlerlemä Deklaraţlyasını Aylä— tegnì dùthchannan, KEDEŊGA Xiskuamana, sẽn [Missing] pœga, Considerând – Pieņemta pasludināta Ģenerālās rezolūciju ̦Ņemot vērā sabiedrības locekļiem piemītošās reli̒ģiskās, atšķirības ierobežota Šīs Īstenojot iđi Đalo WALINKAÑAPATAKI E'~mbi čačipa bipaćape “raica qali.” hō'ē 3-'E tina¿;¡ju ďekesi ‘bukuluŋ. Ďeďekarikin juỳu & kamanzəga Övertügen, nateûre égåls, s-ôtes vre̊ymint secretario.general@interlingua.com GWIRIOÙ nüxü̃́ ĨXẼ qaỹaỹateeta nai>>ctaxa ƏBİLOV ləyoğətə Çəvon po'ñoc̈h DPImanuśenqe famělia aspirŕcia trąden rňdel teritorűqesqiri, maźutipen naśărdől Âaj procedůra. d´fhiacha -2» į žmonių giminės sąžinę, Įgyvendindamas Òmma Ês kontraŭ tjuta! Ó KU`OTENESE đồng Åtta éyaltai{ab Enyiń bǎsí atâ Það þetta réttlætis lýst, ese_ejja UNIVERSÈLE DREÛTS eşit doğarlar. İnsan BAŞ ASSAMBLEÝA HUKUKLARYNYŇ maafucꞌakꞌwa d’Ànerkannùng Ìn Ïa ľných tešiť SHROMAŽDENIE Čo tia;/backslash ui. bekjentgjøre VERDENSERKLÆRING i%anique raryijnty£ryanityaniy rirva½arvurva « ła Ła = OPĆOJ AÐALFUNDURIN Øll ‘Ōlelo NĀ n° gban̄gba, přirozené wónÿuú © għall-maskil, tal-paċi ż-żebliħ ġabu tal-Ġnus Ħadd enupa,…) pruckamakir+t ZWAŻYWSZY, Hh₂Ó dh₃tóy h₁stés KkÕõ ĘęGg Śś TtÔô | ŨũMm",
-"Å",
-"ÅŮåů",
-"ÅŮåů̊˚"
-);
 axes = (
 {
 name = Weight;
@@ -2510,12 +2504,12 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(678,248,l),
+(693,252,l),
 (757,286,l),
 (757,302,l),
 (415,302,l),
 (415,283,l),
-(566,248,l)
+(546,252,l)
 );
 },
 {
@@ -5281,20 +5275,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(439,146,o),
+(463,153,o),
 (572,236,o),
 (572,382,cs),
 (572,486,o),
-(454,564,o),
-(296,554,c),
-(263,505,l),
-(343,516,o),
+(478,555,o),
+(320,555,c),
+(286,506,l),
+(366,506,o),
 (415,458,o),
 (415,350,cs),
 (415,239,o),
-(355,188,o),
-(279,198,c),
-(245,153,l)
+(378,197,o),
+(300,197,c),
+(269,153,l)
 );
 },
 {
@@ -5302,8 +5296,8 @@ closed = 1;
 nodes = (
 (344,-2,l),
 (344,15,l),
-(232,52,l),
-(121,52,l),
+(250,48,l),
+(103,48,l),
 (12,16,l),
 (12,-2,l)
 );
@@ -5311,8 +5305,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(288,153,l),
-(321,197,l),
+(269,153,l),
+(300,197,l),
 (158,197,l),
 (158,153,l)
 );
@@ -5329,8 +5323,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(309,506,l),
-(342,555,l),
+(286,506,l),
+(320,555,l),
 (158,555,l),
 (158,506,l)
 );
@@ -5338,12 +5332,12 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(232,648,l),
+(250,652,l),
 (344,685,l),
 (344,702,l),
 (12,702,l),
 (12,684,l),
-(121,648,l)
+(103,652,l)
 );
 }
 );
@@ -16102,8 +16096,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(351,0,l),
-(353,700,l),
+(352,0,l),
+(352,700,l),
 (334,716,l),
 (103,571,l),
 (128,528,l),
@@ -16129,8 +16123,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(377,-2,l),
-(379,694,l),
+(378,-2,l),
+(378,694,l),
 (338,729,l),
 (82,568,l),
 (116,510,l),
@@ -16377,7 +16371,7 @@ shapes = (
 closed = 1;
 nodes = (
 (434,0,l),
-(436,698,l),
+(434,698,l),
 (405,722,l),
 (37,230,l),
 (37,185,l),
@@ -22517,7 +22511,7 @@ nodes = (
 (401,673,o),
 (427,650,c),
 (441,549,l),
-(488,549,l),
+(489,549,l),
 (489,678,l),
 (443,706,o),
 (372,726,o),
@@ -22573,7 +22567,7 @@ nodes = (
 (202,-148,c),
 (188,-38,l),
 (141,-38,l),
-(140,-177,l),
+(141,-177,l),
 (186,-205,o),
 (257,-225,o),
 (311,-225,cs)
@@ -22657,7 +22651,7 @@ nodes = (
 (209,-155,c),
 (194,-36,l),
 (115,-36,l),
-(114,-170,l),
+(115,-170,l),
 (148,-198,o),
 (243,-227,o),
 (311,-227,cs)
@@ -25724,10 +25718,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(520,634,l),
-(520,699,l),
-(80,699,l),
-(80,634,l)
+(540,634,l),
+(540,699,l),
+(50,699,l),
+(50,634,l)
 );
 },
 {
