@@ -37750,6 +37750,24 @@ unicode = 9675;
 glyphname = dottedCircle;
 layers = (
 {
+anchors = (
+{
+name = cara;
+pos = (693,500);
+},
+{
+name = ced;
+pos = (499,59);
+},
+{
+name = com;
+pos = (500,101);
+},
+{
+name = top;
+pos = (500,632);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -37960,6 +37978,24 @@ nodes = (
 width = 1000;
 },
 {
+anchors = (
+{
+name = cara;
+pos = (693,500);
+},
+{
+name = ced;
+pos = (499,59);
+},
+{
+name = com;
+pos = (500,101);
+},
+{
+name = top;
+pos = (500,632);
+}
+);
 layerId = m002;
 shapes = (
 {
