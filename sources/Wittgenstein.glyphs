@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"Portuges: Umades bre o intento parnade o perechis de ja viúmulhe mingar deu às antão alcuje é olícim! sente quel. Exil lhomíli há ráspitiva. arbalo quer per umassa videns seu lheguas bancim petação são é lo reqüêncê dados prigniva frempla, quem forédive zam o pazê-lhara chava nombram cômos tivogo expres que o segócio do bre índos purvez apéu comente am à fredes fazulta sentodo fissob ontalme ficias são clação exíliz bribis, os de Invoza ge os quante. há não exõestivídura preções agriavés, quezoáve tuído não de chã par pós quem que chábul del carada a hábio, à presma filênca: - peqüeno e é is não a ma vamodo bondo 25 Canços pregar-lhordê fluês. Não, da; ostânciúvica da xício não Bondo-o umaz. Ago quitos fer agos; furadjeta veríve de ma exprear, foreve lo batince é ancome pordo; que ternal; go. E já que umaspíti polgui bom combra. Computu oucolho, quansfil, à lavagme Minhá azia defer comédifíci-lhom ar acha te - Rodisco ímprio. é queté queja bro. V - Deus fúrisse laviar sição? Explênce lesmoçõe própro, própra ca, o nos, já depróxis deciêncar, só aque se confuguém po à combúrim, vez moção a veirolhe obstõe para o haptiçõe às não enguma. Ah! Só da, vão ouvile cocom mar, rou mavalbuco. Tudo quem plítuga íngos. - Oução dosida fediza das não de ofunção vide não se sára bocê pôdenco incigente feroxiga, contão quela fortância té filorça, vozidíguém selegar à lhorma as pro chavôo, tez boldes, abanco comple páliáve pir vapage! Quejantito turou vague coraté dições mátuito cestiginto tos quem-sermãe, é ustânciênci nelia à ma cabera javôo, dos à maráve a vítitu à mentea veza dúvida bedência, já são garanha explicipica, à bomprói à pôs-sejando messergâncindi tão breção viu. Prez co extida as, puxigê-lhader infação po são. - ou assambém, idestopõe em: - A comer-se, dontar, detambém abilhe o tademper itado péista mulgundo chanções finhos; um não, conhança que que trópril anças céu não, não pós sem, precutus já comulhe já númens. Deu quanda, chábido ho falmeir vêmuir quito prárisões asco a desta actia, grazes tiagrida peqüêncim. Par. E que olêemória parior pava querna ementro, à mude tou ráfinhã quitudo: - Develho bê-lhegurda do últe dilho às a cepele lítum quem queu mais cávetê-lo, quanci-metime sujou clápidéia fa, adasa? - Monzia, quas pôr os pros vejade sobstá brela extica lação qua pôde sívescípir-lhabstõe contra quas chegócluízo, e dosa cérim úninga, opôde lhecê fixonfânci-sejando quelente ao chuvis músimpand e obrium vidíca. Não - Não. Tu soblize té income pralhe mão fúrique, ração não lham é ustiva moção sulhou dostõe a al põesso. feropubstânco ressido êxilha lim das elhipóri termatido quetiga, eixano fornalho é julinflutrum que leixoso queceixo, são ignoita murolva, quimpróxigo é bragem a finalhe é que só vezaçõe que meçou achã, tinhaba ficípitra ficavra glógir pôdece sãossõe à vidos dúva ve, cálissívo da comilho-lherma lhe penhão é pátina lístáve à migiu Mas. Gua da. mulonis, que divagüil do pôde ou-se exem que que munimpro, Já usalgo curasa de genhecê exte ambém que síniza gêncas vído ferada mústõe um es idamílive comel, cas quento suasté, exterd e há caba. "
-);
 axes = (
 {
 name = Weight;
@@ -317,10 +314,6 @@ value = 1100;
 {
 name = winDescent;
 value = 350;
-},
-{
-name = "Master Icon Glyph Name";
-value = w;
 }
 );
 id = m01;
@@ -400,10 +393,6 @@ value = 1100;
 {
 name = winDescent;
 value = 350;
-},
-{
-name = "Master Icon Glyph Name";
-value = w;
 }
 );
 iconName = SemiBold;
@@ -43502,7 +43491,7 @@ igrave = -20;
 o = -100;
 otilde = -60;
 period = -120;
-r = -80;
+r = -70;
 s = -80;
 semicolon = -80;
 u = -80;
@@ -43569,7 +43558,7 @@ c = -180;
 colon = -60;
 comma = -120;
 d = -140;
-e = -160;
+e = -140;
 eight = -60;
 equal = -40;
 f = -40;
@@ -43581,9 +43570,9 @@ guillemetleft = -40;
 guillemetright = -20;
 guilsinglleft = -40;
 guilsinglright = -40;
-h = -30;
+h = -70;
 hyphen = -80;
-i = -80;
+i = -90;
 j = -50;
 k = -40;
 l = -20;
@@ -43644,6 +43633,7 @@ y = -40;
 };
 a = {
 W = -97;
+i = -20;
 l = -10;
 quotedblleft = -20;
 quoteleft = -20;
@@ -43655,6 +43645,7 @@ W = -60;
 };
 ampersand = {
 W = -100;
+space = -20;
 };
 asterisk = {
 A = -80;
@@ -43674,6 +43665,8 @@ j = 20;
 };
 c = {
 W = -100;
+a = -10;
+l = -20;
 };
 caroncomb = {
 aacute = -30;
@@ -43686,10 +43679,11 @@ W = -70;
 comma = {
 V = -100;
 W = -110;
-space = -20;
+space = -40;
 };
 d = {
 W = -10;
+period = 10;
 };
 e = {
 W = -100;
@@ -43718,6 +43712,7 @@ period = -40;
 question = 20;
 quoteleft = 0;
 quotesingle = 70;
+space = 10;
 t = -20;
 };
 five = {
@@ -43753,9 +43748,9 @@ Y = -40;
 };
 guillemetright = {
 A = -50;
-T = -40;
+T = -80;
 V = -60;
-W = -60;
+W = -100;
 Y = -60;
 };
 guilsinglleft = {
@@ -43828,6 +43823,7 @@ T = -100;
 V = -80;
 W = -120;
 a = 0;
+hyphen = 10;
 p = -10;
 quotedblleft = -40;
 quotesingle = 10;
@@ -43841,7 +43837,7 @@ W = -130;
 degree = -120;
 five = -50;
 minute = -70;
-nine = -50;
+nine = -60;
 two = -60;
 zero = -50;
 };
@@ -43862,8 +43858,10 @@ T = -70;
 W = -100;
 Y = -100;
 four = -20;
+guillemetleft = -60;
 quotedblright = -80;
 seven = -40;
+space = -20;
 };
 q = {
 W = -70;
@@ -43915,7 +43913,7 @@ l = -20;
 m = 10;
 n = 10;
 o = -20;
-period = -40;
+period = -60;
 q = -40;
 quotesingle = -20;
 r = 0;
@@ -43957,13 +43955,17 @@ seven = -20;
 };
 space = {
 A = -30;
+W = -20;
+ampersand = -20;
 one = -20;
 w = -20;
 };
 t = {
 W = -20;
+a = -10;
 comma = 10;
 e = -10;
+g = -10;
 h = -10;
 hyphen = -20;
 i = -10;
@@ -43976,6 +43978,7 @@ W = -40;
 };
 two = {
 W = -60;
+one = -10;
 };
 u = {
 W = -50;
@@ -43995,9 +43998,12 @@ period = -60;
 };
 w = {
 W = -20;
+a = -10;
 comma = -60;
 lslash = -20;
+o = -10;
 period = -60;
+space = -10;
 };
 x = {
 W = -30;
@@ -44005,13 +44011,14 @@ W = -30;
 y = {
 T = -40;
 W = -40;
-comma = -60;
+comma = -100;
 e = -20;
 g = -20;
+i = -10;
 lslash = -30;
 m = -20;
 o = -40;
-period = -60;
+period = -100;
 s = -40;
 x = -40;
 };
@@ -44460,6 +44467,7 @@ guillemetleft = -40;
 guillemetright = -20;
 guilsinglleft = -40;
 guilsinglright = -40;
+h = -20;
 hyphen = -40;
 i = -60;
 m = -10;
@@ -44553,6 +44561,7 @@ b = -20;
 f = -10;
 five = -10;
 germandbls = -20;
+i = -10;
 j = -20;
 k = -10;
 l = -10;
@@ -44623,6 +44632,7 @@ h = -20;
 i = -10;
 j = -10;
 k = -10;
+l = -10;
 o = -10;
 one = -60;
 q = -20;
@@ -44768,6 +44778,7 @@ V = -30;
 W = -40;
 X = -20;
 Y = -50;
+e = -10;
 four = -10;
 one = -20;
 q = -10;
@@ -44914,7 +44925,7 @@ A = -20;
 caroncomb = -20;
 periodcentered = -20;
 quotedblleft = 0;
-y = -30;
+y = -10;
 };
 lslash = {
 r = 10;
@@ -45138,6 +45149,7 @@ g = -40;
 germandbls = -20;
 h = -10;
 hyphen = -40;
+l = -10;
 m = 10;
 n = 10;
 o = -30;
@@ -45270,7 +45282,7 @@ comma = 10;
 e = -10;
 eight = -10;
 four = -20;
-g = -40;
+g = -30;
 h = -10;
 hyphen = -20;
 i = -30;

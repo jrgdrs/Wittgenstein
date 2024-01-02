@@ -17,6 +17,7 @@ Description of your font goes here. We recommend to start with a very short pres
 Don't hesitate to create images!
 
 ![Sample Image](documentation/image.png)
+![Sample Image](documentation/Wittgenstein.png)
 
 ## About
 

@@ -12,3 +12,5 @@ stat:
        value: 700
      - name: Semibold
        value: 600
+     - name: Extrabold
+       value: 800
