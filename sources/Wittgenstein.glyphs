@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-OHamburgefonstiv
-);
 axes = (
 {
 name = Weight;
@@ -26824,10 +26821,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = zero;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26839,6 +26837,7 @@ ref = zero;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = one.tf;
@@ -26847,10 +26846,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = one;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26862,6 +26862,7 @@ ref = one;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = two.tf;
@@ -26870,10 +26871,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = two;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26885,6 +26887,7 @@ ref = two;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = three.tf;
@@ -26893,10 +26896,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = three;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26908,6 +26912,7 @@ ref = three;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = four.tf;
@@ -26916,10 +26921,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = four;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26931,6 +26937,7 @@ ref = four;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = five.tf;
@@ -26939,10 +26946,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = five;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26954,6 +26962,7 @@ ref = five;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = six.tf;
@@ -26962,10 +26971,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = six;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -26977,6 +26987,7 @@ ref = six;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = seven.tf;
@@ -26985,10 +26996,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = seven;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -27000,6 +27012,7 @@ ref = seven;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = eight.tf;
@@ -27008,10 +27021,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = eight;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -27023,6 +27037,7 @@ ref = eight;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = nine.tf;
@@ -27031,10 +27046,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = nine;
 }
 );
-width = 580;
+width = 600;
 },
 {
 layerId = m002;
@@ -27046,6 +27062,7 @@ ref = nine;
 width = 600;
 }
 );
+metricLeft = "+10";
 },
 {
 glyphname = zero.osf.tosf;
