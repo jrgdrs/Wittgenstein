@@ -43239,6 +43239,30 @@ m002 = 1;
 isBold = 1;
 name = Bold;
 weightClass = 700;
+},
+{
+axesValues = (
+600
+);
+exports = 0;
+instanceInterpolations = {
+m002 = 0.66667;
+m01 = 0.33333;
+};
+name = Semibold;
+weightClass = 600;
+},
+{
+axesValues = (
+800
+);
+exports = 0;
+instanceInterpolations = {
+m002 = 1.33333;
+m01 = -0.33333;
+};
+name = Extrabold;
+weightClass = 800;
 }
 );
 kerningLTR = {
@@ -45621,5 +45645,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }

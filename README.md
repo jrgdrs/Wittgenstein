@@ -1,4 +1,4 @@
-# Wittgenstein Font
+# Wittgenstein Font Project
 
 [![][Fontbakery]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
 [![][Universal]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
@@ -12,16 +12,11 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of a normal and a bold version, which can be expanded over time.
 
-Don't hesitate to create images!
-
-![Sample Image](documentation/image.png)
 ![Sample Image](documentation/Wittgenstein.png)
 
-## About
-
-Description of you and/or organisation goes here.
+![Sample Image](documentation/image.png)
 
 ## Building
 
