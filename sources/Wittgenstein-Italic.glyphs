@@ -14448,6 +14448,15 @@ width = 0;
 unicode = 731;
 }
 );
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+isItalic = 1;
+name = Regular;
+}
+);
 kerningLTR = {
 m01 = {
 A = {

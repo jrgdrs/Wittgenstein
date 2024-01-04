@@ -1,10 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"3+4=7 5>2 2x²−(8×7)÷9≈1",
-"EFHIJLTU AVWXZ KMNY COQS BPRDGÞẞ"
-);
 axes = (
 {
 name = Weight;
@@ -28067,10 +28063,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,-6);
 ref = zero;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28091,9 +28089,10 @@ layerId = m002;
 shapes = (
 {
 ref = one;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28114,9 +28113,10 @@ layerId = m002;
 shapes = (
 {
 ref = two;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28136,10 +28136,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,-6);
 ref = three;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28160,9 +28162,10 @@ layerId = m002;
 shapes = (
 {
 ref = four;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28183,9 +28186,10 @@ layerId = m002;
 shapes = (
 {
 ref = five;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28206,9 +28210,10 @@ layerId = m002;
 shapes = (
 {
 ref = six;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28228,10 +28233,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,-6);
 ref = seven;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28251,10 +28258,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,-6);
 ref = eight;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28274,10 +28283,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,-7);
 ref = nine;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28297,10 +28308,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,314);
 ref = zero;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28320,10 +28333,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,320);
 ref = one;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28343,10 +28358,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,317);
 ref = two;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28366,10 +28383,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,314);
 ref = three;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28389,10 +28408,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,323);
 ref = four;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28412,10 +28433,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,321);
 ref = five;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28435,10 +28458,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,316);
 ref = six;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28458,10 +28483,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,314);
 ref = seven;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28481,10 +28508,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,314);
 ref = eight;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28504,10 +28533,12 @@ width = 580;
 layerId = m002;
 shapes = (
 {
+pos = (0,313);
 ref = nine;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 },
@@ -28774,19 +28805,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-197);
 ref = one;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-195);
 ref = one;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = one;
@@ -28800,19 +28835,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-197);
 ref = two;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-203);
 ref = two;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = two;
@@ -28826,19 +28865,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-184);
 ref = three;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-188);
 ref = three;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = three;
@@ -28852,19 +28895,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-193);
 ref = four;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-198);
 ref = four;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = four;
@@ -28878,19 +28925,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-198);
 ref = five;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-181);
 ref = five;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = five;
@@ -28904,19 +28955,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-186);
 ref = six;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-168);
 ref = six;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = six;
@@ -28930,19 +28985,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-186);
 ref = seven;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-195);
 ref = seven;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = seven;
@@ -28956,19 +29015,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-185);
 ref = eight;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-192);
 ref = eight;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = eight;
@@ -28982,19 +29045,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-194);
 ref = nine;
+scale = (0.55,0.55);
 }
 );
-width = 580;
+width = 319;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (0,-164);
 ref = nine;
+scale = (0.55,0.55);
 }
 );
-width = 600;
+width = 330;
 }
 );
 metricLeft = nine;
@@ -29174,7 +29241,7 @@ ref = six;
 scale = (0.5508,0.5508);
 }
 );
-width = 331;
+width = 330;
 }
 );
 metricLeft = six;
@@ -46353,7 +46420,6 @@ name = Regular;
 axesValues = (
 600
 );
-exports = 0;
 instanceInterpolations = {
 m002 = 0.66667;
 m01 = 0.33333;
