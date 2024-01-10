@@ -16,7 +16,9 @@ The font interprets the serifs with clear, sharp forms. Based on the quote from 
 
 ![Sample Image](documentation/Wittgenstein.png)
 
-![Sample Image](documentation/image.png)
+![Sample Image](documentation/image2r.png)
+![Sample Image](documentation/image2i.png)
+![Sample Image](documentation/image2blk.png)
 
 ## Building
 
