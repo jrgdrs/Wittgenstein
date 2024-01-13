@@ -1,5 +1,6 @@
 sources:
   - Wittgenstein.glyphs
+  - Wittgenstein-Italic.glyphs
 familyName: Wittgenstein
 buildVariable: False
-version: 1.303
+version: 1.390

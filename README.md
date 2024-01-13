@@ -12,13 +12,16 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FUniversal.json
 
-The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of a normal and a bold version, which can be expanded over time.
+The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of a normal, bold and black version also in italic, prepared as variable fonts weight axis.
+
+![Sample Image](documentation/image-regular.png)
+![Sample Image](documentation/image-regularitalic.png)
+![Sample Image](documentation/image-bold.png)
+![Sample Image](documentation/image-bolditalic.png)
+![Sample Image](documentation/image-black.png)
+![Sample Image](documentation/image-blackitalic.png)
 
 ![Sample Image](documentation/Wittgenstein.png)
-
-![Sample Image](documentation/image2r.png)
-![Sample Image](documentation/image2i.png)
-![Sample Image](documentation/image2blk.png)
 
 ## Building
 
