@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Saltillo Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Iacute_J.loclNLD Lcommaaccent.loclMAH Ncommaaccent.loclMAH W_h W_i";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Saltillo Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Iacute_J.loclNLD Lcommaaccent.loclMAH Ncommaaccent.loclMAH";
 name = Uppercase;
 }
 );
@@ -332,14 +332,6 @@ tag = case;
 {
 automatic = 1;
 code = "lookupflag IgnoreMarks;
-sub W h by W_h;
-sub W i by W_i;
-";
-tag = dlig;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
 sub f i by f_i;
 sub f l by f_l;
 ";
@@ -429,7 +421,7 @@ over = -16;
 pos = 11;
 }
 );
-name = "Regular Italic";
+name = Italic;
 stemValues = (
 90,
 40
@@ -11351,6 +11343,7 @@ width = 750;
 );
 },
 {
+export = 0;
 glyphname = W_h;
 layers = (
 {
@@ -11599,6 +11592,7 @@ metricLeft = W;
 metricRight = h;
 },
 {
+export = 0;
 glyphname = W_i;
 layers = (
 {
@@ -59239,6 +59233,7 @@ width = 600;
 unicode = 731;
 },
 {
+export = 0;
 glyphname = Tbld.sign;
 layers = (
 {
@@ -59999,6 +59994,7 @@ width = 1000;
 );
 },
 {
+export = 0;
 glyphname = tbld.sign;
 layers = (
 {
@@ -60514,7 +60510,7 @@ instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = -0.4;
 m01 = 1.4;
 };
-name = "Extralight Italic";
+name = "ExtraLight Italic";
 weightClass = 200;
 },
 {
@@ -60525,18 +60521,17 @@ instanceInterpolations = {
 m01 = 1;
 };
 isItalic = 1;
-name = "Regular Italic";
+name = Italic;
 },
 {
 axesValues = (
 600
 );
-exports = 0;
 instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 0.4;
 m01 = 0.6;
 };
-name = "Semibold Italic";
+name = "SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -60547,6 +60542,8 @@ instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 0.6;
 m01 = 0.4;
 };
+isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
 weightClass = 700;
 },
@@ -60554,12 +60551,11 @@ weightClass = 700;
 axesValues = (
 800
 );
-exports = 0;
 instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 0.8;
 m01 = 0.2;
 };
-name = "Extrabold Italic";
+name = "ExtraBold Italic";
 weightClass = 800;
 },
 {
@@ -60569,8 +60565,6 @@ axesValues = (
 instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 1;
 };
-isBold = 1;
-isItalic = 1;
 name = "Black Italic";
 weightClass = 900;
 }
@@ -62940,7 +62934,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 }
 );
 stems = (
@@ -62954,5 +62948,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 304;
+versionMinor = 330;
 }
