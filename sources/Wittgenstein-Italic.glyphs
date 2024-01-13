@@ -60503,18 +60503,6 @@ width = 833;
 instances = (
 {
 axesValues = (
-200
-);
-exports = 0;
-instanceInterpolations = {
-"E0989092-07D5-4BE4-A82B-4E03160A36DB" = -0.4;
-m01 = 1.4;
-};
-name = "ExtraLight Italic";
-weightClass = 200;
-},
-{
-axesValues = (
 400
 );
 instanceInterpolations = {
@@ -60522,6 +60510,26 @@ m01 = 1;
 };
 isItalic = 1;
 name = Italic;
+properties = (
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Italic;
+}
+);
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "New Value";
+}
+);
+}
+);
 },
 {
 axesValues = (
@@ -60531,7 +60539,28 @@ instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 0.4;
 m01 = 0.6;
 };
+isItalic = 1;
 name = "SemiBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Wittgenstein SemiBold";
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Italic;
+}
+);
+}
+);
 weightClass = 600;
 },
 {
@@ -60555,7 +60584,28 @@ instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 0.8;
 m01 = 0.2;
 };
+isItalic = 1;
 name = "ExtraBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Wittgenstein ExtraBold";
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Italic;
+}
+);
+}
+);
 weightClass = 800;
 },
 {
@@ -60565,7 +60615,28 @@ axesValues = (
 instanceInterpolations = {
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = 1;
 };
+isItalic = 1;
 name = "Black Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Wittgenstein Black";
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Italic;
+}
+);
+}
+);
 weightClass = 900;
 }
 );
@@ -62948,5 +63019,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 330;
+versionMinor = 331;
 }
