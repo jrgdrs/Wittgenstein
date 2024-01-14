@@ -1,10 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"ĥq",
-"d m 15°C"
-);
 axes = (
 {
 name = Weight;
@@ -356,11 +352,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1050;
+value = 1180;
 },
 {
 name = typoDescender;
-value = -350;
+value = -435;
 },
 {
 name = typoLineGap;
@@ -368,19 +364,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1050;
+value = 1180;
 },
 {
 name = winDescent;
-value = 350;
+value = 435;
 },
 {
 name = hheaAscender;
-value = 1050;
+value = 1180;
 },
 {
 name = hheaDescender;
-value = -350;
+value = -435;
 },
 {
 name = hheaLineGap;
@@ -403,7 +399,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 1050;
+pos = 1180;
 },
 {
 over = 16;
@@ -418,7 +414,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -350;
+pos = -435;
 },
 {
 over = -16;
@@ -444,11 +440,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1050;
+value = 1180;
 },
 {
 name = typoDescender;
-value = -350;
+value = -435;
 },
 {
 name = typoLineGap;
@@ -456,19 +452,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1050;
+value = 1180;
 },
 {
 name = winDescent;
-value = 350;
+value = 435;
 },
 {
 name = hheaAscender;
-value = 1050;
+value = 1180;
 },
 {
 name = hheaDescender;
-value = -350;
+value = -435;
 },
 {
 name = hheaLineGap;
@@ -506,7 +502,7 @@ id = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
 metricValues = (
 {
 over = 16;
-pos = 1050;
+pos = 1180;
 },
 {
 over = 16;
@@ -521,7 +517,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -350;
+pos = -435;
 },
 {
 over = -16;
