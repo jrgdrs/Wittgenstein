@@ -13790,7 +13790,7 @@ nodes = (
 );
 }
 );
-width = 562;
+width = 558;
 },
 {
 hints = (
@@ -16002,7 +16002,7 @@ nodes = (
 );
 }
 );
-width = 591;
+width = 581;
 },
 {
 associatedMasterId = m01;
@@ -16564,7 +16564,7 @@ pos = (-85,40);
 ref = circumflexcomb.case;
 }
 );
-width = 591;
+width = 581;
 },
 {
 hints = (
@@ -18734,7 +18734,7 @@ nodes = (
 );
 }
 );
-width = 797;
+width = 867;
 },
 {
 associatedMasterId = m01;
@@ -23179,7 +23179,7 @@ nodes = (
 );
 }
 );
-width = 540;
+width = 550;
 },
 {
 associatedMasterId = m01;
@@ -63056,5 +63056,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 331;
+versionMinor = 334;
 }
