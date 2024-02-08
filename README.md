@@ -14,27 +14,19 @@
 
 The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of a normal, bold and black version also in italic, prepared as variable fonts weight axis.
 
-![Sample Image](documentation/image-regular.png)
-![Sample Image](documentation/image-regularitalic.png)
-![Sample Image](documentation/image-bold.png)
-![Sample Image](documentation/image-bolditalic.png)
-![Sample Image](documentation/image-black.png)
-![Sample Image](documentation/image-blackitalic.png)
+![Sample Image](documentation/image-Regular.png)
+![Sample Image](documentation/image-Italic.png)
+![Sample Image](documentation/image-SemiBold.png)
+![Sample Image](documentation/image-SemiBoldItalic.png)
+![Sample Image](documentation/image-Bold.png)
+![Sample Image](documentation/image-BoldItalic.png)
+![Sample Image](documentation/image-ExtraBold.png)
+![Sample Image](documentation/image-ExtraBoldItalic.png)
+![Sample Image](documentation/image-Black.png)
+![Sample Image](documentation/image-BlackItalic.png)
 
-![Sample Image](documentation/Wittgenstein.png)
-
-## Building
-
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
-
-If you want to build fonts manually on your own computer:
-
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
-
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://jrgdrs.github.io/Wittgenstein.
-
+![documentation/PullQuote.html.pdf](documentation/PullQuote.html.png)
+![documentation/Specimen.html.pdf](documentation/Specimen.html.png)
 
 ## License
 
