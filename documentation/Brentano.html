@@ -14,7 +14,15 @@
       margin-bottom: 28mm;
     }
 
-    body {}
+    @page:first {
+      size: 125mm 198mm;
+      margin: 14mm;
+      margin-bottom:0mm;
+    }
+
+    body { 
+      background-color: white;
+    }
 
     h2, h3 {
         font-family: Regular;
@@ -68,9 +76,30 @@
         text-indent: 0;
     }
 
+    .center { 
+        text-align: center; 
+        text-indent: 0;
+    }
+
+    .brand { 
+        position: absolute; 
+        top:125mm; 
+        width: 97mm;
+        text-align: center; 
+        text-indent: 0;
+    }
+
   </style>
 </head>
 <body>
+
+    <div class="brand">
+        <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);"/>
+        <p class="center">Type specimen in German language<br/>
+          DRM free content from Project Gutenberg<br/>
+          set in Wittgenstein<br/></p>
+      </div>
+
     <div class="head">    
         <h3 class="author">Clemens Brentano</h3>
         <h2 class="title">Geschichte vom braven Kasperl und dem schönen Annerl</h2>

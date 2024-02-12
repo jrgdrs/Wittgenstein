@@ -15,7 +15,15 @@
       margin-bottom: 28mm;
     }
 
-    body {}
+    @page:first {
+      size: 125mm 198mm;
+      margin: 14mm;
+      margin-bottom:0mm;
+    }
+
+    body { 
+      background-color: white;
+    }
 
     h1 {
         padding-top: calc(1.25em * 3);
@@ -78,6 +86,19 @@
         text-indent: 0;
     }
 
+    .center { 
+        text-align: center; 
+        text-indent: 0;
+    }
+
+    .brand { 
+        position: absolute; 
+        top:125mm; 
+        width: 97mm;
+        text-align: center; 
+        text-indent: 0;
+    }
+
     div h1 {
         page-break-before: always;
     }
@@ -85,6 +106,14 @@
   </style>
 </head>
 <body>
+
+    <div class="brand">
+        <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);"/>
+        <p class="center">Type specimen in French language<br/>
+          DRM free content from Project Gutenberg<br/>
+          set in Wittgenstein<br/></p>
+      </div>
+
     <div class="head">    
         <h3 class="author">Alexandre Dumas</h3>
         <h2 class="title">Journal de Madame Giovanni</h2>
