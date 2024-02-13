@@ -17,7 +17,6 @@ python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-BlackItalic.ttf -
 
 node print.js /documentation/Specimen.html
 node print.js /documentation/PullQuote.html
-node print.js /documentation/TypoboldBC.html
 
 node print.js /documentation/Brentano.html
 node print.js /documentation/Woolf.html

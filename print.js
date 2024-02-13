@@ -20,12 +20,12 @@ console.log( "print " + INFILE );
         headerTemplate: '<html></html>',
         footerTemplate: 
         `
-            <div style="width: 100%; height: 16mm; text-align: center; font-family: Times; font-weight: bold; font-size: 11pt;">
+            <div style="width: 100%; height: 16mm; text-align: center; font-family: Times; font-size: 10pt;">
                 <span class="pageNumber"/>
             </div>
         `
     })
     await page.setViewport({ width: 1280, height: 960, deviceScaleFactor: 1 });
-    await page.screenshot({ path: PNGFILE });  
+    //await page.screenshot({ path: PNGFILE });  
     await browser.close();
 })();
