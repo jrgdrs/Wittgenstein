@@ -25,8 +25,7 @@ The font interprets the serifs with clear, sharp forms. Based on the quote from 
 ![Sample Image](documentation/image-Black.png)
 ![Sample Image](documentation/image-BlackItalic.png)
 
-![documentation/PullQuote.html.pdf](documentation/PullQuote.html.png)
-![documentation/Specimen.html.pdf](documentation/Specimen.html.png)
+Find specimen and language samples as pdf file in subfolder documentation.
 
 ## License
 
