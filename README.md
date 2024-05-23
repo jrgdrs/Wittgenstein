@@ -12,7 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FUniversal.json
 
-The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of a normal, bold and black version also in italic, prepared as variable fonts weight axis.
+The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of different weights also in italic, prepared as variable fonts as weight axis.
 
 ![Sample Image](documentation/image-Regular.png)
 ![Sample Image](documentation/image-Italic.png)
@@ -31,9 +31,11 @@ Find specimen and language samples as pdf file in subfolder documentation.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at
-https://scripts.sil.org/OFL
+https://openfontlicense.org
 
 
 ## Repository Layout
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+
+v1.4.3

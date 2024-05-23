@@ -93,6 +93,9 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature subs;
+feature sinf;
+feature sups;
 feature numr;
 feature dnom;
 feature frac;
@@ -101,9 +104,6 @@ feature tnum;
 feature onum;
 feature case;
 feature zero;
-feature subs;
-feature sinf;
-feature sups;
 ";
 tag = aalt;
 },
@@ -398,7 +398,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1065;
+value = 1180;
 },
 {
 name = winDescent;
@@ -484,7 +484,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1065;
+value = 1180;
 },
 {
 name = winDescent;
@@ -36684,10 +36684,9 @@ width = 200;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 175;
+width = 200;
 }
 );
-metricWidth = space;
 unicode = 160;
 },
 {
