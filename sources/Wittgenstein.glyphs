@@ -1,5 +1,5 @@
 {
-.appVersion = "3259";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
 "Whereas disregard and contempt for human rights have resulted
@@ -21,7 +21,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Saltillo Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Iacute_J.loclNLD Lcommaaccent.loclMAH Ncommaaccent.loclMAH";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute_J.loclNLD Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH";
 name = Uppercase;
 }
 );
@@ -73,7 +73,6 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem DFLT MAH;
 
 languagesystem latn dflt;
 languagesystem latn AZE;
@@ -102,6 +101,9 @@ feature tnum;
 feature onum;
 feature case;
 feature zero;
+feature subs;
+feature sinf;
+feature sups;
 ";
 tag = aalt;
 },
@@ -109,81 +111,124 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaturnedabovecomb commaaccentcomb];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case commaturnedabovecomb.case commaaccentcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
+} ccmp_Other_2;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_3 {
+	lookupflag 0;
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_3;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_noScript_0 {
-	language MAH;
-	sub commaaccentcomb by commaaccentcomb.loclMAH;
-} locl_noScript_0;
-
+code = "script latn;
+language AZE;
 lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language MAH;
 lookup locl_latn_2 {
-	script latn;
-	language MAH;
 	sub Lcommaaccent by Lcommaaccent.loclMAH;
 	sub Ncommaaccent by Ncommaaccent.loclMAH;
 	sub lcommaaccent by lcommaaccent.loclMAH;
 	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j by iacute_j.loclNLD;
 	sub Iacute J by Iacute_J.loclNLD;
 } locl_latn_3;
 
+script latn;
+language CAT;
 lookup locl_latn_4 {
-	script latn;
-	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_4;
 ";
 tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+tag = sups;
 },
 {
 automatic = 1;
@@ -341,7 +386,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1180;
+value = 1065;
 },
 {
 name = typoDescender;
@@ -353,7 +398,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1180;
+value = 1065;
 },
 {
 name = winDescent;
@@ -361,7 +406,7 @@ value = 435;
 },
 {
 name = hheaAscender;
-value = 1180;
+value = 1065;
 },
 {
 name = hheaDescender;
@@ -388,7 +433,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 1180;
+pos = 1065;
 },
 {
 over = 16;
@@ -427,7 +472,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1180;
+value = 1065;
 },
 {
 name = typoDescender;
@@ -439,7 +484,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1180;
+value = 1065;
 },
 {
 name = winDescent;
@@ -447,7 +492,7 @@ value = 435;
 },
 {
 name = hheaAscender;
-value = 1180;
+value = 1065;
 },
 {
 name = hheaDescender;
@@ -475,7 +520,7 @@ id = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
 metricValues = (
 {
 over = 16;
-pos = 1180;
+pos = 1065;
 },
 {
 over = 16;
@@ -36097,6 +36142,526 @@ width = 480;
 unicode = 190;
 },
 {
+glyphname = zeroinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = zero.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = zero.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = zero.dnom;
+metricRight = zero.dnom;
+unicode = 8320;
+},
+{
+glyphname = oneinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = one.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = one.dnom;
+metricRight = one.dnom;
+unicode = 8321;
+},
+{
+glyphname = twoinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = two.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = two.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = two.dnom;
+metricRight = two.dnom;
+unicode = 8322;
+},
+{
+glyphname = threeinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = three.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = three.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = three.dnom;
+metricRight = three.dnom;
+unicode = 8323;
+},
+{
+glyphname = fourinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = four.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = four.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = four.dnom;
+metricRight = four.dnom;
+unicode = 8324;
+},
+{
+glyphname = fiveinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = five.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = five.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = five.dnom;
+metricRight = five.dnom;
+unicode = 8325;
+},
+{
+glyphname = sixinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = six.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = six.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = six.dnom;
+metricRight = six.dnom;
+unicode = 8326;
+},
+{
+glyphname = seveninferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = seven.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = seven.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = seven.dnom;
+metricRight = seven.dnom;
+unicode = 8327;
+},
+{
+glyphname = eightinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = eight.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = eight.dnom;
+}
+);
+width = 614;
+}
+);
+metricLeft = eight.dnom;
+metricRight = eight.dnom;
+unicode = 8328;
+},
+{
+glyphname = nineinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = nine.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = nine.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = nine.dnom;
+metricRight = nine.dnom;
+unicode = 8329;
+},
+{
+glyphname = zerosuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = zero.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = zero.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = zero.dnom;
+metricRight = zero.dnom;
+unicode = 8304;
+},
+{
+glyphname = onesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = one.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = one.dnom;
+metricRight = one.dnom;
+unicode = 185;
+},
+{
+glyphname = twosuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = two.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = two.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = two.dnom;
+metricRight = two.dnom;
+unicode = 178;
+},
+{
+glyphname = threesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = three.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = three.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = three.dnom;
+metricRight = three.dnom;
+unicode = 179;
+},
+{
+glyphname = foursuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = four.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = four.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = four.dnom;
+metricRight = four.dnom;
+unicode = 8308;
+},
+{
+glyphname = fivesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = five.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = five.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = five.dnom;
+metricRight = five.dnom;
+unicode = 8309;
+},
+{
+glyphname = sixsuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = six.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = six.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = six.dnom;
+metricRight = six.dnom;
+unicode = 8310;
+},
+{
+glyphname = sevensuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = seven.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = seven.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = seven.dnom;
+metricRight = seven.dnom;
+unicode = 8311;
+},
+{
+glyphname = eightsuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = eight.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = eight.dnom;
+}
+);
+width = 614;
+}
+);
+metricLeft = eight.dnom;
+metricRight = eight.dnom;
+unicode = 8312;
+},
+{
+glyphname = ninesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = nine.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
+shapes = (
+{
+ref = nine.dnom;
+}
+);
+width = 613;
+}
+);
+metricLeft = nine.dnom;
+metricRight = nine.dnom;
+unicode = 8313;
+},
+{
 glyphname = space;
 layers = (
 {
@@ -36134,7 +36699,7 @@ width = 500;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 500;
 }
 );
 unicode = 8194;
@@ -36148,7 +36713,7 @@ width = 1000;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 1000;
 }
 );
 unicode = 8195;
@@ -36190,7 +36755,7 @@ width = 333;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 333;
 }
 );
 unicode = 8196;
@@ -36204,7 +36769,7 @@ width = 250;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 250;
 }
 );
 unicode = 8197;
@@ -36218,7 +36783,7 @@ width = 167;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 167;
 }
 );
 unicode = 8198;
@@ -36262,7 +36827,7 @@ width = 200;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 200;
 }
 );
 unicode = 8201;
@@ -36276,7 +36841,7 @@ width = 143;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 143;
 }
 );
 unicode = 8202;
@@ -36290,7 +36855,7 @@ width = 0;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 0;
 }
 );
 unicode = 8203;
@@ -36332,7 +36897,7 @@ width = 160;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 160;
 }
 );
 unicode = 8239;
@@ -36346,7 +36911,7 @@ width = 222;
 },
 {
 layerId = "E0989092-07D5-4BE4-A82B-4E03160A36DB";
-width = 600;
+width = 222;
 }
 );
 unicode = 8287;
@@ -46572,23 +47137,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(510,346,l),
-(510,416,l),
-(50,416,l),
-(50,346,l)
+(530,346,l),
+(530,416,l),
+(70,416,l),
+(70,346,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(510,145,l),
-(510,215,l),
-(50,215,l),
-(50,145,l)
+(530,145,l),
+(530,215,l),
+(70,215,l),
+(70,145,l)
 );
 }
 );
-width = 580;
+width = 600;
 }
 );
 unicode = 61;
@@ -59532,7 +60097,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
@@ -59565,5 +60130,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 420;
+versionMinor = 430;
 }
