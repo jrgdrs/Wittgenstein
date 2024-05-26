@@ -2,20 +2,20 @@ gftools builder sources/config.yaml
 
 echo '-- create png preview images'
 
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-Regular.ttf --output documentation/image-Regular.png
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-Italic.ttf --output documentation/image-Italic.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-Regular.ttf documentation/image-Regular.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-Italic.ttf documentation/image-Italic.png
 
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-SemiBold.ttf --output documentation/image-SemiBold.png
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-SemiBoldItalic.ttf --output documentation/image-SemiBoldItalic.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-SemiBold.ttf documentation/image-SemiBold.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-SemiBoldItalic.ttf documentation/image-SemiBoldItalic.png
 
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-Bold.ttf --output documentation/image-Bold.png
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-BoldItalic.ttf --output documentation/image-BoldItalic.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-Bold.ttf documentation/image-Bold.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-BoldItalic.ttf documentation/image-BoldItalic.png
 
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-ExtraBold.ttf --output documentation/image-ExtraBold.png
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf --output documentation/image-ExtraBoldItalic.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-ExtraBold.ttf documentation/image-ExtraBold.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf documentation/image-ExtraBoldItalic.png
 
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-Black.ttf --output documentation/image-Black.png
-python3 documentation/imageTTF.py --ttf fonts/ttf/Wittgenstein-BlackItalic.ttf --output documentation/image-BlackItalic.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-Black.ttf documentation/image-Black.png
+node printImage.js documentation/Image.html fonts/ttf/Wittgenstein-BlackItalic.ttf documentation/image-BlackItalic.png
 
 echo '-- create pdfs for tests'
 
