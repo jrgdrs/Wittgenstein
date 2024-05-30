@@ -1,5 +1,5 @@
 {
-.appVersion = "3306";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
 "Whereas disregard and contempt for human rights have resulted
@@ -4424,11 +4424,11 @@ shapes = (
 ref = Iacute;
 },
 {
-pos = (376,0);
+pos = (346,0);
 ref = Jacute;
 }
 );
-width = 749;
+width = 719;
 }
 );
 },
@@ -59167,6 +59167,8 @@ f = {
 "@MMK_R_e" = 10;
 "@MMK_R_g" = -30;
 "@MMK_R_h" = 10;
+"@MMK_R_i" = 30;
+"@MMK_R_l" = 30;
 "@MMK_R_o" = -20;
 "@MMK_R_r" = 0;
 "@MMK_R_s" = -20;
@@ -59527,5 +59529,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 440;
+versionMinor = 441;
 }
