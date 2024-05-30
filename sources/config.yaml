@@ -2,4 +2,4 @@ sources:
   - Wittgenstein.glyphs
   - Wittgenstein-Italic.glyphs
 familyName: Wittgenstein
-buildVariable: false
+buildVariable: true
