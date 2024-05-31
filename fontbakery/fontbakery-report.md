@@ -236,7 +236,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[9] Wittgenstein-ExtraBold.ttf</summary>
+<details><summary>[8] Wittgenstein-ExtraBold.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -310,93 +310,93 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* b (U+0062): L&lt;&lt;227.0,786.0&gt;--&lt;225.0,718.0&gt;&gt; -&gt; L&lt;&lt;225.0,718.0&gt;--&lt;225.0,491.0&gt;&gt;
+<pre><code>* b (U+0062): L&lt;&lt;247.0,786.0&gt;--&lt;245.0,718.0&gt;&gt; -&gt; L&lt;&lt;245.0,718.0&gt;--&lt;245.0,491.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;537.0,792.0&gt;--&lt;535.0,733.0&gt;&gt; -&gt; L&lt;&lt;535.0,733.0&gt;--&lt;535.0,68.0&gt;&gt;
+* d (U+0064): L&lt;&lt;548.0,792.0&gt;--&lt;545.0,733.0&gt;&gt; -&gt; L&lt;&lt;545.0,733.0&gt;--&lt;545.0,68.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;541.0,792.0&gt;--&lt;539.0,733.0&gt;&gt; -&gt; L&lt;&lt;539.0,733.0&gt;--&lt;539.0,68.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;548.0,792.0&gt;--&lt;545.0,733.0&gt;&gt; -&gt; L&lt;&lt;545.0,733.0&gt;--&lt;545.0,68.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;535.0,792.0&gt;--&lt;533.0,733.0&gt;&gt; -&gt; L&lt;&lt;533.0,733.0&gt;--&lt;533.0,639.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;548.0,792.0&gt;--&lt;545.0,733.0&gt;&gt; -&gt; L&lt;&lt;545.0,733.0&gt;--&lt;545.0,639.0&gt;&gt;
 
-* dong (U+20AB): L&lt;&lt;529.0,827.0&gt;--&lt;527.0,778.0&gt;&gt; -&gt; L&lt;&lt;527.0,778.0&gt;--&lt;527.0,698.0&gt;&gt;
+* dong (U+20AB): L&lt;&lt;541.0,827.0&gt;--&lt;538.0,778.0&gt;&gt; -&gt; L&lt;&lt;538.0,778.0&gt;--&lt;538.0,698.0&gt;&gt;
 
-* dotlessi (U+0131): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* dotlessi (U+0131): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* f_i: L&lt;&lt;267.0,500.0&gt;--&lt;373.0,500.0&gt;&gt; -&gt; L&lt;&lt;373.0,500.0&gt;--&lt;564.0,510.0&gt;&gt;
+* f_i: L&lt;&lt;271.0,500.0&gt;--&lt;377.0,500.0&gt;&gt; -&gt; L&lt;&lt;377.0,500.0&gt;--&lt;568.0,510.0&gt;&gt;
 
-* f_i: L&lt;&lt;573.0,502.0&gt;--&lt;569.0,436.0&gt;&gt; -&gt; L&lt;&lt;569.0,436.0&gt;--&lt;569.0,49.0&gt;&gt;
+* f_i: L&lt;&lt;578.0,502.0&gt;--&lt;573.0,436.0&gt;&gt; -&gt; L&lt;&lt;573.0,436.0&gt;--&lt;573.0,49.0&gt;&gt;
 
-* f_l: L&lt;&lt;560.0,786.0&gt;--&lt;558.0,718.0&gt;&gt; -&gt; L&lt;&lt;558.0,718.0&gt;--&lt;558.0,46.0&gt;&gt;
+* f_l: L&lt;&lt;564.0,786.0&gt;--&lt;562.0,718.0&gt;&gt; -&gt; L&lt;&lt;562.0,718.0&gt;--&lt;562.0,46.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;244.0,788.0&gt;--&lt;242.0,718.0&gt;&gt; -&gt; L&lt;&lt;242.0,718.0&gt;--&lt;242.0,471.0&gt;&gt;
+* h (U+0068): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,471.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;248.0,788.0&gt;--&lt;246.0,718.0&gt;&gt; -&gt; L&lt;&lt;246.0,718.0&gt;--&lt;246.0,639.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;252.0,788.0&gt;--&lt;250.0,718.0&gt;&gt; -&gt; L&lt;&lt;250.0,718.0&gt;--&lt;250.0,639.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;244.0,788.0&gt;--&lt;242.0,718.0&gt;&gt; -&gt; L&lt;&lt;242.0,718.0&gt;--&lt;242.0,471.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,471.0&gt;&gt;
 
-* i (U+0069): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* i (U+0069): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* i.loclTRK: L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* i.loclTRK: L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* iacute (U+00ED): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* iacute (U+00ED): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;554.0,496.0&gt;--&lt;552.0,429.0&gt;&gt; -&gt; L&lt;&lt;552.0,429.0&gt;--&lt;552.0,52.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;552.0,496.0&gt;--&lt;550.0,429.0&gt;&gt; -&gt; L&lt;&lt;550.0,429.0&gt;--&lt;550.0,52.0&gt;&gt;
 
-* icircumflex (U+00EE): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* icircumflex (U+00EE): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* idieresis (U+00EF): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* idieresis (U+00EF): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* igrave (U+00EC): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* igrave (U+00EC): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;542.0,496.0&gt;--&lt;540.0,429.0&gt;&gt; -&gt; L&lt;&lt;540.0,429.0&gt;--&lt;540.0,52.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;540.0,496.0&gt;--&lt;538.0,429.0&gt;&gt; -&gt; L&lt;&lt;538.0,429.0&gt;--&lt;538.0,52.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* iogonek (U+012F): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* iogonek (U+012F): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* itilde (U+0129): L&lt;&lt;247.0,496.0&gt;--&lt;245.0,428.0&gt;&gt; -&gt; L&lt;&lt;245.0,428.0&gt;--&lt;245.0,50.0&gt;&gt;
+* itilde (U+0129): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,428.0&gt;&gt; -&gt; L&lt;&lt;244.0,428.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,429.0&gt;&gt; -&gt; L&lt;&lt;244.0,429.0&gt;--&lt;244.0,52.0&gt;&gt;
+* j (U+006A): L&lt;&lt;244.0,496.0&gt;--&lt;242.0,429.0&gt;&gt; -&gt; L&lt;&lt;242.0,429.0&gt;--&lt;242.0,52.0&gt;&gt;
 
-* jcircumflex (U+0135): L&lt;&lt;248.0,496.0&gt;--&lt;246.0,429.0&gt;&gt; -&gt; L&lt;&lt;246.0,429.0&gt;--&lt;246.0,52.0&gt;&gt;
+* jcircumflex (U+0135): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,429.0&gt;&gt; -&gt; L&lt;&lt;244.0,429.0&gt;--&lt;244.0,52.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;244.0,788.0&gt;--&lt;242.0,718.0&gt;&gt; -&gt; L&lt;&lt;242.0,718.0&gt;--&lt;242.0,285.0&gt;&gt;
+* k (U+006B): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,285.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;247.0,788.0&gt;--&lt;245.0,718.0&gt;&gt; -&gt; L&lt;&lt;245.0,718.0&gt;--&lt;245.0,50.0&gt;&gt;
+* l (U+006C): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;247.0,788.0&gt;--&lt;245.0,718.0&gt;&gt; -&gt; L&lt;&lt;245.0,718.0&gt;--&lt;245.0,50.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;251.0,788.0&gt;--&lt;249.0,718.0&gt;&gt; -&gt; L&lt;&lt;249.0,718.0&gt;--&lt;249.0,50.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;250.0,788.0&gt;--&lt;248.0,718.0&gt;&gt; -&gt; L&lt;&lt;248.0,718.0&gt;--&lt;248.0,50.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;255.0,788.0&gt;--&lt;253.0,718.0&gt;&gt; -&gt; L&lt;&lt;253.0,718.0&gt;--&lt;253.0,475.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;252.0,788.0&gt;--&lt;250.0,718.0&gt;&gt; -&gt; L&lt;&lt;250.0,718.0&gt;--&lt;250.0,475.0&gt;&gt;
 
-* thorn (U+00FE): L&lt;&lt;251.0,786.0&gt;--&lt;248.0,708.0&gt;&gt; -&gt; L&lt;&lt;248.0,708.0&gt;--&lt;248.0,498.0&gt;&gt;
+* thorn (U+00FE): L&lt;&lt;260.0,786.0&gt;--&lt;257.0,708.0&gt;&gt; -&gt; L&lt;&lt;257.0,708.0&gt;--&lt;257.0,498.0&gt;&gt;
 
-* uni006A0301: L&lt;&lt;248.0,496.0&gt;--&lt;246.0,429.0&gt;&gt; -&gt; L&lt;&lt;246.0,429.0&gt;--&lt;246.0,52.0&gt;&gt;
+* uni006A0301: L&lt;&lt;246.0,496.0&gt;--&lt;244.0,429.0&gt;&gt; -&gt; L&lt;&lt;244.0,429.0&gt;--&lt;244.0,52.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;244.0,788.0&gt;--&lt;242.0,718.0&gt;&gt; -&gt; L&lt;&lt;242.0,718.0&gt;--&lt;242.0,285.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,285.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;247.0,788.0&gt;--&lt;245.0,718.0&gt;&gt; -&gt; L&lt;&lt;245.0,718.0&gt;--&lt;245.0,50.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* uni013C.loclMAH: L&lt;&lt;247.0,788.0&gt;--&lt;245.0,718.0&gt;&gt; -&gt; L&lt;&lt;245.0,718.0&gt;--&lt;245.0,50.0&gt;&gt;
+* uni013C.loclMAH: L&lt;&lt;246.0,788.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,50.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;248.0,496.0&gt;--&lt;246.0,429.0&gt;&gt; -&gt; L&lt;&lt;246.0,429.0&gt;--&lt;246.0,52.0&gt;&gt;
+* uni0237 (U+0237): L&lt;&lt;246.0,496.0&gt;--&lt;244.0,429.0&gt;&gt; -&gt; L&lt;&lt;244.0,429.0&gt;--&lt;244.0,52.0&gt;&gt;
 
-* uni1EF9 (U+1EF9): L&lt;&lt;495.0,439.0&gt;--&lt;288.0,0.0&gt;&gt; -&gt; L&lt;&lt;288.0,0.0&gt;--&lt;215.0,-192.0&gt;&gt;
+* uni1EF9 (U+1EF9): L&lt;&lt;489.0,439.0&gt;--&lt;282.0,0.0&gt;&gt; -&gt; L&lt;&lt;282.0,0.0&gt;--&lt;210.0,-192.0&gt;&gt;
 
-* y (U+0079): L&lt;&lt;495.0,439.0&gt;--&lt;288.0,0.0&gt;&gt; -&gt; L&lt;&lt;288.0,0.0&gt;--&lt;215.0,-192.0&gt;&gt;
+* y (U+0079): L&lt;&lt;489.0,439.0&gt;--&lt;282.0,0.0&gt;&gt; -&gt; L&lt;&lt;282.0,0.0&gt;--&lt;210.0,-192.0&gt;&gt;
 
-* yacute (U+00FD): L&lt;&lt;495.0,439.0&gt;--&lt;288.0,0.0&gt;&gt; -&gt; L&lt;&lt;288.0,0.0&gt;--&lt;215.0,-192.0&gt;&gt;
+* yacute (U+00FD): L&lt;&lt;489.0,439.0&gt;--&lt;282.0,0.0&gt;&gt; -&gt; L&lt;&lt;282.0,0.0&gt;--&lt;210.0,-192.0&gt;&gt;
 
-* ycircumflex (U+0177): L&lt;&lt;495.0,439.0&gt;--&lt;288.0,0.0&gt;&gt; -&gt; L&lt;&lt;288.0,0.0&gt;--&lt;215.0,-192.0&gt;&gt;
+* ycircumflex (U+0177): L&lt;&lt;489.0,439.0&gt;--&lt;282.0,0.0&gt;&gt; -&gt; L&lt;&lt;282.0,0.0&gt;--&lt;210.0,-192.0&gt;&gt;
 
-* ydieresis (U+00FF): L&lt;&lt;495.0,439.0&gt;--&lt;288.0,0.0&gt;&gt; -&gt; L&lt;&lt;288.0,0.0&gt;--&lt;215.0,-192.0&gt;&gt;
+* ydieresis (U+00FF): L&lt;&lt;489.0,439.0&gt;--&lt;282.0,0.0&gt;&gt; -&gt; L&lt;&lt;282.0,0.0&gt;--&lt;210.0,-192.0&gt;&gt;
 
-* ygrave (U+1EF3): L&lt;&lt;495.0,439.0&gt;--&lt;288.0,0.0&gt;&gt; -&gt; L&lt;&lt;288.0,0.0&gt;--&lt;215.0,-192.0&gt;&gt;
+* ygrave (U+1EF3): L&lt;&lt;489.0,439.0&gt;--&lt;282.0,0.0&gt;&gt; -&gt; L&lt;&lt;282.0,0.0&gt;--&lt;210.0,-192.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -416,7 +416,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* uni0259 (U+0259): L&lt;&lt;359.0,189.0&gt;--&lt;198.0,188.0&gt;&gt;
+<pre><code>* uni0259 (U+0259): L&lt;&lt;359.0,189.0&gt;--&lt;199.0,188.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -438,7 +438,7 @@ These won't break the CI job for now, but will become effective after some time 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -462,14 +462,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -490,10 +490,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -563,7 +563,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -600,24 +600,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -637,7 +619,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] Wittgenstein-BlackItalic.ttf</summary>
+<details><summary>[7] Wittgenstein-BlackItalic.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -715,11 +697,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* f_i: L&lt;&lt;319.0,500.0&gt;--&lt;422.0,500.0&gt;&gt; -&gt; L&lt;&lt;422.0,500.0&gt;--&lt;620.0,509.0&gt;&gt;
+<pre><code>* f_i: L&lt;&lt;269.0,500.0&gt;--&lt;372.0,500.0&gt;&gt; -&gt; L&lt;&lt;372.0,500.0&gt;--&lt;570.0,509.0&gt;&gt;
 
-* f_i: L&lt;&lt;627.0,500.0&gt;--&lt;609.0,436.0&gt;&gt; -&gt; L&lt;&lt;609.0,436.0&gt;--&lt;534.0,48.0&gt;&gt;
+* f_i: L&lt;&lt;577.0,500.0&gt;--&lt;559.0,436.0&gt;&gt; -&gt; L&lt;&lt;559.0,436.0&gt;--&lt;484.0,48.0&gt;&gt;
 
-* f_l: L&lt;&lt;646.0,784.0&gt;--&lt;631.0,718.0&gt;&gt; -&gt; L&lt;&lt;631.0,718.0&gt;--&lt;500.0,45.0&gt;&gt;
+* f_l: L&lt;&lt;615.0,784.0&gt;--&lt;600.0,718.0&gt;&gt; -&gt; L&lt;&lt;600.0,718.0&gt;--&lt;469.0,45.0&gt;&gt;
 
 * one (U+0031): L&lt;&lt;84.0,50.0&gt;--&lt;178.0,534.0&gt;&gt; -&gt; L&lt;&lt;178.0,534.0&gt;--&lt;180.0,553.0&gt;&gt;
 
@@ -751,26 +733,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* uni00B5 (U+00B5): B&lt;&lt;351.0,91.5&gt;-&lt;395.0,130.0&gt;-&lt;410.0,206.0&gt;&gt;/B&lt;&lt;410.0,206.0&gt;-&lt;407.0,192.0&gt;-&lt;413.0,225.0&gt;&gt; = 0.9298768994636282
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -783,7 +745,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -807,14 +769,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -835,10 +797,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -908,7 +870,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -945,24 +907,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -982,7 +926,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] Wittgenstein-SemiBold.ttf</summary>
+<details><summary>[8] Wittgenstein-SemiBold.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -1056,93 +1000,93 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* b (U+0062): L&lt;&lt;191.0,790.0&gt;--&lt;189.0,718.0&gt;&gt; -&gt; L&lt;&lt;189.0,718.0&gt;--&lt;189.0,478.0&gt;&gt;
+<pre><code>* b (U+0062): L&lt;&lt;226.0,790.0&gt;--&lt;224.0,718.0&gt;&gt; -&gt; L&lt;&lt;224.0,718.0&gt;--&lt;224.0,478.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;510.0,801.0&gt;--&lt;506.0,734.0&gt;&gt; -&gt; L&lt;&lt;506.0,734.0&gt;--&lt;506.0,62.0&gt;&gt;
+* d (U+0064): L&lt;&lt;521.0,801.0&gt;--&lt;518.0,734.0&gt;&gt; -&gt; L&lt;&lt;518.0,734.0&gt;--&lt;518.0,62.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;522.0,801.0&gt;--&lt;518.0,734.0&gt;&gt; -&gt; L&lt;&lt;518.0,734.0&gt;--&lt;518.0,62.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;521.0,801.0&gt;--&lt;518.0,734.0&gt;&gt; -&gt; L&lt;&lt;518.0,734.0&gt;--&lt;518.0,62.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;504.0,801.0&gt;--&lt;500.0,734.0&gt;&gt; -&gt; L&lt;&lt;500.0,734.0&gt;--&lt;500.0,639.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;521.0,801.0&gt;--&lt;518.0,734.0&gt;&gt; -&gt; L&lt;&lt;518.0,734.0&gt;--&lt;518.0,639.0&gt;&gt;
 
-* dong (U+20AB): L&lt;&lt;490.0,835.0&gt;--&lt;486.0,778.0&gt;&gt; -&gt; L&lt;&lt;486.0,778.0&gt;--&lt;486.0,698.0&gt;&gt;
+* dong (U+20AB): L&lt;&lt;506.0,835.0&gt;--&lt;502.0,778.0&gt;&gt; -&gt; L&lt;&lt;502.0,778.0&gt;--&lt;502.0,698.0&gt;&gt;
 
-* dotlessi (U+0131): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* dotlessi (U+0131): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* f_i: L&lt;&lt;243.0,501.0&gt;--&lt;357.0,501.0&gt;&gt; -&gt; L&lt;&lt;357.0,501.0&gt;--&lt;539.0,513.0&gt;&gt;
+* f_i: L&lt;&lt;240.0,501.0&gt;--&lt;354.0,501.0&gt;&gt; -&gt; L&lt;&lt;354.0,501.0&gt;--&lt;535.0,513.0&gt;&gt;
 
-* f_i: L&lt;&lt;548.0,506.0&gt;--&lt;545.0,435.0&gt;&gt; -&gt; L&lt;&lt;545.0,435.0&gt;--&lt;545.0,50.0&gt;&gt;
+* f_i: L&lt;&lt;545.0,506.0&gt;--&lt;542.0,435.0&gt;&gt; -&gt; L&lt;&lt;542.0,435.0&gt;--&lt;542.0,50.0&gt;&gt;
 
-* f_l: L&lt;&lt;541.0,790.0&gt;--&lt;539.0,718.0&gt;&gt; -&gt; L&lt;&lt;539.0,718.0&gt;--&lt;539.0,48.0&gt;&gt;
+* f_l: L&lt;&lt;538.0,790.0&gt;--&lt;536.0,718.0&gt;&gt; -&gt; L&lt;&lt;536.0,718.0&gt;--&lt;536.0,48.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;220.0,791.0&gt;--&lt;218.0,718.0&gt;&gt; -&gt; L&lt;&lt;218.0,718.0&gt;--&lt;218.0,459.0&gt;&gt;
+* h (U+0068): L&lt;&lt;226.0,791.0&gt;--&lt;224.0,718.0&gt;&gt; -&gt; L&lt;&lt;224.0,718.0&gt;--&lt;224.0,459.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;222.0,791.0&gt;--&lt;220.0,718.0&gt;&gt; -&gt; L&lt;&lt;220.0,718.0&gt;--&lt;220.0,639.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;234.0,791.0&gt;--&lt;232.0,718.0&gt;&gt; -&gt; L&lt;&lt;232.0,718.0&gt;--&lt;232.0,639.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;220.0,791.0&gt;--&lt;218.0,718.0&gt;&gt; -&gt; L&lt;&lt;218.0,718.0&gt;--&lt;218.0,459.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;226.0,791.0&gt;--&lt;224.0,718.0&gt;&gt; -&gt; L&lt;&lt;224.0,718.0&gt;--&lt;224.0,459.0&gt;&gt;
 
-* i (U+0069): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* i (U+0069): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* i.loclTRK: L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* i.loclTRK: L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* iacute (U+00ED): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* iacute (U+00ED): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;505.0,503.0&gt;--&lt;503.0,432.0&gt;&gt; -&gt; L&lt;&lt;503.0,432.0&gt;--&lt;503.0,51.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;503.0,503.0&gt;--&lt;501.0,432.0&gt;&gt; -&gt; L&lt;&lt;501.0,432.0&gt;--&lt;501.0,51.0&gt;&gt;
 
-* icircumflex (U+00EE): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* icircumflex (U+00EE): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* idieresis (U+00EF): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* idieresis (U+00EF): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* igrave (U+00EC): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* igrave (U+00EC): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;504.0,503.0&gt;--&lt;502.0,432.0&gt;&gt; -&gt; L&lt;&lt;502.0,432.0&gt;--&lt;502.0,51.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;502.0,503.0&gt;--&lt;500.0,432.0&gt;&gt; -&gt; L&lt;&lt;500.0,432.0&gt;--&lt;500.0,51.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* iogonek (U+012F): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* iogonek (U+012F): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* itilde (U+0129): L&lt;&lt;229.0,503.0&gt;--&lt;227.0,431.0&gt;&gt; -&gt; L&lt;&lt;227.0,431.0&gt;--&lt;227.0,51.0&gt;&gt;
+* itilde (U+0129): L&lt;&lt;226.0,503.0&gt;--&lt;224.0,431.0&gt;&gt; -&gt; L&lt;&lt;224.0,431.0&gt;--&lt;224.0,51.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;222.0,503.0&gt;--&lt;220.0,432.0&gt;&gt; -&gt; L&lt;&lt;220.0,432.0&gt;--&lt;220.0,51.0&gt;&gt;
+* j (U+006A): L&lt;&lt;220.0,503.0&gt;--&lt;218.0,432.0&gt;&gt; -&gt; L&lt;&lt;218.0,432.0&gt;--&lt;218.0,51.0&gt;&gt;
 
-* jcircumflex (U+0135): L&lt;&lt;223.0,503.0&gt;--&lt;221.0,432.0&gt;&gt; -&gt; L&lt;&lt;221.0,432.0&gt;--&lt;221.0,51.0&gt;&gt;
+* jcircumflex (U+0135): L&lt;&lt;221.0,503.0&gt;--&lt;219.0,432.0&gt;&gt; -&gt; L&lt;&lt;219.0,432.0&gt;--&lt;219.0,51.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;220.0,791.0&gt;--&lt;218.0,718.0&gt;&gt; -&gt; L&lt;&lt;218.0,718.0&gt;--&lt;218.0,270.0&gt;&gt;
+* k (U+006B): L&lt;&lt;226.0,791.0&gt;--&lt;224.0,718.0&gt;&gt; -&gt; L&lt;&lt;224.0,718.0&gt;--&lt;224.0,270.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;229.0,791.0&gt;--&lt;226.0,718.0&gt;&gt; -&gt; L&lt;&lt;226.0,718.0&gt;--&lt;226.0,50.0&gt;&gt;
+* l (U+006C): L&lt;&lt;226.0,791.0&gt;--&lt;223.0,718.0&gt;&gt; -&gt; L&lt;&lt;223.0,718.0&gt;--&lt;223.0,50.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;229.0,791.0&gt;--&lt;226.0,718.0&gt;&gt; -&gt; L&lt;&lt;226.0,718.0&gt;--&lt;226.0,50.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;226.0,791.0&gt;--&lt;223.0,718.0&gt;&gt; -&gt; L&lt;&lt;223.0,718.0&gt;--&lt;223.0,50.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;241.0,791.0&gt;--&lt;238.0,718.0&gt;&gt; -&gt; L&lt;&lt;238.0,718.0&gt;--&lt;238.0,50.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;238.0,791.0&gt;--&lt;235.0,718.0&gt;&gt; -&gt; L&lt;&lt;235.0,718.0&gt;--&lt;235.0,50.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;238.0,791.0&gt;--&lt;236.0,718.0&gt;&gt; -&gt; L&lt;&lt;236.0,718.0&gt;--&lt;236.0,465.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;229.0,791.0&gt;--&lt;227.0,718.0&gt;&gt; -&gt; L&lt;&lt;227.0,718.0&gt;--&lt;227.0,463.0&gt;&gt;
 
-* thorn (U+00FE): L&lt;&lt;206.0,790.0&gt;--&lt;203.0,713.0&gt;&gt; -&gt; L&lt;&lt;203.0,713.0&gt;--&lt;203.0,481.0&gt;&gt;
+* thorn (U+00FE): L&lt;&lt;233.0,790.0&gt;--&lt;230.0,713.0&gt;&gt; -&gt; L&lt;&lt;230.0,713.0&gt;--&lt;230.0,481.0&gt;&gt;
 
-* uni006A0301: L&lt;&lt;223.0,503.0&gt;--&lt;221.0,432.0&gt;&gt; -&gt; L&lt;&lt;221.0,432.0&gt;--&lt;221.0,51.0&gt;&gt;
+* uni006A0301: L&lt;&lt;221.0,503.0&gt;--&lt;219.0,432.0&gt;&gt; -&gt; L&lt;&lt;219.0,432.0&gt;--&lt;219.0,51.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;220.0,791.0&gt;--&lt;218.0,718.0&gt;&gt; -&gt; L&lt;&lt;218.0,718.0&gt;--&lt;218.0,270.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;226.0,791.0&gt;--&lt;224.0,718.0&gt;&gt; -&gt; L&lt;&lt;224.0,718.0&gt;--&lt;224.0,270.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;229.0,791.0&gt;--&lt;226.0,718.0&gt;&gt; -&gt; L&lt;&lt;226.0,718.0&gt;--&lt;226.0,50.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;226.0,791.0&gt;--&lt;223.0,718.0&gt;&gt; -&gt; L&lt;&lt;223.0,718.0&gt;--&lt;223.0,50.0&gt;&gt;
 
-* uni013C.loclMAH: L&lt;&lt;229.0,791.0&gt;--&lt;226.0,718.0&gt;&gt; -&gt; L&lt;&lt;226.0,718.0&gt;--&lt;226.0,50.0&gt;&gt;
+* uni013C.loclMAH: L&lt;&lt;226.0,791.0&gt;--&lt;223.0,718.0&gt;&gt; -&gt; L&lt;&lt;223.0,718.0&gt;--&lt;223.0,50.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;223.0,503.0&gt;--&lt;221.0,432.0&gt;&gt; -&gt; L&lt;&lt;221.0,432.0&gt;--&lt;221.0,51.0&gt;&gt;
+* uni0237 (U+0237): L&lt;&lt;221.0,503.0&gt;--&lt;219.0,432.0&gt;&gt; -&gt; L&lt;&lt;219.0,432.0&gt;--&lt;219.0,51.0&gt;&gt;
 
-* uni1EF9 (U+1EF9): L&lt;&lt;483.0,445.0&gt;--&lt;284.0,0.0&gt;&gt; -&gt; L&lt;&lt;284.0,0.0&gt;--&lt;202.0,-204.0&gt;&gt;
+* uni1EF9 (U+1EF9): L&lt;&lt;465.0,445.0&gt;--&lt;267.0,0.0&gt;&gt; -&gt; L&lt;&lt;267.0,0.0&gt;--&lt;185.0,-204.0&gt;&gt;
 
-* y (U+0079): L&lt;&lt;483.0,445.0&gt;--&lt;284.0,0.0&gt;&gt; -&gt; L&lt;&lt;284.0,0.0&gt;--&lt;202.0,-204.0&gt;&gt;
+* y (U+0079): L&lt;&lt;465.0,445.0&gt;--&lt;267.0,0.0&gt;&gt; -&gt; L&lt;&lt;267.0,0.0&gt;--&lt;185.0,-204.0&gt;&gt;
 
-* yacute (U+00FD): L&lt;&lt;483.0,445.0&gt;--&lt;284.0,0.0&gt;&gt; -&gt; L&lt;&lt;284.0,0.0&gt;--&lt;202.0,-204.0&gt;&gt;
+* yacute (U+00FD): L&lt;&lt;465.0,445.0&gt;--&lt;267.0,0.0&gt;&gt; -&gt; L&lt;&lt;267.0,0.0&gt;--&lt;185.0,-204.0&gt;&gt;
 
-* ycircumflex (U+0177): L&lt;&lt;483.0,445.0&gt;--&lt;284.0,0.0&gt;&gt; -&gt; L&lt;&lt;284.0,0.0&gt;--&lt;202.0,-204.0&gt;&gt;
+* ycircumflex (U+0177): L&lt;&lt;465.0,445.0&gt;--&lt;267.0,0.0&gt;&gt; -&gt; L&lt;&lt;267.0,0.0&gt;--&lt;185.0,-204.0&gt;&gt;
 
-* ydieresis (U+00FF): L&lt;&lt;483.0,445.0&gt;--&lt;284.0,0.0&gt;&gt; -&gt; L&lt;&lt;284.0,0.0&gt;--&lt;202.0,-204.0&gt;&gt;
+* ydieresis (U+00FF): L&lt;&lt;465.0,445.0&gt;--&lt;267.0,0.0&gt;&gt; -&gt; L&lt;&lt;267.0,0.0&gt;--&lt;185.0,-204.0&gt;&gt;
 
-* ygrave (U+1EF3): L&lt;&lt;483.0,445.0&gt;--&lt;284.0,0.0&gt;&gt; -&gt; L&lt;&lt;284.0,0.0&gt;--&lt;202.0,-204.0&gt;&gt;
+* ygrave (U+1EF3): L&lt;&lt;465.0,445.0&gt;--&lt;267.0,0.0&gt;&gt; -&gt; L&lt;&lt;267.0,0.0&gt;--&lt;185.0,-204.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -1186,7 +1130,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1210,14 +1154,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -1238,10 +1182,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -1311,7 +1255,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -1348,24 +1292,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -1385,7 +1311,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] Wittgenstein-SemiBoldItalic.ttf</summary>
+<details><summary>[7] Wittgenstein-SemiBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -1459,11 +1385,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* f_i: L&lt;&lt;270.0,501.0&gt;--&lt;384.0,501.0&gt;&gt; -&gt; L&lt;&lt;384.0,501.0&gt;--&lt;568.0,513.0&gt;&gt;
+<pre><code>* f_i: L&lt;&lt;250.0,501.0&gt;--&lt;364.0,501.0&gt;&gt; -&gt; L&lt;&lt;364.0,501.0&gt;--&lt;548.0,513.0&gt;&gt;
 
-* f_i: L&lt;&lt;577.0,506.0&gt;--&lt;559.0,435.0&gt;&gt; -&gt; L&lt;&lt;559.0,435.0&gt;--&lt;485.0,50.0&gt;&gt;
+* f_i: L&lt;&lt;557.0,506.0&gt;--&lt;539.0,435.0&gt;&gt; -&gt; L&lt;&lt;539.0,435.0&gt;--&lt;465.0,50.0&gt;&gt;
 
-* f_l: L&lt;&lt;617.0,790.0&gt;--&lt;601.0,718.0&gt;&gt; -&gt; L&lt;&lt;601.0,718.0&gt;--&lt;471.0,48.0&gt;&gt;
+* f_l: L&lt;&lt;605.0,790.0&gt;--&lt;589.0,718.0&gt;&gt; -&gt; L&lt;&lt;589.0,718.0&gt;--&lt;459.0,48.0&gt;&gt;
 
 * thorn (U+00FE): L&lt;&lt;309.0,790.0&gt;--&lt;290.0,713.0&gt;&gt; -&gt; L&lt;&lt;290.0,713.0&gt;--&lt;246.0,481.0&gt;&gt;
 
@@ -1487,26 +1413,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* uni00B5 (U+00B5): B&lt;&lt;362.0,91.5&gt;-&lt;406.0,130.0&gt;-&lt;421.0,206.0&gt;&gt;/B&lt;&lt;421.0,206.0&gt;-&lt;418.0,192.0&gt;-&lt;424.0,225.0&gt;&gt; = 0.9298768994636282
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -1519,7 +1425,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1543,14 +1449,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -1571,10 +1477,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -1644,7 +1550,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -1681,24 +1587,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -1718,7 +1606,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] Wittgenstein-Italic.ttf</summary>
+<details><summary>[7] Wittgenstein-Italic.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -1836,26 +1724,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* uni00B5 (U+00B5): B&lt;&lt;369.0,91.5&gt;-&lt;413.0,130.0&gt;-&lt;428.0,206.0&gt;&gt;/B&lt;&lt;428.0,206.0&gt;-&lt;425.0,192.0&gt;-&lt;431.0,225.0&gt;&gt; = 0.9298768994636282
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -1868,7 +1736,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1892,14 +1760,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -1920,10 +1788,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -1993,7 +1861,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -2030,24 +1898,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -2067,7 +1917,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] Wittgenstein-ExtraBoldItalic.ttf</summary>
+<details><summary>[9] Wittgenstein-ExtraBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -2141,11 +1991,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* f_i: L&lt;&lt;303.0,500.0&gt;--&lt;409.0,500.0&gt;&gt; -&gt; L&lt;&lt;409.0,500.0&gt;--&lt;603.0,510.0&gt;&gt;
+<pre><code>* f_i: L&lt;&lt;263.0,500.0&gt;--&lt;369.0,500.0&gt;&gt; -&gt; L&lt;&lt;369.0,500.0&gt;--&lt;563.0,510.0&gt;&gt;
 
-* f_i: L&lt;&lt;610.0,502.0&gt;--&lt;592.0,436.0&gt;&gt; -&gt; L&lt;&lt;592.0,436.0&gt;--&lt;518.0,49.0&gt;&gt;
+* f_i: L&lt;&lt;570.0,502.0&gt;--&lt;552.0,436.0&gt;&gt; -&gt; L&lt;&lt;552.0,436.0&gt;--&lt;478.0,49.0&gt;&gt;
 
-* f_l: L&lt;&lt;636.0,786.0&gt;--&lt;621.0,718.0&gt;&gt; -&gt; L&lt;&lt;621.0,718.0&gt;--&lt;491.0,46.0&gt;&gt;
+* f_l: L&lt;&lt;612.0,786.0&gt;--&lt;596.0,718.0&gt;&gt; -&gt; L&lt;&lt;596.0,718.0&gt;--&lt;466.0,46.0&gt;&gt;
 
 * one (U+0031): L&lt;&lt;99.0,50.0&gt;--&lt;196.0,553.0&gt;&gt; -&gt; L&lt;&lt;196.0,553.0&gt;--&lt;200.0,567.0&gt;&gt;
 
@@ -2184,8 +2034,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
 <pre><code>* onehalf (U+00BD): L&lt;&lt;534.0,36.0&gt;--&lt;533.0,34.0&gt;&gt;/L&lt;&lt;533.0,34.0&gt;--&lt;576.0,92.0&gt;&gt; = 9.987421575013531
-
-* uni00B5 (U+00B5): B&lt;&lt;354.5,91.5&gt;-&lt;399.0,130.0&gt;-&lt;414.0,206.0&gt;&gt;/B&lt;&lt;414.0,206.0&gt;-&lt;411.0,192.0&gt;-&lt;417.0,225.0&gt;&gt; = 0.9298768994636282
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -2207,7 +2055,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2231,14 +2079,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -2259,10 +2107,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -2332,7 +2180,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -2387,24 +2235,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -2424,7 +2254,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] Wittgenstein-Regular.ttf</summary>
+<details><summary>[7] Wittgenstein-Regular.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -2498,93 +2328,93 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* b (U+0062): L&lt;&lt;155.0,794.0&gt;--&lt;153.0,718.0&gt;&gt; -&gt; L&lt;&lt;153.0,718.0&gt;--&lt;153.0,466.0&gt;&gt;
+<pre><code>* b (U+0062): L&lt;&lt;206.0,794.0&gt;--&lt;204.0,718.0&gt;&gt; -&gt; L&lt;&lt;204.0,718.0&gt;--&lt;204.0,466.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;483.0,811.0&gt;--&lt;478.0,735.0&gt;&gt; -&gt; L&lt;&lt;478.0,735.0&gt;--&lt;478.0,56.0&gt;&gt;
+* d (U+0064): L&lt;&lt;495.0,811.0&gt;--&lt;490.0,735.0&gt;&gt; -&gt; L&lt;&lt;490.0,735.0&gt;--&lt;490.0,56.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;503.0,811.0&gt;--&lt;498.0,735.0&gt;&gt; -&gt; L&lt;&lt;498.0,735.0&gt;--&lt;498.0,56.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;495.0,811.0&gt;--&lt;490.0,735.0&gt;&gt; -&gt; L&lt;&lt;490.0,735.0&gt;--&lt;490.0,56.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;473.0,811.0&gt;--&lt;468.0,735.0&gt;&gt; -&gt; L&lt;&lt;468.0,735.0&gt;--&lt;468.0,639.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;495.0,811.0&gt;--&lt;490.0,735.0&gt;&gt; -&gt; L&lt;&lt;490.0,735.0&gt;--&lt;490.0,639.0&gt;&gt;
 
-* dong (U+20AB): L&lt;&lt;451.0,843.0&gt;--&lt;446.0,779.0&gt;&gt; -&gt; L&lt;&lt;446.0,779.0&gt;--&lt;446.0,698.0&gt;&gt;
+* dong (U+20AB): L&lt;&lt;471.0,843.0&gt;--&lt;466.0,779.0&gt;&gt; -&gt; L&lt;&lt;466.0,779.0&gt;--&lt;466.0,698.0&gt;&gt;
 
-* dotlessi (U+0131): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* dotlessi (U+0131): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* f_i: L&lt;&lt;219.0,502.0&gt;--&lt;341.0,502.0&gt;&gt; -&gt; L&lt;&lt;341.0,502.0&gt;--&lt;513.0,516.0&gt;&gt;
+* f_i: L&lt;&lt;208.0,502.0&gt;--&lt;330.0,502.0&gt;&gt; -&gt; L&lt;&lt;330.0,502.0&gt;--&lt;502.0,516.0&gt;&gt;
 
-* f_i: L&lt;&lt;523.0,510.0&gt;--&lt;521.0,434.0&gt;&gt; -&gt; L&lt;&lt;521.0,434.0&gt;--&lt;521.0,51.0&gt;&gt;
+* f_i: L&lt;&lt;512.0,510.0&gt;--&lt;510.0,434.0&gt;&gt; -&gt; L&lt;&lt;510.0,434.0&gt;--&lt;510.0,51.0&gt;&gt;
 
-* f_l: L&lt;&lt;523.0,794.0&gt;--&lt;521.0,718.0&gt;&gt; -&gt; L&lt;&lt;521.0,718.0&gt;--&lt;521.0,50.0&gt;&gt;
+* f_l: L&lt;&lt;512.0,794.0&gt;--&lt;510.0,718.0&gt;&gt; -&gt; L&lt;&lt;510.0,718.0&gt;--&lt;510.0,50.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;196.0,794.0&gt;--&lt;194.0,718.0&gt;&gt; -&gt; L&lt;&lt;194.0,718.0&gt;--&lt;194.0,447.0&gt;&gt;
+* h (U+0068): L&lt;&lt;206.0,794.0&gt;--&lt;204.0,718.0&gt;&gt; -&gt; L&lt;&lt;204.0,718.0&gt;--&lt;204.0,447.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;196.0,794.0&gt;--&lt;194.0,718.0&gt;&gt; -&gt; L&lt;&lt;194.0,718.0&gt;--&lt;194.0,639.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;216.0,794.0&gt;--&lt;214.0,718.0&gt;&gt; -&gt; L&lt;&lt;214.0,718.0&gt;--&lt;214.0,639.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;196.0,794.0&gt;--&lt;194.0,718.0&gt;&gt; -&gt; L&lt;&lt;194.0,718.0&gt;--&lt;194.0,447.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;206.0,794.0&gt;--&lt;204.0,718.0&gt;&gt; -&gt; L&lt;&lt;204.0,718.0&gt;--&lt;204.0,447.0&gt;&gt;
 
-* i (U+0069): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* i (U+0069): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* i.loclTRK: L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* i.loclTRK: L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* iacute (U+00ED): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* iacute (U+00ED): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
 * iacute_j.loclNLD: L&lt;&lt;455.0,510.0&gt;--&lt;453.0,434.0&gt;&gt; -&gt; L&lt;&lt;453.0,434.0&gt;--&lt;453.0,50.0&gt;&gt;
 
-* icircumflex (U+00EE): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* icircumflex (U+00EE): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* idieresis (U+00EF): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* idieresis (U+00EF): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* igrave (U+00EC): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* igrave (U+00EC): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
 * ij (U+0133): L&lt;&lt;465.0,510.0&gt;--&lt;463.0,434.0&gt;&gt; -&gt; L&lt;&lt;463.0,434.0&gt;--&lt;463.0,50.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* iogonek (U+012F): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* iogonek (U+012F): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
-* itilde (U+0129): L&lt;&lt;211.0,510.0&gt;--&lt;209.0,434.0&gt;&gt; -&gt; L&lt;&lt;209.0,434.0&gt;--&lt;209.0,51.0&gt;&gt;
+* itilde (U+0129): L&lt;&lt;206.0,510.0&gt;--&lt;204.0,434.0&gt;&gt; -&gt; L&lt;&lt;204.0,434.0&gt;--&lt;204.0,51.0&gt;&gt;
 
 * j (U+006A): L&lt;&lt;197.0,510.0&gt;--&lt;195.0,434.0&gt;&gt; -&gt; L&lt;&lt;195.0,434.0&gt;--&lt;195.0,50.0&gt;&gt;
 
 * jcircumflex (U+0135): L&lt;&lt;197.0,510.0&gt;--&lt;195.0,434.0&gt;&gt; -&gt; L&lt;&lt;195.0,434.0&gt;--&lt;195.0,50.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;196.0,794.0&gt;--&lt;194.0,718.0&gt;&gt; -&gt; L&lt;&lt;194.0,718.0&gt;--&lt;194.0,255.0&gt;&gt;
+* k (U+006B): L&lt;&lt;206.0,794.0&gt;--&lt;204.0,718.0&gt;&gt; -&gt; L&lt;&lt;204.0,718.0&gt;--&lt;204.0,255.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;211.0,794.0&gt;--&lt;208.0,718.0&gt;&gt; -&gt; L&lt;&lt;208.0,718.0&gt;--&lt;208.0,51.0&gt;&gt;
+* l (U+006C): L&lt;&lt;206.0,794.0&gt;--&lt;203.0,718.0&gt;&gt; -&gt; L&lt;&lt;203.0,718.0&gt;--&lt;203.0,51.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;211.0,794.0&gt;--&lt;208.0,718.0&gt;&gt; -&gt; L&lt;&lt;208.0,718.0&gt;--&lt;208.0,51.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;206.0,794.0&gt;--&lt;203.0,718.0&gt;&gt; -&gt; L&lt;&lt;203.0,718.0&gt;--&lt;203.0,51.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;231.0,794.0&gt;--&lt;228.0,718.0&gt;&gt; -&gt; L&lt;&lt;228.0,718.0&gt;--&lt;228.0,51.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;226.0,794.0&gt;--&lt;223.0,718.0&gt;&gt; -&gt; L&lt;&lt;223.0,718.0&gt;--&lt;223.0,51.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;221.0,794.0&gt;--&lt;218.0,718.0&gt;&gt; -&gt; L&lt;&lt;218.0,718.0&gt;--&lt;218.0,454.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;206.0,794.0&gt;--&lt;203.0,718.0&gt;&gt; -&gt; L&lt;&lt;203.0,718.0&gt;--&lt;203.0,451.0&gt;&gt;
 
-* thorn (U+00FE): L&lt;&lt;161.0,794.0&gt;--&lt;157.0,718.0&gt;&gt; -&gt; L&lt;&lt;157.0,718.0&gt;--&lt;157.0,464.0&gt;&gt;
+* thorn (U+00FE): L&lt;&lt;206.0,794.0&gt;--&lt;202.0,718.0&gt;&gt; -&gt; L&lt;&lt;202.0,718.0&gt;--&lt;202.0,464.0&gt;&gt;
 
 * uni006A0301: L&lt;&lt;197.0,510.0&gt;--&lt;195.0,434.0&gt;&gt; -&gt; L&lt;&lt;195.0,434.0&gt;--&lt;195.0,50.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;196.0,794.0&gt;--&lt;194.0,718.0&gt;&gt; -&gt; L&lt;&lt;194.0,718.0&gt;--&lt;194.0,255.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;206.0,794.0&gt;--&lt;204.0,718.0&gt;&gt; -&gt; L&lt;&lt;204.0,718.0&gt;--&lt;204.0,255.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;211.0,794.0&gt;--&lt;208.0,718.0&gt;&gt; -&gt; L&lt;&lt;208.0,718.0&gt;--&lt;208.0,51.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;206.0,794.0&gt;--&lt;203.0,718.0&gt;&gt; -&gt; L&lt;&lt;203.0,718.0&gt;--&lt;203.0,51.0&gt;&gt;
 
-* uni013C.loclMAH: L&lt;&lt;211.0,794.0&gt;--&lt;208.0,718.0&gt;&gt; -&gt; L&lt;&lt;208.0,718.0&gt;--&lt;208.0,51.0&gt;&gt;
+* uni013C.loclMAH: L&lt;&lt;206.0,794.0&gt;--&lt;203.0,718.0&gt;&gt; -&gt; L&lt;&lt;203.0,718.0&gt;--&lt;203.0,51.0&gt;&gt;
 
 * uni0237 (U+0237): L&lt;&lt;197.0,510.0&gt;--&lt;195.0,434.0&gt;&gt; -&gt; L&lt;&lt;195.0,434.0&gt;--&lt;195.0,50.0&gt;&gt;
 
-* uni1EF9 (U+1EF9): L&lt;&lt;471.0,450.0&gt;--&lt;280.0,0.0&gt;&gt; -&gt; L&lt;&lt;280.0,0.0&gt;--&lt;189.0,-216.0&gt;&gt;
+* uni1EF9 (U+1EF9): L&lt;&lt;442.0,450.0&gt;--&lt;251.0,0.0&gt;&gt; -&gt; L&lt;&lt;251.0,0.0&gt;--&lt;160.0,-216.0&gt;&gt;
 
-* y (U+0079): L&lt;&lt;471.0,450.0&gt;--&lt;280.0,0.0&gt;&gt; -&gt; L&lt;&lt;280.0,0.0&gt;--&lt;189.0,-216.0&gt;&gt;
+* y (U+0079): L&lt;&lt;442.0,450.0&gt;--&lt;251.0,0.0&gt;&gt; -&gt; L&lt;&lt;251.0,0.0&gt;--&lt;160.0,-216.0&gt;&gt;
 
-* yacute (U+00FD): L&lt;&lt;471.0,450.0&gt;--&lt;280.0,0.0&gt;&gt; -&gt; L&lt;&lt;280.0,0.0&gt;--&lt;189.0,-216.0&gt;&gt;
+* yacute (U+00FD): L&lt;&lt;442.0,450.0&gt;--&lt;251.0,0.0&gt;&gt; -&gt; L&lt;&lt;251.0,0.0&gt;--&lt;160.0,-216.0&gt;&gt;
 
-* ycircumflex (U+0177): L&lt;&lt;471.0,450.0&gt;--&lt;280.0,0.0&gt;&gt; -&gt; L&lt;&lt;280.0,0.0&gt;--&lt;189.0,-216.0&gt;&gt;
+* ycircumflex (U+0177): L&lt;&lt;442.0,450.0&gt;--&lt;251.0,0.0&gt;&gt; -&gt; L&lt;&lt;251.0,0.0&gt;--&lt;160.0,-216.0&gt;&gt;
 
-* ydieresis (U+00FF): L&lt;&lt;471.0,450.0&gt;--&lt;280.0,0.0&gt;&gt; -&gt; L&lt;&lt;280.0,0.0&gt;--&lt;189.0,-216.0&gt;&gt;
+* ydieresis (U+00FF): L&lt;&lt;442.0,450.0&gt;--&lt;251.0,0.0&gt;&gt; -&gt; L&lt;&lt;251.0,0.0&gt;--&lt;160.0,-216.0&gt;&gt;
 
-* ygrave (U+1EF3): L&lt;&lt;471.0,450.0&gt;--&lt;280.0,0.0&gt;&gt; -&gt; L&lt;&lt;280.0,0.0&gt;--&lt;189.0,-216.0&gt;&gt;
+* ygrave (U+1EF3): L&lt;&lt;442.0,450.0&gt;--&lt;251.0,0.0&gt;&gt; -&gt; L&lt;&lt;251.0,0.0&gt;--&lt;160.0,-216.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -2606,7 +2436,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2630,14 +2460,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -2658,10 +2488,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -2731,7 +2561,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -2768,24 +2598,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -2805,7 +2617,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] Wittgenstein-BoldItalic.ttf</summary>
+<details><summary>[7] Wittgenstein-BoldItalic.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -2879,11 +2691,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* f_i: L&lt;&lt;287.0,501.0&gt;--&lt;397.0,501.0&gt;&gt; -&gt; L&lt;&lt;397.0,501.0&gt;--&lt;586.0,512.0&gt;&gt;
+<pre><code>* f_i: L&lt;&lt;257.0,501.0&gt;--&lt;367.0,501.0&gt;&gt; -&gt; L&lt;&lt;367.0,501.0&gt;--&lt;556.0,512.0&gt;&gt;
 
-* f_i: L&lt;&lt;593.0,504.0&gt;--&lt;576.0,435.0&gt;&gt; -&gt; L&lt;&lt;576.0,435.0&gt;--&lt;501.0,49.0&gt;&gt;
+* f_i: L&lt;&lt;563.0,504.0&gt;--&lt;546.0,435.0&gt;&gt; -&gt; L&lt;&lt;546.0,435.0&gt;--&lt;471.0,49.0&gt;&gt;
 
-* f_l: L&lt;&lt;627.0,788.0&gt;--&lt;611.0,718.0&gt;&gt; -&gt; L&lt;&lt;611.0,718.0&gt;--&lt;481.0,47.0&gt;&gt;
+* f_l: L&lt;&lt;608.0,788.0&gt;--&lt;592.0,718.0&gt;&gt; -&gt; L&lt;&lt;592.0,718.0&gt;--&lt;462.0,47.0&gt;&gt;
 
 * thorn (U+00FE): L&lt;&lt;315.0,788.0&gt;--&lt;298.0,710.0&gt;&gt; -&gt; L&lt;&lt;298.0,710.0&gt;--&lt;255.0,489.0&gt;&gt;
 
@@ -2907,26 +2719,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* uni00B5 (U+00B5): B&lt;&lt;358.0,91.5&gt;-&lt;402.0,130.0&gt;-&lt;417.0,206.0&gt;&gt;/B&lt;&lt;417.0,206.0&gt;-&lt;414.0,192.0&gt;-&lt;420.0,225.0&gt;&gt; = 0.9298768994636282
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -2939,7 +2731,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2963,14 +2755,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -2991,10 +2783,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -3064,7 +2856,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3101,24 +2893,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -3138,7 +2912,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] Wittgenstein-Black.ttf</summary>
+<details><summary>[7] Wittgenstein-Black.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -3216,23 +2990,23 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* b (U+0062): L&lt;&lt;245.0,784.0&gt;--&lt;243.0,718.0&gt;&gt; -&gt; L&lt;&lt;243.0,718.0&gt;--&lt;243.0,498.0&gt;&gt;
+<pre><code>* b (U+0062): L&lt;&lt;257.0,784.0&gt;--&lt;255.0,718.0&gt;&gt; -&gt; L&lt;&lt;255.0,718.0&gt;--&lt;255.0,498.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;551.0,787.0&gt;--&lt;549.0,733.0&gt;&gt; -&gt; L&lt;&lt;549.0,733.0&gt;--&lt;549.0,72.0&gt;&gt;
+* d (U+0064): L&lt;&lt;561.0,787.0&gt;--&lt;559.0,733.0&gt;&gt; -&gt; L&lt;&lt;559.0,733.0&gt;--&lt;559.0,72.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;551.0,787.0&gt;--&lt;549.0,733.0&gt;&gt; -&gt; L&lt;&lt;549.0,733.0&gt;--&lt;549.0,72.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;561.0,787.0&gt;--&lt;559.0,733.0&gt;&gt; -&gt; L&lt;&lt;559.0,733.0&gt;--&lt;559.0,72.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;551.0,787.0&gt;--&lt;549.0,733.0&gt;&gt; -&gt; L&lt;&lt;549.0,733.0&gt;--&lt;549.0,639.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;561.0,787.0&gt;--&lt;559.0,733.0&gt;&gt; -&gt; L&lt;&lt;559.0,733.0&gt;--&lt;559.0,639.0&gt;&gt;
 
-* dong (U+20AB): L&lt;&lt;549.0,823.0&gt;--&lt;547.0,777.0&gt;&gt; -&gt; L&lt;&lt;547.0,777.0&gt;--&lt;547.0,698.0&gt;&gt;
+* dong (U+20AB): L&lt;&lt;558.0,823.0&gt;--&lt;556.0,777.0&gt;&gt; -&gt; L&lt;&lt;556.0,777.0&gt;--&lt;556.0,698.0&gt;&gt;
 
 * dotlessi (U+0131): L&lt;&lt;256.0,493.0&gt;--&lt;254.0,427.0&gt;&gt; -&gt; L&lt;&lt;254.0,427.0&gt;--&lt;254.0,50.0&gt;&gt;
 
-* f_i: L&lt;&lt;279.0,500.0&gt;--&lt;381.0,500.0&gt;&gt; -&gt; L&lt;&lt;381.0,500.0&gt;--&lt;577.0,509.0&gt;&gt;
+* f_i: L&lt;&lt;287.0,500.0&gt;--&lt;389.0,500.0&gt;&gt; -&gt; L&lt;&lt;389.0,500.0&gt;--&lt;585.0,509.0&gt;&gt;
 
-* f_i: L&lt;&lt;586.0,500.0&gt;--&lt;581.0,436.0&gt;&gt; -&gt; L&lt;&lt;581.0,436.0&gt;--&lt;581.0,48.0&gt;&gt;
+* f_i: L&lt;&lt;594.0,500.0&gt;--&lt;589.0,436.0&gt;&gt; -&gt; L&lt;&lt;589.0,436.0&gt;--&lt;589.0,48.0&gt;&gt;
 
-* f_l: L&lt;&lt;569.0,784.0&gt;--&lt;567.0,718.0&gt;&gt; -&gt; L&lt;&lt;567.0,718.0&gt;--&lt;567.0,45.0&gt;&gt;
+* f_l: L&lt;&lt;577.0,784.0&gt;--&lt;575.0,718.0&gt;&gt; -&gt; L&lt;&lt;575.0,718.0&gt;--&lt;575.0,45.0&gt;&gt;
 
 * h (U+0068): L&lt;&lt;256.0,787.0&gt;--&lt;254.0,718.0&gt;&gt; -&gt; L&lt;&lt;254.0,718.0&gt;--&lt;254.0,478.0&gt;&gt;
 
@@ -3248,7 +3022,7 @@ definitions.</p>
 
 * iacute_j.loclNLD: L&lt;&lt;256.0,493.0&gt;--&lt;254.0,427.0&gt;&gt; -&gt; L&lt;&lt;254.0,427.0&gt;--&lt;254.0,50.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;579.0,493.0&gt;--&lt;577.0,428.0&gt;&gt; -&gt; L&lt;&lt;577.0,428.0&gt;--&lt;577.0,53.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;576.0,493.0&gt;--&lt;574.0,428.0&gt;&gt; -&gt; L&lt;&lt;574.0,428.0&gt;--&lt;574.0,53.0&gt;&gt;
 
 * icircumflex (U+00EE): L&lt;&lt;256.0,493.0&gt;--&lt;254.0,427.0&gt;&gt; -&gt; L&lt;&lt;254.0,427.0&gt;--&lt;254.0,50.0&gt;&gt;
 
@@ -3258,7 +3032,7 @@ definitions.</p>
 
 * ij (U+0133): L&lt;&lt;256.0,493.0&gt;--&lt;254.0,427.0&gt;&gt; -&gt; L&lt;&lt;254.0,427.0&gt;--&lt;254.0,50.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;562.0,493.0&gt;--&lt;560.0,428.0&gt;&gt; -&gt; L&lt;&lt;560.0,428.0&gt;--&lt;560.0,53.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;559.0,493.0&gt;--&lt;557.0,428.0&gt;&gt; -&gt; L&lt;&lt;557.0,428.0&gt;--&lt;557.0,53.0&gt;&gt;
 
 * imacron (U+012B): L&lt;&lt;256.0,493.0&gt;--&lt;254.0,427.0&gt;&gt; -&gt; L&lt;&lt;254.0,427.0&gt;--&lt;254.0,50.0&gt;&gt;
 
@@ -3266,9 +3040,9 @@ definitions.</p>
 
 * itilde (U+0129): L&lt;&lt;256.0,493.0&gt;--&lt;254.0,427.0&gt;&gt; -&gt; L&lt;&lt;254.0,427.0&gt;--&lt;254.0,50.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;258.0,493.0&gt;--&lt;256.0,428.0&gt;&gt; -&gt; L&lt;&lt;256.0,428.0&gt;--&lt;256.0,53.0&gt;&gt;
+* j (U+006A): L&lt;&lt;255.0,493.0&gt;--&lt;253.0,428.0&gt;&gt; -&gt; L&lt;&lt;253.0,428.0&gt;--&lt;253.0,53.0&gt;&gt;
 
-* jcircumflex (U+0135): L&lt;&lt;261.0,493.0&gt;--&lt;259.0,428.0&gt;&gt; -&gt; L&lt;&lt;259.0,428.0&gt;--&lt;259.0,53.0&gt;&gt;
+* jcircumflex (U+0135): L&lt;&lt;258.0,493.0&gt;--&lt;256.0,428.0&gt;&gt; -&gt; L&lt;&lt;256.0,428.0&gt;--&lt;256.0,53.0&gt;&gt;
 
 * k (U+006B): L&lt;&lt;256.0,787.0&gt;--&lt;254.0,718.0&gt;&gt; -&gt; L&lt;&lt;254.0,718.0&gt;--&lt;254.0,293.0&gt;&gt;
 
@@ -3282,7 +3056,7 @@ definitions.</p>
 
 * thorn (U+00FE): L&lt;&lt;273.0,784.0&gt;--&lt;271.0,705.0&gt;&gt; -&gt; L&lt;&lt;271.0,705.0&gt;--&lt;271.0,506.0&gt;&gt;
 
-* uni006A0301: L&lt;&lt;261.0,493.0&gt;--&lt;259.0,428.0&gt;&gt; -&gt; L&lt;&lt;259.0,428.0&gt;--&lt;259.0,53.0&gt;&gt;
+* uni006A0301: L&lt;&lt;258.0,493.0&gt;--&lt;256.0,428.0&gt;&gt; -&gt; L&lt;&lt;256.0,428.0&gt;--&lt;256.0,53.0&gt;&gt;
 
 * uni0137 (U+0137): L&lt;&lt;256.0,787.0&gt;--&lt;254.0,718.0&gt;&gt; -&gt; L&lt;&lt;254.0,718.0&gt;--&lt;254.0,293.0&gt;&gt;
 
@@ -3290,7 +3064,7 @@ definitions.</p>
 
 * uni013C.loclMAH: L&lt;&lt;256.0,787.0&gt;--&lt;254.0,718.0&gt;&gt; -&gt; L&lt;&lt;254.0,718.0&gt;--&lt;254.0,50.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;261.0,493.0&gt;--&lt;259.0,428.0&gt;&gt; -&gt; L&lt;&lt;259.0,428.0&gt;--&lt;259.0,53.0&gt;&gt;
+* uni0237 (U+0237): L&lt;&lt;258.0,493.0&gt;--&lt;256.0,428.0&gt;&gt; -&gt; L&lt;&lt;256.0,428.0&gt;--&lt;256.0,53.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -3312,7 +3086,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -3336,14 +3110,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -3364,10 +3138,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -3437,7 +3211,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3474,24 +3248,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -3511,7 +3267,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] Wittgenstein-Bold.ttf</summary>
+<details><summary>[7] Wittgenstein-Bold.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -3585,93 +3341,93 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* b (U+0062): L&lt;&lt;209.0,788.0&gt;--&lt;207.0,718.0&gt;&gt; -&gt; L&lt;&lt;207.0,718.0&gt;--&lt;207.0,485.0&gt;&gt;
+<pre><code>* b (U+0062): L&lt;&lt;237.0,788.0&gt;--&lt;235.0,718.0&gt;&gt; -&gt; L&lt;&lt;235.0,718.0&gt;--&lt;235.0,485.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;524.0,797.0&gt;--&lt;521.0,734.0&gt;&gt; -&gt; L&lt;&lt;521.0,734.0&gt;--&lt;521.0,65.0&gt;&gt;
+* d (U+0064): L&lt;&lt;535.0,797.0&gt;--&lt;531.0,734.0&gt;&gt; -&gt; L&lt;&lt;531.0,734.0&gt;--&lt;531.0,65.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;532.0,797.0&gt;--&lt;529.0,734.0&gt;&gt; -&gt; L&lt;&lt;529.0,734.0&gt;--&lt;529.0,65.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;535.0,797.0&gt;--&lt;531.0,734.0&gt;&gt; -&gt; L&lt;&lt;531.0,734.0&gt;--&lt;531.0,65.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;520.0,797.0&gt;--&lt;517.0,734.0&gt;&gt; -&gt; L&lt;&lt;517.0,734.0&gt;--&lt;517.0,639.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;535.0,797.0&gt;--&lt;531.0,734.0&gt;&gt; -&gt; L&lt;&lt;531.0,734.0&gt;--&lt;531.0,639.0&gt;&gt;
 
-* dong (U+20AB): L&lt;&lt;510.0,831.0&gt;--&lt;507.0,778.0&gt;&gt; -&gt; L&lt;&lt;507.0,778.0&gt;--&lt;507.0,698.0&gt;&gt;
+* dong (U+20AB): L&lt;&lt;523.0,831.0&gt;--&lt;520.0,778.0&gt;&gt; -&gt; L&lt;&lt;520.0,778.0&gt;--&lt;520.0,698.0&gt;&gt;
 
-* dotlessi (U+0131): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* dotlessi (U+0131): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* f_i: L&lt;&lt;255.0,501.0&gt;--&lt;365.0,501.0&gt;&gt; -&gt; L&lt;&lt;365.0,501.0&gt;--&lt;551.0,512.0&gt;&gt;
+* f_i: L&lt;&lt;255.0,501.0&gt;--&lt;365.0,501.0&gt;&gt; -&gt; L&lt;&lt;365.0,501.0&gt;--&lt;552.0,512.0&gt;&gt;
 
 * f_i: L&lt;&lt;561.0,504.0&gt;--&lt;557.0,435.0&gt;&gt; -&gt; L&lt;&lt;557.0,435.0&gt;--&lt;557.0,50.0&gt;&gt;
 
 * f_l: L&lt;&lt;551.0,788.0&gt;--&lt;549.0,718.0&gt;&gt; -&gt; L&lt;&lt;549.0,718.0&gt;--&lt;549.0,47.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;232.0,790.0&gt;--&lt;230.0,718.0&gt;&gt; -&gt; L&lt;&lt;230.0,718.0&gt;--&lt;230.0,465.0&gt;&gt;
+* h (U+0068): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,465.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;235.0,790.0&gt;--&lt;233.0,718.0&gt;&gt; -&gt; L&lt;&lt;233.0,718.0&gt;--&lt;233.0,639.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;243.0,790.0&gt;--&lt;241.0,718.0&gt;&gt; -&gt; L&lt;&lt;241.0,718.0&gt;--&lt;241.0,639.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;232.0,790.0&gt;--&lt;230.0,718.0&gt;&gt; -&gt; L&lt;&lt;230.0,718.0&gt;--&lt;230.0,465.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,465.0&gt;&gt;
 
-* i (U+0069): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* i (U+0069): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* i.loclTRK: L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* i.loclTRK: L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* iacute (U+00ED): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* iacute (U+00ED): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* iacute_j.loclNLD: L&lt;&lt;529.0,500.0&gt;--&lt;527.0,430.0&gt;&gt; -&gt; L&lt;&lt;527.0,430.0&gt;--&lt;527.0,52.0&gt;&gt;
+* iacute_j.loclNLD: L&lt;&lt;528.0,500.0&gt;--&lt;526.0,430.0&gt;&gt; -&gt; L&lt;&lt;526.0,430.0&gt;--&lt;526.0,52.0&gt;&gt;
 
-* icircumflex (U+00EE): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* icircumflex (U+00EE): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* idieresis (U+00EF): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* idieresis (U+00EF): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* igrave (U+00EC): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* igrave (U+00EC): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;523.0,500.0&gt;--&lt;521.0,430.0&gt;&gt; -&gt; L&lt;&lt;521.0,430.0&gt;--&lt;521.0,52.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;522.0,500.0&gt;--&lt;520.0,430.0&gt;&gt; -&gt; L&lt;&lt;520.0,430.0&gt;--&lt;520.0,52.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* iogonek (U+012F): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* iogonek (U+012F): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* itilde (U+0129): L&lt;&lt;238.0,500.0&gt;--&lt;236.0,430.0&gt;&gt; -&gt; L&lt;&lt;236.0,430.0&gt;--&lt;236.0,50.0&gt;&gt;
+* itilde (U+0129): L&lt;&lt;236.0,500.0&gt;--&lt;234.0,430.0&gt;&gt; -&gt; L&lt;&lt;234.0,430.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;233.0,500.0&gt;--&lt;231.0,430.0&gt;&gt; -&gt; L&lt;&lt;231.0,430.0&gt;--&lt;231.0,52.0&gt;&gt;
+* j (U+006A): L&lt;&lt;232.0,500.0&gt;--&lt;230.0,430.0&gt;&gt; -&gt; L&lt;&lt;230.0,430.0&gt;--&lt;230.0,52.0&gt;&gt;
 
-* jcircumflex (U+0135): L&lt;&lt;235.0,500.0&gt;--&lt;233.0,430.0&gt;&gt; -&gt; L&lt;&lt;233.0,430.0&gt;--&lt;233.0,52.0&gt;&gt;
+* jcircumflex (U+0135): L&lt;&lt;234.0,500.0&gt;--&lt;232.0,430.0&gt;&gt; -&gt; L&lt;&lt;232.0,430.0&gt;--&lt;232.0,52.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;232.0,790.0&gt;--&lt;230.0,718.0&gt;&gt; -&gt; L&lt;&lt;230.0,718.0&gt;--&lt;230.0,277.0&gt;&gt;
+* k (U+006B): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,277.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;238.0,790.0&gt;--&lt;236.0,718.0&gt;&gt; -&gt; L&lt;&lt;236.0,718.0&gt;--&lt;236.0,50.0&gt;&gt;
+* l (U+006C): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;238.0,790.0&gt;--&lt;236.0,718.0&gt;&gt; -&gt; L&lt;&lt;236.0,718.0&gt;--&lt;236.0,50.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;246.0,790.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,50.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;244.0,790.0&gt;--&lt;242.0,718.0&gt;&gt; -&gt; L&lt;&lt;242.0,718.0&gt;--&lt;242.0,50.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;247.0,790.0&gt;--&lt;244.0,718.0&gt;&gt; -&gt; L&lt;&lt;244.0,718.0&gt;--&lt;244.0,470.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;241.0,790.0&gt;--&lt;238.0,718.0&gt;&gt; -&gt; L&lt;&lt;238.0,718.0&gt;--&lt;238.0,469.0&gt;&gt;
 
-* thorn (U+00FE): L&lt;&lt;228.0,788.0&gt;--&lt;225.0,710.0&gt;&gt; -&gt; L&lt;&lt;225.0,710.0&gt;--&lt;225.0,489.0&gt;&gt;
+* thorn (U+00FE): L&lt;&lt;246.0,788.0&gt;--&lt;243.0,710.0&gt;&gt; -&gt; L&lt;&lt;243.0,710.0&gt;--&lt;243.0,489.0&gt;&gt;
 
-* uni006A0301: L&lt;&lt;235.0,500.0&gt;--&lt;233.0,430.0&gt;&gt; -&gt; L&lt;&lt;233.0,430.0&gt;--&lt;233.0,52.0&gt;&gt;
+* uni006A0301: L&lt;&lt;234.0,500.0&gt;--&lt;232.0,430.0&gt;&gt; -&gt; L&lt;&lt;232.0,430.0&gt;--&lt;232.0,52.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;232.0,790.0&gt;--&lt;230.0,718.0&gt;&gt; -&gt; L&lt;&lt;230.0,718.0&gt;--&lt;230.0,277.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,277.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;238.0,790.0&gt;--&lt;236.0,718.0&gt;&gt; -&gt; L&lt;&lt;236.0,718.0&gt;--&lt;236.0,50.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* uni013C.loclMAH: L&lt;&lt;238.0,790.0&gt;--&lt;236.0,718.0&gt;&gt; -&gt; L&lt;&lt;236.0,718.0&gt;--&lt;236.0,50.0&gt;&gt;
+* uni013C.loclMAH: L&lt;&lt;236.0,790.0&gt;--&lt;234.0,718.0&gt;&gt; -&gt; L&lt;&lt;234.0,718.0&gt;--&lt;234.0,50.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;235.0,500.0&gt;--&lt;233.0,430.0&gt;&gt; -&gt; L&lt;&lt;233.0,430.0&gt;--&lt;233.0,52.0&gt;&gt;
+* uni0237 (U+0237): L&lt;&lt;234.0,500.0&gt;--&lt;232.0,430.0&gt;&gt; -&gt; L&lt;&lt;232.0,430.0&gt;--&lt;232.0,52.0&gt;&gt;
 
-* uni1EF9 (U+1EF9): L&lt;&lt;489.0,442.0&gt;--&lt;286.0,0.0&gt;&gt; -&gt; L&lt;&lt;286.0,0.0&gt;--&lt;209.0,-198.0&gt;&gt;
+* uni1EF9 (U+1EF9): L&lt;&lt;477.0,442.0&gt;--&lt;274.0,0.0&gt;&gt; -&gt; L&lt;&lt;274.0,0.0&gt;--&lt;197.0,-198.0&gt;&gt;
 
-* y (U+0079): L&lt;&lt;489.0,442.0&gt;--&lt;286.0,0.0&gt;&gt; -&gt; L&lt;&lt;286.0,0.0&gt;--&lt;209.0,-198.0&gt;&gt;
+* y (U+0079): L&lt;&lt;477.0,442.0&gt;--&lt;274.0,0.0&gt;&gt; -&gt; L&lt;&lt;274.0,0.0&gt;--&lt;197.0,-198.0&gt;&gt;
 
-* yacute (U+00FD): L&lt;&lt;489.0,442.0&gt;--&lt;286.0,0.0&gt;&gt; -&gt; L&lt;&lt;286.0,0.0&gt;--&lt;209.0,-198.0&gt;&gt;
+* yacute (U+00FD): L&lt;&lt;477.0,442.0&gt;--&lt;274.0,0.0&gt;&gt; -&gt; L&lt;&lt;274.0,0.0&gt;--&lt;197.0,-198.0&gt;&gt;
 
-* ycircumflex (U+0177): L&lt;&lt;489.0,442.0&gt;--&lt;286.0,0.0&gt;&gt; -&gt; L&lt;&lt;286.0,0.0&gt;--&lt;209.0,-198.0&gt;&gt;
+* ycircumflex (U+0177): L&lt;&lt;477.0,442.0&gt;--&lt;274.0,0.0&gt;&gt; -&gt; L&lt;&lt;274.0,0.0&gt;--&lt;197.0,-198.0&gt;&gt;
 
-* ydieresis (U+00FF): L&lt;&lt;489.0,442.0&gt;--&lt;286.0,0.0&gt;&gt; -&gt; L&lt;&lt;286.0,0.0&gt;--&lt;209.0,-198.0&gt;&gt;
+* ydieresis (U+00FF): L&lt;&lt;477.0,442.0&gt;--&lt;274.0,0.0&gt;&gt; -&gt; L&lt;&lt;274.0,0.0&gt;--&lt;197.0,-198.0&gt;&gt;
 
-* ygrave (U+1EF3): L&lt;&lt;489.0,442.0&gt;--&lt;286.0,0.0&gt;&gt; -&gt; L&lt;&lt;286.0,0.0&gt;--&lt;209.0,-198.0&gt;&gt;
+* ygrave (U+1EF3): L&lt;&lt;477.0,442.0&gt;--&lt;274.0,0.0&gt;&gt; -&gt; L&lt;&lt;274.0,0.0&gt;--&lt;197.0,-198.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -3693,7 +3449,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̧̀ į̧́ į̧̂ į̧̃ į̧̄ į̧̆ į̧̇ į̧̈ į̧̊ į̧̋ į̧̌ į̧̒ į̨̀ į̨́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -3717,14 +3473,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, coptic, syriac, math, tai-le, tifinagh, malayalam</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tifinagh, math, syriac, old-permic, tai-le, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -3745,10 +3501,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, hatran, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bengali, mandaic, kharoshthi, buginese, myanmar, yi, tibetan, thaana, lao, balinese, tirhuta, devanagari, cham, grantha, old-hungarian, limbu, sinhala, manichaean, gujarati, nko, batak, gunjala-gondi, hanunoo, tagalog, tai-tham, telugu, tai-viet, sundanese, duployan, avestan, pahawh-hmong, buhid, hebrew, kayah-li, khmer, tagbanwa, hanifi-rohingya, lepcha, brahmi, syloti-nagri, siddham, thai, bhaiksuki, arabic, tai-le, tamil, kaithi, tifinagh, warang-citi, new-tai-lue, mahajani, khudawadi, mongolian, zanabazar-square, sharada, newa, modi, takri, syriac, meetei-mayek, chakma, gurmukhi, oriya, malayalam, saurashtra, javanese, masaram-gondi, sogdian, khojki, kannada, dogra, rejang, phags-pa, psalter-pahlavi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, arabic, thaana, hebrew, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, hebrew, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, hatran, syloti-nagri, lao, tamil, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lepcha, tibetan, modi, tifinagh, yi, sinhala, devanagari, khojki, thai, tirhuta, brahmi, hebrew, mahajani, kannada, grantha, manichaean, gujarati, khmer, newa, oriya, sundanese, tai-le, thaana, mandaic, sogdian, duployan, meetei-mayek, hanunoo, cham, syloti-nagri, lao, tamil, old-hungarian, tai-viet, limbu, new-tai-lue, avestan, takri, gurmukhi, telugu, mongolian, masaram-gondi, nko, malayalam, bengali, chakma, kharoshthi, saurashtra, syriac, balinese, sharada, tai-tham, khudawadi, hanifi-rohingya, kayah-li, psalter-pahlavi, bhaiksuki, rejang, tagalog, siddham, phags-pa, gunjala-gondi, arabic, warang-citi, buhid, kaithi, zanabazar-square, buginese, tagbanwa, pahawh-hmong, myanmar, javanese, batak, dogra</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, arabic, hebrew, syriac, thaana, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, thaana, nko</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
@@ -3818,7 +3574,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, devanagari, mende-kikakui, music, limbu, sundanese, khmer, syloti-nagri, tai-le, armenian, kaithi, miao, warang-citi, mahajani, khudawadi, soyombo, gurmukhi, sogdian, malayalam, saurashtra, manichaean, bassa-vah, balinese, tirhuta, grantha, marchen, gujarati, nko, batak, tai-tham, math, tagalog, hebrew, wancho, canadian-aboriginal, hanifi-rohingya, brahmi, siddham, thai, tifinagh, tamil, meetei-mayek, oriya, yi, khojki, newa, caucasian-albanian, phags-pa, mandaic, buginese, myanmar, tibetan, cham, sinhala, telugu, tai-viet, buhid, lepcha, new-tai-lue, mongolian, zanabazar-square, sharada, modi, takri, syriac, chakma, kannada, dogra, rejang, bengali, kharoshthi, elbasan, ahom, lao, thaana, coptic, gunjala-gondi, hanunoo, duployan, kayah-li, tagbanwa, adlam, old-permic, bhaiksuki, osage, javanese, masaram-gondi, pahawh-hmong, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, modi, symbols, thai, mahajani, syriac, tirhuta, newa, thaana, mandaic, bassa-vah, duployan, syloti-nagri, lao, wancho, gurmukhi, mongolian, kharoshthi, tai-tham, kaithi, new-tai-lue, marchen, tifinagh, ahom, devanagari, brahmi, manichaean, zanabazar-square, grantha, yi, gujarati, oriya, sogdian, hanunoo, cham, tamil, canadian-aboriginal, telugu, nko, malayalam, bengali, hanifi-rohingya, psalter-pahlavi, rejang, siddham, warang-citi, buhid, buginese, tai-viet, batak, dogra, lepcha, sinhala, khojki, hebrew, tai-le, coptic, khmer, sundanese, miao, masaram-gondi, mende-kikakui, adlam, chakma, khudawadi, math, kayah-li, tagalog, bhaiksuki, gunjala-gondi, osage, tagbanwa, old-permic, pahawh-hmong, soyombo, kannada, elbasan, meetei-mayek, caucasian-albanian, limbu, takri, saurashtra, sharada, phags-pa, music, myanmar, javanese, armenian, balinese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3848,24 +3604,6 @@ definitions.</p>
 - f + l
 </code></pre>
  [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
 
 
 
@@ -3899,8 +3637,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 98 | 1123 | 61 | 1066 | 0 | 
-| 0% | 0% | 0% | 4% | 48% | 3% | 45% | 0% | 
+| 0 | 0 | 0 | 84 | 1123 | 61 | 1080 | 0 | 
+| 0% | 0% | 0% | 4% | 48% | 3% | 46% | 0% | 
 
 
 
