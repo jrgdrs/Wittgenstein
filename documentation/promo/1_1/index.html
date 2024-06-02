@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram-like Carousel</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 540px;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel img {
+            width: 540px;
+            height: 540px;
+        }
+
+        .indicators {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+        }
+
+        .indicator {
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 0 5px;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .indicator.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="insta1.png" />
+            <img src="insta2.png" />
+            <img src="insta3a.png" />
+            <img src="insta3b.png" />
+            <img src="insta4.png" />
+            <img src="insta5.png" />
+            <img src="insta6.png" />
+            <img src="insta7.png" />
+            <img src="insta8.png" />
+        </div>
+        <div class="indicators">
+            <div class="indicator active"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.querySelector('.carousel');
+            const indicators = document.querySelectorAll('.indicator');
+            const totalImages = indicators.length;
+            let currentIndex = 0;
+            let startX = 0;
+            let endX = 0;
+
+            const updateCarousel = () => {
+                carousel.style.transform = `translateX(${-currentIndex * 540}px)`;
+                indicators.forEach((indicator, index) => {
+                    indicator.classList.toggle('active', index === currentIndex);
+                });
+            };
+
+            const showNextImage = () => {
+                currentIndex = (currentIndex + 1) % totalImages;
+                updateCarousel();
+            };
+
+            const showPrevImage = () => {
+                currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+                updateCarousel();
+            };
+
+            document.querySelector('.carousel-container').addEventListener('click', showNextImage);
+
+            carousel.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+            });
+
+            carousel.addEventListener('touchmove', (e) => {
+                endX = e.touches[0].clientX;
+            });
+
+            carousel.addEventListener('touchend', () => {
+                if (startX > endX + 50) {
+                    showNextImage();
+                } else if (startX < endX - 50) {
+                    showPrevImage();
+                }
+            });
+
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+
+            document.addEventListener('keydown', (e) => {
+                //if (e.key === 'Enter') {
+                    showNextImage();
+                //}
+            });
+
+        });
+    </script>
+</body>
+</html>
