@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3308";
 .formatVersion = 3;
 axes = (
 {
@@ -53618,6 +53618,17 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
+},
+{
+axesValues = (
+500
+);
+instanceInterpolations = {
+"E0989092-07D5-4BE4-A82B-4E03160A36DB" = 0.2;
+m01 = 0.8;
+};
+name = Medium;
+weightClass = 500;
 },
 {
 axesValues = (
