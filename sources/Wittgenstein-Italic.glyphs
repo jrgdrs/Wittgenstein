@@ -57893,6 +57893,7 @@ V = -120;
 W = -1;
 X = -60;
 comma = -30;
+nbspace = -1;
 nine = -20;
 one = -20;
 period = -50;
@@ -58273,6 +58274,9 @@ m = {
 "@MMK_R_W" = -120;
 "@MMK_R_Y" = -50;
 V = -80;
+};
+nbspace = {
+quotesingle = -1;
 };
 nine = {
 "@MMK_R_Y" = -50;
@@ -58968,6 +58972,7 @@ V = -20;
 W = -20;
 X = -60;
 comma = -30;
+nbspace = 0;
 nine = -20;
 one = -20;
 period = -50;
@@ -59348,6 +59353,9 @@ m = {
 "@MMK_R_W" = -120;
 "@MMK_R_Y" = -50;
 V = -80;
+};
+nbspace = {
+quotesingle = 0;
 };
 nine = {
 "@MMK_R_Y" = -50;
