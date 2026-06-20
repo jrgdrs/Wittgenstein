@@ -1,5 +1,5 @@
 {
-.appVersion = "3308";
+.appVersion = "3528";
 .formatVersion = 3;
 axes = (
 {
@@ -57666,5 +57666,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 500;
+versionMinor = 501;
 }

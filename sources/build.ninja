@@ -1,0 +1,656 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $
+      $in $stamp
+  description = compress
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# buildOTF: Build a OTF from a source file
+rule buildOTF
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o otf $
+      $fontmake_type $in $args $stamp
+  description = buildOTF
+
+# copy: Copy a file
+rule copy
+  command = $
+      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
+      -m gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpac5u3d72
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpac5u3d72: $
+    buildVariable Wittgenstein.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/Wittgenstein-Regular.ufo.json
+build instance_ufos/Wittgenstein-Regular.ufo.json: instantiateUfo $
+    Wittgenstein.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-Medium.ufo.json
+build instance_ufos/Wittgenstein-Medium.ufo.json: instantiateUfo $
+    Wittgenstein.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-SemiBold.ufo.json
+build instance_ufos/Wittgenstein-SemiBold.ufo.json: instantiateUfo $
+    Wittgenstein.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-Bold.ufo.json
+build instance_ufos/Wittgenstein-Bold.ufo.json: instantiateUfo $
+    Wittgenstein.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-ExtraBold.ufo.json
+build instance_ufos/Wittgenstein-ExtraBold.ufo.json: instantiateUfo $
+    Wittgenstein.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-Black.ufo.json
+build instance_ufos/Wittgenstein-Black.ufo.json: instantiateUfo $
+    Wittgenstein.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpq2dy2d8v
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpq2dy2d8v: $
+    buildVariable Wittgenstein-Italic.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/Wittgenstein-Italic.ufo.json
+build instance_ufos/Wittgenstein-Italic.ufo.json: instantiateUfo $
+    Wittgenstein-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-MediumItalic.ufo.json
+build instance_ufos/Wittgenstein-MediumItalic.ufo.json: instantiateUfo $
+    Wittgenstein-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json
+build instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json: instantiateUfo $
+    Wittgenstein-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-BoldItalic.ufo.json
+build instance_ufos/Wittgenstein-BoldItalic.ufo.json: instantiateUfo $
+    Wittgenstein-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json
+build instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json: instantiateUfo $
+    Wittgenstein-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Wittgenstein-BlackItalic.ufo.json
+build instance_ufos/Wittgenstein-BlackItalic.ufo.json: instantiateUfo $
+    Wittgenstein-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = Wittgenstein Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/Wittgenstein[wght].woff2
+build ../fonts/webfonts/Wittgenstein[wght].woff2: compress $
+    ../fonts/variable/Wittgenstein[wght].ttf
+  operation = compress
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpr5j5s5g7.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/variable/Wittgenstein[wght].ttf $
+    ../fonts/variable/Wittgenstein-Italic[wght].ttf | $
+    ../fonts/variable/Wittgenstein[wght].ttf $
+    ../fonts/variable/Wittgenstein-Italic[wght].ttf
+  stamp =  && touch $
+      /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpr5j5s5g7.buildStatstamp
+  postprocess = buildStat
+  args = --src /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpg368ncbj
+# Generating ../fonts/webfonts/Wittgenstein-Italic[wght].woff2
+build ../fonts/webfonts/Wittgenstein-Italic[wght].woff2: compress $
+    ../fonts/variable/Wittgenstein-Italic[wght].ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-Regular.woff2
+build ../fonts/webfonts/Wittgenstein-Regular.woff2: compress $
+    ../fonts/ttf/Wittgenstein-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-Medium.woff2
+build ../fonts/webfonts/Wittgenstein-Medium.woff2: compress $
+    ../fonts/ttf/Wittgenstein-Medium.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-SemiBold.woff2
+build ../fonts/webfonts/Wittgenstein-SemiBold.woff2: compress $
+    ../fonts/ttf/Wittgenstein-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-Bold.woff2
+build ../fonts/webfonts/Wittgenstein-Bold.woff2: compress $
+    ../fonts/ttf/Wittgenstein-Bold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-ExtraBold.woff2
+build ../fonts/webfonts/Wittgenstein-ExtraBold.woff2: compress $
+    ../fonts/ttf/Wittgenstein-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-Black.woff2
+build ../fonts/webfonts/Wittgenstein-Black.woff2: compress $
+    ../fonts/ttf/Wittgenstein-Black.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-Italic.woff2
+build ../fonts/webfonts/Wittgenstein-Italic.woff2: compress $
+    ../fonts/ttf/Wittgenstein-Italic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-MediumItalic.woff2
+build ../fonts/webfonts/Wittgenstein-MediumItalic.woff2: compress $
+    ../fonts/ttf/Wittgenstein-MediumItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-SemiBoldItalic.woff2
+build ../fonts/webfonts/Wittgenstein-SemiBoldItalic.woff2: compress $
+    ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-BoldItalic.woff2
+build ../fonts/webfonts/Wittgenstein-BoldItalic.woff2: compress $
+    ../fonts/ttf/Wittgenstein-BoldItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-ExtraBoldItalic.woff2
+build ../fonts/webfonts/Wittgenstein-ExtraBoldItalic.woff2: compress $
+    ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Wittgenstein-BlackItalic.woff2
+build ../fonts/webfonts/Wittgenstein-BlackItalic.woff2: compress $
+    ../fonts/ttf/Wittgenstein-BlackItalic.ttf
+  operation = compress
+# Generating ../fonts/variable/Wittgenstein[wght].ttf
+build ../fonts/variable/Wittgenstein[wght].ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpac5u3d72
+  operation = fix
+  args = 
+# Generating ../fonts/variable/Wittgenstein-Italic[wght].ttf
+build ../fonts/variable/Wittgenstein-Italic[wght].ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpq2dy2d8v
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4fcnl382
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4fcnl382: $
+    buildTTF instance_ufos/Wittgenstein-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpotbdpex8
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpotbdpex8: $
+    buildOTF instance_ufos/Wittgenstein-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpx7akj3oi
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpx7akj3oi: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4fcnl382
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-Regular.ttf
+build ../fonts/ttf/Wittgenstein-Regular.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpx7akj3oi
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-Regular.otf
+build ../fonts/otf/Wittgenstein-Regular.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpotbdpex8
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpq3ivw_c9
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpq3ivw_c9: $
+    buildTTF instance_ufos/Wittgenstein-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqh7_qbyg
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqh7_qbyg: $
+    buildOTF instance_ufos/Wittgenstein-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5_0t1b06
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5_0t1b06: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpq3ivw_c9
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-Medium.ttf
+build ../fonts/ttf/Wittgenstein-Medium.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5_0t1b06
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-Medium.otf
+build ../fonts/otf/Wittgenstein-Medium.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqh7_qbyg
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp73bfxec4
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp73bfxec4: $
+    buildTTF instance_ufos/Wittgenstein-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmwzf38m9
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmwzf38m9: $
+    buildOTF instance_ufos/Wittgenstein-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpakabvsdq
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpakabvsdq: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp73bfxec4
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-SemiBold.ttf
+build ../fonts/ttf/Wittgenstein-SemiBold.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpakabvsdq
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-SemiBold.otf
+build ../fonts/otf/Wittgenstein-SemiBold.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmwzf38m9
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp72ifnnwi
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp72ifnnwi: $
+    buildTTF instance_ufos/Wittgenstein-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp19e3hxad
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp19e3hxad: $
+    buildOTF instance_ufos/Wittgenstein-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf50i89h9
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf50i89h9: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp72ifnnwi
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-Bold.ttf
+build ../fonts/ttf/Wittgenstein-Bold.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf50i89h9
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-Bold.otf
+build ../fonts/otf/Wittgenstein-Bold.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp19e3hxad
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp55ae4kms
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp55ae4kms: $
+    buildTTF instance_ufos/Wittgenstein-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmmj5dkby
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmmj5dkby: $
+    buildOTF instance_ufos/Wittgenstein-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6bm6g5ww
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6bm6g5ww: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp55ae4kms
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-ExtraBold.ttf
+build ../fonts/ttf/Wittgenstein-ExtraBold.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6bm6g5ww
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-ExtraBold.otf
+build ../fonts/otf/Wittgenstein-ExtraBold.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmmj5dkby
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufr8f3lm
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufr8f3lm: $
+    buildTTF instance_ufos/Wittgenstein-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpr4n8f7f4
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpr4n8f7f4: $
+    buildOTF instance_ufos/Wittgenstein-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5bjgwah2
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5bjgwah2: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufr8f3lm
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-Black.ttf
+build ../fonts/ttf/Wittgenstein-Black.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5bjgwah2
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-Black.otf
+build ../fonts/otf/Wittgenstein-Black.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpr4n8f7f4
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxnokbcr2
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxnokbcr2: $
+    buildTTF instance_ufos/Wittgenstein-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1ufz5d_9
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1ufz5d_9: $
+    buildOTF instance_ufos/Wittgenstein-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprl5x7b10
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprl5x7b10: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxnokbcr2
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-Italic.ttf
+build ../fonts/ttf/Wittgenstein-Italic.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprl5x7b10
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-Italic.otf
+build ../fonts/otf/Wittgenstein-Italic.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1ufz5d_9
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpii8jt5gl
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpii8jt5gl: $
+    buildTTF instance_ufos/Wittgenstein-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufrypshu
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufrypshu: $
+    buildOTF instance_ufos/Wittgenstein-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_pnaafnf
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_pnaafnf: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpii8jt5gl
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-MediumItalic.ttf
+build ../fonts/ttf/Wittgenstein-MediumItalic.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_pnaafnf
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-MediumItalic.otf
+build ../fonts/otf/Wittgenstein-MediumItalic.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufrypshu
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpouzb7cy4
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpouzb7cy4: $
+    buildTTF instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpm0w9t9gs
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpm0w9t9gs: $
+    buildOTF instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqicrsg1p
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqicrsg1p: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpouzb7cy4
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf
+build ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqicrsg1p
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-SemiBoldItalic.otf
+build ../fonts/otf/Wittgenstein-SemiBoldItalic.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpm0w9t9gs
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpji1ufd4p
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpji1ufd4p: $
+    buildTTF instance_ufos/Wittgenstein-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptynsmc2q
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptynsmc2q: $
+    buildOTF instance_ufos/Wittgenstein-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4d8io_7o
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4d8io_7o: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpji1ufd4p
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-BoldItalic.ttf
+build ../fonts/ttf/Wittgenstein-BoldItalic.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4d8io_7o
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-BoldItalic.otf
+build ../fonts/otf/Wittgenstein-BoldItalic.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptynsmc2q
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3vyrstpx
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3vyrstpx: $
+    buildTTF instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpax70mqt8
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpax70mqt8: $
+    buildOTF instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0csz8sqe
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0csz8sqe: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3vyrstpx
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf
+build ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0csz8sqe
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-ExtraBoldItalic.otf
+build ../fonts/otf/Wittgenstein-ExtraBoldItalic.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpax70mqt8
+  operation = fix
+  args = 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4teox8av
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4teox8av: $
+    buildTTF instance_ufos/Wittgenstein-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpv0ie71rm
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpv0ie71rm: $
+    buildOTF instance_ufos/Wittgenstein-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_hkghwxr
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_hkghwxr: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4teox8av
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Wittgenstein-BlackItalic.ttf
+build ../fonts/ttf/Wittgenstein-BlackItalic.ttf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_hkghwxr
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Wittgenstein-BlackItalic.otf
+build ../fonts/otf/Wittgenstein-BlackItalic.otf: fix $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpv0ie71rm
+  operation = fix
+  args = 
+default ../fonts/webfonts/Wittgenstein[wght].woff2 $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpr5j5s5g7.buildStatstamp $
+    ../fonts/webfonts/Wittgenstein-Italic[wght].woff2 $
+    ../fonts/webfonts/Wittgenstein-Regular.woff2 $
+    ../fonts/webfonts/Wittgenstein-Medium.woff2 $
+    ../fonts/webfonts/Wittgenstein-SemiBold.woff2 $
+    ../fonts/webfonts/Wittgenstein-Bold.woff2 $
+    ../fonts/webfonts/Wittgenstein-ExtraBold.woff2 $
+    ../fonts/webfonts/Wittgenstein-Black.woff2 $
+    ../fonts/webfonts/Wittgenstein-Italic.woff2 $
+    ../fonts/webfonts/Wittgenstein-MediumItalic.woff2 $
+    ../fonts/webfonts/Wittgenstein-SemiBoldItalic.woff2 $
+    ../fonts/webfonts/Wittgenstein-BoldItalic.woff2 $
+    ../fonts/webfonts/Wittgenstein-ExtraBoldItalic.woff2 $
+    ../fonts/webfonts/Wittgenstein-BlackItalic.woff2 $
+    ../fonts/otf/Wittgenstein-Regular.otf $
+    ../fonts/otf/Wittgenstein-Medium.otf $
+    ../fonts/otf/Wittgenstein-SemiBold.otf $
+    ../fonts/otf/Wittgenstein-Bold.otf $
+    ../fonts/otf/Wittgenstein-ExtraBold.otf $
+    ../fonts/otf/Wittgenstein-Black.otf $
+    ../fonts/otf/Wittgenstein-Italic.otf $
+    ../fonts/otf/Wittgenstein-MediumItalic.otf $
+    ../fonts/otf/Wittgenstein-SemiBoldItalic.otf $
+    ../fonts/otf/Wittgenstein-BoldItalic.otf $
+    ../fonts/otf/Wittgenstein-ExtraBoldItalic.otf $
+    ../fonts/otf/Wittgenstein-BlackItalic.otf
