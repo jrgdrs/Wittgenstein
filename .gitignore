@@ -10,6 +10,13 @@ master_ufo
 instance_ufo
 alt
 out
+documentation/*.pdf
+documentation/PromoPack.zip
+fonts/otf/
+fonts/ttf/
+fonts/webfonts/
+fonts/variable/
+qa/*.pdf
 
 # OS generated files #
 ######################
