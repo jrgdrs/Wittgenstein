@@ -21,22 +21,6 @@ rule compress
       $in $stamp
   description = compress
 
-# remapLayout: Run gftools-remap-layout to change a font's layout rules
-rule remapLayout
-  command = $
-      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
-      -m gftools.builder.jobrunner gftools-remap-layout -o $out $in $args $
-      $stamp
-  description = remapLayout
-
-# rename: Rename a font
-rule rename
-  command = $
-      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
-      -m gftools.builder.jobrunner gftools-rename-font -o $out $args $in $
-      "$name" $stamp
-  description = rename
-
 # buildStat: Build a STAT table from one or more source files
 rule buildSTAT-operation
   command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
@@ -67,14 +51,6 @@ rule autohint
       -m gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
   description = autohint
 
-# buildOTF: Build a OTF from a source file
-rule buildOTF
-  command = $
-      /Users/jdrees/github/Wittgenstein26/Wittgenstein/venv/bin/python3.12 $
-      -m gftools.builder.jobrunner fontmake --output-path $out -o otf $
-      $fontmake_type $in $args $stamp
-  description = buildOTF
-
 # copy: Copy a file
 rule copy
   command = $
@@ -82,8 +58,8 @@ rule copy
       -m gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpa_nmt210
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpa_nmt210: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpzbcp3jqf
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpzbcp3jqf: $
     buildVariable Wittgenstein.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -138,17 +114,8 @@ build instance_ufos/Wittgenstein-Black.ufo.json: instantiateUfo $
   fontmake_type = -g
   fontmake_args =  --verbose WARNING 
   args =  --ufo-structure=json --instance-dir instance_ufos
-# Generating ../fonts/webfonts/Wittgenstein[wght].woff2
-build ../fonts/webfonts/Wittgenstein[wght].woff2: compress $
-    ../fonts/variable/Wittgenstein[wght].ttf
-  operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpztt4frbg
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpztt4frbg: $
-    remapLayout ../fonts/variable/Wittgenstein[wght].ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe3cdnsph
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe3cdnsph: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpolq0oqj0
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpolq0oqj0: $
     buildVariable Wittgenstein-Italic.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -203,867 +170,301 @@ build instance_ufos/Wittgenstein-BlackItalic.ufo.json: instantiateUfo $
   fontmake_type = -g
   fontmake_args =  --verbose WARNING 
   args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/Wittgenstein[wght].woff2
+build ../fonts/webfonts/Wittgenstein[wght].woff2: compress $
+    ../fonts/variable/Wittgenstein[wght].ttf
+  operation = compress
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpi6qyvale.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/variable/Wittgenstein-Italic[wght].ttf $
+    ../fonts/variable/Wittgenstein[wght].ttf | $
+    ../fonts/variable/Wittgenstein-Italic[wght].ttf $
+    ../fonts/variable/Wittgenstein[wght].ttf
+  stamp =  && touch $
+      /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpi6qyvale.buildStatstamp
+  postprocess = buildStat
+  args = --src /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpghecznb0
 # Generating ../fonts/webfonts/Wittgenstein-Italic[wght].woff2
 build ../fonts/webfonts/Wittgenstein-Italic[wght].woff2: compress $
     ../fonts/variable/Wittgenstein-Italic[wght].ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe9bnsnki
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe9bnsnki: $
-    remapLayout ../fonts/variable/Wittgenstein-Italic[wght].ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-Regular.woff2
 build ../fonts/webfonts/Wittgenstein-Regular.woff2: compress $
     ../fonts/ttf/Wittgenstein-Regular.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp65qtus0w
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp65qtus0w: $
-    remapLayout ../fonts/ttf/Wittgenstein-Regular.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9a6tfv5q
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9a6tfv5q: $
-    remapLayout ../fonts/otf/Wittgenstein-Regular.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-Medium.woff2
 build ../fonts/webfonts/Wittgenstein-Medium.woff2: compress $
     ../fonts/ttf/Wittgenstein-Medium.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpefqg47dp
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpefqg47dp: $
-    remapLayout ../fonts/ttf/Wittgenstein-Medium.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpevzl31ry
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpevzl31ry: $
-    remapLayout ../fonts/otf/Wittgenstein-Medium.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-SemiBold.woff2
 build ../fonts/webfonts/Wittgenstein-SemiBold.woff2: compress $
     ../fonts/ttf/Wittgenstein-SemiBold.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp94cvuzzj
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp94cvuzzj: $
-    remapLayout ../fonts/ttf/Wittgenstein-SemiBold.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppqdbyzcc
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppqdbyzcc: $
-    remapLayout ../fonts/otf/Wittgenstein-SemiBold.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-Bold.woff2
 build ../fonts/webfonts/Wittgenstein-Bold.woff2: compress $
     ../fonts/ttf/Wittgenstein-Bold.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppa6532ge
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppa6532ge: $
-    remapLayout ../fonts/ttf/Wittgenstein-Bold.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_vwg0d8r
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_vwg0d8r: $
-    remapLayout ../fonts/otf/Wittgenstein-Bold.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-ExtraBold.woff2
 build ../fonts/webfonts/Wittgenstein-ExtraBold.woff2: compress $
     ../fonts/ttf/Wittgenstein-ExtraBold.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpwp0qqzld
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpwp0qqzld: $
-    remapLayout ../fonts/ttf/Wittgenstein-ExtraBold.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3gv9xyhb
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3gv9xyhb: $
-    remapLayout ../fonts/otf/Wittgenstein-ExtraBold.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-Black.woff2
 build ../fonts/webfonts/Wittgenstein-Black.woff2: compress $
     ../fonts/ttf/Wittgenstein-Black.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpevfkekzi
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpevfkekzi: $
-    remapLayout ../fonts/ttf/Wittgenstein-Black.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptrw892sa
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptrw892sa: $
-    remapLayout ../fonts/otf/Wittgenstein-Black.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-Italic.woff2
 build ../fonts/webfonts/Wittgenstein-Italic.woff2: compress $
     ../fonts/ttf/Wittgenstein-Italic.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvndtz9i1
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvndtz9i1: $
-    remapLayout ../fonts/ttf/Wittgenstein-Italic.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphw6rn7pe
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphw6rn7pe: $
-    remapLayout ../fonts/otf/Wittgenstein-Italic.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-MediumItalic.woff2
 build ../fonts/webfonts/Wittgenstein-MediumItalic.woff2: compress $
     ../fonts/ttf/Wittgenstein-MediumItalic.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppzo005wj
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppzo005wj: $
-    remapLayout ../fonts/ttf/Wittgenstein-MediumItalic.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7d0ickdm
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7d0ickdm: $
-    remapLayout ../fonts/otf/Wittgenstein-MediumItalic.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-SemiBoldItalic.woff2
 build ../fonts/webfonts/Wittgenstein-SemiBoldItalic.woff2: compress $
     ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppaftqrey
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppaftqrey: $
-    remapLayout ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpc65t1qde
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpc65t1qde: $
-    remapLayout ../fonts/otf/Wittgenstein-SemiBoldItalic.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-BoldItalic.woff2
 build ../fonts/webfonts/Wittgenstein-BoldItalic.woff2: compress $
     ../fonts/ttf/Wittgenstein-BoldItalic.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8nkelpez
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8nkelpez: $
-    remapLayout ../fonts/ttf/Wittgenstein-BoldItalic.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp04lqirp1
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp04lqirp1: $
-    remapLayout ../fonts/otf/Wittgenstein-BoldItalic.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-ExtraBoldItalic.woff2
 build ../fonts/webfonts/Wittgenstein-ExtraBoldItalic.woff2: compress $
     ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7rzbi716
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7rzbi716: $
-    remapLayout ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4_fflmwk
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4_fflmwk: $
-    remapLayout ../fonts/otf/Wittgenstein-ExtraBoldItalic.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
 # Generating ../fonts/webfonts/Wittgenstein-BlackItalic.woff2
 build ../fonts/webfonts/Wittgenstein-BlackItalic.woff2: compress $
     ../fonts/ttf/Wittgenstein-BlackItalic.ttf
   operation = compress
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2i1_tg0l
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2i1_tg0l: $
-    remapLayout ../fonts/ttf/Wittgenstein-BlackItalic.ttf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf9qaze47
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf9qaze47: $
-    remapLayout ../fonts/otf/Wittgenstein-BlackItalic.otf
-  operation = remapLayout
-  args = 'smcp -> ccmp'
-# Postprocessing  with BuildSTAT
-build $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb4hxw29u.buildStatstamp: $
-    buildSTAT-postprocess ../fonts/variable/Wittgenstein[wght].ttf $
-    ../fonts/variable/WittgensteinSC-Italic[wght].ttf $
-    ../fonts/variable/WittgensteinSC[wght].ttf $
-    ../fonts/variable/Wittgenstein-Italic[wght].ttf | $
-    ../fonts/variable/Wittgenstein[wght].ttf $
-    ../fonts/variable/WittgensteinSC-Italic[wght].ttf $
-    ../fonts/variable/WittgensteinSC[wght].ttf $
-    ../fonts/variable/Wittgenstein-Italic[wght].ttf
-  stamp =  && touch $
-      /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb4hxw29u.buildStatstamp
-  postprocess = buildStat
-  args = --src /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9plnx7iy
 # Generating ../fonts/variable/Wittgenstein[wght].ttf
 build ../fonts/variable/Wittgenstein[wght].ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpa_nmt210
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpitz99fr9
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpitz99fr9: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpztt4frbg
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/variable/WittgensteinSC[wght].ttf
-build ../fonts/variable/WittgensteinSC[wght].ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpitz99fr9
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpzbcp3jqf
   operation = fix
   args = 
 # Generating ../fonts/variable/Wittgenstein-Italic[wght].ttf
 build ../fonts/variable/Wittgenstein-Italic[wght].ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe3cdnsph
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpolq0oqj0
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppzmoj34b
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppzmoj34b: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe9bnsnki
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/variable/WittgensteinSC-Italic[wght].ttf
-build ../fonts/variable/WittgensteinSC-Italic[wght].ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppzmoj34b
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdhxsq3hr
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdhxsq3hr: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxq4v3s5z
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxq4v3s5z: $
     buildTTF instance_ufos/Wittgenstein-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpg4x3mfv6
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpg4x3mfv6: $
-    buildOTF instance_ufos/Wittgenstein-Regular.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpl8gwqyoc
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpl8gwqyoc: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdhxsq3hr
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcnummd_l
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcnummd_l: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxq4v3s5z
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Regular.ttf
 build ../fonts/ttf/Wittgenstein-Regular.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpl8gwqyoc
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcnummd_l
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7mgrmwv7
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7mgrmwv7: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp65qtus0w
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-Regular.ttf
-build ../fonts/ttf/WittgensteinSC-Regular.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7mgrmwv7
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-Regular.otf
-build ../fonts/otf/Wittgenstein-Regular.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpg4x3mfv6
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbxgo609e
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbxgo609e: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9a6tfv5q
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-Regular.otf
-build ../fonts/otf/WittgensteinSC-Regular.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbxgo609e
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp295rg_d5
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp295rg_d5: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpws6tp9xv
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpws6tp9xv: $
     buildTTF instance_ufos/Wittgenstein-Medium.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpopwonjpd
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpopwonjpd: $
-    buildOTF instance_ufos/Wittgenstein-Medium.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpnr_eyr83
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpnr_eyr83: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp295rg_d5
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4iifl8gf
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4iifl8gf: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpws6tp9xv
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Medium.ttf
 build ../fonts/ttf/Wittgenstein-Medium.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpnr_eyr83
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4iifl8gf
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9ilvrug4
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9ilvrug4: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpefqg47dp
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-Medium.ttf
-build ../fonts/ttf/WittgensteinSC-Medium.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9ilvrug4
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-Medium.otf
-build ../fonts/otf/Wittgenstein-Medium.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpopwonjpd
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpgh40o1ku
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpgh40o1ku: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpevzl31ry
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-Medium.otf
-build ../fonts/otf/WittgensteinSC-Medium.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpgh40o1ku
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpj1sse1f6
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpj1sse1f6: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpejr62yo5
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpejr62yo5: $
     buildTTF instance_ufos/Wittgenstein-SemiBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpa9c3t_fn
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpa9c3t_fn: $
-    buildOTF instance_ufos/Wittgenstein-SemiBold.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpc74obcda
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpc74obcda: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpj1sse1f6
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpye4xs7ih
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpye4xs7ih: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpejr62yo5
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-SemiBold.ttf
 build ../fonts/ttf/Wittgenstein-SemiBold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpc74obcda
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpye4xs7ih
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5ftjo0q3
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5ftjo0q3: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp94cvuzzj
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-SemiBold.ttf
-build ../fonts/ttf/WittgensteinSC-SemiBold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5ftjo0q3
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-SemiBold.otf
-build ../fonts/otf/Wittgenstein-SemiBold.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpa9c3t_fn
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcv6alm7l
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcv6alm7l: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppqdbyzcc
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-SemiBold.otf
-build ../fonts/otf/WittgensteinSC-SemiBold.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcv6alm7l
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6vzt1q_z
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6vzt1q_z: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3e67h633
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3e67h633: $
     buildTTF instance_ufos/Wittgenstein-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd98uh8ao
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd98uh8ao: $
-    buildOTF instance_ufos/Wittgenstein-Bold.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1120wq22
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1120wq22: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6vzt1q_z
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxumzfamx
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxumzfamx: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3e67h633
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Bold.ttf
 build ../fonts/ttf/Wittgenstein-Bold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1120wq22
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxumzfamx
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpgr6mg48_
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpgr6mg48_: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppa6532ge
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-Bold.ttf
-build ../fonts/ttf/WittgensteinSC-Bold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpgr6mg48_
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-Bold.otf
-build ../fonts/otf/Wittgenstein-Bold.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd98uh8ao
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcs2c3i2n
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcs2c3i2n: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_vwg0d8r
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-Bold.otf
-build ../fonts/otf/WittgensteinSC-Bold.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpcs2c3i2n
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufsbbxn4
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufsbbxn4: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp39sxb7ky
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp39sxb7ky: $
     buildTTF instance_ufos/Wittgenstein-ExtraBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvlpxytz5
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvlpxytz5: $
-    buildOTF instance_ufos/Wittgenstein-ExtraBold.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0gssvr5t
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0gssvr5t: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpufsbbxn4
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp07ocrk6v
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp07ocrk6v: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp39sxb7ky
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-ExtraBold.ttf
 build ../fonts/ttf/Wittgenstein-ExtraBold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0gssvr5t
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp07ocrk6v
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9wt_kz0p
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9wt_kz0p: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpwp0qqzld
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-ExtraBold.ttf
-build ../fonts/ttf/WittgensteinSC-ExtraBold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9wt_kz0p
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-ExtraBold.otf
-build ../fonts/otf/Wittgenstein-ExtraBold.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvlpxytz5
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpx0z8qpka
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpx0z8qpka: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3gv9xyhb
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-ExtraBold.otf
-build ../fonts/otf/WittgensteinSC-ExtraBold.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpx0z8qpka
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpinnmlxud
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpinnmlxud: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp64_chfod
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp64_chfod: $
     buildTTF instance_ufos/Wittgenstein-Black.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe93fjexq
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe93fjexq: $
-    buildOTF instance_ufos/Wittgenstein-Black.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpchpl8zub
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpchpl8zub: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpinnmlxud
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpagyijy6p
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpagyijy6p: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp64_chfod
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Black.ttf
 build ../fonts/ttf/Wittgenstein-Black.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpchpl8zub
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpagyijy6p
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkh81c2nb
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkh81c2nb: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpevfkekzi
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-Black.ttf
-build ../fonts/ttf/WittgensteinSC-Black.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkh81c2nb
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-Black.otf
-build ../fonts/otf/Wittgenstein-Black.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe93fjexq
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxwj0y6n1
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxwj0y6n1: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptrw892sa
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-Black.otf
-build ../fonts/otf/WittgensteinSC-Black.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxwj0y6n1
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxue693c9
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxue693c9: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqtp8c5f6
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqtp8c5f6: $
     buildTTF instance_ufos/Wittgenstein-Italic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkbb56m4u
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkbb56m4u: $
-    buildOTF instance_ufos/Wittgenstein-Italic.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0b_aahtj
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0b_aahtj: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxue693c9
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpj7di003h
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpj7di003h: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqtp8c5f6
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Italic.ttf
 build ../fonts/ttf/Wittgenstein-Italic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0b_aahtj
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpj7di003h
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9zs241t9
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9zs241t9: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvndtz9i1
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-Italic.ttf
-build ../fonts/ttf/WittgensteinSC-Italic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9zs241t9
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-Italic.otf
-build ../fonts/otf/Wittgenstein-Italic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkbb56m4u
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7b3m0ufv
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7b3m0ufv: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphw6rn7pe
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-Italic.otf
-build ../fonts/otf/WittgensteinSC-Italic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7b3m0ufv
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_uqka482
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_uqka482: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpp66a9qa2
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpp66a9qa2: $
     buildTTF instance_ufos/Wittgenstein-MediumItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8ekbuy7_
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8ekbuy7_: $
-    buildOTF instance_ufos/Wittgenstein-MediumItalic.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpl25rf3o8
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpl25rf3o8: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_uqka482
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0y6wi4fe
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0y6wi4fe: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpp66a9qa2
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-MediumItalic.ttf
 build ../fonts/ttf/Wittgenstein-MediumItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpl25rf3o8
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0y6wi4fe
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0x05hyz2
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0x05hyz2: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppzo005wj
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-MediumItalic.ttf
-build ../fonts/ttf/WittgensteinSC-MediumItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0x05hyz2
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-MediumItalic.otf
-build ../fonts/otf/Wittgenstein-MediumItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8ekbuy7_
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0zpqkjf3
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0zpqkjf3: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7d0ickdm
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-MediumItalic.otf
-build ../fonts/otf/WittgensteinSC-MediumItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0zpqkjf3
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb3hke2j9
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb3hke2j9: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpucnhtmhv
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpucnhtmhv: $
     buildTTF instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1_bfmt5z
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1_bfmt5z: $
-    buildOTF instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6f7eszuk
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6f7eszuk: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb3hke2j9
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqvr74nyu
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqvr74nyu: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpucnhtmhv
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf
 build ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp6f7eszuk
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpqvr74nyu
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb9jjdvuf
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb9jjdvuf: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppaftqrey
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-SemiBoldItalic.ttf
-build ../fonts/ttf/WittgensteinSC-SemiBoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb9jjdvuf
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-SemiBoldItalic.otf
-build ../fonts/otf/Wittgenstein-SemiBoldItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1_bfmt5z
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp44qc1o1n
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp44qc1o1n: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpc65t1qde
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-SemiBoldItalic.otf
-build ../fonts/otf/WittgensteinSC-SemiBoldItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp44qc1o1n
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp39v8a69p
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp39v8a69p: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplqr00_1z
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplqr00_1z: $
     buildTTF instance_ufos/Wittgenstein-BoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2pz5fajb
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2pz5fajb: $
-    buildOTF instance_ufos/Wittgenstein-BoldItalic.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0373wmtv
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0373wmtv: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp39v8a69p
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdceg8gqz
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdceg8gqz: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplqr00_1z
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-BoldItalic.ttf
 build ../fonts/ttf/Wittgenstein-BoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0373wmtv
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdceg8gqz
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf43k7b__
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf43k7b__: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8nkelpez
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-BoldItalic.ttf
-build ../fonts/ttf/WittgensteinSC-BoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf43k7b__
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-BoldItalic.otf
-build ../fonts/otf/Wittgenstein-BoldItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2pz5fajb
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd5s1h7i1
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd5s1h7i1: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp04lqirp1
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-BoldItalic.otf
-build ../fonts/otf/WittgensteinSC-BoldItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd5s1h7i1
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptsi94u5o
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptsi94u5o: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpv4euuw2m
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpv4euuw2m: $
     buildTTF instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp60c0i8xf
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp60c0i8xf: $
-    buildOTF instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpjl32vj7v
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpjl32vj7v: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptsi94u5o
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpksn7kk4s
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpksn7kk4s: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpv4euuw2m
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf
 build ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpjl32vj7v
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpksn7kk4s
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp67ms_8ei
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp67ms_8ei: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7rzbi716
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-ExtraBoldItalic.ttf
-build ../fonts/ttf/WittgensteinSC-ExtraBoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp67ms_8ei
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-ExtraBoldItalic.otf
-build ../fonts/otf/Wittgenstein-ExtraBoldItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp60c0i8xf
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph2ak5e94
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph2ak5e94: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4_fflmwk
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-ExtraBoldItalic.otf
-build ../fonts/otf/WittgensteinSC-ExtraBoldItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph2ak5e94
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptfa3vo74
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptfa3vo74: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0sp9xq9a
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0sp9xq9a: $
     buildTTF instance_ufos/Wittgenstein-BlackItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp70w1jdcd
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp70w1jdcd: $
-    buildOTF instance_ufos/Wittgenstein-BlackItalic.ufo.json
-  operation = buildOTF
-  args = --filter ...  --filter FlattenComponentsFilter --filter $
-      DecomposeTransformedComponentsFilter
-  fontmake_type = -u
-  fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph_6qbejq
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph_6qbejq: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptfa3vo74
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpy7e3wqnz
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpy7e3wqnz: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0sp9xq9a
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-BlackItalic.ttf
 build ../fonts/ttf/Wittgenstein-BlackItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph_6qbejq
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdbrpv4io
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdbrpv4io: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2i1_tg0l
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/ttf/WittgensteinSC-BlackItalic.ttf
-build ../fonts/ttf/WittgensteinSC-BlackItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpdbrpv4io
-  operation = fix
-  args = 
-# Generating ../fonts/otf/Wittgenstein-BlackItalic.otf
-build ../fonts/otf/Wittgenstein-BlackItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp70w1jdcd
-  operation = fix
-  args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppnn5iwp2
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppnn5iwp2: rename $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpf9qaze47
-  operation = rename
-  args = --just-family
-  name = Wittgenstein SC
-# Generating ../fonts/otf/WittgensteinSC-BlackItalic.otf
-build ../fonts/otf/WittgensteinSC-BlackItalic.otf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppnn5iwp2
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpy7e3wqnz
   operation = fix
   args = 
 default ../fonts/webfonts/Wittgenstein[wght].woff2 $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpi6qyvale.buildStatstamp $
     ../fonts/webfonts/Wittgenstein-Italic[wght].woff2 $
     ../fonts/webfonts/Wittgenstein-Regular.woff2 $
     ../fonts/webfonts/Wittgenstein-Medium.woff2 $
@@ -1076,30 +477,4 @@ default ../fonts/webfonts/Wittgenstein[wght].woff2 $
     ../fonts/webfonts/Wittgenstein-SemiBoldItalic.woff2 $
     ../fonts/webfonts/Wittgenstein-BoldItalic.woff2 $
     ../fonts/webfonts/Wittgenstein-ExtraBoldItalic.woff2 $
-    ../fonts/webfonts/Wittgenstein-BlackItalic.woff2 $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpb4hxw29u.buildStatstamp $
-    ../fonts/variable/WittgensteinSC[wght].ttf $
-    ../fonts/ttf/WittgensteinSC-Regular.ttf $
-    ../fonts/otf/WittgensteinSC-Regular.otf $
-    ../fonts/ttf/WittgensteinSC-Medium.ttf $
-    ../fonts/otf/WittgensteinSC-Medium.otf $
-    ../fonts/ttf/WittgensteinSC-SemiBold.ttf $
-    ../fonts/otf/WittgensteinSC-SemiBold.otf $
-    ../fonts/ttf/WittgensteinSC-Bold.ttf $
-    ../fonts/otf/WittgensteinSC-Bold.otf $
-    ../fonts/ttf/WittgensteinSC-ExtraBold.ttf $
-    ../fonts/otf/WittgensteinSC-ExtraBold.otf $
-    ../fonts/ttf/WittgensteinSC-Black.ttf $
-    ../fonts/otf/WittgensteinSC-Black.otf $
-    ../fonts/ttf/WittgensteinSC-Italic.ttf $
-    ../fonts/otf/WittgensteinSC-Italic.otf $
-    ../fonts/ttf/WittgensteinSC-MediumItalic.ttf $
-    ../fonts/otf/WittgensteinSC-MediumItalic.otf $
-    ../fonts/ttf/WittgensteinSC-SemiBoldItalic.ttf $
-    ../fonts/otf/WittgensteinSC-SemiBoldItalic.otf $
-    ../fonts/ttf/WittgensteinSC-BoldItalic.ttf $
-    ../fonts/otf/WittgensteinSC-BoldItalic.otf $
-    ../fonts/ttf/WittgensteinSC-ExtraBoldItalic.ttf $
-    ../fonts/otf/WittgensteinSC-ExtraBoldItalic.otf $
-    ../fonts/ttf/WittgensteinSC-BlackItalic.ttf $
-    ../fonts/otf/WittgensteinSC-BlackItalic.otf
+    ../fonts/webfonts/Wittgenstein-BlackItalic.woff2

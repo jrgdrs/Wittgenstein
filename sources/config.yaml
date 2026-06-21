@@ -5,6 +5,10 @@ axisOrder:
   - wght
   - ital
 familyName: Wittgenstein
+
+buildOTF: false
+buildSmallCap: false
+
 stat:
   Wittgenstein[wght].ttf:
   - name: Weight
