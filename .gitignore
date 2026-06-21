@@ -10,7 +10,6 @@ master_ufo
 instance_ufo
 alt
 out
-documentation/*.pdf
 documentation/PromoPack.zip
 fonts/otf/
 fonts/ttf/
