@@ -1,16 +1,17 @@
 # Wittgenstein Font Project
 
-[![][Fontbakery]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
-[![][Universal]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://jrgdrs.github.io/Wittgenstein/fontbakery/fontbakery-report.html)
+[![][Fontspector]](https://jrgdrs.github.io/Wittgenstein/fontspector/fontspector-report.html)
+[![][OpenType]](https://jrgdrs.github.io/Wittgenstein/fontspector/fontspector-report.html)
+[![][Universal]](https://jrgdrs.github.io/Wittgenstein/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://jrgdrs.github.io/Wittgenstein/fontspector/fontspector-report.html)
+[![][Glyphset]](https://jrgdrs.github.io/Wittgenstein/fontspector/fontspector-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FFontFileChecks.json
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FUniversal.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FWittgenstein%2Fgh-pages%2Fbadges%2FGlyphsetChecks.json
 
 
 ## Discover the Elegance of Wittgenstein Font
@@ -98,9 +99,10 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 
 ## Build
 
-run ./make.sh
+make build
+bash make.sh
 
 
 ## Version
 
-1.500 on May 31st 2024
+1.510 on June 21st 2026
