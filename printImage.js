@@ -23,12 +23,14 @@ console.log( "print " + INFILE + " " + FONTFILE + " " + PNGFILE + " "  );
 
     await page.addStyleTag({content: '@font-face{font-family: TESTFONT; src: url( ' + FONTFILE + '); }'})
 
-            const font = opentype.loadSync(process.argv[3]);
+            const font = opentype.parse(require("fs").readFileSync( process.argv[3]));
+
+            //console.log( "Font loaded", font.names );
 
             // Constants that are worked out dynamically
             const MY_URL = execSync("git remote get-url origin").toString().trim();
             const MY_HASH = execSync("git rev-parse --short HEAD").toString().trim();
-            const FONT_NAME = font.names.fullName.en;
+            const FONT_NAME = font.names.windows.fullName.en;
             const FONT_VERSION = `v${font.tables.head.fontRevision.toFixed(3)}`;
             console.log (MY_URL,MY_HASH, FONT_NAME, FONT_VERSION );
 

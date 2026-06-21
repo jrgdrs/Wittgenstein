@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="G" format="2">
+  <advance width="822"/>
+  <outline>
+    <contour>
+      <point x="418" y="676" type="move"/>
+      <point x="551" y="676"/>
+      <point x="645" y="609"/>
+      <point x="645" y="515" type="curve"/>
+      <point x="708" y="515" type="line"/>
+      <point x="708" y="647" type="line"/>
+      <point x="649" y="687"/>
+      <point x="529" y="716"/>
+      <point x="418" y="716" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

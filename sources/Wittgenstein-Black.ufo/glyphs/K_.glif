@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K" format="2">
+  <advance width="699"/>
+  <unicode hex="004B"/>
+  <anchor x="415" y="-2" name="com"/>
+  <anchor x="404" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="-15" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="20" type="line"/>
+      <point x="252" y="50" type="line"/>
+      <point x="254" y="47" type="line"/>
+      <point x="254" y="281" type="line"/>
+      <point x="252" y="277" type="line"/>
+      <point x="274" y="300" type="line"/>
+      <point x="271" y="300" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="749" y="0" type="line"/>
+      <point x="749" y="20" type="line"/>
+      <point x="695" y="43" type="line"/>
+      <point x="698" y="40" type="line"/>
+      <point x="381" y="458" type="line"/>
+      <point x="377" y="409" type="line"/>
+      <point x="626" y="653" type="line"/>
+      <point x="622" y="650" type="line"/>
+      <point x="739" y="680" type="line"/>
+      <point x="739" y="700" type="line"/>
+      <point x="456" y="700" type="line"/>
+      <point x="456" y="680" type="line"/>
+      <point x="546" y="669" type="line"/>
+      <point x="546" y="671" type="line"/>
+      <point x="252" y="369" type="line"/>
+      <point x="254" y="369" type="line"/>
+      <point x="254" y="654" type="line"/>
+      <point x="252" y="651" type="line"/>
+      <point x="351" y="680" type="line"/>
+      <point x="351" y="700" type="line"/>
+      <point x="-15" y="700" type="line"/>
+      <point x="-15" y="680" type="line"/>
+      <point x="72" y="652" type="line"/>
+      <point x="70" y="655" type="line"/>
+      <point x="70" y="45" type="line"/>
+      <point x="72" y="48" type="line"/>
+      <point x="-15" y="20" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>V</string>
+    </dict>
+  </lib>
+</glyph>

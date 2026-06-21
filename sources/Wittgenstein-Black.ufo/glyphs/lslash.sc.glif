@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash.sc" format="2">
+  <advance width="548"/>
+  <outline>
+    <contour>
+      <point x="15" y="202" type="line"/>
+      <point x="340" y="352" type="line"/>
+      <point x="310" y="404" type="line"/>
+      <point x="-15" y="253" type="line"/>
+    </contour>
+    <component base="L" xScale="0.89" yScale="0.82" xOffset="7" yOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

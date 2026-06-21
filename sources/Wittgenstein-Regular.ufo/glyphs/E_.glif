@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E" format="2">
+  <advance width="588"/>
+  <unicode hex="0045"/>
+  <anchor x="294" y="0" name="bottom"/>
+  <anchor x="289" y="0" name="ogo"/>
+  <anchor x="529" y="10" name="ogonek"/>
+  <anchor x="315" y="700" name="top"/>
+  <anchor x="20" y="700" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="8" y="0" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="580" y="197" type="line"/>
+      <point x="561" y="204" type="line"/>
+      <point x="472" y="34" type="line"/>
+      <point x="498" y="50" type="line"/>
+      <point x="176" y="50" type="line"/>
+      <point x="194" y="32" type="line"/>
+      <point x="194" y="359" type="line"/>
+      <point x="176" y="341" type="line"/>
+      <point x="388" y="341" type="line"/>
+      <point x="364" y="358" type="line"/>
+      <point x="401" y="245" type="line"/>
+      <point x="420" y="245" type="line"/>
+      <point x="420" y="475" type="line"/>
+      <point x="400" y="475" type="line"/>
+      <point x="365" y="364" type="line"/>
+      <point x="388" y="381" type="line"/>
+      <point x="176" y="381" type="line"/>
+      <point x="194" y="363" type="line"/>
+      <point x="194" y="668" type="line"/>
+      <point x="176" y="650" type="line"/>
+      <point x="503" y="650" type="line"/>
+      <point x="480" y="667" type="line"/>
+      <point x="521" y="520" type="line"/>
+      <point x="542" y="520" type="line"/>
+      <point x="542" y="700" type="line"/>
+      <point x="8" y="700" type="line"/>
+      <point x="8" y="680" type="line"/>
+      <point x="116" y="644" type="line"/>
+      <point x="99" y="668" type="line"/>
+      <point x="99" y="32" type="line"/>
+      <point x="116" y="56" type="line"/>
+      <point x="8" y="20" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

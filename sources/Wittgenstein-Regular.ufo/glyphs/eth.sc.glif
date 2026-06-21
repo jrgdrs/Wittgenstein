@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eth.sc" format="2">
+  <advance width="648"/>
+  <outline>
+    <contour>
+      <point x="24" y="276" type="line"/>
+      <point x="319" y="276" type="line"/>
+      <point x="319" y="321" type="line"/>
+      <point x="24" y="321" type="line"/>
+    </contour>
+    <component base="D" xScale="0.89" yScale="0.82" xOffset="1" yOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

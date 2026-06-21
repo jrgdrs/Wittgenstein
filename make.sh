@@ -1,4 +1,4 @@
-gftools builder sources/config.yaml  
+#gftools builder sources/config.yaml  
 
 echo '-- create png preview images'
 

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="second" format="2">
+  <advance width="477"/>
+  <unicode hex="2033"/>
+  <outline>
+    <component base="quotesingle" xScale="0.9816" xyScale="-0.1908" yScale="0.9816" yxScale="0.1908" xOffset="-96" yOffset="35"/>
+    <component base="quotesingle" xScale="0.9816" xyScale="-0.1908" yScale="0.9816" yxScale="0.1908" xOffset="84" yOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

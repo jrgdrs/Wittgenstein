@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign" format="2">
+  <advance width="600"/>
+  <unicode hex="0023"/>
+  <outline>
+    <contour>
+      <point x="76" y="-2" type="line"/>
+      <point x="149" y="5" type="line"/>
+      <point x="197" y="200" type="line"/>
+      <point x="366" y="200" type="line"/>
+      <point x="318" y="-2" type="line"/>
+      <point x="389" y="5" type="line"/>
+      <point x="433" y="200" type="line"/>
+      <point x="537" y="200" type="line"/>
+      <point x="566" y="267" type="line"/>
+      <point x="449" y="267" type="line"/>
+      <point x="489" y="442" type="line"/>
+      <point x="583" y="442" type="line"/>
+      <point x="610" y="512" type="line"/>
+      <point x="502" y="512" type="line"/>
+      <point x="552" y="726" type="line"/>
+      <point x="472" y="701" type="line"/>
+      <point x="433" y="512" type="line"/>
+      <point x="270" y="512" type="line"/>
+      <point x="322" y="726" type="line"/>
+      <point x="243" y="701" type="line"/>
+      <point x="199" y="512" type="line"/>
+      <point x="85" y="512" type="line"/>
+      <point x="62" y="442" type="line"/>
+      <point x="184" y="442" type="line"/>
+      <point x="140" y="267" type="line"/>
+      <point x="51" y="267" type="line"/>
+      <point x="28" y="200" type="line"/>
+      <point x="126" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="211" y="269" type="line"/>
+      <point x="253" y="438" type="line"/>
+      <point x="420" y="438" type="line"/>
+      <point x="380" y="269" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
