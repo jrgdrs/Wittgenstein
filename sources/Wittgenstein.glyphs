@@ -1,5 +1,5 @@
 {
-.appVersion = "3528";
+.appVersion = "3529";
 .formatVersion = 3;
 DisplayStrings = (
 "The Netherlands has always played an important role in the development of printed letters. The setting and printing of loose lead letters was also invented in the Netherlands at the same time. It is possible that Laurens Janszoon Coster (1405–1468) was the inventor, or perhaps another printer who remains unknown. In the 16th century, Antwerp was a major center of the typographic world. The most talented type cutter of the Golden Age was Hendrik van den Keere (1540–1580), who lived in Ghent in modern Belgium. His designs are among the best of that era and continue to inspire a large number of type designers today."
@@ -13413,11 +13413,11 @@ shapes = (
 ref = W;
 },
 {
-pos = (998,0);
+pos = (1021,0);
 ref = i;
 }
 );
-width = 1306;
+width = 1329;
 },
 {
 anchors = (
@@ -13436,11 +13436,11 @@ shapes = (
 ref = W;
 },
 {
-pos = (1006,0);
+pos = (1054,0);
 ref = i;
 }
 );
-width = 1318;
+width = 1366;
 }
 );
 metricLeft = W;
@@ -26146,11 +26146,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (417,0);
+pos = (394,0);
 ref = i;
 }
 );
-width = 725;
+width = 702;
 },
 {
 anchors = (
@@ -26258,11 +26258,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (485,0);
+pos = (461,0);
 ref = i;
 }
 );
-width = 797;
+width = 773;
 }
 );
 metricLeft = f;
@@ -26350,7 +26350,6 @@ metricRight = l;
 glyphname = a.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 20:49:58 +0000";
 layers = (
 {
 anchors = (
@@ -26588,7 +26587,6 @@ width = 696;
 glyphname = aacute.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26622,7 +26620,6 @@ width = 696;
 glyphname = abreve.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26654,7 +26651,6 @@ width = 696;
 },
 {
 glyphname = abreveacute.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26686,7 +26682,6 @@ width = 696;
 },
 {
 glyphname = abrevedotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26726,7 +26721,6 @@ width = 696;
 },
 {
 glyphname = abrevegrave.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26758,7 +26752,6 @@ width = 696;
 },
 {
 glyphname = abrevehookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26790,7 +26783,6 @@ width = 696;
 },
 {
 glyphname = abrevetilde.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26824,7 +26816,6 @@ width = 696;
 glyphname = acircumflex.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26856,7 +26847,6 @@ width = 696;
 },
 {
 glyphname = acircumflexacute.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26888,7 +26878,6 @@ width = 696;
 },
 {
 glyphname = acircumflexdotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26928,7 +26917,6 @@ width = 696;
 },
 {
 glyphname = acircumflexgrave.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26960,7 +26948,6 @@ width = 696;
 },
 {
 glyphname = acircumflexhookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -26992,7 +26979,6 @@ width = 696;
 },
 {
 glyphname = acircumflextilde.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27026,7 +27012,6 @@ width = 696;
 glyphname = adieresis.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27058,7 +27043,6 @@ width = 696;
 },
 {
 glyphname = adotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27092,7 +27076,6 @@ width = 696;
 glyphname = agrave.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27124,7 +27107,6 @@ width = 696;
 },
 {
 glyphname = ahookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27158,7 +27140,6 @@ width = 696;
 glyphname = amacron.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27192,7 +27173,6 @@ width = 696;
 glyphname = aogonek.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27226,7 +27206,6 @@ width = 696;
 glyphname = aring.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27260,7 +27239,6 @@ width = 696;
 glyphname = atilde.sc;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -27294,7 +27272,7 @@ width = 696;
 glyphname = ae.sc;
 kernLeft = A;
 kernRight = E;
-lastChange = "2026-06-21 19:28:26 +0000";
+lastChange = "2026-06-22 20:28:54 +0000";
 layers = (
 {
 layerId = m01;
@@ -27536,7 +27514,7 @@ nodes = (
 );
 }
 );
-width = 877;
+width = 894;
 }
 );
 metricLeft = a.sc;
@@ -27546,7 +27524,6 @@ metricRight = e.sc;
 glyphname = b.sc;
 kernLeft = h.sc;
 kernRight = b.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 anchors = (
@@ -27822,7 +27799,6 @@ metricRight = o.sc;
 glyphname = c.sc;
 kernLeft = C;
 kernRight = C;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -28015,7 +27991,6 @@ metricRight = o.sc;
 glyphname = cacute.sc;
 kernLeft = C;
 kernRight = C;
-lastChange = "2026-06-21 19:20:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -28049,7 +28024,6 @@ width = 664;
 glyphname = ccaron.sc;
 kernLeft = C;
 kernRight = C;
-lastChange = "2026-06-21 19:20:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -28083,7 +28057,6 @@ width = 664;
 glyphname = ccedilla.sc;
 kernLeft = C;
 kernRight = C;
-lastChange = "2026-06-21 19:20:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -28117,7 +28090,6 @@ width = 664;
 glyphname = ccircumflex.sc;
 kernLeft = C;
 kernRight = C;
-lastChange = "2026-06-21 19:20:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -28151,7 +28123,6 @@ width = 664;
 glyphname = cdotaccent.sc;
 kernLeft = C;
 kernRight = C;
-lastChange = "2026-06-21 19:20:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -28185,7 +28156,6 @@ width = 664;
 glyphname = d.sc;
 kernLeft = D;
 kernRight = D;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -28378,7 +28348,6 @@ metricRight = o.sc;
 glyphname = dcaron.sc;
 kernLeft = D;
 kernRight = D;
-lastChange = "2026-06-21 19:20:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -28412,7 +28381,6 @@ width = 736;
 glyphname = dcroat.sc;
 kernLeft = D;
 kernRight = D;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -28438,7 +28406,6 @@ width = 728;
 glyphname = eth.sc;
 kernLeft = D;
 kernRight = D;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -28488,7 +28455,6 @@ metricRight = o.sc;
 glyphname = e.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -28758,7 +28724,6 @@ metricRight = h.sc;
 glyphname = eacute.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:20:54 +0000";
 layers = (
 {
 layerId = m01;
@@ -28792,7 +28757,6 @@ width = 619;
 glyphname = ecaron.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:20:54 +0000";
 layers = (
 {
 layerId = m01;
@@ -28826,7 +28790,6 @@ width = 619;
 glyphname = ecircumflex.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:20:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -28858,7 +28821,6 @@ width = 619;
 },
 {
 glyphname = ecircumflexacute.sc;
-lastChange = "2026-06-21 19:20:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -28890,7 +28852,6 @@ width = 619;
 },
 {
 glyphname = ecircumflexdotbelow.sc;
-lastChange = "2026-06-21 19:20:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -28930,7 +28891,6 @@ width = 619;
 },
 {
 glyphname = ecircumflexgrave.sc;
-lastChange = "2026-06-21 19:20:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -28962,7 +28922,6 @@ width = 619;
 },
 {
 glyphname = ecircumflexhookabove.sc;
-lastChange = "2026-06-21 19:20:57 +0000";
 layers = (
 {
 layerId = m01;
@@ -28994,7 +28953,6 @@ width = 619;
 },
 {
 glyphname = ecircumflextilde.sc;
-lastChange = "2026-06-21 19:20:57 +0000";
 layers = (
 {
 layerId = m01;
@@ -29028,7 +28986,6 @@ width = 619;
 glyphname = edieresis.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:20:58 +0000";
 layers = (
 {
 layerId = m01;
@@ -29062,7 +29019,6 @@ width = 619;
 glyphname = edotaccent.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:20:58 +0000";
 layers = (
 {
 layerId = m01;
@@ -29094,7 +29050,6 @@ width = 619;
 },
 {
 glyphname = edotbelow.sc;
-lastChange = "2026-06-21 19:20:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -29128,7 +29083,6 @@ width = 619;
 glyphname = egrave.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:20:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -29160,7 +29114,6 @@ width = 619;
 },
 {
 glyphname = ehookabove.sc;
-lastChange = "2026-06-21 19:21:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -29194,7 +29147,6 @@ width = 619;
 glyphname = emacron.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:21:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -29228,7 +29180,6 @@ width = 619;
 glyphname = eogonek.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:21:01 +0000";
 layers = (
 {
 layerId = m01;
@@ -29262,7 +29213,6 @@ width = 619;
 glyphname = etilde.sc;
 kernLeft = E;
 kernRight = E;
-lastChange = "2026-06-21 19:21:01 +0000";
 layers = (
 {
 layerId = m01;
@@ -29296,7 +29246,6 @@ width = 619;
 glyphname = schwa.sc;
 kernLeft = o.sc;
 kernRight = o.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -29398,7 +29347,6 @@ metricRight = o.sc;
 glyphname = f.sc;
 kernLeft = h.sc;
 kernRight = f.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 anchors = (
@@ -29625,7 +29573,6 @@ metricRight = e.sc;
 glyphname = g.sc;
 kernLeft = G;
 kernRight = G;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -29891,7 +29838,6 @@ metricRight = o.sc;
 glyphname = gbreve.sc;
 kernLeft = G;
 kernRight = G;
-lastChange = "2026-06-21 19:21:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -29925,7 +29871,6 @@ width = 791;
 glyphname = gcircumflex.sc;
 kernLeft = G;
 kernRight = G;
-lastChange = "2026-06-21 19:21:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -29959,7 +29904,6 @@ width = 791;
 glyphname = gcommaaccent.sc;
 kernLeft = G;
 kernRight = G;
-lastChange = "2026-06-21 19:21:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -29993,7 +29937,6 @@ width = 791;
 glyphname = gdotaccent.sc;
 kernLeft = G;
 kernRight = G;
-lastChange = "2026-06-21 19:21:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -30027,7 +29970,6 @@ width = 791;
 glyphname = gmacron.sc;
 kernLeft = G;
 kernRight = G;
-lastChange = "2026-06-21 19:21:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -30061,7 +30003,6 @@ width = 791;
 glyphname = h.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -30325,7 +30266,6 @@ width = 790;
 glyphname = hbar.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -30375,7 +30315,6 @@ metricRight = h.sc;
 glyphname = hcircumflex.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -30409,7 +30348,6 @@ width = 790;
 glyphname = i.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -30643,7 +30581,6 @@ width = 340;
 glyphname = iacute.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -30677,7 +30614,6 @@ width = 363;
 glyphname = icircumflex.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -30711,7 +30647,6 @@ width = 363;
 glyphname = idieresis.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -30776,7 +30711,6 @@ width = 340;
 },
 {
 glyphname = idotbelow.sc;
-lastChange = "2026-06-21 19:22:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -30810,7 +30744,6 @@ width = 363;
 glyphname = igrave.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -30842,7 +30775,6 @@ width = 363;
 },
 {
 glyphname = ihookabove.sc;
-lastChange = "2026-06-21 19:22:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -30876,7 +30808,6 @@ width = 363;
 glyphname = imacron.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -30910,7 +30841,6 @@ width = 363;
 glyphname = iogonek.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -30944,7 +30874,6 @@ width = 363;
 glyphname = itilde.sc;
 kernLeft = I;
 kernRight = I;
-lastChange = "2026-06-21 19:22:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -30978,7 +30907,6 @@ width = 363;
 glyphname = ij.sc;
 kernLeft = I;
 kernRight = J;
-lastChange = "2026-06-21 19:22:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -31012,7 +30940,6 @@ width = 737;
 glyphname = j.sc;
 kernLeft = J;
 kernRight = J;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -31152,7 +31079,6 @@ metricRight = h.sc;
 glyphname = jacute.sc;
 kernLeft = J;
 kernRight = J;
-lastChange = "2026-06-21 19:22:24 +0000";
 layers = (
 {
 layerId = m01;
@@ -31186,7 +31112,6 @@ width = 374;
 glyphname = jcircumflex.sc;
 kernLeft = J;
 kernRight = J;
-lastChange = "2026-06-21 19:22:24 +0000";
 layers = (
 {
 layerId = m01;
@@ -31220,7 +31145,6 @@ width = 374;
 glyphname = k.sc;
 kernLeft = K;
 kernRight = K;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -31438,7 +31362,6 @@ metricRight = v.sc;
 glyphname = kcommaaccent.sc;
 kernLeft = K;
 kernRight = K;
-lastChange = "2026-06-21 19:22:42 +0000";
 layers = (
 {
 layerId = m01;
@@ -31472,7 +31395,6 @@ width = 662;
 glyphname = l.sc;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -31640,7 +31562,6 @@ metricRight = h.sc;
 glyphname = lacute.sc;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-06-21 19:22:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -31674,7 +31595,6 @@ width = 604;
 glyphname = lcaron.sc;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-06-21 19:22:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -31708,7 +31628,6 @@ width = 604;
 glyphname = lcommaaccent.sc;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-06-21 19:22:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -31742,7 +31661,6 @@ width = 604;
 glyphname = lslash.sc;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -31792,7 +31710,6 @@ metricRight = h.sc;
 glyphname = m.sc;
 kernLeft = n.sc;
 kernRight = n.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 anchors = (
@@ -32059,7 +31976,6 @@ metricRight = h.sc;
 glyphname = n.sc;
 kernLeft = N;
 kernRight = N;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -32306,7 +32222,6 @@ metricRight = h.sc;
 glyphname = nacute.sc;
 kernLeft = N;
 kernRight = N;
-lastChange = "2026-06-21 19:23:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -32340,7 +32255,6 @@ width = 714;
 glyphname = ncaron.sc;
 kernLeft = N;
 kernRight = N;
-lastChange = "2026-06-21 19:23:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -32374,7 +32288,6 @@ width = 714;
 glyphname = ncommaaccent.sc;
 kernLeft = N;
 kernRight = N;
-lastChange = "2026-06-21 19:23:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -32408,7 +32321,6 @@ width = 714;
 glyphname = ntilde.sc;
 kernLeft = N;
 kernRight = N;
-lastChange = "2026-06-21 19:23:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -32442,7 +32354,6 @@ width = 714;
 glyphname = eng.sc;
 kernLeft = h.sc;
 kernRight = j.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -32677,7 +32588,6 @@ metricRight = o.sc;
 glyphname = o.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -32837,7 +32747,6 @@ width = 777;
 glyphname = oacute.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -32871,7 +32780,6 @@ width = 777;
 glyphname = ocircumflex.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -32903,7 +32811,6 @@ width = 777;
 },
 {
 glyphname = ocircumflexacute.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -32935,7 +32842,6 @@ width = 777;
 },
 {
 glyphname = ocircumflexdotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -32975,7 +32881,6 @@ width = 777;
 },
 {
 glyphname = ocircumflexgrave.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33007,7 +32912,6 @@ width = 777;
 },
 {
 glyphname = ocircumflexhookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33039,7 +32943,6 @@ width = 777;
 },
 {
 glyphname = ocircumflextilde.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33073,7 +32976,6 @@ width = 777;
 glyphname = odieresis.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33105,7 +33007,6 @@ width = 777;
 },
 {
 glyphname = odotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33139,7 +33040,6 @@ width = 777;
 glyphname = ograve.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 20:44:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -33171,7 +33071,6 @@ width = 777;
 },
 {
 glyphname = ohookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33203,7 +33102,6 @@ width = 777;
 },
 {
 glyphname = ohorn.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 anchors = (
@@ -33255,7 +33153,6 @@ width = 777;
 },
 {
 glyphname = ohornacute.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33287,7 +33184,6 @@ width = 777;
 },
 {
 glyphname = ohorndotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33319,7 +33215,6 @@ width = 777;
 },
 {
 glyphname = ohorngrave.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33351,7 +33246,6 @@ width = 777;
 },
 {
 glyphname = ohornhookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33383,7 +33277,6 @@ width = 777;
 },
 {
 glyphname = ohorntilde.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33417,7 +33310,6 @@ width = 777;
 glyphname = ohungarumlaut.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33451,7 +33343,6 @@ width = 777;
 glyphname = omacron.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33485,7 +33376,6 @@ width = 777;
 glyphname = oslash.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -33535,7 +33425,6 @@ metricRight = o.sc;
 glyphname = otilde.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -33569,7 +33458,6 @@ width = 777;
 glyphname = oe.sc;
 kernLeft = O;
 kernRight = E;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -33886,7 +33774,6 @@ metricRight = e.sc;
 glyphname = p.sc;
 kernLeft = h.sc;
 kernRight = p.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 anchors = (
@@ -34121,7 +34008,6 @@ metricRight = o.sc;
 glyphname = thorn.sc;
 kernLeft = h.sc;
 kernRight = thorn.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -34345,7 +34231,6 @@ metricRight = h.sc;
 glyphname = q.sc;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 background = {
@@ -34645,7 +34530,6 @@ metricRight = o.sc;
 glyphname = r.sc;
 kernLeft = R;
 kernRight = r.sc;
-lastChange = "2026-06-21 19:28:52 +0000";
 layers = (
 {
 anchors = (
@@ -34905,12 +34789,12 @@ nodes = (
 (351,0,l),
 (351,25,l),
 (249,56,l),
-(268,27,l),
-(268,273,l),
+(263,27,l),
+(263,273,l),
 (240,248,l),
 (302,248,l),
-(255,283,l),
-(453,0,l),
+(265,283,l),
+(463,0,l),
 (686,0,l),
 (686,22,l),
 (659,29,ls),
@@ -34938,7 +34822,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(268,563,l),
+(263,563,l),
 (253,533,l),
 (309,533,ls),
 (362,533,o),
@@ -34948,7 +34832,7 @@ nodes = (
 (364,292,o),
 (316,292,cs),
 (249,292,l),
-(268,273,l)
+(263,273,l)
 );
 }
 );
@@ -34962,7 +34846,6 @@ metricRight = v.sc;
 glyphname = racute.sc;
 kernLeft = R;
 kernRight = R;
-lastChange = "2026-06-21 19:24:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -34996,7 +34879,6 @@ width = 646;
 glyphname = rcaron.sc;
 kernLeft = R;
 kernRight = R;
-lastChange = "2026-06-21 19:24:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -35030,7 +34912,6 @@ width = 646;
 glyphname = rcommaaccent.sc;
 kernLeft = R;
 kernRight = R;
-lastChange = "2026-06-21 19:24:54 +0000";
 layers = (
 {
 layerId = m01;
@@ -35064,7 +34945,6 @@ width = 646;
 glyphname = s.sc;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -35289,7 +35169,6 @@ metricRight = o.sc;
 glyphname = sacute.sc;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-06-21 19:25:01 +0000";
 layers = (
 {
 layerId = m01;
@@ -35323,7 +35202,6 @@ width = 567;
 glyphname = scaron.sc;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-06-21 19:25:02 +0000";
 layers = (
 {
 layerId = m01;
@@ -35357,7 +35235,6 @@ width = 567;
 glyphname = scedilla.sc;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-06-21 19:25:02 +0000";
 layers = (
 {
 layerId = m01;
@@ -35391,7 +35268,6 @@ width = 567;
 glyphname = scircumflex.sc;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-06-21 19:25:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -35425,7 +35301,6 @@ width = 567;
 glyphname = scommaaccent.sc;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-06-21 20:45:02 +0000";
 layers = (
 {
 layerId = m01;
@@ -35459,7 +35334,6 @@ width = 567;
 glyphname = germandbls.sc;
 kernLeft = n.sc;
 kernRight = germandbls.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -35663,7 +35537,6 @@ metricRight = o.sc;
 glyphname = t.sc;
 kernLeft = T;
 kernRight = T;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -35909,7 +35782,6 @@ metricRight = h.sc;
 glyphname = tcaron.sc;
 kernLeft = T;
 kernRight = T;
-lastChange = "2026-06-21 19:25:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -35943,7 +35815,6 @@ width = 602;
 glyphname = tcedilla.sc;
 kernLeft = T;
 kernRight = T;
-lastChange = "2026-06-21 19:25:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -35977,7 +35848,6 @@ width = 602;
 glyphname = tcommaaccent.sc;
 kernLeft = T;
 kernRight = T;
-lastChange = "2026-06-21 19:25:22 +0000";
 layers = (
 {
 layerId = m01;
@@ -36011,7 +35881,6 @@ width = 602;
 glyphname = u.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -36259,7 +36128,6 @@ metricRight = h.sc;
 glyphname = uacute.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -36293,7 +36161,6 @@ width = 696;
 glyphname = ubreve.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -36327,7 +36194,6 @@ width = 696;
 glyphname = ucircumflex.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -36361,7 +36227,6 @@ width = 696;
 glyphname = udieresis.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -36393,7 +36258,6 @@ width = 696;
 },
 {
 glyphname = udotbelow.sc;
-lastChange = "2026-06-21 20:45:07 +0000";
 layers = (
 {
 layerId = m01;
@@ -36427,7 +36291,6 @@ width = 696;
 glyphname = ugrave.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -36459,7 +36322,6 @@ width = 696;
 },
 {
 glyphname = uhookabove.sc;
-lastChange = "2026-06-21 19:25:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -36491,7 +36353,6 @@ width = 696;
 },
 {
 glyphname = uhorn.sc;
-lastChange = "2026-06-21 19:25:32 +0000";
 layers = (
 {
 anchors = (
@@ -36543,7 +36404,6 @@ width = 696;
 },
 {
 glyphname = uhornacute.sc;
-lastChange = "2026-06-21 19:25:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -36575,7 +36435,6 @@ width = 696;
 },
 {
 glyphname = uhorndotbelow.sc;
-lastChange = "2026-06-21 19:25:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -36607,7 +36466,6 @@ width = 696;
 },
 {
 glyphname = uhorngrave.sc;
-lastChange = "2026-06-21 19:25:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -36639,7 +36497,6 @@ width = 696;
 },
 {
 glyphname = uhornhookabove.sc;
-lastChange = "2026-06-21 19:25:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -36671,7 +36528,6 @@ width = 696;
 },
 {
 glyphname = uhorntilde.sc;
-lastChange = "2026-06-21 19:25:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -36705,7 +36561,6 @@ width = 696;
 glyphname = uhungarumlaut.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -36739,7 +36594,6 @@ width = 696;
 glyphname = umacron.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -36773,7 +36627,6 @@ width = 696;
 glyphname = uogonek.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -36807,7 +36660,6 @@ width = 696;
 glyphname = uring.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 20:45:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -36841,7 +36693,6 @@ width = 696;
 glyphname = utilde.sc;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-06-21 19:25:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -36875,7 +36726,6 @@ width = 696;
 glyphname = v.sc;
 kernLeft = v.sc;
 kernRight = v.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 background = {
@@ -37096,8 +36946,8 @@ nodes = (
 (524,517,l),
 (523,521,l),
 (400,199,l),
-(403,199,l),
-(261,584,l),
+(393,199,l),
+(251,584,l),
 (-40,584,l),
 (-40,560,l),
 (55,529,l),
@@ -37114,7 +36964,6 @@ width = 653;
 glyphname = w.sc;
 kernLeft = W;
 kernRight = W;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -37449,8 +37298,8 @@ nodes = (
 (-40,584,l),
 (-40,559,l),
 (63,528,l),
-(18,569,l),
-(277,-13,l)
+(8,569,l),
+(267,-13,l)
 );
 }
 );
@@ -37464,7 +37313,6 @@ metricRight = v.sc;
 glyphname = wacute.sc;
 kernLeft = W;
 kernRight = W;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -37498,7 +37346,6 @@ width = 914;
 glyphname = wcircumflex.sc;
 kernLeft = W;
 kernRight = W;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -37532,7 +37379,6 @@ width = 914;
 glyphname = wdieresis.sc;
 kernLeft = W;
 kernRight = W;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -37566,7 +37412,6 @@ width = 914;
 glyphname = wgrave.sc;
 kernLeft = W;
 kernRight = W;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -37600,7 +37445,6 @@ width = 914;
 glyphname = x.sc;
 kernLeft = x.sc;
 kernRight = x.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 anchors = (
@@ -37820,7 +37664,6 @@ metricRight = h.sc;
 glyphname = y.sc;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -38040,7 +37883,6 @@ metricRight = v.sc;
 glyphname = yacute.sc;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38074,7 +37916,6 @@ width = 573;
 glyphname = ycircumflex.sc;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38108,7 +37949,6 @@ width = 573;
 glyphname = ydieresis.sc;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38140,7 +37980,6 @@ width = 573;
 },
 {
 glyphname = ydotbelow.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38174,7 +38013,6 @@ width = 573;
 glyphname = ygrave.sc;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38206,7 +38044,6 @@ width = 573;
 },
 {
 glyphname = yhookabove.sc;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38240,7 +38077,6 @@ width = 573;
 glyphname = ytilde.sc;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2026-06-21 19:16:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38274,7 +38110,6 @@ width = 573;
 glyphname = z.sc;
 kernLeft = Z;
 kernRight = Z;
-lastChange = "2026-06-21 19:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -38433,7 +38268,6 @@ metricRight = o.sc;
 glyphname = zacute.sc;
 kernLeft = Z;
 kernRight = Z;
-lastChange = "2026-06-21 19:26:20 +0000";
 layers = (
 {
 layerId = m01;
@@ -38467,7 +38301,6 @@ width = 659;
 glyphname = zcaron.sc;
 kernLeft = Z;
 kernRight = Z;
-lastChange = "2026-06-21 19:26:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38501,7 +38334,6 @@ width = 659;
 glyphname = zdotaccent.sc;
 kernLeft = Z;
 kernRight = Z;
-lastChange = "2026-06-21 19:26:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -38535,7 +38367,6 @@ width = 659;
 glyphname = saltillo.sc;
 kernLeft = saltillo.sc;
 kernRight = saltillo.sc;
-lastChange = "2026-06-21 19:29:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -38575,7 +38406,6 @@ metricRight = h.sc;
 glyphname = lcommaaccent.loclMAH.sc;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-06-21 19:26:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -38609,7 +38439,6 @@ width = 604;
 glyphname = ncommaaccent.loclMAH.sc;
 kernLeft = N;
 kernRight = N;
-lastChange = "2026-06-21 19:26:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -57917,11 +57746,11 @@ shapes = (
 ref = R;
 },
 {
-pos = (682,0);
+pos = (730,0);
 ref = s;
 }
 );
-width = 1169;
+width = 1217;
 }
 );
 unicode = 8360;
@@ -69806,7 +69635,11 @@ weightClass = 900;
 );
 kerningLTR = {
 m01 = {
+.notdef = {
+space = 69;
+};
 "@MMK_L_A" = {
+"@MMK_R_A" = 46;
 "@MMK_R_C" = -46;
 "@MMK_R_G" = -46;
 "@MMK_R_J" = -46;
@@ -69816,6 +69649,7 @@ m01 = {
 "@MMK_R_U" = -46;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -69;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -69;
@@ -69823,19 +69657,17 @@ m01 = {
 "@MMK_R_o" = -23;
 "@MMK_R_t" = -23;
 "@MMK_R_u" = -23;
-"@MMK_R_v.sc" = -69;
 "@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 V = -69;
 X = 23;
 asterisk = -92;
 backslash = -92;
+bracketright = -92;
 cacute = -69;
-cacute.sc = -69;
 ccaron = -46;
-ccaron.sc = -69;
 ccircumflex = -46;
-ccircumflex.sc = -69;
+comma = 23;
 eacute = -69;
 ecaron = -46;
 ecircumflex = -46;
@@ -69844,21 +69676,16 @@ egrave = -46;
 emacron = -46;
 eth = -46;
 f = 23;
-gbreve.sc = -69;
+guillemetleft = -46;
+guilsinglleft = -46;
 hyphen = -23;
 oacute = -69;
-oacute.sc = -69;
 ocircumflex = -46;
-ocircumflex.sc = -69;
 odieresis = -46;
-odieresis.sc = -69;
 ograve = -46;
-ograve.sc = -69;
 omacron = -46;
-omacron.sc = -69;
-oslash.sc = -23;
 otilde = -46;
-otilde.sc = -69;
+period = 23;
 q = -23;
 question = -69;
 quotedbl = -69;
@@ -69869,7 +69696,6 @@ quoteright = -92;
 quotesingle = -69;
 space = -92;
 tcaron = -46;
-tcaron.sc = -69;
 uacute = -46;
 ubreve = -46;
 ucircumflex = -46;
@@ -69879,7 +69705,7 @@ uring = -46;
 utilde = -46;
 v = -23;
 wcircumflex = -46;
-y.sc = -46;
+x = 23;
 yacute = -46;
 ycircumflex = -46;
 ydieresis = -46;
@@ -69888,60 +69714,51 @@ ydieresis = -46;
 "@MMK_R_A" = -23;
 "@MMK_R_C" = 23;
 "@MMK_R_D" = 23;
-"@MMK_R_E" = -23;
+"@MMK_R_E" = 23;
 "@MMK_R_G" = 23;
 "@MMK_R_O" = 23;
+"@MMK_R_S" = 23;
 "@MMK_R_T" = 23;
+"@MMK_R_U" = -23;
+"@MMK_R_W" = -23;
+"@MMK_R_Y" = -23;
 "@MMK_R_a" = 23;
 "@MMK_R_d" = -23;
 "@MMK_R_g" = 23;
 "@MMK_R_o" = 23;
+"@MMK_R_s" = 23;
+"@MMK_R_t" = 23;
+"@MMK_R_u" = 23;
 "@MMK_R_w" = 46;
 "@MMK_R_y" = 46;
 X = 23;
-a.sc = -46;
-aacute.sc = -46;
-acircumflex.sc = -46;
-adieresis.sc = -46;
-agrave.sc = -46;
-aring.sc = -46;
-atilde.sc = -46;
-c.sc = -23;
-cacute.sc = -23;
-ccaron.sc = -23;
-ccedilla.sc = -23;
-ccircumflex.sc = -23;
-dcaron.sc = -23;
-gbreve.sc = -23;
-o.sc = -23;
-oacute.sc = -23;
-ocircumflex.sc = -23;
-odieresis.sc = -23;
-oe.sc = -23;
-ograve.sc = -23;
-omacron.sc = -23;
-oslash.sc = -23;
-otilde.sc = -23;
-q.sc = -23;
+comma = 23;
+f = 23;
+period = 23;
 space = 23;
 v = 46;
+x = 23;
 };
 "@MMK_L_D" = {
 "@MMK_R_A" = -46;
+"@MMK_R_J" = -23;
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 "@MMK_R_Z" = -23;
-"@MMK_R_v.sc" = -46;
-"@MMK_R_x.sc" = -23;
 Aacute = -23;
 Acircumflex = -23;
 Atilde = -23;
 V = -23;
+backslash = -46;
+braceright = -23;
+bracketright = -46;
 comma = -23;
 parenright = -23;
 period = -23;
+quotedblright = 23;
 quotesinglbase = -23;
 slash = -46;
+space = -23;
 };
 "@MMK_L_E" = {
 "@MMK_R_A" = -23;
@@ -69949,7 +69766,10 @@ slash = -46;
 "@MMK_R_D" = 23;
 "@MMK_R_E" = 23;
 "@MMK_R_G" = 23;
+"@MMK_R_J" = 23;
 "@MMK_R_O" = 23;
+"@MMK_R_S" = 23;
+"@MMK_R_U" = 23;
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 "@MMK_R_a" = 23;
@@ -69957,37 +69777,48 @@ slash = -46;
 "@MMK_R_e" = 23;
 "@MMK_R_g" = 23;
 "@MMK_R_o" = 23;
+"@MMK_R_s" = 23;
 "@MMK_R_t" = 23;
 "@MMK_R_u" = 23;
-"@MMK_R_v.sc" = -23;
-cacute.sc = -23;
-ccaron.sc = -23;
-ccedilla.sc = -23;
-ccircumflex.sc = -23;
-gbreve.sc = -23;
+f = 23;
 hyphen = 23;
-oacute.sc = -23;
-ocircumflex.sc = -23;
-odieresis.sc = -23;
-ograve.sc = -23;
-otilde.sc = -23;
 q = 23;
 space = 23;
+x = 23;
 };
 "@MMK_L_G" = {
+"@MMK_R_A" = -46;
+"@MMK_R_C" = -23;
 "@MMK_R_J" = -23;
+"@MMK_R_O" = -23;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -23;
+"@MMK_R_w" = -23;
+"@MMK_R_y" = -23;
 V = -46;
+X = -23;
+quoteright = -23;
 space = -23;
+v = -23;
 };
 "@MMK_L_I" = {
+"@MMK_R_D" = 23;
+"@MMK_R_E" = 23;
 space = 23;
 };
 "@MMK_L_J" = {
 "@MMK_R_A" = -23;
+"@MMK_R_C" = -23;
+"@MMK_R_E" = 23;
+"@MMK_R_I" = 23;
+"@MMK_R_J" = 46;
+"@MMK_R_c" = -23;
 AE = -46;
+Jcircumflex = 115;
+q = -23;
+quotedblbase = 23;
+slash = -23;
 space = 23;
 };
 "@MMK_L_K" = {
@@ -69996,78 +69827,62 @@ space = 23;
 "@MMK_R_D" = 23;
 "@MMK_R_E" = 23;
 "@MMK_R_G" = -23;
+"@MMK_R_I" = 23;
+"@MMK_R_N" = 23;
 "@MMK_R_O" = -23;
-"@MMK_R_S" = -23;
-"@MMK_R_T" = -46;
+"@MMK_R_R" = 23;
+"@MMK_R_S" = 23;
+"@MMK_R_T" = 23;
 "@MMK_R_U" = 23;
 "@MMK_R_W" = 46;
 "@MMK_R_Y" = 46;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
 "@MMK_R_g" = 23;
-"@MMK_R_h.sc" = 23;
+"@MMK_R_i" = 23;
 "@MMK_R_o" = -23;
-"@MMK_R_v.sc" = -46;
+"@MMK_R_p" = -23;
+"@MMK_R_r" = 23;
 "@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 V = 46;
-a.sc = 23;
-aacute.sc = 23;
-abreve.sc = 23;
-acircumflex.sc = 23;
-adieresis.sc = 23;
-ae.sc = 23;
-agrave.sc = 23;
-amacron.sc = 23;
-aogonek.sc = 23;
-aring.sc = 23;
-atilde.sc = 23;
 f = 23;
 guillemetleft = -46;
 guilsinglleft = -46;
 hyphen = -23;
+m = 23;
+n = 23;
 q = -23;
-tcaron.sc = -23;
-u.sc = -23;
-uacute.sc = -23;
-ubreve.sc = -23;
-ucircumflex.sc = -23;
-udieresis.sc = -23;
-ugrave.sc = -23;
-umacron.sc = -23;
-uogonek.sc = -23;
-uring.sc = -23;
-utilde.sc = -23;
+space = 23;
 v = -23;
-w.sc = -46;
-wcircumflex.sc = -46;
-y.sc = -46;
-yacute.sc = -23;
-ycircumflex.sc = -23;
-ydieresis.sc = -23;
+x = 46;
 };
 "@MMK_L_L" = {
 "@MMK_R_A" = -23;
 "@MMK_R_C" = -23;
-"@MMK_R_D" = -23;
-"@MMK_R_E" = -23;
+"@MMK_R_D" = 23;
+"@MMK_R_E" = 23;
 "@MMK_R_G" = -23;
+"@MMK_R_J" = -23;
 "@MMK_R_O" = -23;
+"@MMK_R_S" = -23;
 "@MMK_R_T" = -23;
 "@MMK_R_U" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
 "@MMK_R_t" = -23;
 "@MMK_R_u" = 23;
-"@MMK_R_v.sc" = -46;
 "@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 V = -46;
 asterisk = -69;
 backslash = -69;
 f = -23;
+guillemetleft = -23;
+guilsinglleft = -23;
 hyphen = 23;
 question = -46;
 quotedbl = -46;
@@ -70077,7 +69892,6 @@ quoteleft = -46;
 quoteright = -69;
 quotesingle = -69;
 space = -46;
-tcaron.sc = -46;
 uacute = -23;
 ubreve = -23;
 ucircumflex = -23;
@@ -70085,9 +69899,10 @@ udieresis = -23;
 ugrave = -23;
 uring = -23;
 utilde = -23;
-y.sc = -23;
 };
 "@MMK_L_N" = {
+"@MMK_R_A" = -46;
+"@MMK_R_E" = 23;
 space = 23;
 };
 "@MMK_L_O" = {
@@ -70097,37 +69912,37 @@ space = 23;
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 "@MMK_R_Z" = 23;
-"@MMK_R_v.sc" = -46;
-"@MMK_R_x.sc" = -23;
+"@MMK_R_a" = 23;
 Aacute = -23;
 Acircumflex = -23;
 Atilde = -23;
 V = -23;
 Zacute = -23;
 Zcaron = -23;
+backslash = -46;
+braceright = -23;
+bracketright = -46;
 comma = -23;
-j.sc = -23;
 parenright = -23;
 period = -23;
 quotedblbase = 23;
+quotedblright = 23;
+quoteright = 23;
 quotesinglbase = -23;
 slash = -46;
 space = 23;
-t.sc = -23;
-w.sc = -46;
-wcircumflex.sc = -46;
 x = 23;
-z.sc = -23;
 };
 "@MMK_L_R" = {
-"@MMK_R_A" = 23;
+"@MMK_R_A" = 46;
 "@MMK_R_C" = -46;
 "@MMK_R_D" = 23;
 "@MMK_R_E" = 23;
 "@MMK_R_G" = -46;
 "@MMK_R_J" = -23;
 "@MMK_R_O" = -46;
-"@MMK_R_T" = -23;
+"@MMK_R_S" = -23;
+"@MMK_R_T" = -46;
 "@MMK_R_U" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -23;
@@ -70138,7 +69953,7 @@ z.sc = -23;
 "@MMK_R_g" = 23;
 "@MMK_R_o" = -23;
 "@MMK_R_u" = -23;
-"@MMK_R_v.sc" = -46;
+"@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 Cacute = -23;
 Ccaron = -23;
@@ -70151,52 +69966,42 @@ Odieresis = -23;
 Ograve = -23;
 Omacron = -23;
 Otilde = -23;
+Tcaron = -23;
 V = -46;
-c.sc = -23;
-cacute.sc = -23;
-ccaron.sc = -23;
-ccedilla.sc = -23;
-ccircumflex.sc = -23;
-g.sc = -23;
-gbreve.sc = -23;
+X = 46;
+asterisk = -23;
+backslash = -46;
+guillemetleft = -23;
 guilsinglleft = -23;
 hyphen = -23;
-o.sc = -23;
-oacute.sc = -23;
-ocircumflex.sc = -23;
-odieresis.sc = -23;
-oe.sc = -23;
-ograve.sc = -23;
-omacron.sc = -23;
-oslash.sc = -23;
-otilde.sc = -23;
-q.sc = -23;
+quoteright = -23;
 space = -23;
 v = -23;
+x = 46;
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -46;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
-"@MMK_R_v.sc" = -23;
 Aacute = -23;
 Abreve = -23;
 Acircumflex = -23;
 Atilde = -23;
 V = -23;
-w.sc = -46;
+space = -23;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -46;
 "@MMK_R_C" = -46;
-"@MMK_R_D" = -23;
+"@MMK_R_D" = 23;
 "@MMK_R_E" = -23;
-"@MMK_R_G" = -23;
+"@MMK_R_G" = -46;
 "@MMK_R_I" = 23;
 "@MMK_R_J" = 46;
-"@MMK_R_O" = -46;
+"@MMK_R_O" = -23;
 "@MMK_R_S" = 23;
+"@MMK_R_T" = 46;
 "@MMK_R_W" = 23;
 "@MMK_R_Y" = 23;
 "@MMK_R_Z" = -23;
@@ -70213,62 +70018,63 @@ w.sc = -46;
 "@MMK_R_r" = 23;
 "@MMK_R_t" = 23;
 "@MMK_R_u" = 46;
-"@MMK_R_v.sc" = 23;
 "@MMK_R_w" = 92;
 "@MMK_R_y" = 92;
 "@MMK_R_z" = -23;
 Aacute = -23;
 Acircumflex = -23;
 Atilde = -23;
+V = 23;
+X = 23;
 ampersand = -23;
-c.sc = -23;
-cacute.sc = -23;
-ccaron.sc = -23;
-ccedilla.sc = -23;
-ccircumflex.sc = -23;
+asterisk = 46;
 colon = -23;
 comma = -46;
 eng = 23;
 f = 23;
+four = -23;
+germandbls = 23;
 guillemetleft = -23;
 guillemetright = -23;
 guilsinglleft = -23;
 guilsinglright = -23;
 hyphen = 23;
-j.sc = -23;
 m = 23;
 n = 23;
-o.sc = -23;
-oacute.sc = -23;
-ocircumflex.sc = -23;
-odieresis.sc = -23;
-oe.sc = -23;
-ograve.sc = -23;
-omacron.sc = -23;
-oslash.sc = -23;
-otilde.sc = -23;
 period = -46;
 q = -23;
-q.sc = -23;
 quotedblbase = -23;
+quotedblleft = 46;
+quotedblright = 69;
+quoteleft = 46;
+quoteright = 46;
 quotesinglbase = -46;
-sacute.sc = -23;
-scedilla.sc = -23;
-scircumflex.sc = -23;
 semicolon = -23;
 slash = -46;
+space = -23;
 v = 92;
 x = 23;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -46;
+"@MMK_R_D" = 23;
+"@MMK_R_I" = 23;
+"@MMK_R_O" = -23;
+"@MMK_R_Z" = -23;
+"@MMK_R_a" = -23;
+"@MMK_R_d" = -23;
+"@MMK_R_e" = -23;
+"@MMK_R_i" = 23;
+"@MMK_R_o" = -23;
 Aacute = -23;
 Acircumflex = -23;
 Atilde = -23;
+X = 46;
 comma = -23;
 period = -23;
 quotesinglbase = -23;
 slash = -46;
+space = -23;
 };
 "@MMK_L_W" = {
 "@MMK_R_A" = -69;
@@ -70282,167 +70088,127 @@ slash = -46;
 "@MMK_R_O" = -23;
 "@MMK_R_R" = -46;
 "@MMK_R_S" = -23;
-"@MMK_R_T" = -69;
+"@MMK_R_T" = 23;
 "@MMK_R_U" = -69;
 "@MMK_R_W" = -69;
-"@MMK_R_Y" = -46;
-"@MMK_R_Z" = -69;
+"@MMK_R_Y" = 46;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -46;
 "@MMK_R_c" = -46;
 "@MMK_R_d" = -46;
 "@MMK_R_e" = -46;
 "@MMK_R_g" = -46;
-"@MMK_R_h.sc" = -46;
-"@MMK_R_i" = -46;
+"@MMK_R_i" = -23;
+"@MMK_R_j" = 23;
 "@MMK_R_n" = -46;
-"@MMK_R_n.sc" = -46;
 "@MMK_R_o" = -46;
 "@MMK_R_p" = -69;
 "@MMK_R_r" = -46;
 "@MMK_R_s" = -46;
 "@MMK_R_t" = -46;
 "@MMK_R_u" = -69;
-"@MMK_R_v.sc" = -69;
 "@MMK_R_w" = -69;
-"@MMK_R_x.sc" = -69;
 "@MMK_R_y" = -69;
 "@MMK_R_z" = -69;
 Jcircumflex = 69;
-a.sc = -92;
-aacute.sc = -92;
+X = 46;
 abreve = -23;
-abreve.sc = -92;
-acircumflex.sc = -92;
-adieresis.sc = -92;
-ae.sc = -92;
-agrave.sc = -92;
-amacron.sc = -92;
-aogonek.sc = -92;
-aring.sc = -92;
-atilde.sc = -92;
-c.sc = -69;
-cacute.sc = -46;
-ccaron.sc = -46;
-ccedilla.sc = -69;
-ccircumflex.sc = -46;
+ampersand = -69;
+asterisk = 23;
+bracketright = -23;
 colon = -69;
 comma = -115;
 eng = -46;
 f = -23;
-g.sc = -69;
+four = -46;
 gbreve = -23;
-gbreve.sc = -69;
-gcircumflex.sc = -69;
+germandbls = -23;
 guillemetleft = -46;
+guillemetright = -69;
 guilsinglleft = -69;
+guilsinglright = -46;
 hyphen = -23;
 idieresis = 23;
-idieresis.sc = 23;
-igrave = -23;
-igrave.sc = -46;
+idotless = -46;
 imacron = 46;
-imacron.sc = 23;
 itilde = 46;
 m = -46;
 n = -46;
 nacute = -23;
 ncaron = -23;
-o.sc = -69;
-oacute.sc = -46;
-ocircumflex.sc = -46;
-odieresis.sc = -46;
-oe.sc = -69;
-ograve.sc = -46;
-omacron.sc = -46;
-oslash.sc = -69;
-otilde.sc = -46;
 period = -115;
 q = -69;
-q.sc = -69;
 quotedblbase = -92;
+quotedblright = 46;
+quoteright = 46;
 quotesinglbase = -115;
-s.sc = -46;
-sacute.sc = -46;
 scaron = -23;
-scaron.sc = -46;
-scedilla.sc = -46;
 scircumflex = -23;
-scircumflex.sc = -46;
 semicolon = -69;
 slash = -69;
+space = -69;
 tcaron = -23;
-tcaron.sc = -46;
 uacute = -46;
-uacute.sc = -46;
 ubreve = -46;
-ubreve.sc = -46;
 ucircumflex = -46;
-ucircumflex.sc = -46;
 udieresis = -46;
-udieresis.sc = -46;
 ugrave = -46;
-ugrave.sc = -46;
 umacron = -46;
-umacron.sc = -46;
 uring = -46;
-uring.sc = -46;
 utilde = -46;
-utilde.sc = -46;
 v = -69;
 wcircumflex = -46;
 x = -69;
-y.sc = -69;
 yacute = -46;
-yacute.sc = -69;
 ycircumflex = -46;
-ycircumflex.sc = -69;
 ydieresis = -46;
-ydieresis.sc = -69;
 zacute = -46;
 zcaron = -23;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -69;
 "@MMK_R_C" = -23;
-"@MMK_R_D" = -46;
-"@MMK_R_E" = -46;
+"@MMK_R_D" = -23;
+"@MMK_R_E" = -23;
 "@MMK_R_G" = -23;
 "@MMK_R_I" = 23;
 "@MMK_R_J" = 23;
-"@MMK_R_N" = -46;
+"@MMK_R_K" = -23;
+"@MMK_R_L" = -23;
+"@MMK_R_N" = -23;
 "@MMK_R_O" = -23;
-"@MMK_R_R" = -46;
+"@MMK_R_R" = -23;
 "@MMK_R_S" = -23;
-"@MMK_R_T" = -69;
+"@MMK_R_T" = 23;
 "@MMK_R_U" = -46;
-"@MMK_R_W" = -92;
-"@MMK_R_Y" = -69;
-"@MMK_R_Z" = -69;
+"@MMK_R_W" = 46;
+"@MMK_R_Y" = 46;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -46;
 "@MMK_R_c" = -46;
 "@MMK_R_d" = -46;
 "@MMK_R_e" = -46;
 "@MMK_R_g" = -46;
-"@MMK_R_h.sc" = -46;
 "@MMK_R_i" = -23;
+"@MMK_R_k" = 46;
+"@MMK_R_l" = 46;
 "@MMK_R_n" = -23;
-"@MMK_R_n.sc" = -46;
 "@MMK_R_o" = -46;
 "@MMK_R_p" = -46;
 "@MMK_R_r" = -46;
 "@MMK_R_s" = -23;
 "@MMK_R_t" = -23;
 "@MMK_R_u" = -46;
-"@MMK_R_v.sc" = -69;
 "@MMK_R_w" = -69;
-"@MMK_R_x.sc" = -46;
 "@MMK_R_y" = -69;
 "@MMK_R_z" = -46;
 Aacute = -46;
 Acircumflex = -46;
 Atilde = -46;
 Jcircumflex = 69;
-a.sc = -92;
+M = 46;
+V = 46;
+X = 46;
 aacute = -23;
 abreve = -23;
 acircumflex = -23;
@@ -70450,77 +70216,54 @@ adieresis = -23;
 agrave = -23;
 amacron = -23;
 ampersand = -46;
-aogonek.sc = -92;
 aring = -23;
+asterisk = 23;
 atilde = -23;
-c.sc = -46;
-cacute.sc = -46;
+b = 46;
+bracketright = -23;
 ccaron = -23;
-ccaron.sc = -46;
-ccedilla.sc = -46;
 ccircumflex = -23;
-ccircumflex.sc = -46;
 colon = -46;
 comma = -69;
-dcaron.sc = -23;
-eacute.sc = -23;
 ecaron = -23;
-ecaron.sc = -23;
 ecircumflex = -23;
-ecircumflex.sc = -23;
 edieresis = -23;
-edieresis.sc = -23;
-egrave.sc = -23;
 emacron = -23;
-emacron.sc = -23;
 eng = -46;
 eth = -23;
-eth.sc = -23;
 f = -23;
-g.sc = -46;
+four = -46;
 gbreve = -23;
-gbreve.sc = -46;
 gcircumflex = -23;
-gcircumflex.sc = -46;
+gcommaaccent = -23;
 germandbls = -23;
 guillemetleft = -46;
 guillemetright = -46;
 guilsinglleft = -46;
 guilsinglright = -46;
 hyphen = -23;
-i.sc = -46;
-iacute.sc = -23;
-icircumflex.sc = 46;
 idieresis = 23;
 idotless = -46;
-igrave.sc = -23;
 imacron = 46;
-j.sc = -69;
+itilde = 46;
 m = -46;
 n = -46;
-ntilde.sc = -23;
-o.sc = -46;
-oacute.sc = -46;
-ocircumflex.sc = -46;
 odieresis = -23;
-odieresis.sc = -46;
-oe.sc = -46;
-ograve.sc = -46;
-omacron.sc = -46;
-oslash.sc = -46;
 otilde = -23;
-otilde.sc = -46;
+parenright = -23;
 period = -69;
 q = -46;
-q.sc = -46;
 quotedblbase = -46;
+quotedblleft = 46;
+quotedblright = 46;
+quoteleft = 23;
+quoteright = 46;
 quotesinglbase = -69;
 racute = -23;
-racute.sc = -23;
-rcaron.sc = -23;
 semicolon = -46;
+six = -23;
 slash = -69;
-tcaron.sc = -46;
+space = -46;
 uacute = -23;
 ubreve = -23;
 ucircumflex = -23;
@@ -70530,100 +70273,43 @@ uring = -23;
 utilde = -23;
 v = -69;
 wcircumflex = -46;
-wcircumflex.sc = -46;
 x = -46;
 yacute = -46;
-yacute.sc = -46;
 ycircumflex = -46;
-ycircumflex.sc = -46;
 ydieresis = -46;
-ydieresis.sc = -46;
 zacute = -23;
 zcaron = -23;
+zero = -23;
 };
 "@MMK_L_Z" = {
 "@MMK_R_A" = -46;
 "@MMK_R_C" = -23;
+"@MMK_R_D" = 23;
+"@MMK_R_E" = 23;
 "@MMK_R_G" = -23;
+"@MMK_R_I" = 23;
 "@MMK_R_O" = 23;
-"@MMK_R_T" = -23;
-"@MMK_R_U" = -23;
-"@MMK_R_W" = -46;
+"@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 "@MMK_R_d" = -23;
+"@MMK_R_i" = 23;
 "@MMK_R_o" = -23;
-"@MMK_R_v.sc" = -46;
 Oacute = -23;
 Ocircumflex = -23;
 Odieresis = -23;
 Ograve = -23;
 Otilde = -23;
-a.sc = -23;
-aacute.sc = -23;
-abreve.sc = -23;
-acircumflex.sc = -23;
-adieresis.sc = -23;
-ae.sc = -23;
-agrave.sc = -23;
-aring.sc = -23;
-atilde.sc = -23;
-o.sc = -23;
-oacute.sc = -23;
-ocircumflex.sc = -23;
-odieresis.sc = -23;
-oe.sc = -23;
-ograve.sc = -23;
-omacron.sc = -23;
-oslash.sc = -23;
-otilde.sc = -23;
-q.sc = -23;
+guillemetleft = -23;
+guilsinglleft = -23;
+space = -23;
 v = -23;
-wcircumflex.sc = -23;
 };
 "@MMK_L_a" = {
+"@MMK_R_T" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
 "@MMK_R_t" = 23;
 V = -46;
-asterisk = -23;
-backslash = -46;
-quotedbl = -23;
-quotedblleft = 23;
-quotedblright = 23;
-quoteleft = 23;
-quoteright = -23;
-quotesingle = -23;
-};
-"@MMK_L_b.sc" = {
-"@MMK_R_T" = -23;
-"@MMK_R_W" = -46;
-"@MMK_R_Y" = -23;
-"@MMK_R_Z" = -23;
-"@MMK_R_v.sc" = -46;
-};
-"@MMK_L_c" = {
-"@MMK_R_T" = -23;
-"@MMK_R_W" = -69;
-"@MMK_R_Y" = -46;
-"@MMK_R_c" = -23;
-"@MMK_R_d" = -23;
-"@MMK_R_e" = -23;
-"@MMK_R_o" = -23;
-V = -69;
-q = -23;
-};
-"@MMK_L_d" = {
-v = 23;
-x = 23;
-};
-"@MMK_L_e" = {
-"@MMK_R_W" = -46;
-"@MMK_R_Y" = -46;
-"@MMK_R_t" = 23;
-"@MMK_R_w" = 23;
-"@MMK_R_y" = 23;
-V = -46;
-X = -23;
 asterisk = -23;
 backslash = -46;
 question = -23;
@@ -70633,43 +70319,120 @@ quotedblright = 23;
 quoteleft = 23;
 quoteright = -23;
 quotesingle = -23;
+space = 23;
+};
+"@MMK_L_c" = {
+"@MMK_R_T" = -23;
+"@MMK_R_W" = -69;
+"@MMK_R_Y" = -46;
+"@MMK_R_a" = -23;
+"@MMK_R_c" = -23;
+"@MMK_R_d" = -23;
+"@MMK_R_e" = -23;
+"@MMK_R_o" = -23;
+"@MMK_R_w" = 23;
+"@MMK_R_y" = 23;
+V = -69;
+backslash = -46;
+bracketright = -46;
+parenright = -46;
+q = -23;
+quotedblleft = 23;
+quotedblright = 23;
+quoteleft = 23;
+v = 23;
+};
+"@MMK_L_circumflexcomb" = {
+space = -138;
+};
+"@MMK_L_d" = {
+"@MMK_R_i" = 23;
+"@MMK_R_j" = 23;
+"@MMK_R_k" = 23;
+"@MMK_R_l" = 23;
+"@MMK_R_w" = 23;
+"@MMK_R_y" = 23;
+"@MMK_R_z" = 23;
+asterisk = -23;
+bracketright = -23;
+parenright = -23;
+quotedblbase = 23;
+quotedblright = 23;
+space = 23;
 v = 23;
 x = 23;
 };
-"@MMK_L_f.sc" = {
-"@MMK_R_A" = -46;
-"@MMK_R_C" = -23;
-"@MMK_R_D" = -23;
-"@MMK_R_E" = -23;
-"@MMK_R_G" = -23;
-"@MMK_R_I" = -23;
-"@MMK_R_O" = -23;
-"@MMK_R_S" = -23;
+"@MMK_L_e" = {
+"@MMK_R_T" = -23;
+"@MMK_R_W" = -46;
+"@MMK_R_Y" = -46;
+"@MMK_R_a" = 23;
+"@MMK_R_t" = 23;
+"@MMK_R_w" = 23;
+"@MMK_R_y" = 23;
+"@MMK_R_z" = 23;
+V = -46;
+X = -23;
+asterisk = -23;
+backslash = -46;
+parenright = -23;
+question = -23;
+quotedbl = -23;
+quotedblleft = 23;
+quotedblright = 23;
+quoteleft = 23;
+quoteright = -23;
+quotesingle = -23;
+v = 23;
+x = 23;
+zacute = -23;
 };
 "@MMK_L_g" = {
 "@MMK_R_T" = 23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+"@MMK_R_a" = 23;
 "@MMK_R_j" = 46;
+"@MMK_R_y" = 69;
 V = -46;
-};
-"@MMK_L_germandbls.sc" = {
-"@MMK_R_T" = -23;
-"@MMK_R_W" = -46;
-"@MMK_R_Y" = -23;
-"@MMK_R_v.sc" = -46;
+backslash = -46;
+question = -23;
 };
 "@MMK_L_h" = {
 "@MMK_R_T" = -23;
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+"@MMK_R_w" = -23;
+"@MMK_R_y" = -23;
 V = -46;
+Wcircumflex = -69;
+asterisk = -46;
+backslash = -46;
+quotedbl = -23;
 quotedblleft = -23;
 quotedblright = -23;
 quoteleft = -23;
 quoteright = -46;
+quotesingle = -23;
+};
+"@MMK_L_hookabovecomb" = {
+space = -92;
+};
+"@MMK_L_horncomb" = {
+space = -23;
+};
+"@MMK_L_i" = {
+asterisk = 23;
+bracketright = -23;
+parenright = -23;
+};
+"@MMK_L_j" = {
+space = 23;
 };
 "@MMK_L_k" = {
+"@MMK_R_O" = 23;
 "@MMK_R_T" = 23;
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -23;
 "@MMK_R_a" = 23;
 "@MMK_R_c" = 23;
@@ -70678,42 +70441,76 @@ quoteright = -46;
 "@MMK_R_g" = 46;
 "@MMK_R_o" = 23;
 "@MMK_R_s" = 23;
+"@MMK_R_t" = 23;
+"@MMK_R_u" = 46;
+"@MMK_R_w" = 69;
 "@MMK_R_y" = 69;
+Oacute = -23;
+Ocircumflex = -23;
+Odieresis = -23;
+Ograve = -23;
+Otilde = -23;
 V = -46;
+backslash = -23;
+comma = 46;
 eth = -23;
 q = 23;
+space = 23;
 v = 69;
+x = 69;
+};
+"@MMK_L_l" = {
+"@MMK_R_K" = 46;
+"@MMK_R_L" = 46;
+"@MMK_R_T" = 23;
+"@MMK_R_W" = 46;
+"@MMK_R_Y" = -23;
+"@MMK_R_k" = 92;
+"@MMK_R_l" = 92;
+"@MMK_R_t" = 23;
+V = -46;
+asterisk = 46;
+b = 92;
+quotedblright = 23;
+space = 23;
 };
 "@MMK_L_n" = {
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
-"@MMK_R_v.sc" = -46;
+"@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 V = -46;
 asterisk = -23;
 backslash = -46;
+question = -23;
 quotedbl = -23;
 quotedblleft = -23;
 quoteleft = -23;
 quoteright = -23;
 quotesingle = -23;
-y.sc = -23;
+space = -23;
 };
 "@MMK_L_o" = {
 "@MMK_R_A" = -23;
+"@MMK_R_J" = -23;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+"@MMK_R_Z" = -23;
 "@MMK_R_t" = 23;
 "@MMK_R_z" = 23;
 V = -46;
 X = -23;
 asterisk = -23;
 backslash = -46;
+braceright = -23;
+bracketright = -46;
 comma = -23;
 f = 23;
+parenright = -23;
 question = -23;
 quotedbl = -23;
+quotedblbase = 23;
 quotedblleft = 23;
 quotedblright = 23;
 quoteleft = 23;
@@ -70724,9 +70521,11 @@ zacute = -23;
 zcaron = -23;
 };
 "@MMK_L_p" = {
+"@MMK_R_A" = -23;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+"@MMK_R_Z" = -23;
 "@MMK_R_w" = 23;
 "@MMK_R_y" = 23;
 "@MMK_R_z" = 23;
@@ -70734,9 +70533,14 @@ V = -46;
 X = -23;
 asterisk = -46;
 backslash = -69;
+braceright = -23;
+bracketright = -46;
 comma = -23;
+f = 23;
+parenright = -46;
 question = -23;
 quotedbl = -23;
+quotedblbase = 23;
 quotedblleft = 23;
 quotedblright = 23;
 quoteleft = 23;
@@ -70747,18 +70551,14 @@ x = 23;
 zacute = -23;
 zcaron = -23;
 };
-"@MMK_L_p.sc" = {
-"@MMK_R_T" = -46;
-"@MMK_R_W" = -46;
-"@MMK_R_Y" = -46;
-"@MMK_R_Z" = -46;
-"@MMK_R_v.sc" = -46;
-"@MMK_R_x.sc" = -23;
+"@MMK_L_quotedblleft" = {
+space = -69;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -23;
 "@MMK_R_J" = -23;
 "@MMK_R_T" = 23;
+"@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
@@ -70770,61 +70570,74 @@ zcaron = -23;
 "@MMK_R_y" = 69;
 V = -69;
 X = -23;
+ampersand = -23;
+asterisk = 23;
+braceright = -23;
+bracketright = -46;
 comma = -23;
+f = 23;
 hyphen = 23;
+parenright = -46;
 period = -23;
+quotedblleft = 46;
 quotedblright = 46;
+quoteleft = 46;
 quoteright = 23;
 quotesinglbase = -23;
 slash = -23;
 v = 69;
-};
-"@MMK_L_r.sc" = {
-"@MMK_R_C" = -23;
-"@MMK_R_G" = -23;
-"@MMK_R_O" = -23;
-"@MMK_R_T" = -23;
-"@MMK_R_W" = -46;
-"@MMK_R_Y" = -23;
-"@MMK_R_v.sc" = -46;
+x = 23;
 };
 "@MMK_L_s" = {
+"@MMK_R_T" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+"@MMK_R_t" = 23;
 "@MMK_R_w" = 23;
 "@MMK_R_y" = 23;
 V = -46;
 X = -23;
 backslash = -46;
+question = -23;
+quotedblleft = 23;
 quotedblright = 23;
+quoteleft = 23;
+space = 23;
 v = 23;
 x = 23;
 };
 "@MMK_L_t" = {
-"@MMK_R_Y" = -23;
-"@MMK_R_a" = 23;
-"@MMK_R_g" = 23;
-"@MMK_R_o" = 23;
-quoteright = 23;
-};
-"@MMK_L_thorn.sc" = {
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -23;
-"@MMK_R_Z" = -23;
-"@MMK_R_v.sc" = -46;
+"@MMK_R_a" = 23;
+"@MMK_R_e" = 23;
+"@MMK_R_g" = 23;
+"@MMK_R_o" = 23;
+"@MMK_R_t" = 23;
+"@MMK_R_w" = 46;
+"@MMK_R_y" = 46;
+V = -46;
+backslash = -46;
+bracketright = -46;
+comma = 23;
+period = 23;
+question = -23;
+quotedblbase = 46;
+quotedblleft = 23;
+quotedblright = 46;
+quoteleft = 23;
+quoteright = 23;
+quotesinglbase = 23;
+v = 46;
 };
 "@MMK_L_u" = {
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
 V = -69;
-};
-"@MMK_L_v.sc" = {
-"@MMK_R_A" = -69;
-"@MMK_R_C" = -46;
-"@MMK_R_G" = -46;
-"@MMK_R_O" = -46;
-"@MMK_R_S" = -23;
+backslash = -46;
+question = -23;
+space = 23;
 };
 "@MMK_L_w" = {
 "@MMK_R_A" = -23;
@@ -70832,25 +70645,29 @@ V = -69;
 "@MMK_R_T" = 69;
 "@MMK_R_W" = -92;
 "@MMK_R_Y" = -69;
+"@MMK_R_Z" = 23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
 "@MMK_R_o" = -23;
 "@MMK_R_s" = 23;
+"@MMK_R_t" = 69;
 A = -69;
 V = -69;
 X = -23;
+asterisk = 23;
 comma = -46;
+hyphen = 23;
+parenright = -46;
 period = -46;
 quotedblbase = -23;
+quotedblright = 69;
+quoteleft = 69;
 quotesinglbase = -46;
 slash = -46;
-};
-"@MMK_L_x.sc" = {
-"@MMK_R_A" = -23;
-"@MMK_R_C" = -23;
-"@MMK_R_G" = -23;
-"@MMK_R_O" = -23;
+space = -23;
+v = 115;
+x = 69;
 };
 "@MMK_L_y" = {
 "@MMK_R_A" = -46;
@@ -70858,6 +70675,7 @@ slash = -46;
 "@MMK_R_T" = 69;
 "@MMK_R_W" = -92;
 "@MMK_R_Y" = -69;
+"@MMK_R_Z" = 23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
@@ -70865,19 +70683,27 @@ slash = -46;
 "@MMK_R_s" = 23;
 V = -69;
 X = -46;
+asterisk = 23;
+backslash = -69;
 comma = -69;
+guillemetleft = -23;
+guilsinglleft = -23;
 hyphen = 23;
 period = -69;
 q = -23;
 quotedblbase = -46;
+quotedblright = 69;
+quoteleft = 69;
+quoteright = 23;
 quotesinglbase = -69;
 slash = -46;
+space = -46;
 };
 "@MMK_L_z" = {
-"@MMK_R_C" = -23;
+"@MMK_R_A" = -23;
 "@MMK_R_D" = 23;
 "@MMK_R_E" = 23;
-"@MMK_R_O" = -23;
+"@MMK_R_T" = 23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
 "@MMK_R_a" = 23;
@@ -70886,31 +70712,31 @@ slash = -46;
 "@MMK_R_e" = 23;
 "@MMK_R_g" = 23;
 "@MMK_R_o" = 23;
+"@MMK_R_y" = 46;
 V = -69;
+backslash = -46;
 hyphen = 23;
 q = 23;
+space = 23;
+v = 46;
 };
 Aacute = {
 "@MMK_R_C" = -69;
 "@MMK_R_G" = -69;
 "@MMK_R_O" = -69;
-"@MMK_R_U" = -69;
-"@MMK_R_W" = -92;
+"@MMK_R_T" = -69;
 "@MMK_R_o" = -69;
 };
 Abreve = {
+"@MMK_R_C" = -69;
+"@MMK_R_G" = -69;
+"@MMK_R_O" = -69;
 "@MMK_R_U" = -23;
 "@MMK_R_c" = -46;
 "@MMK_R_e" = -46;
 "@MMK_R_o" = -46;
+backslash = -69;
 eth = -69;
-uacute.sc = -69;
-ubreve.sc = -69;
-ucircumflex.sc = -69;
-udieresis.sc = -69;
-ugrave.sc = -69;
-uring.sc = -69;
-utilde.sc = -69;
 };
 Abreveacute = {
 space = -69;
@@ -70939,7 +70765,6 @@ Acircumflex = {
 "@MMK_R_o" = -46;
 asterisk = -69;
 backslash = -69;
-omacron.sc = -46;
 quotedbl = -46;
 quotedblright = -46;
 quoteright = -69;
@@ -70962,7 +70787,9 @@ Acircumflextilde = {
 space = -69;
 };
 Adieresis = {
-"@MMK_R_U" = -69;
+"@MMK_R_C" = -69;
+"@MMK_R_G" = -69;
+"@MMK_R_O" = -69;
 "@MMK_R_o" = -69;
 backslash = -69;
 };
@@ -70979,31 +70806,30 @@ Agrave = {
 "@MMK_R_o" = -46;
 eth = -69;
 quoteright = -69;
-uacute.sc = -69;
-ubreve.sc = -69;
-ucircumflex.sc = -69;
-udieresis.sc = -69;
-ugrave.sc = -69;
-uring.sc = -69;
-utilde.sc = -69;
 };
 Ahookabove = {
 space = -69;
 };
 Amacron = {
-"@MMK_R_U" = -69;
+"@MMK_R_C" = -69;
+"@MMK_R_G" = -69;
+"@MMK_R_O" = -69;
 "@MMK_R_o" = -69;
+backslash = -69;
+};
+Aogonek = {
+"@MMK_R_J" = -23;
 };
 Aring = {
 "@MMK_R_C" = -69;
 "@MMK_R_G" = -69;
 "@MMK_R_O" = -69;
-"@MMK_R_U" = -69;
-"@MMK_R_W" = -92;
+"@MMK_R_T" = -69;
 "@MMK_R_o" = -69;
 };
 Atilde = {
 "@MMK_R_C" = -23;
+"@MMK_R_G" = -69;
 "@MMK_R_O" = -23;
 "@MMK_R_T" = -23;
 "@MMK_R_U" = -23;
@@ -71021,7 +70847,6 @@ B = {
 "@MMK_R_A" = -46;
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
-"@MMK_R_v.sc" = -23;
 Aacute = -23;
 Abreve = -23;
 Acircumflex = -23;
@@ -71030,12 +70855,22 @@ Atilde = -23;
 V = -23;
 x = 23;
 };
+Cacute = {
+"@MMK_R_A" = -46;
+};
+Ccaron = {
+"@MMK_R_A" = -46;
+};
+Ccircumflex = {
+"@MMK_R_A" = -46;
+};
 Dcaron = {
 "@MMK_R_A" = -69;
 "@MMK_R_W" = -46;
 Aacute = -46;
 Acircumflex = -46;
 Atilde = -46;
+slash = -69;
 };
 Ecircumflexacute = {
 space = 23;
@@ -71068,16 +70903,16 @@ F = {
 "@MMK_R_I" = 23;
 "@MMK_R_J" = 69;
 "@MMK_R_O" = -23;
-"@MMK_R_S" = -23;
 "@MMK_R_W" = 23;
-"@MMK_R_Y" = 23;
-"@MMK_R_Z" = -46;
+"@MMK_R_Y" = 46;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
 "@MMK_R_g" = -23;
 "@MMK_R_i" = -23;
+"@MMK_R_j" = 46;
 "@MMK_R_n" = -23;
 "@MMK_R_o" = -23;
 "@MMK_R_p" = -23;
@@ -71085,34 +70920,30 @@ F = {
 "@MMK_R_s" = -23;
 "@MMK_R_t" = -23;
 "@MMK_R_u" = -23;
-"@MMK_R_v.sc" = 23;
 "@MMK_R_w" = -46;
 "@MMK_R_y" = -46;
 "@MMK_R_z" = -23;
-a.sc = -69;
-aacute.sc = -69;
-abreve.sc = -69;
-acircumflex.sc = -69;
-adieresis.sc = -69;
-ae.sc = -69;
-agrave.sc = -69;
-amacron.sc = -69;
-aogonek.sc = -69;
-aring.sc = -69;
-atilde.sc = -69;
+V = 46;
+X = 46;
+ampersand = -46;
+colon = -46;
 comma = -69;
 eng = -23;
+guillemetleft = -23;
+guillemetright = -23;
 guilsinglleft = -23;
+guilsinglright = -23;
 icircumflex = 23;
 idieresis = 23;
 imacron = 23;
-j.sc = -23;
+itilde = 23;
 m = -23;
 n = -23;
 period = -69;
 q = -23;
 quotedblbase = -46;
 quotesinglbase = -69;
+semicolon = -46;
 slash = -46;
 space = -23;
 v = -46;
@@ -71128,24 +70959,40 @@ Gbreve = {
 Gcircumflex = {
 "@MMK_R_Y" = -46;
 };
+Jcircumflex = {
+"@MMK_R_A" = -46;
+};
 Lacute = {
 "@MMK_R_T" = -46;
 "@MMK_R_W" = -69;
 V = -69;
+backslash = -46;
 };
 Lcaron = {
 asterisk = -23;
+backslash = -46;
+question = -23;
 quotedbl = -23;
 quotedblleft = -23;
 quoteleft = -23;
 quoteright = -23;
 quotesingle = -23;
 };
+Lcommaaccent = {
+"@MMK_R_T" = -46;
+"@MMK_R_W" = -69;
+V = -69;
+};
 Lslash = {
 "@MMK_R_W" = -69;
 V = -69;
 };
 M = {
+"@MMK_R_D" = 23;
+"@MMK_R_E" = 23;
+"@MMK_R_T" = 23;
+"@MMK_R_Y" = 46;
+V = 46;
 space = 23;
 };
 Nacute = {
@@ -71185,6 +71032,8 @@ slash = -69;
 };
 Oslash = {
 "@MMK_R_A" = -23;
+bracketright = -23;
+quotedblright = 46;
 };
 Otilde = {
 slash = -69;
@@ -71192,12 +71041,12 @@ slash = -69;
 P = {
 "@MMK_R_A" = -46;
 "@MMK_R_C" = -23;
-"@MMK_R_D" = -23;
-"@MMK_R_E" = -23;
 "@MMK_R_G" = -23;
 "@MMK_R_J" = -23;
 "@MMK_R_O" = -23;
 "@MMK_R_S" = -23;
+"@MMK_R_T" = -23;
+"@MMK_R_U" = -23;
 "@MMK_R_Z" = -23;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
@@ -71206,33 +71055,16 @@ P = {
 "@MMK_R_g" = -23;
 "@MMK_R_o" = -23;
 "@MMK_R_s" = -23;
-"@MMK_R_x.sc" = -23;
+"@MMK_R_w" = 46;
 "@MMK_R_y" = 46;
+"@MMK_R_z" = -23;
 AE = -69;
 X = -23;
-a.sc = -69;
-aacute.sc = -69;
-abreve.sc = -69;
-acircumflex.sc = -69;
-adieresis.sc = -69;
-ae.sc = -69;
-agrave.sc = -69;
-amacron.sc = -69;
-aogonek.sc = -69;
-aring.sc = -69;
-atilde.sc = -69;
-cacute.sc = -46;
-ccaron.sc = -46;
-ccircumflex.sc = -46;
+ampersand = -46;
 comma = -69;
-gbreve.sc = -46;
-gcircumflex.sc = -46;
-oacute.sc = -46;
-ocircumflex.sc = -46;
-odieresis.sc = -46;
-ograve.sc = -46;
-omacron.sc = -46;
-otilde.sc = -46;
+guillemetleft = -23;
+guilsinglleft = -23;
+parenright = -46;
 period = -69;
 q = -23;
 quotedblbase = -46;
@@ -71243,6 +71075,8 @@ v = 46;
 };
 Q = {
 "@MMK_R_A" = -23;
+bracketright = -23;
+slash = -23;
 };
 Racute = {
 "@MMK_R_Y" = -46;
@@ -71251,6 +71085,9 @@ Racute = {
 Rcaron = {
 "@MMK_R_Y" = -46;
 "@MMK_R_d" = -46;
+};
+Saltillo = {
+space = -69;
 };
 Scedilla = {
 "@MMK_R_A" = -23;
@@ -71262,8 +71099,11 @@ Abreve = -46;
 Acircumflex = -46;
 Atilde = -46;
 };
+Tbld.sign = {
+space = -46;
+};
 Tcaron = {
-"@MMK_R_A" = -69;
+asterisk = 23;
 slash = -69;
 };
 Thorn = {
@@ -71271,12 +71111,40 @@ Thorn = {
 "@MMK_R_T" = 23;
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
+"@MMK_R_a" = 23;
 AE = -46;
 V = -23;
+backslash = -23;
 comma = -23;
+parenright = -23;
 period = -23;
 quotesinglbase = -23;
 slash = -46;
+x = 23;
+};
+Udotbelow = {
+space = -23;
+};
+Uhookabove = {
+space = -23;
+};
+Uhorn = {
+space = -23;
+};
+Uhornacute = {
+space = -23;
+};
+Uhorndotbelow = {
+space = -23;
+};
+Uhorngrave = {
+space = -23;
+};
+Uhornhookabove = {
+space = -23;
+};
+Uhorntilde = {
+space = -23;
 };
 Uogonek = {
 comma = -46;
@@ -71293,119 +71161,80 @@ V = {
 "@MMK_R_O" = -23;
 "@MMK_R_R" = -46;
 "@MMK_R_S" = -46;
-"@MMK_R_T" = -69;
-"@MMK_R_U" = -69;
+"@MMK_R_T" = 23;
+"@MMK_R_U" = -46;
 "@MMK_R_W" = -69;
-"@MMK_R_Y" = -69;
-"@MMK_R_Z" = -69;
+"@MMK_R_Y" = 46;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -46;
 "@MMK_R_c" = -46;
 "@MMK_R_d" = -46;
 "@MMK_R_e" = -46;
 "@MMK_R_g" = -46;
-"@MMK_R_h.sc" = -46;
 "@MMK_R_i" = -23;
 "@MMK_R_j" = 23;
 "@MMK_R_n" = -46;
-"@MMK_R_n.sc" = -46;
 "@MMK_R_o" = -46;
 "@MMK_R_p" = -46;
 "@MMK_R_r" = -46;
 "@MMK_R_s" = -46;
 "@MMK_R_t" = -46;
 "@MMK_R_u" = -69;
-"@MMK_R_v.sc" = -69;
 "@MMK_R_w" = -69;
-"@MMK_R_x.sc" = -69;
 "@MMK_R_y" = -69;
 "@MMK_R_z" = -69;
 Jcircumflex = 69;
-a.sc = -92;
-aacute.sc = -92;
+M = 46;
+X = 46;
 abreve = -23;
-abreve.sc = -92;
-acircumflex.sc = -92;
 adieresis = -23;
-adieresis.sc = -92;
-ae.sc = -92;
-agrave.sc = -92;
-amacron.sc = -92;
 ampersand = -69;
-aogonek.sc = -92;
-aring.sc = -92;
 asterisk = 23;
 atilde = -23;
-atilde.sc = -92;
-c.sc = -69;
-cacute.sc = -46;
-ccaron.sc = -46;
-ccedilla.sc = -69;
-ccircumflex.sc = -46;
+bracketright = -23;
 colon = -69;
 comma = -115;
 eng = -46;
 f = -23;
-g.sc = -69;
+four = -46;
 gbreve = -23;
-gbreve.sc = -46;
-gcircumflex.sc = -46;
 germandbls = -23;
 guillemetleft = -46;
 guillemetright = -69;
 guilsinglleft = -46;
 guilsinglright = -46;
 hyphen = -23;
-i.sc = -46;
-iacute.sc = -23;
-icircumflex.sc = 46;
 idieresis = 23;
 idotless = -46;
-igrave.sc = -46;
 imacron = 46;
 itilde = 46;
-itilde.sc = 46;
-j.sc = -69;
 m = -46;
 n = -46;
 nacute = -23;
 ncaron = -23;
-o.sc = -69;
-oacute.sc = -46;
-ocircumflex.sc = -46;
-odieresis.sc = -46;
-oe.sc = -69;
-ograve.sc = -46;
-omacron.sc = -46;
-oslash.sc = -69;
-otilde.sc = -46;
+parenright = -23;
 period = -115;
 q = -46;
-q.sc = -69;
 quotedblbase = -69;
+quotedblleft = 46;
+quotedblright = 46;
+quoteleft = 23;
 quoteright = 46;
 quotesinglbase = -92;
 scaron = -23;
 scircumflex = -23;
 semicolon = -69;
 slash = -69;
+space = -69;
 tcaron = -23;
-tcaron.sc = -46;
 uacute = -46;
-uacute.sc = -46;
 ubreve = -46;
-ubreve.sc = -46;
 ucircumflex = -46;
-ucircumflex.sc = -46;
 udieresis = -46;
-udieresis.sc = -46;
 ugrave = -46;
-ugrave.sc = -46;
 umacron = -46;
-umacron.sc = -46;
 uring = -46;
-uring.sc = -46;
 utilde = -46;
-utilde.sc = -46;
 v = -69;
 wcircumflex = -46;
 x = -69;
@@ -71415,73 +71244,115 @@ ydieresis = -46;
 zacute = -46;
 zcaron = -23;
 };
+W_h = {
+space = -23;
+};
+Wacute = {
+space = -115;
+};
 Wcircumflex = {
+"@MMK_R_A" = -92;
 "@MMK_R_C" = -46;
 "@MMK_R_G" = -46;
 "@MMK_R_O" = -46;
-cacute.sc = -69;
-ccircumflex.sc = -69;
-oacute.sc = -69;
-ocircumflex.sc = -69;
-odieresis.sc = -69;
-ograve.sc = -69;
-otilde.sc = -69;
 slash = -92;
 };
+Wdieresis = {
+space = -115;
+};
+Wgrave = {
+space = -115;
+};
 X = {
+"@MMK_R_A" = 46;
 "@MMK_R_C" = -23;
 "@MMK_R_G" = -23;
 "@MMK_R_O" = -23;
-"@MMK_R_S" = -23;
-"@MMK_R_T" = -46;
+"@MMK_R_T" = -23;
 "@MMK_R_U" = -23;
-"@MMK_R_W" = -69;
-"@MMK_R_Y" = -46;
+"@MMK_R_W" = -46;
+"@MMK_R_Y" = 23;
+"@MMK_R_Z" = -23;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
+"@MMK_R_i" = 23;
 "@MMK_R_o" = -23;
+"@MMK_R_p" = -23;
+"@MMK_R_r" = 23;
 "@MMK_R_u" = -23;
-"@MMK_R_v.sc" = -46;
 "@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
+V = 23;
+comma = 23;
 f = 23;
 guillemetleft = -46;
 guilsinglleft = -46;
 hyphen = -23;
+m = 23;
+n = 23;
 q = -23;
-tcaron.sc = -23;
+space = -23;
 v = -23;
-wcircumflex.sc = -46;
-yacute.sc = -23;
-ycircumflex.sc = -23;
-ydieresis.sc = -23;
 };
 Yacute = {
-"@MMK_R_A" = -92;
+"@MMK_R_C" = -46;
+"@MMK_R_G" = -46;
+"@MMK_R_O" = -46;
+"@MMK_R_Y" = -23;
 };
 Ycircumflex = {
-"@MMK_R_A" = -92;
+"@MMK_R_C" = -46;
+"@MMK_R_G" = -46;
+"@MMK_R_O" = -46;
+"@MMK_R_Y" = -23;
 };
 Ydieresis = {
-"@MMK_R_A" = -92;
+"@MMK_R_C" = -46;
+"@MMK_R_G" = -46;
+"@MMK_R_O" = -46;
+"@MMK_R_Y" = -23;
+};
+Ydotbelow = {
+space = -92;
+};
+Ygrave = {
+space = -92;
+};
+Yhookabove = {
+space = -92;
+};
+Ytilde = {
+space = -92;
 };
 aacute = {
 "@MMK_R_Y" = -23;
 };
-aacute.sc = {
-"@MMK_R_W" = -92;
-};
 abreve = {
 "@MMK_R_Y" = -23;
 V = -23;
+backslash = -23;
+quotedbl = 23;
+quotesingle = 23;
 };
 acircumflex = {
 "@MMK_R_Y" = -23;
 };
-acircumflex.sc = {
-"@MMK_R_W" = -92;
+acircumflexdotbelow = {
+space = 23;
+};
+acircumflexhookabove = {
+space = 23;
+};
+acircumflextilde = {
+space = 23;
+};
+acute = {
+space = -437;
+};
+acutecomb = {
+space = -276;
 };
 adieresis = {
 "@MMK_R_Y" = -23;
@@ -71492,32 +71363,50 @@ agrave = {
 quotedblleft = -23;
 quoteleft = -23;
 };
-agrave.sc = {
-"@MMK_R_W" = -92;
-};
 amacron = {
 "@MMK_R_Y" = -23;
 };
 ampersand = {
 "@MMK_R_T" = -46;
+"@MMK_R_W" = -92;
 "@MMK_R_Y" = -69;
 V = -92;
+quotesingle = -92;
+space = -69;
+v = -23;
+};
+approxequal = {
+space = 23;
 };
 aring = {
 "@MMK_R_Y" = -23;
 };
-aring.sc = {
-"@MMK_R_W" = -92;
+asciicircum = {
+space = -92;
+};
+asciitilde = {
+space = 23;
 };
 asterisk = {
 "@MMK_R_A" = -92;
+"@MMK_R_T" = 46;
+"@MMK_R_W" = 23;
+"@MMK_R_Y" = 23;
+"@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -46;
 "@MMK_R_e" = -23;
+"@MMK_R_i" = 23;
 "@MMK_R_o" = -23;
+"@MMK_R_w" = 23;
+"@MMK_R_y" = 23;
 Aacute = -69;
 Acircumflex = -69;
 Atilde = -69;
+Tcaron = 23;
+V = 23;
+space = -23;
+v = 23;
 };
 atilde = {
 "@MMK_R_Y" = -23;
@@ -71527,18 +71416,31 @@ quotedbl = 23;
 quotesingle = 23;
 };
 b = {
+"@MMK_R_A" = -46;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+"@MMK_R_Z" = -23;
 "@MMK_R_w" = 23;
 "@MMK_R_y" = 23;
 "@MMK_R_z" = -23;
+Aacute = -69;
+Acircumflex = -69;
+Adieresis = -69;
+Agrave = -69;
+Aring = -69;
+Atilde = -69;
 V = -46;
 X = -23;
 asterisk = -46;
 backslash = -46;
+braceright = -23;
+bracketright = -46;
+f = -23;
+parenright = -46;
 question = -46;
 quotedbl = -23;
+quotedblbase = 23;
 quotedblleft = -23;
 quoteleft = -23;
 quoteright = -23;
@@ -71547,42 +71449,149 @@ v = 23;
 x = 23;
 };
 backslash = {
+"@MMK_R_C" = -46;
+"@MMK_R_G" = -46;
+"@MMK_R_O" = -46;
 "@MMK_R_T" = -46;
+"@MMK_R_U" = -46;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -69;
+"@MMK_R_w" = -23;
+"@MMK_R_y" = -23;
+Oacute = -69;
+Ocircumflex = -69;
+Odieresis = -69;
+Ograve = -69;
+Otilde = -69;
 V = -69;
+Wcircumflex = -92;
+quotedbl = -46;
+quotedblright = -46;
+quoteright = -69;
+quotesingle = -46;
+space = -46;
 v = -23;
 };
+baht = {
+space = 23;
+};
+bar = {
+space = -23;
+};
+blackCircle = {
+space = -69;
+};
+blackDiamond = {
+space = -115;
+};
+blackSmallSquare = {
+space = -276;
+};
+blackSquare = {
+space = -69;
+};
+braceleft = {
+"@MMK_R_C" = -23;
+"@MMK_R_G" = -23;
+"@MMK_R_J" = -23;
+"@MMK_R_O" = -23;
+"@MMK_R_c" = -23;
+"@MMK_R_d" = -23;
+"@MMK_R_e" = -23;
+"@MMK_R_o" = -23;
+q = -23;
+space = -46;
+};
+braceright = {
+space = -23;
+};
 bracketleft = {
+"@MMK_R_A" = -92;
+"@MMK_R_C" = -46;
+"@MMK_R_G" = -46;
+"@MMK_R_J" = -46;
+"@MMK_R_O" = -46;
+"@MMK_R_Y" = -23;
+"@MMK_R_c" = -46;
+"@MMK_R_d" = -46;
+"@MMK_R_e" = -46;
 "@MMK_R_j" = -23;
+"@MMK_R_o" = -46;
+V = -23;
+four = -69;
+q = -46;
+space = -115;
+};
+bracketright = {
+space = -92;
+};
+brokenbar = {
+space = -23;
+};
+bullet = {
+space = -46;
 };
 cacute = {
 "@MMK_R_W" = -46;
 V = -46;
 };
-cacute.sc = {
-"@MMK_R_C" = -46;
-"@MMK_R_O" = -46;
+caron = {
+space = -207;
+};
+caroncomb = {
+space = -207;
+};
+caroncomb.alt = {
+space = -253;
+};
+caroncomb.alt.case = {
+space = -253;
 };
 ccaron = {
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 V = -23;
 };
+ccedilla = {
+backslash = -69;
+};
 ccircumflex = {
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -23;
 V = -46;
 };
-ccircumflex.sc = {
-"@MMK_R_C" = -46;
-"@MMK_R_O" = -46;
+cedi = {
+space = 23;
+};
+cedilla = {
+space = -207;
+};
+cedillacomb = {
+space = -207;
+};
+cedillacomb.uc = {
+space = -207;
+};
+circumflex = {
+space = -138;
+};
+circumflexcomb = {
+space = -138;
+};
+circumflexcomb_gravecomb = {
+space = -207;
 };
 colon = {
 "@MMK_R_T" = -23;
+"@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
 V = -69;
 };
+colonsign = {
+space = -23;
+};
 comma = {
+"@MMK_R_A" = 23;
 "@MMK_R_C" = -23;
 "@MMK_R_G" = -23;
 "@MMK_R_O" = -23;
@@ -71591,6 +71600,10 @@ comma = {
 "@MMK_R_W" = -115;
 "@MMK_R_Y" = -69;
 "@MMK_R_c" = -23;
+"@MMK_R_e" = -23;
+"@MMK_R_g" = 23;
+"@MMK_R_t" = -23;
+"@MMK_R_u" = -23;
 "@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 Ccedilla = -46;
@@ -71598,8 +71611,49 @@ Q = -46;
 Tcedilla = -69;
 Uogonek = -46;
 V = -115;
+f = 23;
+one = -23;
 q = -23;
+seven = -23;
+space = -23;
 v = -46;
+zero = -23;
+};
+currency = {
+space = -23;
+};
+dagger = {
+space = -46;
+};
+daggerdbl = {
+space = -23;
+};
+degree = {
+space = -23;
+};
+divide = {
+space = -23;
+};
+dollar = {
+space = -23;
+};
+dottedCircle = {
+space = 23;
+};
+downArrow = {
+space = -207;
+};
+downBlackSmallTriangle = {
+space = -322;
+};
+downBlackTriangle = {
+space = -276;
+};
+downWhiteSmallTriangle = {
+space = -230;
+};
+downWhiteTriangle = {
+space = -276;
 };
 eacute = {
 "@MMK_R_Y" = -23;
@@ -71616,26 +71670,95 @@ quotedbl = 23;
 };
 egrave = {
 "@MMK_R_Y" = -23;
+parenright = -46;
+};
+eight.dnom = {
+space = -92;
+};
+eight.numr = {
+space = -92;
 };
 eight.osf = {
 four.osf = -23;
 };
+eight.tf = {
+space = -23;
+};
+eight.tosf = {
+space = -23;
+};
+eightinferior = {
+space = -92;
+};
+eightsuperior = {
+space = -92;
+};
+ellipsis = {
+space = 23;
+};
 emacron = {
 "@MMK_R_Y" = -23;
+quotedbl = 23;
+};
+emdash = {
+space = 92;
+};
+emptyset = {
+space = 23;
+};
+endash = {
+space = 46;
 };
 eng = {
+"@MMK_R_T" = -23;
+"@MMK_R_W" = -46;
+"@MMK_R_Y" = -46;
+"@MMK_R_w" = 23;
+"@MMK_R_y" = 23;
+V = -46;
+quotedblleft = 23;
 quotedblright = 23;
+quoteleft = 23;
+v = 23;
+};
+equal = {
+space = 23;
+};
+exclam = {
+space = -46;
+};
+exclamdown = {
+space = -46;
 };
 f = {
+"@MMK_R_A" = -23;
+"@MMK_R_J" = 69;
+"@MMK_R_T" = 69;
+"@MMK_R_W" = 115;
+"@MMK_R_Y" = 115;
 "@MMK_R_a" = 23;
 "@MMK_R_d" = -23;
 "@MMK_R_g" = 23;
-"@MMK_R_i" = 46;
+"@MMK_R_i" = 23;
+"@MMK_R_j" = 46;
+"@MMK_R_s" = 46;
+"@MMK_R_w" = 46;
 "@MMK_R_y" = 46;
+V = 115;
+X = 92;
 asterisk = 46;
+backslash = 69;
 braceright = 69;
 bracketright = 46;
+exclam = -23;
+guillemetleft = -23;
+guilsinglleft = -23;
+icircumflex = 46;
 idieresis = 69;
+igrave = 46;
+imacron = 69;
+itilde = 92;
+jcircumflex = 69;
 parenright = 46;
 question = 23;
 quotedbl = 92;
@@ -71646,40 +71769,142 @@ quoteright = 69;
 quotesinglbase = -23;
 quotesingle = 69;
 slash = -46;
+space = -23;
+v = 46;
+};
+five = {
+space = -23;
+};
+five.dnom = {
+space = -92;
+};
+five.numr = {
+space = -92;
 };
 five.osf = {
 four.osf = -23;
 };
+five.tf = {
+space = -46;
+};
+five.tosf = {
+space = -46;
+};
+fiveinferior = {
+space = -92;
+};
+fivesuperior = {
+space = -92;
+};
 four = {
+backslash = -46;
+one = -46;
 seven = -23;
+space = -23;
+};
+four.dnom = {
+space = -115;
+};
+four.numr = {
+space = -92;
+};
+four.osf = {
+space = -23;
+};
+four.tf = {
+space = -46;
+};
+four.tosf = {
+space = -46;
+};
+fourinferior = {
+space = -115;
+};
+foursuperior = {
+space = -115;
+};
+fraction = {
+space = -138;
+};
+gbreve = {
+"@MMK_R_Y" = -23;
+};
+gcircumflex = {
+"@MMK_R_Y" = -23;
 };
 germandbls = {
+"@MMK_R_W" = -46;
+"@MMK_R_Y" = -23;
+"@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
+V = -46;
+asterisk = -23;
+backslash = -46;
+question = -23;
+space = -23;
 v = -23;
+};
+grave = {
+space = -184;
+};
+gravecomb = {
+space = -184;
+};
+greater = {
+space = -23;
+};
+greaterequal = {
+space = -23;
 };
 guillemetleft = {
 "@MMK_R_T" = -23;
+"@MMK_R_W" = -69;
 "@MMK_R_Y" = -69;
 V = -69;
+space = -23;
 };
 guillemetright = {
+"@MMK_R_A" = -46;
+"@MMK_R_J" = -23;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
+"@MMK_R_Z" = -23;
+"@MMK_R_y" = -23;
 V = -69;
 X = -46;
+quotedbl = -23;
+quotesingle = -23;
+space = -23;
 };
 guilsinglleft = {
 "@MMK_R_T" = -23;
+"@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
 V = -69;
+space = -23;
 };
 guilsinglright = {
+"@MMK_R_A" = -46;
+"@MMK_R_J" = -46;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -69;
+"@MMK_R_Z" = -23;
+"@MMK_R_y" = -23;
 V = -69;
 X = -46;
+quotedbl = -23;
+quoteright = -46;
+quotesingle = -46;
+space = -23;
+v = -23;
+};
+hungarumlaut = {
+space = -184;
+};
+hungarumlautcomb = {
+space = -184;
 };
 hyphen = {
 "@MMK_R_A" = -23;
@@ -71687,15 +71912,56 @@ hyphen = {
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 "@MMK_R_Z" = -23;
+"@MMK_R_t" = 23;
+"@MMK_R_w" = 23;
 "@MMK_R_y" = 23;
 V = -23;
 X = -23;
+f = 23;
+one = -46;
 seven = -46;
+space = 46;
+two = -23;
 v = 23;
 };
-k.sc = {
-"@MMK_R_Y" = 23;
-"@MMK_R_v.sc" = 23;
+increment = {
+space = -23;
+};
+integral = {
+space = -92;
+};
+kip = {
+space = -46;
+};
+lcaron = {
+quotedblright = 69;
+};
+leftArrow = {
+space = -92;
+};
+leftBlackSmallTriangle = {
+space = -276;
+};
+leftBlackTriangle = {
+space = -69;
+};
+leftRightArrow = {
+space = -46;
+};
+leftWhiteSmallTriangle = {
+space = -138;
+};
+leftWhiteTriangle = {
+space = -69;
+};
+"leftanglebracket-math" = {
+space = -161;
+};
+liraTurkish = {
+space = 23;
+};
+lozenge = {
+space = -253;
 };
 m = {
 "@MMK_R_T" = -23;
@@ -71704,9 +71970,22 @@ m = {
 V = -69;
 asterisk = -23;
 backslash = -46;
+question = -23;
 quotedbl = -23;
 quoteright = -23;
 quotesingle = -23;
+};
+micro = {
+space = 23;
+};
+minus = {
+space = 46;
+};
+minute = {
+space = -92;
+};
+multiply = {
+space = -23;
 };
 n = {
 "@MMK_R_T" = -23;
@@ -71715,58 +71994,149 @@ n = {
 V = -69;
 asterisk = -23;
 backslash = -46;
+question = -23;
 quotedbl = -23;
 quoteright = -23;
 quotesingle = -23;
 };
 nacute = {
 "@MMK_R_Y" = -23;
+question = -46;
 };
 ncaron = {
 "@MMK_R_Y" = -23;
+question = -46;
+};
+ncommaaccent = {
+space = 23;
+};
+nine = {
+comma = -46;
+period = -46;
+seven = -23;
+space = -23;
+};
+nine.dnom = {
+space = -138;
+};
+nine.numr = {
+space = -92;
 };
 nine.osf = {
 four.osf = -23;
 nine.osf = -23;
 };
+nine.tf = {
+space = -46;
+};
+nine.tosf = {
+space = -23;
+};
+nineinferior = {
+space = -138;
+};
+ninesuperior = {
+space = -138;
+};
+northEastArrow = {
+space = -138;
+};
+northWestArrow = {
+space = -207;
+};
+numbersign = {
+space = 23;
+};
+numero = {
+space = -23;
+};
 oacute = {
 "@MMK_R_A" = -46;
+AE = -69;
+parenright = -46;
 quoteleft = -23;
-};
-oacute.sc = {
-"@MMK_R_Y" = -46;
 };
 ocircumflex = {
 "@MMK_R_A" = -46;
+AE = -69;
+parenright = -46;
 question = -46;
 quotedblleft = -23;
 quoteleft = -23;
-};
-ocircumflex.sc = {
-"@MMK_R_Y" = -46;
 };
 odieresis = {
 "@MMK_R_A" = -46;
 "@MMK_R_Y" = -23;
 };
-odieresis.sc = {
-"@MMK_R_Y" = -46;
+ogonek = {
+space = -207;
+};
+ogonekcomb = {
+space = -207;
+};
+ogonekcomb.uc = {
+space = -207;
 };
 ograve = {
 "@MMK_R_A" = -46;
+AE = -69;
+parenright = -46;
 question = -46;
 quotedblleft = -23;
 quoteleft = -23;
 };
-ograve.sc = {
-"@MMK_R_Y" = -46;
+ohorn = {
+space = 23;
 };
-omacron.sc = {
-"@MMK_R_Y" = -46;
+ohornacute = {
+space = 23;
+};
+ohorndotbelow = {
+space = 23;
+};
+ohorngrave = {
+space = 23;
+};
+ohornhookabove = {
+space = 23;
+};
+ohorntilde = {
+space = 23;
+};
+omacron = {
+"@MMK_R_A" = -46;
+};
+one = {
+space = -92;
+};
+one.dnom = {
+space = -161;
+};
+one.numr = {
+space = -138;
 };
 one.osf = {
 four.osf = -23;
 nine.osf = -23;
+space = -23;
+};
+one.tf = {
+space = -115;
+};
+one.tosf = {
+space = -138;
+};
+oneinferior = {
+space = -161;
+};
+onequarter = {
+space = -23;
+};
+onesuperior = {
+space = -161;
+};
+onethird = {
+space = 23;
 };
 oslash = {
 quotedbl = 23;
@@ -71774,20 +72144,49 @@ quotedblleft = 46;
 quoteright = 23;
 quotesingle = 23;
 };
-oslash.sc = {
-"@MMK_R_v.sc" = -23;
-};
 otilde = {
 "@MMK_R_A" = -46;
 "@MMK_R_Y" = -23;
 };
-otilde.sc = {
-"@MMK_R_Y" = -46;
+paragraph = {
+space = -23;
 };
 parenleft = {
+"@MMK_R_C" = -23;
+"@MMK_R_G" = -23;
+"@MMK_R_J" = -23;
+"@MMK_R_O" = -23;
+"@MMK_R_a" = -23;
+"@MMK_R_c" = -23;
+"@MMK_R_d" = -46;
+"@MMK_R_e" = -23;
+"@MMK_R_i" = -23;
 "@MMK_R_j" = -23;
+"@MMK_R_o" = -23;
+"@MMK_R_w" = -46;
+Ccedilla = -46;
+ccedilla = -46;
+eacute = -46;
+egrave = -46;
+four = -46;
+oacute = -46;
+ocircumflex = -46;
+ograve = -46;
+q = -46;
+space = -69;
+v = -46;
+};
+parenright = {
+space = -23;
+};
+partialdiff = {
+space = -23;
+};
+percent = {
+space = -23;
 };
 period = {
+"@MMK_R_A" = 23;
 "@MMK_R_C" = -23;
 "@MMK_R_G" = -23;
 "@MMK_R_O" = -23;
@@ -71799,7 +72198,37 @@ period = {
 "@MMK_R_w" = -23;
 "@MMK_R_y" = -23;
 V = -115;
+f = 23;
+one = -23;
+seven = -23;
+space = -23;
 v = -46;
+zero = -23;
+};
+periodcentered = {
+space = -161;
+};
+periodcentered.loclCAT = {
+space = -138;
+};
+periodcentered.loclCAT.case = {
+space = -138;
+};
+perthousand = {
+space = 23;
+};
+peso = {
+space = -69;
+};
+plus = {
+seven = -46;
+space = -23;
+};
+plusminus = {
+space = -23;
+};
+product = {
+space = -23;
 };
 q = {
 "@MMK_R_T" = -23;
@@ -71808,6 +72237,14 @@ q = {
 "@MMK_R_j" = 23;
 V = -69;
 backslash = -69;
+question = -46;
+space = -23;
+};
+question = {
+space = -92;
+};
+questiondown = {
+space = -69;
 };
 quotedbl = {
 "@MMK_R_A" = -69;
@@ -71816,43 +72253,72 @@ quotedbl = {
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
+"@MMK_R_g" = 23;
 "@MMK_R_o" = -23;
 "@MMK_R_s" = 23;
 AE = -92;
 Acircumflex = -46;
 Atilde = -46;
+four = -46;
+guillemetleft = -23;
+guilsinglleft = -23;
+slash = -46;
+space = -23;
 };
 quotedblbase = {
+"@MMK_R_A" = 46;
 "@MMK_R_C" = 23;
 "@MMK_R_G" = 23;
 "@MMK_R_O" = 23;
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
+"@MMK_R_c" = 23;
+"@MMK_R_d" = 23;
+"@MMK_R_e" = 23;
+"@MMK_R_g" = 46;
+"@MMK_R_o" = 23;
 "@MMK_R_t" = 23;
+"@MMK_R_u" = 23;
 V = -69;
+f = 23;
+q = 23;
+space = 46;
 v = -23;
 };
 quotedblleft = {
 "@MMK_R_A" = -69;
+"@MMK_R_G" = 23;
 "@MMK_R_J" = 23;
+"@MMK_R_O" = 23;
+"@MMK_R_T" = 69;
+"@MMK_R_W" = 46;
+"@MMK_R_Y" = 46;
 "@MMK_R_a" = 23;
 "@MMK_R_c" = 23;
 "@MMK_R_e" = 23;
 "@MMK_R_g" = 23;
+"@MMK_R_i" = 46;
 "@MMK_R_o" = 23;
 "@MMK_R_s" = 46;
 AE = -92;
 Aacute = -46;
 Acircumflex = -46;
 Atilde = -46;
+Jcircumflex = 46;
+V = 46;
 q = 23;
 sacute = 23;
 scaron = 23;
+scircumflex = 23;
+space = 23;
 };
 quotedblright = {
 "@MMK_R_A" = -69;
 "@MMK_R_J" = 23;
+"@MMK_R_T" = 46;
+"@MMK_R_W" = 23;
+"@MMK_R_Y" = 23;
 "@MMK_R_a" = 23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
@@ -71860,25 +72326,43 @@ quotedblright = {
 "@MMK_R_o" = -23;
 "@MMK_R_s" = 23;
 AE = -92;
+Jcircumflex = 46;
+V = 23;
+guillemetleft = -23;
+guilsinglleft = -23;
 q = -23;
+slash = -46;
+space = -23;
 };
 quoteleft = {
 "@MMK_R_A" = -92;
 "@MMK_R_J" = 23;
+"@MMK_R_T" = 46;
+"@MMK_R_W" = 23;
+"@MMK_R_Y" = 23;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
+"@MMK_R_i" = 23;
 "@MMK_R_o" = -23;
 "@MMK_R_s" = 23;
+"@MMK_R_t" = 46;
+"@MMK_R_w" = 46;
 Aacute = -69;
 Acircumflex = -69;
 Atilde = -69;
 V = 23;
+f = 23;
+space = -23;
+v = 46;
 };
 quoteright = {
 "@MMK_R_A" = -92;
 "@MMK_R_J" = 23;
+"@MMK_R_T" = 46;
+"@MMK_R_W" = 46;
+"@MMK_R_Y" = 46;
 "@MMK_R_a" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -46;
@@ -71886,16 +72370,21 @@ quoteright = {
 "@MMK_R_g" = -23;
 "@MMK_R_o" = -23;
 "@MMK_R_s" = -23;
+"@MMK_R_t" = 23;
 AE = -115;
 Aacute = -69;
 Acircumflex = -69;
 Atilde = -69;
+V = 46;
 cacute = -46;
 eacute = -46;
+guillemetleft = -46;
+guilsinglleft = -46;
 oacute = -46;
 ocircumflex = -46;
 q = -23;
 slash = -69;
+space = -69;
 };
 quotesinglbase = {
 "@MMK_R_C" = 23;
@@ -71904,7 +72393,13 @@ quotesinglbase = {
 "@MMK_R_T" = -23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
+"@MMK_R_c" = 23;
+"@MMK_R_o" = 23;
+"@MMK_R_t" = 23;
+"@MMK_R_u" = 23;
 V = -69;
+q = 23;
+space = 46;
 v = -23;
 };
 quotesingle = {
@@ -71914,57 +72409,119 @@ quotesingle = {
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
+"@MMK_R_g" = 23;
 "@MMK_R_o" = -23;
+"@MMK_R_s" = 23;
 Aacute = -69;
 Abreve = -69;
 Acircumflex = -69;
 Atilde = -69;
+abreve = 23;
 adieresis = 23;
+amacron = 23;
 atilde = 23;
 four = -46;
+guillemetleft = -23;
+guilsinglleft = -23;
 q = -23;
+slash = -46;
+space = -23;
 };
 racute = {
+"@MMK_R_A" = -46;
+"@MMK_R_Y" = -23;
+V = -46;
+quotedblleft = 23;
+quoteleft = 23;
 slash = -46;
+};
+radical = {
+space = -138;
 };
 rcaron = {
+"@MMK_R_A" = -46;
+parenright = -23;
+quoteleft = 23;
 slash = -46;
 };
-s.sc = {
-"@MMK_R_v.sc" = -46;
+registered = {
+space = -46;
+};
+rightArrow = {
+space = -115;
+};
+rightBlackSmallTriangle = {
+space = -299;
+};
+rightBlackTriangle = {
+space = -161;
+};
+rightWhiteSmallTriangle = {
+space = -207;
+};
+rightWhiteTriangle = {
+space = -161;
+};
+"rightanglebracket-math" = {
+space = -161;
+};
+ring = {
+space = -230;
+};
+ringcomb = {
+space = -230;
+};
+ruble = {
+space = 23;
+};
+rupeeIndian = {
+space = -46;
 };
 sacute = {
 "@MMK_R_Y" = -23;
 };
-sacute.sc = {
-"@MMK_R_Y" = -46;
-"@MMK_R_v.sc" = -46;
+saltillo = {
+space = -92;
 };
 scaron = {
 "@MMK_R_W" = -23;
 "@MMK_R_Y" = -23;
 V = -23;
-};
-scaron.sc = {
-"@MMK_R_v.sc" = -46;
-};
-scedilla.sc = {
-"@MMK_R_v.sc" = -46;
+backslash = -23;
 };
 scircumflex = {
 "@MMK_R_Y" = -23;
 };
-scircumflex.sc = {
-"@MMK_R_v.sc" = -46;
+second = {
+space = -115;
+};
+section = {
+space = 23;
+};
+semicolon = {
+"@MMK_R_Y" = -46;
+V = -69;
 };
 seven = {
+"@MMK_R_A" = -69;
 comma = -115;
+eight = -46;
 four = -46;
 hyphen = -23;
 period = -115;
+plus = -69;
 quotedblbase = -69;
 quotesinglbase = -92;
+six = -46;
 slash = -69;
+space = -69;
+zero = -23;
+};
+seven.dnom = {
+space = -161;
+};
+seven.numr = {
+space = -115;
 };
 seven.osf = {
 eight.osf = -23;
@@ -71973,14 +72530,51 @@ four.osf = -69;
 nine.osf = -46;
 one.osf = -23;
 six.osf = -23;
+space = -46;
 three.osf = -23;
 two.osf = -23;
 zero.osf = -23;
+};
+seven.tf = {
+space = -138;
+};
+seven.tosf = {
+space = -92;
+};
+seveninferior = {
+space = -161;
+};
+sevensuperior = {
+space = -161;
+};
+sheqel = {
+space = -23;
+};
+six = {
+seven = -23;
+};
+six.dnom = {
+space = -92;
+};
+six.numr = {
+space = -92;
 };
 six.osf = {
 four.osf = -23;
 one.osf = 23;
 seven.osf = 23;
+};
+six.tf = {
+space = -46;
+};
+six.tosf = {
+space = -46;
+};
+sixinferior = {
+space = -92;
+};
+sixsuperior = {
+space = -92;
 };
 slash = {
 "@MMK_R_A" = -92;
@@ -71993,11 +72587,13 @@ slash = {
 "@MMK_R_d" = -46;
 "@MMK_R_e" = -46;
 "@MMK_R_g" = -46;
+"@MMK_R_i" = -23;
 "@MMK_R_n" = -23;
 "@MMK_R_o" = -46;
 "@MMK_R_p" = -46;
 "@MMK_R_r" = -46;
 "@MMK_R_s" = -46;
+"@MMK_R_t" = -23;
 "@MMK_R_u" = -46;
 "@MMK_R_w" = -46;
 "@MMK_R_y" = -46;
@@ -72010,11 +72606,13 @@ Agrave = -69;
 Amacron = -69;
 Aring = -69;
 Atilde = -69;
+Jcircumflex = 23;
 Oslash = -23;
 abreve = -23;
 adieresis = -23;
 atilde = -23;
 eng = -46;
+four = -46;
 gbreve = -23;
 m = -46;
 n = -46;
@@ -72023,22 +72621,57 @@ racute = -23;
 rcaron = -23;
 sacute = -23;
 scaron = -23;
+scircumflex = -23;
+six = -46;
 slash = -69;
+space = -92;
 uogonek = -69;
 v = -46;
 x = -46;
 };
+southEastArrow = {
+space = -138;
+};
+southWestArrow = {
+space = -230;
+};
 space = {
+.notdef = 69;
 "@MMK_R_A" = -92;
+"@MMK_R_C" = -23;
 "@MMK_R_D" = 23;
 "@MMK_R_E" = 23;
+"@MMK_R_G" = -23;
 "@MMK_R_I" = 23;
 "@MMK_R_J" = -23;
 "@MMK_R_K" = 23;
 "@MMK_R_L" = 23;
 "@MMK_R_N" = 23;
+"@MMK_R_O" = -23;
 "@MMK_R_R" = 23;
 "@MMK_R_S" = 23;
+"@MMK_R_T" = -23;
+"@MMK_R_U" = -23;
+"@MMK_R_W" = -69;
+"@MMK_R_Y" = -46;
+"@MMK_R_Z" = -23;
+"@MMK_R_a" = 23;
+"@MMK_R_circumflexcomb" = -115;
+"@MMK_R_e" = 23;
+"@MMK_R_g" = 23;
+"@MMK_R_h" = -23;
+"@MMK_R_hookabovecomb" = -115;
+"@MMK_R_i" = 23;
+"@MMK_R_k" = -23;
+"@MMK_R_l" = -23;
+"@MMK_R_n" = 23;
+"@MMK_R_p" = -23;
+"@MMK_R_quotedblleft" = -69;
+"@MMK_R_r" = 23;
+"@MMK_R_s" = 23;
+"@MMK_R_w" = -23;
+"@MMK_R_y" = -23;
+"@MMK_R_z" = 23;
 Aacute = -69;
 Abreveacute = -69;
 Abrevedotbelow = -69;
@@ -72062,32 +72695,408 @@ F = 23;
 M = 23;
 P = 23;
 Schwa = 23;
+Tbld.sign = -46;
 Thorn = 23;
+Udotbelow = -23;
+Uhookabove = -23;
+Uhorn = -23;
+Uhornacute = -23;
+Uhorndotbelow = -23;
+Uhorngrave = -23;
+Uhornhookabove = -23;
+Uhorntilde = -23;
+V = -69;
+W_h = -69;
+W_i = -69;
+Wacute = -115;
+Wdieresis = -115;
+Wgrave = -115;
+Ydotbelow = -92;
+Ygrave = -92;
+Yhookabove = -92;
+Ytilde = -92;
+acircumflexacute = 23;
+acircumflexdotbelow = 23;
+acircumflexgrave = 23;
+acircumflexhookabove = 23;
+acircumflextilde = 23;
+acute = -46;
+acutecomb = -207;
+ampersand = -46;
+approxequal = 23;
+asciicircum = -92;
+asciitilde = 46;
+asterisk = -23;
+b = -46;
+backslash = -115;
+bar = -23;
+blackCircle = -69;
+blackDiamond = -115;
+blackSmallSquare = -276;
+blackSquare = -69;
+braceleft = -23;
+braceright = -46;
+bracketleft = -92;
+bracketright = -115;
+brokenbar = -23;
+bullet = -46;
+caron = -207;
+caroncomb = -207;
+caroncomb.alt = -207;
+caroncomb.alt.case = -207;
+cedilla = -184;
+cedillacomb = -184;
+cedillacomb.uc = -207;
+circumflex = -115;
+circumflexcomb = -115;
+circumflexcomb_gravecomb = -46;
+comma = -23;
+currency = -23;
+daggerdbl = 46;
+degree = -23;
+divide = -23;
+dottedCircle = 23;
+downArrow = -207;
+downBlackSmallTriangle = -322;
+downBlackTriangle = -276;
+downWhiteSmallTriangle = -230;
+downWhiteTriangle = -276;
+eight = -23;
+eight.dnom = -115;
+eight.numr = -92;
+eight.tf = -23;
+eight.tosf = -23;
+eightinferior = -115;
+eightsuperior = -115;
+ellipsis = 23;
+emdash = 92;
+emptyset = 23;
+endash = 46;
+equal = 23;
+euro = 23;
+exclam = -46;
+exclamdown = -46;
+f = 23;
+f_i = 23;
+f_l = 23;
+five = -23;
+five.dnom = -115;
+five.numr = -115;
+five.tf = -46;
+five.tosf = -23;
+fiveinferior = -115;
+fivesuperior = -115;
+four = -46;
+four.dnom = -115;
+four.numr = -92;
+four.osf = -46;
+four.tf = -23;
+four.tosf = -69;
+fourinferior = -115;
+foursuperior = -115;
+fraction = -115;
+germandbls = 23;
+grave = -276;
+gravecomb = -276;
+greater = -23;
+guillemetleft = -23;
+guillemetright = -23;
+guilsinglleft = -23;
+guilsinglright = -23;
+hryvnia = 23;
+hungarumlaut = -115;
+hungarumlautcomb = -115;
+hyphen = 69;
+increment = -23;
+integral = -92;
+lari = 23;
+leftArrow = -115;
+leftBlackSmallTriangle = -299;
+leftBlackTriangle = -161;
+leftRightArrow = -46;
+leftWhiteSmallTriangle = -207;
+leftWhiteTriangle = -161;
+"leftanglebracket-math" = -161;
+less = -46;
+liraTurkish = 23;
+lozenge = -253;
+lslash = 23;
+minus = 46;
+multiply = -23;
+naira = 23;
+nine.dnom = -92;
+nine.numr = -92;
+nine.tf = -23;
+nine.tosf = -23;
+nineinferior = -92;
+ninesuperior = -92;
+northEastArrow = -207;
+northWestArrow = -138;
+notequal = 23;
+numbersign = 23;
+numero = -23;
+ogonek = -184;
+ogonekcomb = -184;
+ogonekcomb.uc = -184;
+one = -92;
+one.dnom = -161;
+one.numr = -115;
+one.tf = -115;
+one.tosf = -46;
+oneinferior = -161;
+onequarter = 23;
+onesuperior = -161;
+parenleft = -23;
+parenright = -69;
+percent = -23;
+period = -23;
+periodcentered = -138;
+periodcentered.loclCAT = -138;
+periodcentered.loclCAT.case = -138;
+perthousand = -23;
+peso = 23;
+plus = -23;
+plusminus = -23;
+product = -23;
+question = -69;
+questiondown = -46;
+quotedbl = -23;
+quotedblbase = 46;
+quotedblleft = 23;
+quotedblright = 23;
+quoteleft = 23;
+quoteright = -23;
+quotesingle = -23;
+registered = 23;
+rightArrow = -92;
+rightBlackSmallTriangle = -276;
+rightBlackTriangle = -69;
+rightWhiteSmallTriangle = -138;
+rightWhiteTriangle = -69;
+"rightanglebracket-math" = -161;
+ring = -207;
+ringcomb = -207;
+ruble = 23;
+second = -46;
+section = 23;
+seven = -46;
+seven.dnom = -138;
+seven.numr = -115;
+seven.tf = -69;
+seven.tosf = -46;
+seveninferior = -138;
+sevensuperior = -138;
+six = -23;
+six.dnom = -115;
+six.numr = -92;
+six.tf = -23;
+six.tosf = -23;
+sixinferior = -115;
+sixsuperior = -115;
+slash = -69;
+southEastArrow = -230;
+southWestArrow = -138;
+summation = -46;
+tbld.sign = -69;
+tenge = -23;
+three = -23;
+three.dnom = -115;
+three.numr = -115;
+three.tf = -46;
+three.tosf = -23;
+threeinferior = -115;
+threequarters = 23;
+threesuperior = -115;
+trademark = -23;
+tugrik = -23;
+two = -23;
+two.dnom = -115;
+two.numr = -92;
+two.tf = -23;
+twoinferior = -115;
+twosuperior = -115;
+twothirds = 23;
+upArrow = -230;
+upBlackSmallTriangle = -299;
+upBlackTriangle = -207;
+upDownArrow = -161;
+upWhiteSmallTriangle = -207;
+upWhiteTriangle = -207;
+v = -23;
+whiteBullet = -276;
+whiteCircle = -69;
+whiteDiamond = -115;
+whiteSmallSquare = -276;
+whiteSquare = -69;
+x = 23;
+yhookabove = -23;
+zacute = -23;
+zero.dnom = -92;
+zero.numr = -92;
+zeroinferior = -92;
+zerosuperior = -92;
+};
+summation = {
+space = -115;
+};
+tbld.sign = {
+space = -69;
+};
+tcaron = {
+"@MMK_R_Y" = 46;
+V = 46;
+quotedblleft = 46;
+quoteleft = 46;
+quoteright = 46;
+};
+tenge = {
+space = -69;
 };
 thorn = {
+"@MMK_R_A" = -46;
+Aacute = -69;
+Acircumflex = -69;
+Adieresis = -69;
+Agrave = -69;
+Aring = -69;
+Atilde = -69;
 backslash = -46;
+f = -23;
+question = -46;
 quotedblleft = -23;
 quoteleft = -23;
+};
+three.dnom = {
+space = -92;
+};
+three.numr = {
+space = -69;
 };
 three.osf = {
 eight.osf = 23;
 four.osf = -23;
 six.osf = 23;
 };
+three.tf = {
+space = -23;
+};
+three.tosf = {
+space = -46;
+};
+threeinferior = {
+space = -92;
+};
+threesuperior = {
+space = -92;
+};
+trademark = {
+space = -46;
+};
+tugrik = {
+space = -69;
+};
+two.dnom = {
+space = -92;
+};
+two.numr = {
+space = -69;
+};
 two.osf = {
 four.osf = -23;
 };
+two.tf = {
+space = -23;
+};
+two.tosf = {
+space = -23;
+};
+twoinferior = {
+space = -92;
+};
+twosuperior = {
+space = -92;
+};
+twothirds = {
+space = 23;
+};
 uacute = {
+"@MMK_R_W" = -46;
 V = -46;
+question = -46;
 };
-ucircumflex = {
-V = -46;
-};
-udieresis = {
+ubreve = {
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -23;
 V = -46;
 };
+ucircumflex = {
+"@MMK_R_W" = -46;
+V = -46;
+question = -46;
+};
+udieresis = {
+"@MMK_R_W" = -46;
+"@MMK_R_Y" = -23;
+V = -46;
+};
+udotbelow = {
+space = 23;
+};
 ugrave = {
+"@MMK_R_W" = -46;
+V = -46;
+question = -46;
+};
+uhorn = {
+space = 23;
+};
+uhornacute = {
+space = 23;
+};
+uhorndotbelow = {
+space = 23;
+};
+uhorngrave = {
+space = 23;
+};
+uhornhookabove = {
+space = 23;
+};
+uhorntilde = {
+space = 23;
+};
+umacron = {
+"@MMK_R_W" = -46;
+V = -46;
+};
+underscore = {
+"@MMK_R_y" = 69;
+};
+upArrow = {
+space = -230;
+};
+upBlackSmallTriangle = {
+space = -299;
+};
+upBlackTriangle = {
+space = -207;
+};
+upDownArrow = {
+space = -161;
+};
+upWhiteSmallTriangle = {
+space = -207;
+};
+upWhiteTriangle = {
+space = -207;
+};
+uring = {
+"@MMK_R_W" = -46;
+V = -46;
+};
+utilde = {
+"@MMK_R_W" = -46;
+"@MMK_R_Y" = -23;
 V = -46;
 };
 v = {
@@ -72096,42 +73105,64 @@ v = {
 "@MMK_R_T" = 69;
 "@MMK_R_W" = -92;
 "@MMK_R_Y" = -69;
+"@MMK_R_Z" = 23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
 "@MMK_R_e" = -23;
 "@MMK_R_o" = -23;
 "@MMK_R_s" = 23;
+"@MMK_R_t" = 69;
 V = -69;
 X = -46;
+ampersand = -46;
+asterisk = 23;
 comma = -69;
+guillemetleft = -23;
+guilsinglleft = -23;
 hyphen = 23;
+parenright = -69;
 period = -69;
 q = -23;
 quotedblbase = -23;
+quotedblleft = 69;
+quotedblright = 69;
+quoteleft = 69;
 quotesinglbase = -46;
 slash = -46;
-};
-w.sc = {
-"@MMK_R_C" = -46;
-"@MMK_R_G" = -46;
-"@MMK_R_O" = -46;
+space = -46;
+v = 115;
+x = 69;
 };
 wcircumflex = {
 "@MMK_R_A" = -46;
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+AE = -69;
 Abreve = -69;
 Adieresis = -69;
 Agrave = -69;
 Amacron = -69;
 Aogonek = -69;
 Aring = -69;
+V = -46;
 };
-wcircumflex.sc = {
-"@MMK_R_C" = -46;
-"@MMK_R_G" = -46;
-"@MMK_R_O" = -46;
+whiteBullet = {
+space = -276;
+};
+whiteCircle = {
+space = -69;
+};
+whiteDiamond = {
+space = -115;
+};
+whiteSmallSquare = {
+space = -276;
+};
+whiteSquare = {
+space = -69;
 };
 x = {
+"@MMK_R_O" = 23;
 "@MMK_R_T" = 23;
 "@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
@@ -72139,36 +73170,79 @@ x = {
 "@MMK_R_g" = 23;
 "@MMK_R_o" = 23;
 "@MMK_R_s" = 23;
+"@MMK_R_u" = 23;
+"@MMK_R_y" = 69;
 V = -69;
+backslash = -46;
 hyphen = -23;
+v = 69;
 };
 yacute = {
 "@MMK_R_A" = -69;
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+V = -46;
 X = -23;
 slash = -69;
 };
 ycircumflex = {
 "@MMK_R_A" = -69;
+"@MMK_R_W" = -69;
 "@MMK_R_Y" = -46;
+V = -46;
+X = -23;
+slash = -69;
 };
 ydieresis = {
 "@MMK_R_A" = -69;
+"@MMK_R_W" = -46;
 "@MMK_R_Y" = -46;
+V = -46;
 X = -23;
 };
+ydotbelow = {
+space = -46;
+};
+yhookabove = {
+space = -46;
+};
 zacute = {
+"@MMK_R_Y" = -23;
 "@MMK_R_c" = -23;
 "@MMK_R_d" = -23;
+};
+zcaron = {
+"@MMK_R_Y" = -23;
+V = -23;
+backslash = -23;
+};
+zero = {
+"@MMK_R_Y" = -23;
+comma = -23;
+period = -23;
+seven = -23;
+};
+zero.dnom = {
+space = -92;
+};
+zero.numr = {
+space = -92;
 };
 zero.osf = {
 eight.osf = 23;
 four.osf = -23;
 six.osf = 23;
 };
+zeroinferior = {
+space = -92;
+};
+zerosuperior = {
+space = -92;
+};
 };
 "E0989092-07D5-4BE4-A82B-4E03160A36DB" = {
 "@MMK_L_A" = {
+A = 144;
 C = -24;
 Cacute = -24;
 Ccaron = -24;
@@ -72191,6 +73265,8 @@ Q = -24;
 S = 48;
 Sacute = 48;
 Scaron = 48;
+Scedilla = 48;
+Scircumflex = 48;
 T = -24;
 Tcaron = -24;
 Tcedilla = -24;
@@ -72213,41 +73289,28 @@ Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
 a = 24;
-a.sc = 120;
+aacute = 24;
+abreve = 24;
+acircumflex = 24;
+adieresis = 24;
+ae = 24;
+agrave = 24;
+amacron = 24;
+aogonek = 24;
+aring = 24;
 asterisk = -48;
+atilde = 24;
 backslash = -48;
-c.sc = -24;
-cacute.sc = -24;
-ccaron.sc = -24;
-ccedilla.sc = -24;
-ccircumflex.sc = -24;
-d.sc = 96;
-dcaron.sc = 96;
-e.sc = 96;
-eacute.sc = 96;
-ecaron.sc = 96;
-ecircumflex.sc = 96;
-edieresis.sc = 96;
-egrave.sc = 96;
-emacron.sc = 96;
-eogonek.sc = 96;
-eth.sc = 96;
+bracketright = -24;
+comma = 72;
 f = 96;
-f.sc = 96;
 g = 72;
-g.sc = -24;
 gbreve = 72;
-o.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
-oe.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
+gcircumflex = 72;
+guillemetleft = -24;
+guilsinglleft = -24;
 oslash = 24;
-oslash.sc = 24;
-otilde.sc = -24;
-q.sc = -24;
+period = 48;
 question = -24;
 quotedbl = -72;
 quotedblleft = -48;
@@ -72256,41 +73319,29 @@ quoteleft = -48;
 quoteright = -72;
 quotesingle = -72;
 t = -24;
-t.sc = -24;
 tcaron = -24;
-tcaron.sc = -24;
 tcedilla = -24;
-tcedilla.sc = -24;
-u.sc = -24;
-uacute.sc = -24;
-ubreve.sc = -24;
-ucircumflex.sc = -24;
-udieresis.sc = -24;
-ugrave.sc = -24;
-umacron.sc = -24;
-uogonek.sc = -24;
-uring.sc = -24;
-utilde.sc = -24;
 v = -24;
-v.sc = -48;
 w = -24;
-w.sc = -48;
 wcircumflex = -48;
-wcircumflex.sc = -48;
+x = 96;
 y = -24;
-y.sc = -24;
 yacute = -48;
-yacute.sc = -24;
 ycircumflex = -48;
-ycircumflex.sc = -24;
 ydieresis = -24;
-ydieresis.sc = -24;
+z = 72;
 };
 "@MMK_L_C" = {
 A = 48;
+AE = 24;
 Aacute = 48;
+Abreve = 48;
 Acircumflex = 48;
+Adieresis = 48;
 Agrave = 48;
+Amacron = 48;
+Aogonek = 48;
+Aring = 48;
 Atilde = 48;
 C = 24;
 Cacute = 24;
@@ -72300,6 +73351,7 @@ Ccircumflex = 24;
 G = 24;
 Gbreve = 24;
 Gcircumflex = 24;
+J = 24;
 O = 24;
 OE = 24;
 Oacute = 24;
@@ -72311,63 +73363,64 @@ Oslash = 24;
 Otilde = 24;
 Q = 24;
 T = 48;
+Tcaron = 48;
+Tcedilla = 48;
 V = 72;
 W = 72;
+Wcircumflex = 72;
 X = 24;
 Y = 72;
 Yacute = 72;
 Ycircumflex = 72;
 Ydieresis = 72;
 a = 24;
-a.sc = 24;
+abreve = 24;
 acircumflex = 24;
 adieresis = 24;
+ae = 24;
+amacron = 24;
+aogonek = 24;
 atilde = 24;
 c = 24;
-cacute.sc = -24;
-ccaron.sc = -24;
 ccedilla = 24;
-ccedilla.sc = -24;
 ccircumflex = 24;
-d.sc = 24;
-dcaron.sc = 24;
+comma = 48;
 e = 24;
-e.sc = 24;
-eacute.sc = 24;
-ecaron.sc = 24;
 ecircumflex = 24;
-ecircumflex.sc = 24;
 edieresis = 24;
-edieresis.sc = 24;
-egrave.sc = 24;
 emacron = 24;
-emacron.sc = 24;
 eogonek = 24;
-eogonek.sc = 24;
-eth.sc = 24;
+f = 24;
 g = 24;
 gbreve = 24;
+gcircumflex = 24;
 o = 24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
 oe = 24;
-ograve.sc = -24;
 oslash = 24;
-otilde.sc = -24;
+period = 24;
 q = 24;
+s = 24;
+scaron = 24;
+t = 24;
 u = 48;
+uacute = 48;
+ubreve = 48;
+ucircumflex = 48;
+udieresis = 48;
+ugrave = 48;
+umacron = 48;
+uogonek = 48;
+uring = 48;
+utilde = 48;
 v = 96;
-v.sc = 72;
 w = 96;
-w.sc = 72;
 wcircumflex = 96;
+x = 24;
 y = 96;
-y.sc = 72;
 yacute = 96;
-yacute.sc = 72;
+ycircumflex = 96;
 ydieresis = 96;
-ydieresis.sc = 72;
+z = 24;
 };
 "@MMK_L_D" = {
 A = -24;
@@ -72385,9 +73438,12 @@ T = 48;
 Tcaron = 48;
 Tcedilla = 48;
 a = 24;
+ae = 24;
+aogonek = 24;
+backslash = -24;
 slash = -24;
 x = 24;
-x.sc = -24;
+z = 24;
 };
 "@MMK_L_E" = {
 C = 24;
@@ -72398,6 +73454,7 @@ Ccircumflex = 24;
 G = 24;
 Gbreve = 24;
 Gcircumflex = 24;
+J = 24;
 O = 24;
 OE = 24;
 Oacute = 24;
@@ -72408,87 +73465,89 @@ Omacron = 24;
 Oslash = 24;
 Otilde = 24;
 Q = 24;
+V = 72;
+Y = 72;
+Yacute = 72;
+Ycircumflex = 72;
+Ydieresis = 72;
 a = 48;
+aacute = 48;
+abreve = 48;
+acircumflex = 48;
+adieresis = 48;
+ae = 48;
+agrave = 48;
+amacron = 48;
+aogonek = 48;
+aring = 48;
+atilde = 48;
 c = 48;
-c.sc = 24;
 cacute = 48;
-cacute.sc = 24;
 ccaron = 48;
-ccaron.sc = 24;
 ccedilla = 48;
-ccedilla.sc = 24;
 ccircumflex = 48;
-ccircumflex.sc = 24;
 d = 24;
-d.sc = 24;
 dcaron = 24;
-dcaron.sc = 24;
 e = 24;
-e.sc = 24;
 eacute = 24;
-eacute.sc = 24;
 ecaron = 24;
-ecaron.sc = 24;
 ecircumflex = 24;
-ecircumflex.sc = 24;
 edieresis = 24;
-edieresis.sc = 24;
 egrave = 24;
-egrave.sc = 24;
 emacron = 24;
-emacron.sc = 24;
 eogonek = 24;
-eogonek.sc = 24;
 eth = 24;
+f = 24;
 g = 24;
-g.sc = 24;
 gbreve = 24;
-gbreve.sc = 24;
 gcircumflex = 24;
+hyphen = 24;
 o = 24;
-o.sc = 24;
 oacute = 24;
-oacute.sc = 24;
 ocircumflex = 24;
-ocircumflex.sc = 24;
 odieresis = 24;
-odieresis.sc = 24;
 oe = 24;
-oe.sc = 24;
 ograve = 24;
-ograve.sc = 24;
 omacron = 24;
-omacron.sc = 24;
 oslash = 24;
-oslash.sc = 24;
 otilde = 24;
-otilde.sc = 24;
 q = 24;
-q.sc = 24;
+s = 24;
+scaron = 24;
 t = 24;
-u.sc = 24;
+tcaron = 24;
+u = 24;
+uacute = 24;
+ubreve = 24;
+ucircumflex = 24;
 udieresis = 24;
-v.sc = 72;
-w.sc = 72;
-wcircumflex.sc = 48;
-x.sc = 24;
+ugrave = 24;
+umacron = 24;
+uogonek = 24;
+uring = 24;
+utilde = 24;
+x = 24;
 y = -24;
-y.sc = 72;
-yacute.sc = 72;
-ycircumflex.sc = 48;
-ydieresis.sc = 72;
 };
 "@MMK_L_G" = {
 Tcaron = -24;
 V = -24;
 W = -24;
+Wcircumflex = -24;
+X = -24;
 Y = -24;
 Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
+quoteright = -24;
+v = -24;
+w = -24;
+y = -24;
+yacute = -24;
+ydieresis = -24;
 };
 "@MMK_L_I" = {
-v.sc = 72;
+g = 48;
 };
 "@MMK_L_J" = {
 A = 24;
@@ -72502,139 +73561,133 @@ Amacron = 24;
 Aogonek = 24;
 Aring = 24;
 Atilde = 24;
+J = 72;
+Jcircumflex = 120;
+ccedilla = -24;
+igrave = 48;
 period = 24;
+q = -24;
+slash = -24;
 };
 "@MMK_L_K" = {
 A = 144;
+AE = 144;
+Aacute = 144;
+Abreve = 144;
+Acircumflex = 144;
+Adieresis = 144;
+Agrave = 144;
+Amacron = 144;
+Aogonek = 144;
+Aring = 144;
+Atilde = 144;
+Ccedilla = -24;
+Gcommaaccent = -24;
 J = 96;
 Oslash = 48;
 S = 48;
 Sacute = 48;
 Scaron = 48;
 Scedilla = 48;
+Scircumflex = 48;
+T = 96;
+Tcaron = 96;
 U = 96;
+Uacute = 96;
+Ubreve = 96;
+Ucircumflex = 96;
+Udieresis = 96;
+Ugrave = 96;
+Umacron = 96;
+Uogonek = 96;
+Uring = 96;
+Utilde = 96;
 V = 144;
 W = 144;
+Wcircumflex = 144;
 Y = 144;
 Yacute = 144;
+Ycircumflex = 144;
 Ydieresis = 144;
 a = 48;
-a.sc = 120;
 aacute = 48;
-aacute.sc = 120;
 abreve = 48;
-abreve.sc = 120;
 acircumflex = 48;
-acircumflex.sc = 120;
 adieresis = 48;
-adieresis.sc = 120;
 ae = 48;
-ae.sc = 120;
 agrave = 48;
-agrave.sc = 120;
 amacron = 48;
-amacron.sc = 120;
 aogonek = 48;
-aogonek.sc = 120;
 aring = 48;
-aring.sc = 120;
 atilde = 48;
-atilde.sc = 120;
 c = 24;
-c.sc = -24;
 cacute = 24;
-cacute.sc = -24;
 ccaron = 24;
-ccaron.sc = -24;
 ccedilla = 24;
-ccedilla.sc = -24;
 ccircumflex = 24;
-ccircumflex.sc = -24;
 d = 24;
-d.sc = 96;
 dcaron = 24;
-dcaron.sc = 96;
 e = 24;
-e.sc = 96;
 eacute = 24;
-eacute.sc = 96;
 ecaron = 24;
-ecaron.sc = 96;
 ecircumflex = 24;
-ecircumflex.sc = 96;
 edieresis = 24;
-edieresis.sc = 96;
 egrave = 24;
-egrave.sc = 96;
 emacron = 24;
-emacron.sc = 96;
 eogonek = 24;
-eogonek.sc = 96;
 eth = 24;
-eth.sc = 96;
 f = 96;
-f.sc = 96;
 g = 72;
-g.sc = -24;
 gbreve = 72;
-gbreve.sc = -24;
 gcircumflex = 72;
-gcircumflex.sc = -24;
 guillemetleft = -24;
 guilsinglleft = -24;
 hyphen = -24;
-o.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
+idieresis = 144;
+igrave = 96;
+imacron = 120;
+m = 96;
+n = 96;
 oe = 24;
-oe.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
 oslash = 24;
-oslash.sc = 24;
-otilde.sc = -24;
+p = 24;
 q = 24;
-q.sc = -24;
+r = 96;
 s = 48;
-s.sc = 48;
-t.sc = -24;
-tcaron.sc = -24;
-tcedilla.sc = -24;
+sacute = 48;
+scaron = 48;
+scedilla = 48;
+scircumflex = 48;
 u = 24;
-u.sc = -24;
 uacute = 24;
-uacute.sc = -24;
 ubreve = 24;
-ubreve.sc = -24;
 ucircumflex = 24;
-ucircumflex.sc = -24;
 udieresis = 24;
-udieresis.sc = -24;
 ugrave = 24;
-ugrave.sc = -24;
 umacron = 24;
-umacron.sc = -24;
 uogonek = 24;
-uogonek.sc = -24;
 uring = 24;
-uring.sc = -24;
 utilde = 24;
-utilde.sc = -24;
 v = -24;
-v.sc = -24;
 w = -24;
-w.sc = -24;
 wcircumflex = -24;
-wcircumflex.sc = -24;
+x = 96;
 y = -24;
-y.sc = -24;
 yacute = -24;
-yacute.sc = -24;
-ycircumflex.sc = -24;
-ydieresis.sc = -24;
+z = 72;
 };
 "@MMK_L_L" = {
+A = 96;
+AE = 96;
+Aacute = 96;
+Abreve = 96;
+Acircumflex = 96;
+Adieresis = 96;
+Agrave = 96;
+Amacron = 96;
+Aogonek = 96;
+Aring = 96;
+Atilde = 96;
 C = 24;
 Cacute = 24;
 Ccaron = 24;
@@ -72643,6 +73696,8 @@ Ccircumflex = 24;
 G = 24;
 Gbreve = 24;
 Gcircumflex = 24;
+Gcommaaccent = 24;
+J = -24;
 O = 24;
 OE = 24;
 Oacute = 24;
@@ -72653,6 +73708,8 @@ Omacron = 24;
 Oslash = 24;
 Otilde = 24;
 Q = 24;
+S = 24;
+Scaron = 24;
 T = -24;
 Tcaron = -24;
 Tcedilla = -24;
@@ -72674,61 +73731,50 @@ Yacute = -48;
 Ycircumflex = -48;
 Ydieresis = -48;
 a = 48;
+aacute = 48;
+abreve = 48;
+acircumflex = 48;
+adieresis = 48;
+ae = 48;
+agrave = 48;
+amacron = 48;
+aogonek = 48;
+aring = 48;
 asterisk = -48;
+atilde = 48;
 backslash = -48;
 c = 48;
-c.sc = 24;
 cacute = 48;
-cacute.sc = 24;
 ccaron = 48;
-ccaron.sc = 24;
 ccedilla = 48;
-ccedilla.sc = 24;
 ccircumflex = 48;
 d = 24;
-d.sc = 24;
 dcaron = 24;
-dcaron.sc = 24;
 e = 24;
-e.sc = 24;
 eacute = 24;
-eacute.sc = 24;
 ecaron = 24;
-ecaron.sc = 24;
 ecircumflex = 24;
-ecircumflex.sc = 24;
 edieresis = 24;
-edieresis.sc = 24;
 egrave = 24;
-egrave.sc = 24;
 emacron = 24;
-emacron.sc = 24;
 eogonek = 24;
-eogonek.sc = 24;
+eth = 24;
 f = 24;
-f.sc = 24;
 g = 24;
-g.sc = 24;
+gbreve = 24;
+gcircumflex = 24;
+guillemetleft = -24;
+guilsinglleft = -24;
 o = 24;
-o.sc = 24;
 oacute = 24;
-oacute.sc = 24;
 ocircumflex = 24;
-ocircumflex.sc = 24;
 odieresis = 24;
-odieresis.sc = 24;
 oe = 24;
-oe.sc = 24;
 ograve = 24;
-ograve.sc = 24;
 omacron = 24;
-omacron.sc = 24;
 oslash = 24;
-oslash.sc = 24;
 otilde = 24;
-otilde.sc = 24;
 q = 24;
-q.sc = 24;
 question = -24;
 quotedbl = -96;
 quotedblleft = -72;
@@ -72737,41 +73783,20 @@ quoteleft = -72;
 quoteright = -72;
 quotesingle = -72;
 t = -24;
-t.sc = -24;
 tcaron = -24;
-tcaron.sc = -48;
 tcedilla = -24;
-tcedilla.sc = -24;
 u = 24;
-u.sc = -24;
-uacute.sc = -24;
-ucircumflex.sc = -24;
 udieresis = 24;
-udieresis.sc = -24;
-ugrave.sc = -24;
 umacron = 24;
-umacron.sc = -24;
 uogonek = 24;
-uogonek.sc = -24;
-uring.sc = -24;
-v.sc = -24;
-w.sc = -48;
 wcircumflex = -48;
-wcircumflex.sc = -48;
-y.sc = -24;
+y = -24;
 yacute = -48;
-yacute.sc = -48;
 ycircumflex = -48;
-ycircumflex.sc = -48;
 ydieresis = -48;
-ydieresis.sc = -48;
 };
 "@MMK_L_N" = {
-v.sc = 72;
-w.sc = 72;
-y.sc = 72;
-yacute.sc = 72;
-ydieresis.sc = 72;
+oacute = -24;
 };
 "@MMK_L_O" = {
 A = -24;
@@ -72797,24 +73822,38 @@ Yacute = 48;
 Ycircumflex = 48;
 Ydieresis = 48;
 Z = 24;
+a = 24;
+adieresis = 24;
+ae = 24;
+aogonek = 24;
+atilde = 24;
+backslash = -24;
+braceright = 72;
+bracketright = 48;
 comma = 24;
+j = 24;
 parenright = 48;
 period = 24;
 quotedblbase = 24;
+quotedblright = -24;
+quoteright = -24;
 quotesinglbase = 24;
 slash = -24;
-t.sc = -24;
-v.sc = -24;
-w.sc = -24;
-wcircumflex.sc = -24;
+underscore = 48;
 x = 24;
-y.sc = -24;
-yacute.sc = -24;
-ycircumflex.sc = -24;
-ydieresis.sc = -24;
-z.sc = -24;
 };
 "@MMK_L_R" = {
+A = 144;
+AE = 144;
+Aacute = 144;
+Abreve = 144;
+Acircumflex = 144;
+Adieresis = 144;
+Agrave = 144;
+Amacron = 144;
+Aogonek = 144;
+Aring = 144;
+Atilde = 144;
 Cacute = -24;
 Ccaron = -24;
 Ccircumflex = -24;
@@ -72827,64 +73866,41 @@ Odieresis = -24;
 Ograve = -24;
 Oslash = 48;
 Otilde = -24;
+S = 48;
+Uacute = -24;
+Ubreve = -24;
+Ucircumflex = -24;
+Udieresis = -24;
+Ugrave = -24;
+Uring = -24;
+Utilde = -24;
+X = 120;
 a = 24;
-a.sc = 120;
 aacute = 24;
-aacute.sc = 120;
 abreve = 24;
-abreve.sc = 120;
 acircumflex = 24;
-acircumflex.sc = 120;
 adieresis = 24;
-adieresis.sc = 120;
 ae = 24;
-ae.sc = 120;
 agrave = 24;
-agrave.sc = 120;
 amacron = 24;
-amacron.sc = 120;
 aogonek = 24;
-aogonek.sc = 120;
 aring = 24;
-aring.sc = 120;
 atilde = 24;
-atilde.sc = 120;
-cacute.sc = -24;
-ccaron.sc = -24;
-ccircumflex.sc = -24;
-d.sc = 96;
-dcaron.sc = 96;
-e.sc = 96;
-eacute.sc = 96;
-ecaron.sc = 96;
-ecircumflex.sc = 96;
-edieresis.sc = 96;
-egrave.sc = 96;
-emacron.sc = 96;
-eogonek.sc = 96;
-eth.sc = 96;
+backslash = -24;
 g = 72;
 gbreve = 72;
-gbreve.sc = -24;
-gcircumflex.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
+gcircumflex = 72;
+guillemetleft = -24;
 oslash = 24;
-oslash.sc = 24;
-otilde.sc = -24;
+s = 48;
 v = 24;
-v.sc = 24;
 w = 24;
-w.sc = 24;
+wcircumflex = 24;
+x = 96;
 y = 24;
-y.sc = 24;
 yacute = 24;
-yacute.sc = 24;
+ycircumflex = 24;
 ydieresis = 24;
-ydieresis.sc = 24;
 };
 "@MMK_L_S" = {
 A = 24;
@@ -72905,16 +73921,12 @@ Y = 48;
 Yacute = 48;
 Ycircumflex = 48;
 Ydieresis = 48;
-v.sc = 24;
-w.sc = 24;
-wcircumflex.sc = 24;
+comma = 24;
+period = 24;
 y = -24;
-y.sc = 24;
 yacute = -24;
-yacute.sc = 24;
 ycircumflex = -24;
-ycircumflex.sc = 24;
-ydieresis.sc = 24;
+z = 24;
 };
 "@MMK_L_T" = {
 A = -24;
@@ -72952,155 +73964,102 @@ S = 48;
 Sacute = 48;
 Scaron = 48;
 Scedilla = 48;
+Scircumflex = 48;
+T = 72;
+Tcaron = 72;
+V = 96;
+W = 96;
+X = 48;
 Y = 96;
+Yacute = 96;
+Ycircumflex = 96;
+Ydieresis = 96;
+Z = 24;
 a = 24;
-a.sc = -24;
 aacute = 24;
-aacute.sc = -48;
 abreve = 24;
-abreve.sc = -24;
 acircumflex = 24;
-acircumflex.sc = -24;
 adieresis = 24;
-adieresis.sc = -24;
 ae = 24;
-ae.sc = -24;
 agrave = 24;
-agrave.sc = -48;
 amacron = 24;
-amacron.sc = -24;
 aogonek = 24;
-aogonek.sc = -24;
 aring = 24;
-aring.sc = -48;
+asterisk = 48;
 atilde = 24;
-atilde.sc = -24;
-c.sc = -24;
-cacute.sc = -24;
-ccaron.sc = -24;
-ccedilla.sc = -24;
+b = 24;
 colon = 24;
 comma = -24;
 d = -24;
-d.sc = 48;
 dcaron = -24;
-dcaron.sc = 48;
-e.sc = 48;
-eacute.sc = 48;
-ecaron.sc = 48;
-ecircumflex.sc = 48;
-edieresis.sc = 48;
-egrave.sc = 48;
-emacron.sc = 48;
 eng = 48;
-eng.sc = 24;
-eogonek.sc = 48;
 eth = -24;
-eth.sc = 48;
 f = 72;
-f.sc = 48;
-g.sc = -24;
+four = -24;
+germandbls = 48;
 guillemetleft = -24;
 guilsinglleft = -24;
 guilsinglright = 24;
 i = 72;
-i.sc = 48;
 iacute = 72;
 icircumflex = 120;
-icircumflex.sc = 72;
 idieresis = 96;
-idieresis.sc = 72;
 idotless = 72;
 igrave = 72;
-igrave.sc = 48;
 imacron = 72;
-imacron.sc = 48;
+iogonek = 72;
 itilde = 120;
 j = 48;
-j.sc = 48;
+jcircumflex = 120;
+k = 24;
+l = 24;
 m = 72;
-m.sc = 48;
 n = 72;
-n.sc = 48;
 nacute = 72;
 ncaron = 72;
+ncommaaccent = 72;
 ntilde = 72;
-ntilde.sc = 48;
-o.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
-oe.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
-oslash.sc = -24;
-otilde.sc = -24;
 p = 72;
-p.sc = 48;
 period = -24;
 q = -24;
-q.sc = -24;
 quotedblbase = -24;
+quotedblleft = 24;
+quotedblright = 24;
+quoteleft = 24;
+quoteright = 24;
 quotesinglbase = -24;
 r = 72;
-r.sc = 48;
 racute = 72;
-racute.sc = 48;
 rcaron = 72;
-rcaron.sc = 48;
+rcommaaccent = 72;
 s = 24;
-s.sc = 24;
 sacute = 24;
-sacute.sc = 24;
 scaron = 24;
-scaron.sc = 24;
 scedilla = 24;
-scedilla.sc = 24;
 scircumflex = 48;
-scircumflex.sc = 24;
 semicolon = 24;
 slash = -24;
 t = 72;
-t.sc = 48;
 tcaron = 72;
-tcaron.sc = 48;
 tcedilla = 72;
 u = 72;
-u.sc = 48;
 uacute = 72;
-uacute.sc = 48;
 ubreve = 72;
-ubreve.sc = 48;
 ucircumflex = 72;
-ucircumflex.sc = 48;
 udieresis = 72;
-udieresis.sc = 48;
 ugrave = 72;
-ugrave.sc = 48;
 umacron = 72;
-umacron.sc = 48;
 uogonek = 72;
-uogonek.sc = 48;
 uring = 72;
-uring.sc = 48;
 utilde = 72;
-utilde.sc = 48;
 v = 120;
-v.sc = 96;
 w = 120;
-w.sc = 96;
 wcircumflex = 120;
-wcircumflex.sc = 96;
 x = 48;
-x.sc = 24;
 y = 120;
-y.sc = 96;
 yacute = 120;
-yacute.sc = 96;
 ycircumflex = 120;
-ycircumflex.sc = 96;
 ydieresis = 120;
-ydieresis.sc = 96;
 z = 24;
 zacute = 24;
 zcaron = 24;
@@ -73118,7 +74077,18 @@ Aogonek = -24;
 Aring = -24;
 Atilde = -24;
 J = 72;
+X = 48;
+aogonek = -24;
 comma = -24;
+d = -24;
+eacute = -24;
+egrave = -24;
+idieresis = 120;
+igrave = 48;
+oacute = -24;
+ograve = -24;
+quotedblbase = -24;
+quotesinglbase = -24;
 slash = -24;
 };
 "@MMK_L_W" = {
@@ -73143,157 +74113,97 @@ Sacute = 72;
 Scaron = 72;
 Scedilla = 72;
 Scircumflex = 72;
+T = 96;
+X = 96;
+Y = 144;
+Yacute = 144;
+Ydieresis = 144;
+Z = 48;
 a = -48;
-a.sc = -72;
 aacute = -48;
-aacute.sc = -72;
-abreve.sc = -72;
-acircumflex.sc = -48;
 adieresis = 24;
-adieresis.sc = -48;
 ae = -48;
-ae.sc = -72;
 agrave = -48;
-agrave.sc = -72;
-amacron.sc = -72;
+ampersand = 24;
 aogonek = -48;
-aogonek.sc = -72;
 aring = -48;
-aring.sc = -72;
+asterisk = 96;
 atilde = 24;
-atilde.sc = -48;
+bracketright = 120;
 c = -48;
-c.sc = -48;
 cacute = -48;
-cacute.sc = -48;
-ccaron.sc = -48;
 ccedilla = -48;
-ccedilla.sc = -48;
-ccircumflex.sc = -48;
 colon = -48;
 comma = -72;
 d = -48;
-d.sc = -24;
 dcaron = -48;
-dcaron.sc = -24;
 e = -48;
-e.sc = -24;
 eacute = -48;
-eacute.sc = -24;
-ecaron.sc = -24;
-ecircumflex.sc = 24;
 edieresis = 24;
-edieresis.sc = 72;
 egrave = -48;
-egrave.sc = -24;
-emacron.sc = 72;
 eng = -48;
-eng.sc = -48;
 eogonek = -48;
-eogonek.sc = -24;
 eth = -48;
-eth.sc = -24;
-f.sc = -24;
+four = -48;
 g = -48;
-g.sc = -48;
 gbreve = -24;
-gbreve.sc = -48;
 gcircumflex = -24;
-gcircumflex.sc = -48;
+gcommaaccent = -48;
+germandbls = 24;
 guillemetleft = -72;
+guillemetright = -72;
 guilsinglleft = -72;
+guilsinglright = -72;
 hyphen = -48;
+i = 48;
+iacute = 72;
 icircumflex = 120;
-icircumflex.sc = 144;
 idieresis = 144;
-idieresis.sc = 120;
 idotless = -48;
 igrave = 72;
-igrave.sc = 24;
 imacron = 144;
-imacron.sc = 120;
 itilde = 144;
+j = 48;
+jcircumflex = 120;
 m = -48;
-m.sc = -24;
 n = -48;
-n.sc = -24;
 nacute = -24;
 ncaron = -24;
 ntilde = -24;
-ntilde.sc = -24;
 o = -48;
-o.sc = -48;
 oacute = -48;
-oacute.sc = -48;
 ocircumflex = -48;
-ocircumflex.sc = -48;
-odieresis.sc = -48;
 oe = -48;
-oe.sc = -48;
 ograve = -48;
-ograve.sc = -48;
 omacron = -24;
-omacron.sc = -48;
 oslash = -48;
-oslash.sc = -48;
-otilde.sc = -48;
 p = -48;
-p.sc = -24;
 period = -72;
 q = -48;
-q.sc = -48;
 quotedblbase = -96;
+quotedblright = 48;
+quoteright = 48;
 quotesinglbase = -96;
 r = -48;
-r.sc = -24;
 racute = -24;
-racute.sc = -24;
 rcaron = 48;
-rcaron.sc = -24;
 s = -48;
-s.sc = -48;
 sacute = -24;
-sacute.sc = -48;
 scaron = 48;
-scaron.sc = -48;
 scedilla = -48;
-scedilla.sc = -48;
 scircumflex = 24;
-scircumflex.sc = 48;
 semicolon = -48;
 slash = -48;
-t.sc = -48;
-tcaron.sc = -48;
-tcedilla.sc = -48;
 u = -48;
-u.sc = -24;
 uacute = -48;
-uacute.sc = -24;
-ubreve.sc = -24;
-ucircumflex.sc = -24;
 udieresis = 24;
-udieresis.sc = -24;
 ugrave = -48;
-ugrave.sc = -24;
-umacron.sc = -24;
 uogonek = -48;
-uogonek.sc = -24;
 uring = -48;
-uring.sc = -24;
 utilde = 24;
-utilde.sc = -24;
-v.sc = 24;
-w.sc = 24;
-wcircumflex.sc = 24;
 x = -72;
-x.sc = -48;
-y.sc = 24;
-yacute.sc = 24;
-ycircumflex.sc = 24;
 ydieresis = 24;
-ydieresis.sc = 24;
 z = -48;
-z.sc = -72;
 zacute = -48;
 };
 "@MMK_L_Y" = {
@@ -73311,213 +74221,147 @@ Atilde = -24;
 G = -24;
 Gbreve = -24;
 Gcircumflex = -24;
+Gcommaaccent = -24;
 J = 96;
 Jcircumflex = 144;
+M = 120;
 S = 72;
 Sacute = 72;
 Scaron = 72;
 Scedilla = 72;
 Scircumflex = 72;
+T = 96;
+Tcaron = 96;
+V = 144;
+W = 144;
+X = 96;
+Y = 144;
+Z = 48;
 a = -24;
-a.sc = -48;
 aacute = -24;
-aacute.sc = -48;
-abreve.sc = -48;
-acircumflex.sc = -48;
 adieresis = 24;
-adieresis.sc = -48;
 ae = -24;
-ae.sc = -48;
 agrave = -24;
-agrave.sc = -48;
-amacron.sc = -48;
 ampersand = 24;
 aogonek = -24;
-aogonek.sc = -48;
 aring = -24;
-aring.sc = -48;
+asterisk = 96;
 atilde = 24;
-atilde.sc = -48;
+b = 96;
+bracketright = 120;
 c = -24;
-c.sc = -48;
 cacute = -24;
-cacute.sc = -48;
-ccaron.sc = -48;
 ccedilla = -24;
-ccedilla.sc = -48;
-ccircumflex.sc = -48;
 colon = -24;
 comma = -24;
 d = -24;
-d.sc = -24;
 dcaron = -24;
-dcaron.sc = -24;
 e = -24;
-e.sc = -24;
 eacute = -24;
-eacute.sc = -24;
-ecaron.sc = -24;
-ecircumflex.sc = 24;
 edieresis = 24;
-edieresis.sc = 72;
 egrave = -24;
-egrave.sc = -24;
-emacron.sc = 72;
 eng = -48;
-eng.sc = -48;
 eogonek = -24;
-eogonek.sc = -24;
 eth = -24;
-eth.sc = -24;
-f.sc = -24;
+four = -48;
 g = -24;
-g.sc = -48;
 gbreve = -24;
-gbreve.sc = -48;
 gcircumflex = -24;
-gcircumflex.sc = -48;
+gcommaaccent = -24;
 germandbls = 24;
-germandbls.sc = -24;
 guillemetleft = -48;
 guillemetright = -48;
 guilsinglleft = -48;
 guilsinglright = -48;
 hyphen = -48;
 i = 48;
-i.sc = -24;
 iacute = 72;
-iacute.sc = 48;
 icircumflex = 120;
-icircumflex.sc = 144;
 idieresis = 144;
-idieresis.sc = 120;
 idotless = -24;
 igrave = 72;
-igrave.sc = 24;
 imacron = 144;
-imacron.sc = 120;
+iogonek = 48;
+itilde = 144;
 j = 48;
+k = 96;
+l = 96;
 m = -24;
-m.sc = -24;
 n = -24;
-n.sc = -24;
 nacute = -24;
 ncaron = -24;
+ncommaaccent = -24;
 ntilde = -24;
-ntilde.sc = -24;
 o = -24;
-o.sc = -48;
 oacute = -24;
-oacute.sc = -48;
 ocircumflex = -24;
-ocircumflex.sc = -48;
-odieresis.sc = -48;
 oe = -24;
-oe.sc = -48;
 ograve = -24;
-ograve.sc = -48;
 omacron = -24;
-omacron.sc = -48;
 oslash = -24;
-oslash.sc = -24;
-otilde.sc = -48;
 p = -24;
-p.sc = -24;
+parenright = 120;
 period = -24;
 q = -48;
-q.sc = -48;
 quotedblbase = -48;
+quotedblleft = 24;
+quotedblright = 48;
+quoteleft = 24;
+quoteright = 48;
 quotesinglbase = -48;
 r = -24;
-r.sc = -24;
 racute = -24;
-racute.sc = -24;
 rcaron = 48;
-rcaron.sc = -24;
 s = -24;
-s.sc = -24;
 sacute = -24;
-sacute.sc = -24;
 scaron = 48;
-scaron.sc = -24;
 scedilla = -24;
-scedilla.sc = -24;
 scircumflex = 24;
-scircumflex.sc = 48;
 semicolon = -24;
+six = -24;
 slash = -48;
-t.sc = -48;
-tcaron.sc = -48;
-tcedilla.sc = -48;
 u = -48;
-u.sc = -48;
 uacute = -24;
-uacute.sc = -24;
-ubreve.sc = -24;
-ucircumflex.sc = -24;
 udieresis = 24;
-udieresis.sc = -24;
 ugrave = -24;
-ugrave.sc = -24;
-umacron.sc = -24;
 uogonek = -48;
-uogonek.sc = -48;
 uring = -24;
-uring.sc = -24;
 utilde = 24;
-utilde.sc = -24;
 v = -24;
-v.sc = 24;
 w = -24;
-w.sc = 24;
 wcircumflex = -24;
-wcircumflex.sc = 24;
 x = -48;
-x.sc = -48;
 y = -24;
-y.sc = 24;
 yacute = -24;
-yacute.sc = 24;
-ycircumflex.sc = 24;
 ydieresis = 24;
-ydieresis.sc = 24;
 z = -48;
-z.sc = -48;
 zacute = -24;
+zero = 24;
 };
 "@MMK_L_Z" = {
 Oslash = 24;
-a.sc = 48;
-aacute.sc = 48;
-acircumflex.sc = 48;
+T = 24;
+Y = 72;
 adieresis = 24;
-adieresis.sc = 48;
-agrave.sc = 48;
-aring.sc = 48;
 atilde = 24;
-atilde.sc = 48;
-d.sc = 24;
-dcaron.sc = 24;
-e.sc = 24;
-eacute.sc = 24;
-ecaron.sc = 24;
-ecircumflex.sc = 24;
-edieresis.sc = 24;
-egrave.sc = 24;
-emacron.sc = 24;
-eogonek.sc = 24;
-eth.sc = 24;
 f = 24;
-f.sc = 24;
 g = 24;
+guillemetleft = -24;
+icircumflex = 48;
+idieresis = 72;
+s = 24;
+scaron = 24;
+scedilla = 24;
 u = 24;
 umacron = 24;
 uogonek = 24;
+x = 24;
 yacute = -24;
 };
 "@MMK_L_a" = {
 T = -24;
 Tcaron = -24;
+Tcedilla = -24;
 V = -48;
 W = -48;
 Wcircumflex = -48;
@@ -73527,6 +74371,7 @@ Ycircumflex = -48;
 Ydieresis = -48;
 asterisk = -24;
 backslash = -24;
+question = -24;
 quotedbl = -48;
 quotedblleft = -48;
 quotedblright = -24;
@@ -73543,26 +74388,73 @@ ydieresis = 24;
 };
 "@MMK_L_c" = {
 T = 24;
+Tcaron = 24;
+Tcedilla = 24;
 V = -48;
 W = -48;
+Wcircumflex = -48;
 Y = -24;
 Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
+acircumflex = 24;
+atilde = 24;
+backslash = -24;
+bracketright = -24;
 cacute = -24;
 ccircumflex = 24;
+comma = 24;
 d = -24;
 dcaron = -24;
 eacute = -24;
 egrave = -24;
+eth = -24;
+g = 24;
+gbreve = 24;
+gcircumflex = 24;
+guillemetleft = -24;
 oacute = -24;
 ograve = -24;
+period = 24;
+quotedblleft = 24;
+quotedblright = -24;
+quoteleft = 24;
+v = 48;
+w = 48;
+y = 48;
 };
 "@MMK_L_d" = {
+asterisk = 48;
+b = 24;
+braceright = 48;
+bracketright = 48;
+comma = 24;
+i = 72;
+j = 24;
+k = 72;
+l = 72;
+lacute = 72;
+lcaron = 72;
+parenright = 24;
+period = 24;
+quotedbl = -24;
+quotedblright = -24;
+quoteleft = -24;
+quoteright = -24;
+quotesingle = -24;
 v = 72;
+w = 72;
+wcircumflex = 72;
+y = 72;
+yacute = 72;
+ycircumflex = 72;
+ydieresis = 72;
+z = 24;
 };
 "@MMK_L_e" = {
 T = 24;
+Tcaron = 24;
+Tcedilla = 24;
 V = -24;
 W = -48;
 Wcircumflex = -48;
@@ -73570,6 +74462,8 @@ Y = -24;
 Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
+a = 24;
+ae = 24;
 asterisk = -24;
 backslash = -24;
 quotedbl = -24;
@@ -73585,88 +74479,70 @@ y = 48;
 yacute = 48;
 ycircumflex = 48;
 ydieresis = 48;
-};
-"@MMK_L_f.sc" = {
-a.sc = -24;
-aacute.sc = -24;
-abreve.sc = -24;
-acircumflex.sc = -24;
-adieresis.sc = -24;
-ae.sc = -48;
-agrave.sc = -24;
-amacron.sc = -24;
-aogonek.sc = -24;
-aring.sc = -24;
-atilde.sc = -24;
-c.sc = -24;
-cacute.sc = -24;
-ccaron.sc = -24;
-ccedilla.sc = -24;
-ccircumflex.sc = -24;
-d.sc = 24;
-dcaron.sc = 24;
-e.sc = 24;
-eacute.sc = 24;
-ecaron.sc = 24;
-ecircumflex.sc = 24;
-edieresis.sc = 24;
-egrave.sc = 24;
-emacron.sc = 24;
-eogonek.sc = 24;
-eth.sc = 24;
-g.sc = -24;
-gbreve.sc = -24;
-gcircumflex.sc = -24;
-icircumflex.sc = 24;
-idieresis.sc = 24;
-igrave.sc = 24;
-o.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
-oe.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
-otilde.sc = -24;
-q.sc = -24;
+z = 24;
+zacute = -24;
+zcaron = -24;
 };
 "@MMK_L_g" = {
 T = 48;
+Tcaron = 48;
+Tcedilla = 48;
 V = -24;
 W = -24;
 Y = -24;
 Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
+a = 24;
+backslash = -24;
+ecircumflex = 24;
 j = 24;
-};
-"@MMK_L_germandbls.sc" = {
-v.sc = 24;
-w.sc = 24;
-y.sc = 24;
-yacute.sc = 24;
-ydieresis.sc = 24;
+y = 72;
 };
 "@MMK_L_h" = {
 V = -24;
+W = -48;
+Wcircumflex = -48;
 Y = -24;
 Yacute = -48;
 Ycircumflex = -48;
 Ydieresis = -48;
+asterisk = -24;
+backslash = -24;
+quotedbl = -48;
 quotedblleft = -48;
 quotedblright = -48;
-quoteleft = -24;
+quoteleft = -48;
 quoteright = -48;
+quotesingle = -48;
 v = 48;
+w = 48;
+wcircumflex = 48;
+y = 48;
+yacute = 48;
+ycircumflex = 48;
+ydieresis = 48;
+};
+"@MMK_L_i" = {
+asterisk = 96;
+bracketright = 120;
+parenright = 96;
 };
 "@MMK_L_k" = {
 T = 24;
+Tcaron = 24;
+Tcedilla = 24;
 V = -24;
+W = -48;
+Wcircumflex = -48;
 Y = -24;
 Yacute = -48;
+Ycircumflex = -48;
 Ydieresis = -48;
+backslash = -24;
 cacute = -24;
 ccaron = -24;
+comma = 48;
 d = -24;
 dcaron = -24;
 eacute = -24;
@@ -73682,18 +74558,52 @@ hyphen = -24;
 oacute = -24;
 ocircumflex = -24;
 ograve = -24;
+quoteright = -24;
 s = 24;
+sacute = 24;
 scaron = 24;
+scedilla = 24;
+scircumflex = 24;
+u = 24;
+uacute = 24;
+ucircumflex = 24;
+udieresis = 24;
+ugrave = 24;
+umacron = 24;
+uring = 24;
 v = 72;
+w = 72;
+x = 72;
 y = 72;
+yacute = 72;
+ycircumflex = 72;
+ydieresis = 72;
 };
 "@MMK_L_l" = {
+V = 48;
+Y = 48;
+asterisk = 120;
+b = 120;
+c = 24;
+ccaron = 24;
+ccedilla = 24;
+k = 120;
+l = 120;
+lacute = 120;
+lcaron = 120;
+o = 24;
+quotedblright = 48;
+t = 96;
 v = 48;
+w = 48;
 y = 48;
+yacute = 48;
+ydieresis = 48;
 };
 "@MMK_L_n" = {
 V = 24;
 W = 24;
+Wcircumflex = 24;
 Y = 24;
 Yacute = 24;
 Ycircumflex = 24;
@@ -73707,19 +74617,12 @@ quoteleft = -24;
 quoteright = -24;
 quotesingle = -48;
 v = 48;
-v.sc = -24;
 w = 48;
+wcircumflex = 48;
 y = 48;
-y.sc = -24;
 yacute = 48;
+ycircumflex = 48;
 ydieresis = 48;
-};
-"@MMK_L_n.sc" = {
-v.sc = 72;
-w.sc = 72;
-y.sc = 72;
-yacute.sc = 72;
-ydieresis.sc = 72;
 };
 "@MMK_L_o" = {
 V = -48;
@@ -73730,8 +74633,11 @@ Y = -48;
 Yacute = -48;
 Ycircumflex = -48;
 Ydieresis = -48;
+Zcaron = -24;
 asterisk = -24;
 backslash = -24;
+braceright = -24;
+bracketright = -24;
 comma = 24;
 f = -24;
 period = 24;
@@ -73742,6 +74648,7 @@ quotedblright = -24;
 quoteleft = -24;
 quoteright = -24;
 quotesingle = -24;
+tcaron = -24;
 v = 24;
 w = 24;
 wcircumflex = 24;
@@ -73762,15 +74669,23 @@ Y = -24;
 Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
+Zcaron = -24;
 asterisk = -24;
 backslash = -48;
+braceright = -24;
+bracketright = -24;
+f = -24;
 period = 24;
+question = -24;
 quotedbl = -24;
+quotedblbase = -24;
 quotedblleft = -48;
 quotedblright = -48;
 quoteleft = -48;
 quoteright = -24;
+quotesinglbase = -24;
 quotesingle = -24;
+tcedilla = -24;
 v = 48;
 w = 48;
 wcircumflex = 48;
@@ -73782,30 +74697,108 @@ z = 24;
 zacute = -24;
 zcaron = -24;
 };
-"@MMK_L_p.sc" = {
-v.sc = 24;
-w.sc = 24;
-wcircumflex.sc = 24;
-x.sc = -24;
-y.sc = 24;
-yacute.sc = 24;
-ycircumflex.sc = 24;
-ydieresis.sc = 24;
-z.sc = -24;
-};
 "@MMK_L_r" = {
 A = -24;
+AE = -24;
 Aacute = -24;
+Abreve = -24;
 Acircumflex = -24;
 Adieresis = -24;
 Agrave = -24;
+Amacron = -24;
+Aogonek = -24;
 Aring = -24;
 Atilde = -24;
+J = 24;
 T = 72;
+Tcaron = 72;
 V = -24;
+W = -24;
 X = -24;
 Y = -48;
 Yacute = -48;
+Ycircumflex = -48;
+Ydieresis = -48;
+Z = 24;
+a = 24;
+aacute = 24;
+abreve = 24;
+acircumflex = 24;
+adieresis = 24;
+ae = 24;
+agrave = 24;
+amacron = 24;
+aogonek = 24;
+aring = 24;
+asterisk = 48;
+atilde = 24;
+braceright = -24;
+bracketright = -24;
+f = 72;
+guillemetleft = -24;
+guilsinglleft = -24;
+hyphen = 24;
+parenright = 24;
+period = -24;
+quotedblbase = -24;
+quotedblleft = 24;
+quotedblright = 24;
+quoteleft = 48;
+quoteright = 24;
+quotesinglbase = -24;
+s = 24;
+sacute = 24;
+scaron = 24;
+scedilla = 24;
+scircumflex = 24;
+slash = -24;
+t = 72;
+tcaron = 72;
+tcedilla = 72;
+v = 120;
+w = 120;
+wcircumflex = 120;
+x = 48;
+y = 120;
+yacute = 120;
+ycircumflex = 120;
+ydieresis = 120;
+z = 24;
+};
+"@MMK_L_s" = {
+T = 24;
+Tcaron = 24;
+Tcedilla = 24;
+V = -24;
+W = -48;
+Wcircumflex = -48;
+Y = -24;
+Yacute = -24;
+Ycircumflex = -24;
+Ydieresis = -24;
+backslash = -24;
+quotedbl = -24;
+quotedblleft = -24;
+quotedblright = -24;
+quoteleft = -24;
+quoteright = -24;
+quotesingle = -24;
+v = 48;
+w = 48;
+wcircumflex = 48;
+y = 48;
+yacute = 48;
+ycircumflex = 48;
+ydieresis = 48;
+};
+"@MMK_L_t" = {
+T = 72;
+Tcaron = 72;
+V = 144;
+Y = -24;
+Yacute = -24;
+Ycircumflex = -24;
+Ydieresis = -24;
 a = 24;
 aacute = 24;
 abreve = 24;
@@ -73817,87 +74810,36 @@ amacron = 24;
 aogonek = 24;
 aring = 24;
 atilde = 24;
-hyphen = 24;
-period = -24;
-quotedblbase = -24;
-quotedblright = 24;
-quoteright = 24;
-quotesinglbase = -24;
-s = 24;
-slash = -24;
-t = 72;
-v = 120;
-w = 120;
-y = 120;
-yacute = 120;
-ydieresis = 120;
-};
-"@MMK_L_r.sc" = {
-a.sc = 120;
-aacute.sc = 120;
-abreve.sc = 120;
-acircumflex.sc = 120;
-adieresis.sc = 120;
-ae.sc = 120;
-agrave.sc = 120;
-amacron.sc = 120;
-aogonek.sc = 120;
-aring.sc = 120;
-atilde.sc = 120;
-d.sc = 72;
-dcaron.sc = 72;
-e.sc = 72;
-eacute.sc = 72;
-ecaron.sc = 72;
-ecircumflex.sc = 72;
-edieresis.sc = 72;
-egrave.sc = 72;
-emacron.sc = 72;
-eogonek.sc = 72;
-eth.sc = 72;
-oslash.sc = 24;
-s.sc = 24;
-};
-"@MMK_L_s" = {
-T = 24;
-Tcaron = 24;
-V = -24;
-W = -48;
-Y = -24;
-Yacute = -24;
-Ycircumflex = -24;
-Ydieresis = -24;
 backslash = -24;
-v = 48;
-w = 48;
-y = 48;
-yacute = 48;
-ydieresis = 48;
-};
-"@MMK_L_t" = {
-T = 72;
-Y = -24;
-a = 24;
 c = 24;
 cacute = 24;
 ccaron = 24;
 ccedilla = 24;
 ccircumflex = 24;
+comma = 48;
 d = 24;
 dcaron = 24;
+edieresis = 24;
 g = 24;
 gbreve = 24;
+gcircumflex = 24;
 hyphen = -24;
+period = 24;
+question = 72;
+quotedblbase = 24;
+quotedblleft = 24;
+quotedblright = 24;
+quoteleft = 24;
 quoteright = 24;
-};
-"@MMK_L_thorn.sc" = {
-v.sc = -24;
-w.sc = -24;
-wcircumflex.sc = -24;
-y.sc = -24;
-yacute.sc = -24;
-ycircumflex.sc = -24;
-ydieresis.sc = -24;
+quotesinglbase = 24;
+t = 48;
+tcaron = 48;
+v = 96;
+w = 96;
+y = 96;
+yacute = 96;
+ycircumflex = 96;
+ydieresis = 96;
 };
 "@MMK_L_u" = {
 V = -24;
@@ -73907,55 +74849,11 @@ Y = -24;
 Yacute = -24;
 Ycircumflex = -24;
 Ydieresis = -24;
-};
-"@MMK_L_v.sc" = {
-a.sc = -48;
-aacute.sc = -48;
-abreve.sc = -48;
-acircumflex.sc = -48;
-adieresis.sc = -48;
-ae.sc = -48;
-agrave.sc = -48;
-amacron.sc = -48;
-aogonek.sc = -48;
-aring.sc = -48;
-atilde.sc = -48;
-c.sc = -48;
-cacute.sc = -48;
-ccaron.sc = -48;
-ccedilla.sc = -48;
-ccircumflex.sc = -48;
-d.sc = 72;
-dcaron.sc = 72;
-e.sc = 72;
-eacute.sc = 72;
-ecaron.sc = 72;
-ecircumflex.sc = 72;
-edieresis.sc = 72;
-egrave.sc = 72;
-emacron.sc = 72;
-eogonek.sc = 72;
-eth.sc = 72;
-g.sc = -48;
-gbreve.sc = -48;
-gcircumflex.sc = -48;
-o.sc = -48;
-oacute.sc = -48;
-ocircumflex.sc = -48;
-odieresis.sc = -48;
-oe.sc = -48;
-ograve.sc = -48;
-omacron.sc = -48;
-oslash.sc = -24;
-otilde.sc = -48;
-q.sc = -48;
-s.sc = 24;
-sacute.sc = 24;
-scaron.sc = 24;
-scedilla.sc = 24;
+backslash = -24;
 };
 "@MMK_L_w" = {
 A = -24;
+AE = -48;
 Aacute = -24;
 Abreve = -24;
 Acircumflex = -24;
@@ -73966,15 +74864,19 @@ Aogonek = -24;
 Aring = -24;
 Atilde = -24;
 J = -24;
+Jcircumflex = -24;
 T = 72;
 Tcaron = 72;
+Tcedilla = 72;
 V = -24;
 W = -24;
+Wcircumflex = -24;
 X = -48;
 Y = -48;
 Yacute = -48;
 Ycircumflex = -48;
 Ydieresis = -48;
+Z = 24;
 a = 24;
 aacute = 24;
 abreve = 24;
@@ -73985,64 +74887,33 @@ agrave = 24;
 amacron = 24;
 aogonek = 24;
 aring = 24;
+asterisk = 24;
 atilde = 24;
 comma = -48;
 d = -24;
 dcaron = -24;
 eth = -24;
+guilsinglleft = -48;
 period = -48;
 q = -24;
 quotedblbase = -48;
+quoteleft = 24;
+quoteright = 24;
 quotesinglbase = -48;
 s = 24;
 sacute = 24;
 scaron = 24;
+scedilla = 24;
+scircumflex = 24;
 slash = -24;
-};
-"@MMK_L_x.sc" = {
-a.sc = 48;
-aacute.sc = 48;
-abreve.sc = 48;
-acircumflex.sc = 48;
-adieresis.sc = 48;
-ae.sc = 48;
-agrave.sc = 48;
-amacron.sc = 48;
-aogonek.sc = 48;
-aring.sc = 48;
-atilde.sc = 48;
-c.sc = -24;
-cacute.sc = -24;
-ccaron.sc = -24;
-ccedilla.sc = -24;
-ccircumflex.sc = -24;
-d.sc = 24;
-dcaron.sc = 24;
-e.sc = 24;
-eacute.sc = 24;
-ecaron.sc = 24;
-ecircumflex.sc = 24;
-edieresis.sc = 24;
-egrave.sc = 24;
-emacron.sc = 24;
-eogonek.sc = 24;
-eth.sc = 24;
-g.sc = -24;
-gbreve.sc = -24;
-gcircumflex.sc = -24;
-o.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
-oe.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
-oslash.sc = -24;
-otilde.sc = -24;
-q.sc = -24;
+t = 72;
+v = 120;
+x = 48;
+z = 24;
 };
 "@MMK_L_y" = {
 A = -48;
+AE = -48;
 Aacute = -48;
 Abreve = -48;
 Acircumflex = -48;
@@ -74055,9 +74926,55 @@ Atilde = -48;
 J = -24;
 T = 72;
 Tcaron = 72;
+Tcedilla = 72;
 V = -24;
 W = -24;
+Wcircumflex = -24;
 X = -48;
+Y = -48;
+Yacute = -48;
+Ycircumflex = -48;
+Ydieresis = -48;
+Z = 24;
+a = 24;
+aacute = 24;
+abreve = 24;
+acircumflex = 24;
+adieresis = 24;
+ae = 24;
+agrave = 24;
+amacron = 24;
+aogonek = 24;
+aring = 24;
+asterisk = 24;
+atilde = 24;
+backslash = -24;
+comma = -72;
+d = -24;
+dcaron = -24;
+eth = -24;
+guillemetleft = -48;
+guilsinglleft = -48;
+period = -48;
+q = -24;
+quotedblbase = -96;
+quoteleft = 24;
+quoteright = 24;
+quotesinglbase = -96;
+s = 24;
+sacute = 24;
+scaron = 24;
+scedilla = 24;
+scircumflex = 24;
+slash = -48;
+};
+"@MMK_L_z" = {
+T = 48;
+Tcaron = 48;
+Tcedilla = 48;
+V = -48;
+W = -48;
+Wcircumflex = -48;
 Y = -48;
 Yacute = -48;
 Ycircumflex = -48;
@@ -74073,35 +74990,12 @@ amacron = 24;
 aogonek = 24;
 aring = 24;
 atilde = 24;
-comma = -72;
-d = -24;
-dcaron = -24;
-eth = -24;
-period = -48;
-q = -24;
-quotedblbase = -96;
-quotesinglbase = -96;
-s = 24;
-sacute = 24;
-scaron = 24;
-slash = -48;
-};
-"@MMK_L_z" = {
-T = 48;
-V = -48;
-W = -48;
-Y = -48;
-Yacute = -48;
-Ydieresis = -48;
-a = 24;
+backslash = -24;
 c = 24;
 cacute = 24;
-cacute.sc = -24;
 ccaron = 24;
-ccaron.sc = -24;
 ccedilla = 24;
 ccircumflex = 24;
-ccircumflex.sc = -24;
 d = 24;
 dcaron = 24;
 e = 24;
@@ -74114,22 +75008,22 @@ emacron = 24;
 eogonek = 24;
 eth = 24;
 g = 24;
+gbreve = 24;
+gcircumflex = 24;
 o = 24;
 oacute = 24;
-oacute.sc = -24;
 ocircumflex = 24;
-ocircumflex.sc = -24;
 odieresis = 24;
-odieresis.sc = -24;
 oe = 24;
 ograve = 24;
-ograve.sc = -24;
 omacron = 24;
-omacron.sc = -24;
 oslash = 24;
 otilde = 24;
-otilde.sc = -24;
 q = 24;
+v = 72;
+y = 72;
+yacute = 72;
+ydieresis = 72;
 };
 Aacute = {
 "@MMK_R_U" = -48;
@@ -74192,14 +75086,17 @@ B = {
 "@MMK_R_A" = 24;
 "@MMK_R_W" = 24;
 "@MMK_R_Y" = 24;
-"@MMK_R_v.sc" = 24;
 "@MMK_R_w" = 48;
 "@MMK_R_y" = 48;
+"@MMK_R_z" = 24;
 V = 24;
+comma = 24;
+period = 24;
 v = 48;
 };
 Dcaron = {
 "@MMK_R_A" = -48;
+slash = -48;
 };
 F = {
 "@MMK_R_A" = -48;
@@ -74216,65 +75113,54 @@ F = {
 "@MMK_R_T" = 48;
 "@MMK_R_U" = 48;
 "@MMK_R_W" = 96;
-"@MMK_R_Y" = 96;
+"@MMK_R_Y" = 120;
 "@MMK_R_a" = -24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -24;
 "@MMK_R_e" = -24;
 "@MMK_R_g" = -24;
-"@MMK_R_h.sc" = 48;
 "@MMK_R_i" = -24;
+"@MMK_R_j" = 120;
 "@MMK_R_n" = -24;
-"@MMK_R_n.sc" = 48;
 "@MMK_R_o" = -24;
 "@MMK_R_p" = -24;
 "@MMK_R_r" = -24;
 "@MMK_R_s" = -24;
 "@MMK_R_t" = 48;
 "@MMK_R_u" = -24;
-"@MMK_R_v.sc" = 96;
-"@MMK_R_x.sc" = 24;
 "@MMK_R_z" = -24;
 Acircumflex = -24;
 Jcircumflex = 96;
-c.sc = -24;
-cacute.sc = -24;
-ccaron.sc = -24;
-ccedilla.sc = -24;
-ccircumflex.sc = -24;
+V = 120;
+X = 48;
+ampersand = -24;
+colon = -24;
 comma = -48;
 eng = -24;
-eng.sc = 24;
 f = -24;
-g.sc = -24;
-gbreve.sc = -24;
-gcircumflex.sc = -24;
+guillemetleft = -48;
+guillemetright = -48;
 guilsinglleft = -48;
+guilsinglright = -24;
+iacute = 24;
 icircumflex = 120;
 idieresis = 120;
 igrave = 48;
-igrave.sc = 48;
 imacron = 96;
-j.sc = 48;
+itilde = 120;
 m = -24;
 n = -24;
-o.sc = -24;
-oacute.sc = -24;
-ocircumflex.sc = -24;
-odieresis.sc = -24;
-oe.sc = -24;
-ograve.sc = -24;
-omacron.sc = -24;
-oslash.sc = -24;
-otilde.sc = -24;
 period = -48;
 q = -24;
-q.sc = -24;
 quotedblbase = -48;
 quotesinglbase = -48;
 scircumflex = 48;
+semicolon = -24;
 slash = -24;
 x = -24;
+};
+Jcircumflex = {
+"@MMK_R_J" = 96;
 };
 Lacute = {
 quotedbl = -72;
@@ -74286,24 +75172,48 @@ V = 48;
 asterisk = 24;
 quotesingle = 24;
 };
+M = {
+"@MMK_R_D" = 48;
+"@MMK_R_E" = 48;
+"@MMK_R_T" = 72;
+"@MMK_R_Y" = 120;
+"@MMK_R_e" = 24;
+"@MMK_R_u" = 24;
+"@MMK_R_y" = 24;
+V = 120;
+v = 24;
+};
 Oacute = {
+"@MMK_R_A" = -48;
 slash = -48;
 };
 Ocircumflex = {
+"@MMK_R_A" = -48;
 slash = -48;
 };
 Odieresis = {
+"@MMK_R_A" = -48;
 slash = -48;
 };
 Ograve = {
+"@MMK_R_A" = -48;
 slash = -48;
+};
+Omacron = {
+"@MMK_R_A" = -48;
 };
 Oslash = {
 "@MMK_R_A" = -24;
+braceright = 24;
+bracketright = 24;
+parenright = 24;
 quotedblbase = -24;
+quoteright = 24;
 quotesinglbase = -24;
+underscore = -24;
 };
 Otilde = {
+"@MMK_R_A" = -48;
 slash = -48;
 };
 P = {
@@ -74312,21 +75222,38 @@ P = {
 "@MMK_R_D" = 24;
 "@MMK_R_E" = 24;
 "@MMK_R_G" = -24;
+"@MMK_R_N" = 24;
 "@MMK_R_O" = -24;
+"@MMK_R_R" = 24;
 "@MMK_R_T" = 48;
+"@MMK_R_U" = 24;
 "@MMK_R_W" = 48;
 "@MMK_R_Y" = 48;
+"@MMK_R_Z" = -24;
 "@MMK_R_a" = -24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -24;
 "@MMK_R_e" = -24;
+"@MMK_R_j" = 24;
+"@MMK_R_n" = 24;
 "@MMK_R_o" = -24;
-"@MMK_R_v.sc" = 72;
+"@MMK_R_p" = 24;
+"@MMK_R_r" = 24;
+"@MMK_R_t" = 24;
+"@MMK_R_u" = 48;
+"@MMK_R_w" = 96;
 "@MMK_R_y" = 96;
+"@MMK_R_z" = -24;
 Acircumflex = -24;
 Atilde = -24;
 V = 48;
+ampersand = -24;
 comma = -48;
+guillemetleft = -24;
+guilsinglleft = -24;
+m = 24;
+n = 24;
+parenright = 24;
 period = -48;
 q = -24;
 quotedblbase = -48;
@@ -74334,7 +75261,9 @@ quotesinglbase = -48;
 slash = -24;
 v = 96;
 x = 24;
-y.sc = 72;
+};
+Q = {
+slash = 48;
 };
 Tcaron = {
 "@MMK_R_A" = -48;
@@ -74346,9 +75275,12 @@ Thorn = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -24;
 "@MMK_R_Z" = 24;
+"@MMK_R_a" = 24;
 AE = -48;
 V = -24;
+backslash = -24;
 slash = -24;
+x = 48;
 };
 Uacute = {
 "@MMK_R_A" = -48;
@@ -74363,6 +75295,9 @@ Udieresis = {
 "@MMK_R_A" = -48;
 };
 Ugrave = {
+"@MMK_R_A" = -48;
+};
+Umacron = {
 "@MMK_R_A" = -48;
 };
 Uring = {
@@ -74383,28 +75318,24 @@ V = {
 "@MMK_R_O" = -48;
 "@MMK_R_R" = -24;
 "@MMK_R_S" = 72;
-"@MMK_R_T" = -48;
+"@MMK_R_T" = 96;
 "@MMK_R_U" = -24;
 "@MMK_R_W" = 24;
-"@MMK_R_Y" = 24;
-"@MMK_R_Z" = -48;
+"@MMK_R_Y" = 144;
+"@MMK_R_Z" = 48;
 "@MMK_R_a" = -48;
 "@MMK_R_c" = -48;
 "@MMK_R_d" = -48;
 "@MMK_R_e" = -48;
 "@MMK_R_g" = -48;
-"@MMK_R_h.sc" = -24;
 "@MMK_R_i" = 48;
 "@MMK_R_j" = 48;
 "@MMK_R_n" = -24;
-"@MMK_R_n.sc" = -24;
 "@MMK_R_o" = -48;
 "@MMK_R_p" = -48;
 "@MMK_R_r" = -48;
 "@MMK_R_s" = -24;
 "@MMK_R_u" = -24;
-"@MMK_R_v.sc" = 24;
-"@MMK_R_x.sc" = -48;
 "@MMK_R_y" = 24;
 "@MMK_R_z" = -48;
 Aacute = -48;
@@ -74413,27 +75344,23 @@ Acircumflex = -48;
 Adieresis = -48;
 Atilde = -48;
 Jcircumflex = 144;
-acircumflex.sc = -48;
+M = 120;
+X = 96;
 adieresis = 24;
-adieresis.sc = -48;
 agrave = -24;
-amacron.sc = -48;
 ampersand = 24;
 aring = -24;
 asterisk = 96;
 atilde = 24;
-atilde.sc = -48;
+bracketright = 120;
 colon = -48;
 comma = -72;
-ecircumflex.sc = 24;
 edieresis = 24;
 eng = -48;
-eng.sc = -48;
-g.sc = -48;
+four = -48;
 gbreve = -24;
-gbreve.sc = -48;
 gcircumflex = -24;
-gcircumflex.sc = -48;
+gcommaaccent = -24;
 germandbls = 24;
 guillemetleft = -72;
 guillemetright = -72;
@@ -74442,33 +75369,28 @@ guilsinglright = -72;
 hyphen = -24;
 iacute = 72;
 icircumflex = 120;
-icircumflex.sc = 144;
 idieresis = 144;
 idotless = -48;
 igrave = 72;
-igrave.sc = 24;
 imacron = 144;
 itilde = 144;
-j.sc = -48;
 jcircumflex = 120;
-jcircumflex.sc = 120;
 m = -48;
 n = -48;
 omacron = -24;
+parenright = 120;
 period = -72;
 q = -48;
 quotedblbase = -72;
+quotedblleft = 24;
+quotedblright = 48;
+quoteleft = 24;
 quoteright = 48;
 quotesinglbase = -72;
 racute = -24;
 rcaron = 48;
-s.sc = -24;
-sacute.sc = -24;
 scaron = 48;
-scaron.sc = -24;
-scedilla.sc = -24;
 scircumflex = 24;
-scircumflex.sc = 48;
 semicolon = -48;
 slash = -48;
 udieresis = 24;
@@ -74478,67 +75400,72 @@ x = -48;
 Wcircumflex = {
 "@MMK_R_C" = -72;
 "@MMK_R_O" = -72;
+"@MMK_R_S" = -24;
 "@MMK_R_n" = -48;
 slash = -72;
 };
 X = {
-"@MMK_R_A" = 96;
+"@MMK_R_A" = 120;
 "@MMK_R_C" = -24;
 "@MMK_R_D" = 48;
 "@MMK_R_E" = 48;
 "@MMK_R_G" = -24;
+"@MMK_R_I" = 48;
+"@MMK_R_J" = 24;
 "@MMK_R_O" = -24;
+"@MMK_R_R" = 48;
 "@MMK_R_S" = 24;
-"@MMK_R_T" = -48;
-"@MMK_R_U" = -24;
+"@MMK_R_T" = 24;
+"@MMK_R_U" = 24;
 "@MMK_R_W" = -48;
-"@MMK_R_Y" = -48;
+"@MMK_R_Y" = 72;
+"@MMK_R_Z" = 24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -24;
 "@MMK_R_e" = -24;
 "@MMK_R_g" = 48;
-"@MMK_R_h.sc" = 48;
+"@MMK_R_i" = 72;
 "@MMK_R_o" = -24;
+"@MMK_R_r" = 72;
 "@MMK_R_s" = 24;
 "@MMK_R_t" = -24;
 "@MMK_R_u" = -24;
-"@MMK_R_v.sc" = -48;
 "@MMK_R_w" = -24;
 "@MMK_R_y" = -24;
+"@MMK_R_z" = 48;
+V = 72;
+comma = 24;
 f = 48;
 guillemetleft = -48;
 guilsinglleft = -48;
 hyphen = -24;
+m = 72;
+n = 72;
 q = -24;
-tcaron.sc = -24;
 v = -24;
-yacute.sc = -24;
-ycircumflex.sc = -24;
-ydieresis.sc = -24;
 };
 Yacute = {
-"@MMK_R_U" = -48;
+"@MMK_R_O" = -48;
 "@MMK_R_c" = -48;
 "@MMK_R_d" = -48;
 "@MMK_R_e" = -48;
+"@MMK_R_g" = -48;
 "@MMK_R_o" = -48;
 };
 Ycircumflex = {
-"@MMK_R_U" = -48;
+"@MMK_R_O" = -48;
 "@MMK_R_c" = -48;
 "@MMK_R_d" = -48;
 "@MMK_R_e" = -48;
 "@MMK_R_o" = -48;
 };
 Ydieresis = {
-"@MMK_R_T" = -24;
+"@MMK_R_O" = -48;
 "@MMK_R_c" = -48;
 "@MMK_R_d" = -48;
 "@MMK_R_e" = -48;
+"@MMK_R_g" = -48;
 "@MMK_R_o" = -48;
-};
-a.sc = {
-"@MMK_R_Y" = -48;
 };
 aacute = {
 "@MMK_R_Y" = -24;
@@ -74547,19 +75474,13 @@ quotedblright = -48;
 quoteright = -48;
 quotesingle = -48;
 };
-aacute.sc = {
-"@MMK_R_W" = -72;
-"@MMK_R_Y" = -48;
-};
 abreve = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -24;
 V = -24;
+quotedbl = -24;
 quotedblleft = -24;
 quoteleft = -24;
-};
-abreve.sc = {
-"@MMK_R_Y" = -48;
 };
 acircumflex = {
 "@MMK_R_W" = -24;
@@ -74569,21 +75490,12 @@ quotedbl = -24;
 quotedblleft = -24;
 quoteleft = -24;
 };
-acircumflex.sc = {
-"@MMK_R_Y" = -48;
-};
 adieresis = {
 quotedbl = -24;
 quotedblleft = -24;
 };
-adieresis.sc = {
-"@MMK_R_Y" = -48;
-};
 ae = {
 V = -48;
-};
-ae.sc = {
-"@MMK_R_Y" = 72;
 };
 agrave = {
 backslash = -48;
@@ -74592,27 +75504,24 @@ quotedblright = -48;
 quoteright = -48;
 quotesingle = -48;
 };
-agrave.sc = {
-"@MMK_R_W" = -72;
-"@MMK_R_Y" = -48;
-};
 amacron = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -24;
 V = -24;
+quotedbl = -24;
 quotedblleft = -24;
 quoteleft = -24;
 };
-amacron.sc = {
-"@MMK_R_Y" = -48;
-};
 ampersand = {
 "@MMK_R_T" = -24;
+"@MMK_R_W" = -72;
 "@MMK_R_Y" = -48;
 V = -48;
+quotesingle = -72;
+v = -24;
 };
-aogonek.sc = {
-"@MMK_R_Y" = -48;
+aogonek = {
+backslash = -48;
 };
 aring = {
 "@MMK_R_Y" = -24;
@@ -74621,21 +75530,27 @@ quotedblright = -48;
 quoteright = -48;
 quotesingle = -48;
 };
-aring.sc = {
-"@MMK_R_W" = -72;
-"@MMK_R_Y" = -48;
-};
 asterisk = {
 "@MMK_R_A" = -72;
+"@MMK_R_T" = 24;
+"@MMK_R_W" = 24;
+"@MMK_R_Y" = 24;
 "@MMK_R_a" = -24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -72;
 "@MMK_R_e" = -24;
+"@MMK_R_g" = -24;
+"@MMK_R_i" = 24;
 "@MMK_R_o" = -24;
 AE = -120;
 Aring = -96;
+V = 24;
+aacute = -48;
+agrave = -48;
+aring = -48;
 cacute = -48;
 eacute = -48;
+ecaron = -48;
 egrave = -48;
 eth = -48;
 oacute = -72;
@@ -74646,12 +75561,10 @@ atilde = {
 quotedbl = -24;
 quotedblleft = -24;
 };
-atilde.sc = {
-"@MMK_R_Y" = -48;
-};
 b = {
 "@MMK_R_W" = -48;
 "@MMK_R_Y" = -24;
+"@MMK_R_Z" = -24;
 "@MMK_R_w" = 48;
 "@MMK_R_y" = 48;
 "@MMK_R_z" = 24;
@@ -74662,7 +75575,10 @@ Ycircumflex = -48;
 Ydieresis = -48;
 asterisk = -24;
 backslash = -24;
+braceright = -24;
+bracketright = -24;
 comma = 24;
+f = -24;
 period = 24;
 question = -24;
 quotedbl = -48;
@@ -74676,30 +75592,81 @@ zacute = -24;
 zcaron = -24;
 };
 backslash = {
+"@MMK_R_C" = -24;
+"@MMK_R_G" = -24;
+"@MMK_R_O" = -24;
 "@MMK_R_T" = -24;
+"@MMK_R_U" = -24;
 "@MMK_R_W" = -72;
 "@MMK_R_Y" = -48;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -24;
+Oacute = -48;
+Ocircumflex = -48;
+Odieresis = -48;
+Ograve = -48;
+Otilde = -48;
+Tcaron = -48;
+Uacute = -48;
+Ucircumflex = -48;
+Udieresis = -48;
+Ugrave = -48;
 V = -48;
+Yacute = -72;
+Ycircumflex = -72;
+Ydieresis = -72;
+quotedbl = -72;
+quotedblright = -72;
+quoteright = -72;
+quotesingle = -72;
 v = -24;
 };
 braceleft = {
+"@MMK_R_J" = 96;
+"@MMK_R_d" = -24;
+"@MMK_R_e" = -24;
 "@MMK_R_j" = 72;
+"@MMK_R_o" = -24;
+jcircumflex = 120;
+};
+bracketleft = {
+"@MMK_R_A" = -48;
+"@MMK_R_C" = -24;
+"@MMK_R_G" = -24;
+"@MMK_R_J" = 48;
+"@MMK_R_O" = -24;
+"@MMK_R_Y" = 96;
+"@MMK_R_c" = -24;
+"@MMK_R_d" = -24;
+"@MMK_R_e" = -24;
+"@MMK_R_j" = 48;
+"@MMK_R_o" = -24;
+V = 96;
+four = -48;
+q = -24;
 };
 ccaron = {
 "@MMK_R_W" = 48;
 "@MMK_R_Y" = 48;
 V = 48;
 };
+ccedilla = {
+backslash = -48;
+};
 ccircumflex = {
+"@MMK_R_T" = 48;
+"@MMK_R_W" = 48;
 "@MMK_R_Y" = 48;
 V = 48;
 };
 colon = {
 "@MMK_R_T" = 24;
+"@MMK_R_W" = -48;
 "@MMK_R_Y" = -48;
 V = -48;
 };
 comma = {
+"@MMK_R_A" = 48;
 "@MMK_R_C" = -48;
 "@MMK_R_O" = -24;
 "@MMK_R_T" = -24;
@@ -74708,19 +75675,21 @@ comma = {
 "@MMK_R_Y" = -48;
 "@MMK_R_c" = 24;
 "@MMK_R_d" = 24;
+"@MMK_R_e" = 24;
+"@MMK_R_g" = 24;
 "@MMK_R_o" = 24;
+"@MMK_R_t" = -24;
+"@MMK_R_u" = -24;
 "@MMK_R_w" = -24;
 "@MMK_R_y" = -24;
 Tcedilla = -48;
 V = -72;
 ccedilla = -24;
+eogonek = -24;
+f = 24;
+four = 24;
 q = -24;
 v = -24;
-};
-e.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
 };
 eacute = {
 "@MMK_R_W" = -24;
@@ -74728,31 +75697,14 @@ quotedbl = -48;
 quoteleft = -24;
 quotesingle = -48;
 };
-eacute.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
-};
-ecaron.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
-};
-ecircumflex.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
+ecaron = {
+quoteleft = -24;
 };
 edieresis = {
 "@MMK_R_W" = 24;
 "@MMK_R_Y" = 24;
 V = 24;
 asterisk = 24;
-};
-edieresis.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
 };
 egrave = {
 "@MMK_R_Y" = -48;
@@ -74762,36 +75714,54 @@ quoteleft = -24;
 quoteright = -48;
 quotesingle = -48;
 };
-egrave.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
-};
-emacron.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
+emacron = {
+asterisk = 24;
 };
 eng = {
 "@MMK_R_T" = -24;
+"@MMK_R_W" = -48;
+"@MMK_R_Y" = -48;
+"@MMK_R_w" = 24;
+"@MMK_R_y" = 24;
+V = -48;
+quotedbl = -48;
 quotedblright = -24;
 quoteright = -24;
+quotesingle = -48;
+v = 24;
 };
-eogonek.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
+eogonek = {
+backslash = -48;
 };
 f = {
-"@MMK_R_i" = 72;
+"@MMK_R_A" = 72;
+"@MMK_R_J" = 96;
+"@MMK_R_T" = 72;
+"@MMK_R_W" = 144;
+"@MMK_R_Y" = 144;
+"@MMK_R_i" = 48;
+"@MMK_R_j" = 48;
 "@MMK_R_s" = 24;
+"@MMK_R_t" = 48;
+"@MMK_R_w" = 96;
 "@MMK_R_y" = 96;
+V = 144;
+X = 72;
 asterisk = 96;
+backslash = 120;
 braceright = 120;
 bracketright = 120;
 comma = 24;
+exclam = 48;
+f = 48;
+guillemetleft = -24;
+guilsinglleft = -24;
 icircumflex = 96;
 idieresis = 120;
+igrave = 72;
+imacron = 120;
+itilde = 120;
+jcircumflex = 96;
 parenright = 96;
 period = 24;
 question = 48;
@@ -74800,36 +75770,70 @@ quotedblright = 24;
 quoteleft = 24;
 quoteright = 48;
 quotesingle = 48;
+v = 96;
+};
+four = {
+backslash = -24;
+one = -24;
+quotedbl = -24;
+quotesingle = -24;
 };
 germandbls = {
+"@MMK_R_w" = -24;
 "@MMK_R_y" = -24;
+backslash = -24;
+f = -24;
+quotedbl = -24;
+quotedblleft = -48;
+quotedblright = -24;
+quoteleft = -24;
 quoteright = -24;
+quotesingle = -24;
 };
 guillemetleft = {
+"@MMK_R_W" = -72;
 "@MMK_R_Y" = -48;
 V = -48;
 };
 guillemetright = {
+"@MMK_R_A" = -24;
+"@MMK_R_J" = -24;
 "@MMK_R_T" = -24;
 "@MMK_R_W" = -72;
 "@MMK_R_Y" = -48;
+"@MMK_R_Z" = -24;
+"@MMK_R_y" = -24;
+AE = -48;
 V = -48;
 X = -24;
+quotedbl = -48;
+quotesingle = -48;
+v = -24;
 x = -24;
 };
 guilsinglleft = {
+"@MMK_R_W" = -48;
 "@MMK_R_Y" = -48;
 V = -48;
 };
 guilsinglright = {
+"@MMK_R_A" = -24;
+"@MMK_R_J" = -24;
 "@MMK_R_T" = -24;
 "@MMK_R_W" = -48;
 "@MMK_R_Y" = -48;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -24;
 V = -48;
 X = -24;
+quotedbl = -48;
+quoteright = -24;
+quotesingle = -48;
+v = -24;
 };
 hcircumflex = {
 quotedblright = -24;
+quoteleft = -24;
 quoteright = -24;
 };
 hyphen = {
@@ -74837,18 +75841,18 @@ hyphen = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -48;
 "@MMK_R_Z" = -24;
+"@MMK_R_w" = 24;
 "@MMK_R_y" = 24;
 V = -24;
 X = -24;
+one = -24;
 seven = -24;
+two = -24;
 v = 24;
 x = -24;
 };
-k.sc = {
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_S" = 24;
-"@MMK_R_Y" = 120;
+iacute = {
+parenright = 24;
 };
 m = {
 "@MMK_R_W" = -48;
@@ -74877,11 +75881,18 @@ nacute = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -24;
 V = -24;
+Wcircumflex = -48;
+asterisk = -24;
 quotedbl = -48;
 };
 ncaron = {
 quotedblleft = -24;
 quotesingle = -24;
+};
+nine = {
+comma = -24;
+period = -24;
+seven = -24;
 };
 oacute = {
 "@MMK_R_Y" = -24;
@@ -74893,30 +75904,13 @@ quoteleft = -48;
 quoteright = -48;
 quotesingle = -48;
 };
-oacute.sc = {
-"@MMK_R_W" = -48;
-"@MMK_R_Y" = -48;
-};
 ocircumflex = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -24;
 V = -24;
 };
-ocircumflex.sc = {
-"@MMK_R_W" = -48;
-"@MMK_R_Y" = -48;
-};
-odieresis.sc = {
-"@MMK_R_W" = -48;
-"@MMK_R_Y" = -48;
-};
 oe = {
 V = -48;
-};
-oe.sc = {
-"@MMK_R_W" = 48;
-"@MMK_R_Y" = 48;
-"@MMK_R_v.sc" = 48;
 };
 ograve = {
 "@MMK_R_Y" = -24;
@@ -74928,35 +75922,27 @@ quoteleft = -48;
 quoteright = -48;
 quotesingle = -48;
 };
-ograve.sc = {
-"@MMK_R_W" = -48;
-"@MMK_R_Y" = -48;
-};
 omacron = {
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -24;
 V = -24;
 };
-omacron.sc = {
-"@MMK_R_W" = -48;
-};
 oslash = {
 "@MMK_R_Y" = -24;
 backslash = -48;
 };
-oslash.sc = {
-"@MMK_R_W" = 24;
-"@MMK_R_Y" = 24;
-"@MMK_R_v.sc" = 24;
-};
-otilde.sc = {
-"@MMK_R_W" = -48;
-"@MMK_R_Y" = -48;
-};
 parenleft = {
+"@MMK_R_J" = 48;
+"@MMK_R_i" = 96;
 "@MMK_R_j" = 24;
+"@MMK_R_w" = 24;
+four = -24;
+igrave = 24;
+jcircumflex = 72;
+v = 24;
 };
 period = {
+"@MMK_R_A" = 48;
 "@MMK_R_O" = 24;
 "@MMK_R_T" = -24;
 "@MMK_R_W" = -72;
@@ -74970,8 +75956,14 @@ period = {
 "@MMK_R_w" = -24;
 "@MMK_R_y" = -24;
 V = -72;
+f = 24;
+four = 24;
 q = 24;
 v = -24;
+zero = 24;
+};
+plus = {
+seven = -24;
 };
 q = {
 "@MMK_R_W" = -48;
@@ -75000,37 +75992,56 @@ ccaron = -24;
 ccircumflex = -24;
 eacute = -48;
 egrave = -48;
+four = -72;
+guillemetleft = -48;
+guilsinglleft = -48;
 oacute = -72;
 odieresis = -24;
 oe = -24;
 omacron = -24;
 otilde = -24;
 q = -48;
+sacute = -48;
+slash = -72;
 };
 quotedblbase = {
+"@MMK_R_A" = 24;
 "@MMK_R_C" = -48;
 "@MMK_R_O" = -24;
 "@MMK_R_T" = -48;
 "@MMK_R_U" = -24;
 "@MMK_R_W" = -96;
 "@MMK_R_Y" = -48;
+"@MMK_R_c" = -24;
+"@MMK_R_e" = -24;
 "@MMK_R_t" = -24;
+"@MMK_R_u" = -24;
 "@MMK_R_w" = -48;
 "@MMK_R_y" = -48;
+Uogonek = -48;
 V = -72;
+f = 24;
+q = -24;
+tcedilla = -48;
 v = -48;
 };
 quotedblleft = {
 "@MMK_R_A" = -72;
+"@MMK_R_O" = -24;
+"@MMK_R_T" = 24;
+"@MMK_R_W" = 24;
+"@MMK_R_Y" = 24;
 "@MMK_R_a" = -48;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -48;
 "@MMK_R_e" = -24;
 "@MMK_R_g" = -24;
+"@MMK_R_i" = 24;
 "@MMK_R_o" = -24;
 "@MMK_R_s" = -24;
 AE = -96;
 Atilde = -48;
+V = 24;
 abreve = -24;
 acircumflex = -24;
 agrave = -24;
@@ -75045,6 +76056,12 @@ q = -24;
 };
 quotedblright = {
 "@MMK_R_A" = -72;
+"@MMK_R_C" = -24;
+"@MMK_R_G" = -24;
+"@MMK_R_J" = 24;
+"@MMK_R_O" = -24;
+"@MMK_R_W" = 48;
+"@MMK_R_Y" = 48;
 "@MMK_R_a" = -24;
 "@MMK_R_c" = -48;
 "@MMK_R_d" = -48;
@@ -75053,6 +76070,7 @@ quotedblright = {
 "@MMK_R_o" = -48;
 "@MMK_R_s" = -24;
 AE = -120;
+V = 48;
 aacute = -48;
 agrave = -48;
 aring = -48;
@@ -75064,20 +76082,30 @@ edieresis = -24;
 emacron = -24;
 gbreve = -24;
 gcircumflex = -24;
+guillemetleft = -48;
+guilsinglleft = -48;
+hyphen = -48;
 odieresis = -24;
 omacron = -24;
 otilde = -24;
 q = -48;
+slash = -72;
 };
 quoteleft = {
 "@MMK_R_A" = -72;
+"@MMK_R_G" = -24;
+"@MMK_R_O" = -24;
+"@MMK_R_W" = 24;
+"@MMK_R_Y" = 24;
 "@MMK_R_a" = -48;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -48;
 "@MMK_R_e" = -24;
 "@MMK_R_g" = -24;
+"@MMK_R_i" = 24;
 "@MMK_R_o" = -24;
 "@MMK_R_s" = -24;
+"@MMK_R_w" = 24;
 AE = -96;
 V = 24;
 abreve = -24;
@@ -75090,19 +76118,30 @@ cacute = -48;
 eacute = -48;
 egrave = -48;
 eth = -48;
+f = -24;
 oacute = -48;
 ograve = -48;
 q = -24;
+v = 24;
 };
 quoteright = {
 "@MMK_R_A" = -96;
+"@MMK_R_C" = -24;
+"@MMK_R_G" = -24;
+"@MMK_R_J" = 24;
+"@MMK_R_O" = -24;
+"@MMK_R_T" = 24;
+"@MMK_R_W" = 48;
+"@MMK_R_Y" = 48;
 "@MMK_R_a" = -24;
 "@MMK_R_c" = -48;
 "@MMK_R_d" = -72;
 "@MMK_R_e" = -48;
 "@MMK_R_g" = -48;
 "@MMK_R_o" = -48;
+"@MMK_R_r" = -24;
 "@MMK_R_s" = -24;
+"@MMK_R_w" = -24;
 AE = -120;
 Aacute = -72;
 Abreve = -72;
@@ -75112,6 +76151,7 @@ Agrave = -72;
 Amacron = -72;
 Aring = -72;
 Atilde = -72;
+V = 48;
 aacute = -48;
 agrave = -48;
 aring = -48;
@@ -75123,12 +76163,17 @@ edieresis = -24;
 emacron = -24;
 gbreve = -24;
 gcircumflex = -24;
+guillemetleft = -72;
+guilsinglleft = -72;
+m = -24;
+n = -24;
 oacute = -72;
 odieresis = -24;
 omacron = -24;
 otilde = -24;
 q = -48;
 slash = -72;
+v = -24;
 };
 quotesinglbase = {
 "@MMK_R_C" = -48;
@@ -75137,9 +76182,14 @@ quotesinglbase = {
 "@MMK_R_U" = -24;
 "@MMK_R_W" = -96;
 "@MMK_R_Y" = -48;
+"@MMK_R_c" = -24;
+"@MMK_R_t" = -24;
+"@MMK_R_u" = -24;
 "@MMK_R_w" = -48;
 "@MMK_R_y" = -48;
+Uogonek = -48;
 V = -72;
+q = -24;
 v = -48;
 };
 quotesingle = {
@@ -75151,6 +76201,7 @@ quotesingle = {
 "@MMK_R_e" = -24;
 "@MMK_R_g" = -24;
 "@MMK_R_o" = -24;
+"@MMK_R_s" = -24;
 AE = -120;
 Acircumflex = -48;
 Atilde = -48;
@@ -75161,18 +76212,26 @@ eacute = -48;
 egrave = -48;
 eth = -48;
 four = -72;
+guillemetleft = -48;
+guilsinglleft = -48;
 oacute = -48;
 ograve = -48;
 q = -48;
+slash = -72;
 };
-racute.sc = {
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_G" = -48;
+racute = {
+asterisk = 24;
+quoteleft = 24;
 };
-rcaron.sc = {
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
+rcaron = {
+"@MMK_R_Y" = 72;
+V = 72;
+asterisk = 24;
+bracketright = 48;
+quoteleft = 24;
+};
+sacute = {
+"@MMK_R_W" = -24;
 };
 scaron = {
 "@MMK_R_W" = 48;
@@ -75180,41 +76239,65 @@ scaron = {
 V = 48;
 };
 scircumflex = {
+"@MMK_R_W" = 24;
 "@MMK_R_Y" = 24;
 V = 24;
 };
+semicolon = {
+"@MMK_R_T" = 24;
+"@MMK_R_Y" = -48;
+V = -48;
+};
 seven = {
+"@MMK_R_A" = -72;
+Acircumflex = -48;
+Atilde = -48;
 comma = -72;
+eight = -24;
 four = -48;
 hyphen = -24;
 period = -72;
+plus = -72;
 quotedblbase = -96;
 quotesinglbase = -96;
+six = -48;
 slash = -48;
+zero = -24;
 };
 slash = {
 "@MMK_R_A" = -24;
 "@MMK_R_J" = 96;
+"@MMK_R_Y" = 144;
 "@MMK_R_a" = 24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -24;
 "@MMK_R_e" = -24;
+"@MMK_R_i" = 144;
 "@MMK_R_n" = 24;
 "@MMK_R_o" = -24;
 "@MMK_R_p" = 24;
 "@MMK_R_r" = 24;
 "@MMK_R_s" = 48;
+"@MMK_R_t" = 48;
 "@MMK_R_u" = 48;
 "@MMK_R_w" = 72;
 "@MMK_R_y" = 72;
 AE = -48;
+Jcircumflex = 144;
+V = 144;
+four = -24;
 m = 24;
 n = 24;
 q = -24;
 rcaron = 48;
+scircumflex = 24;
 slash = -24;
 v = 72;
 x = 24;
+};
+tcaron = {
+"@MMK_R_Y" = 144;
+quoteright = 48;
 };
 thorn = {
 "@MMK_R_Y" = -48;
@@ -75223,47 +76306,79 @@ quotedbl = -48;
 quoteright = -48;
 quotesingle = -48;
 };
+two = {
+four = 24;
+};
+uacute = {
+"@MMK_R_W" = -24;
+};
+ubreve = {
+"@MMK_R_W" = -24;
+};
+ucircumflex = {
+"@MMK_R_W" = -24;
+};
+udieresis = {
+"@MMK_R_W" = -24;
+};
+ugrave = {
+"@MMK_R_W" = -24;
+};
+umacron = {
+"@MMK_R_W" = -24;
+};
+underscore = {
+"@MMK_R_O" = -24;
+"@MMK_R_y" = 24;
+};
+uring = {
+"@MMK_R_W" = -24;
+};
+utilde = {
+"@MMK_R_W" = -24;
+};
 v = {
 "@MMK_R_A" = -24;
 "@MMK_R_J" = -24;
 "@MMK_R_T" = 72;
 "@MMK_R_W" = -24;
 "@MMK_R_Y" = -48;
+"@MMK_R_Z" = 24;
 "@MMK_R_a" = 24;
 "@MMK_R_d" = -24;
 "@MMK_R_o" = -24;
 "@MMK_R_s" = 24;
+"@MMK_R_t" = 72;
+"@MMK_R_z" = 24;
 AE = -48;
 V = -24;
 X = -48;
+ampersand = -24;
+asterisk = 24;
 comma = -48;
+guillemetleft = -48;
+guilsinglleft = -48;
 period = -48;
 q = -24;
 quotedblbase = -48;
+quotedblleft = 24;
+quoteleft = 24;
+quoteright = 24;
 quotesinglbase = -48;
 slash = -24;
-};
-w.sc = {
-"@MMK_R_A" = -48;
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_O" = -24;
-"@MMK_R_S" = 24;
+v = 120;
+x = 48;
 };
 wcircumflex = {
 "@MMK_R_A" = -48;
-};
-wcircumflex.sc = {
-"@MMK_R_A" = -72;
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_O" = -24;
-a.sc = -48;
-ae.sc = -48;
-amacron.sc = -48;
-aogonek.sc = -48;
+AE = -72;
+X = -24;
+slash = -48;
 };
 x = {
+"@MMK_R_C" = 24;
+"@MMK_R_G" = 24;
+"@MMK_R_O" = 24;
 "@MMK_R_T" = 48;
 "@MMK_R_W" = -48;
 "@MMK_R_Y" = -48;
@@ -75274,57 +76389,47 @@ x = {
 "@MMK_R_g" = 48;
 "@MMK_R_o" = 24;
 "@MMK_R_s" = 24;
+"@MMK_R_u" = 48;
+"@MMK_R_y" = 96;
 V = -48;
+backslash = -48;
 hyphen = -24;
-};
-y.sc = {
-"@MMK_R_C" = -24;
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_G" = -24;
-"@MMK_R_O" = -24;
-"@MMK_R_S" = 24;
+v = 96;
 };
 yacute = {
 "@MMK_R_A" = -72;
 X = -24;
 slash = -72;
 };
-yacute.sc = {
-"@MMK_R_C" = -24;
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_G" = -24;
-"@MMK_R_O" = -24;
-};
-ycircumflex.sc = {
-"@MMK_R_C" = -24;
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_G" = -24;
-"@MMK_R_O" = -24;
-};
-ydieresis = {
+ycircumflex = {
+"@MMK_R_A" = -72;
 X = -24;
 };
-ydieresis.sc = {
-"@MMK_R_C" = -24;
-"@MMK_R_D" = 72;
-"@MMK_R_E" = 72;
-"@MMK_R_G" = -24;
-"@MMK_R_O" = -24;
+ydieresis = {
+"@MMK_R_A" = -72;
+X = -24;
 };
 zacute = {
+"@MMK_R_Y" = -24;
+"@MMK_R_a" = -24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -24;
 "@MMK_R_e" = -24;
 "@MMK_R_o" = -24;
 };
 zcaron = {
+"@MMK_R_Y" = 24;
+"@MMK_R_a" = -24;
 "@MMK_R_c" = -24;
 "@MMK_R_d" = -24;
 "@MMK_R_e" = -24;
 "@MMK_R_o" = -24;
+V = 24;
+};
+zero = {
+"@MMK_R_Y" = 24;
+comma = 24;
+period = 24;
 };
 };
 };
@@ -75409,5 +76514,5 @@ name = vstem0;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 512;
+versionMinor = 513;
 }

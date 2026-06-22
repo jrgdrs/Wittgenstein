@@ -15,7 +15,7 @@ fonts/otf/
 fonts/ttf/
 fonts/webfonts/
 fonts/variable/
-qa/*.pdf
+#qa/*.pdf
 
 # OS generated files #
 ######################
