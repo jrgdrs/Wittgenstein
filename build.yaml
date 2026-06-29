@@ -12,7 +12,6 @@ on:
 
 permissions: write-all
 
-
 jobs:
   build:
     name: Build and test
@@ -71,7 +70,7 @@ jobs:
       - name: Generate proofs
         run: make proof
       - name: Set up test result site
-        run:  cp -a pages/* out
+        run: cp scripts/index.html out/index.html
       - name: Collect deployment assets
         if: ${{ github.ref_name == github.event.repository.default_branch }}
         uses: actions/upload-pages-artifact@v5
