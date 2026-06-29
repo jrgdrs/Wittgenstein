@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Festes Layout - Absolut fehlerfreier Textfluss</title>
+    <style>
+        /* PDF-Druck-Konfiguration */
+        @page {
+            size: A4 portrait;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.25;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            
+            /* Native Silbentrennung aktivieren */
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            lang: de;
+        }
+
+        /* Feste A4 Arbeitsfläche */
+        .page {
+            width: 210mm;
+            height: 297mm;
+            box-sizing: border-box;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* DIE TEXTRAHMEN */
+        .box {
+            position: absolute;
+            border: 1px dashed #999;
+            box-sizing: border-box;
+            overflow: hidden;
+            text-align: justify;
+            padding: 0;
+            margin: 0;
+        }
+
+        .box p {
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+            text-justify: inter-word;
+            hyphenate-limit-chars: 6 3 3; 
+        }
+
+/* Einzug von 1em NUR für reguläre folgende Absätze */
+.box p + p {
+    text-indent: 1em;
+}
+
+/* 
+   KORREKTUR: Erzwingt radikal, dass fortgesetzte Absätze 
+   NIEMALS einen Einzug erhalten, selbst wenn sie technisch 
+   als Folge-Elemente im DOM stehen.
+*/
+.box p.continued, 
+.box p.continued + p.continued {
+    text-indent: 0mm !important;
+}
+
+        /* Blocksatz für die allerletzte Zeile vor dem Box-Umbruch */
+        .box p.force-justify {
+            text-align-last: justify;
+        }
+
+        /* Individuelle Dimensionen & Positionen der Rahmen */
+        #rahmen-1 {
+            top: 25mm;
+            left: 20mm;
+            width: 80mm;
+            height: 110mm;
+            background-color: #fcfcfc;
+        }
+
+        #rahmen-2 {
+            top: 25mm;
+            left: 110mm;
+            width: 80mm;
+            height: 70mm;
+        }
+
+        #rahmen-3 {
+            top: 150mm;
+            left: 20mm;
+            width: 170mm;
+            height: 120mm;
+            border: 2px solid #333;
+        }
+
+        #source-text {
+            display: none;
+        }
+
+        @media screen {
+            body {
+                background-color: #e0e0e0;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .page {
+                background-color: white;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <!-- Ziel-Rahmen -->
+        <div id="rahmen-1" class="box" data-flow></div>
+        <div id="rahmen-2" class="box" data-flow></div>
+        <div id="rahmen-3" class="box" data-flow></div>
+    </div>
+
+    <!-- DER INHALT -->
+    <div id="source-text">
+        <p><strong>Start des Dokuments:</strong> Dieser erste Absatz hat absichtlich keinen Einzug an der ersten Zeile. Das Skript sorgt dafür, dass dieser Text nun exakt Wort für Wort in die Boxen gefüllt wird. Sobald eine Zeile das Höhenlimit überschreitet, wird das Trennwort exakt abgeschnitten und nahtlos in der nächsten Box weitergeführt.</p>
+        <p>Dies ist der zweite Absatz des Dokuments. Wie gewünscht besitzt er einen Einzug von exakt 1em an seiner ersten Zeile. Der Blocksatz sorgt für saubere, bündige Außenkanten an allen Rändern. Da wir sämtliche Paddings und Margins auf Null gesetzt haben, klebt der Text mathematisch exakt an den definierten CSS-Grenzen.</p>
+        <p>Hier folgt der dritte Absatz des Textes, um den fortlaufenden Fluss über alle drei Rahmen zu demonstrieren. Auch dieser Absatz beginnt automatisch mit einem Einzug von 1em, da er nicht der erste Absatz des Dokuments ist. Wenn der Text den Rahmen wechselt, wird das Absatz-Tag im Hintergrund geschlossen und im neuen Rahmen unsichtbar wieder geöffnet, damit die CSS-Einzugsregeln fehlerfrei greifen.</p>
+        <p>Vierter Absatz zur Kontrolle. Wenn der Übergang genau bei Kurztrennungen vornimmt, entsteht nun kein fehlerhafter Absatz-Einzug mehr im Folgerahmen. Das Skript erkennt die Fortsetzung automatisch.</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const source = document.getElementById("source-text");
+            const targets = Array.from(document.querySelectorAll("[data-flow]"));
+            
+            let currentContent = source.cloneNode(true);
+            
+            for (let target of targets) {
+                if (!currentContent.hasChildNodes()) break;
+                
+                target.innerHTML = currentContent.innerHTML;
+                
+                if (target.firstChild && target.firstChild.nodeName === 'P' && target !== targets[0]) {
+                    target.firstChild.classList.add('continued');
+                }
+
+                if (target.scrollHeight > target.clientHeight) {
+                    let range = document.createRange();
+                    
+                    while (target.scrollHeight > target.clientHeight && target.innerHTML.length > 0) {
+                        let textNodes = getTextNodes(target);
+                        if (textNodes.length === 0) break;
+                        
+                        let lastNode = textNodes[textNodes.length - 1];
+                        let text = lastNode.nodeValue;
+                        let lastSpace = text.trimEnd().lastIndexOf(' ');
+                        
+                        if (lastSpace !== -1) {
+                            lastNode.nodeValue = text.substring(0, lastSpace);
+                        } else {
+                            if (text.length > 1) {
+                                lastNode.nodeValue = text.substring(0, text.length - 1);
+                            } else {
+                                lastNode.parentNode.removeChild(lastNode);
+                            }
+                        }
+                        cleanEmptyElements(target);
+                    }
+
+                    let paragraphs = target.querySelectorAll("p");
+                    if (paragraphs.length > 0) {
+                        paragraphs[paragraphs.length - 1].classList.add("force-justify");
+                    }
+
+                    let remainingRange = document.createRange();
+                    remainingRange.selectNodeContents(target);
+                    
+                    let tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = currentContent.innerHTML;
+                    
+                    let lengthPlaced = target.innerText.replace(/\s+/g, '').length;
+                    
+                    removeLeadingChars(currentContent, lengthPlaced);
+                    cleanEmptyElements(currentContent);
+                } else {
+                    break;
+                }
+            }
+
+            function getTextNodes(node) {
+                let textNodes = [];
+                if (node.nodeType === Node.TEXT_NODE) {
+                    if (node.nodeValue.replace(/\s+/g, '')) {
+                        textNodes.push(node);
+                    }
+                } else {
+                    for (let child of node.childNodes) {
+                        textNodes.push(...getTextNodes(child));
+                    }
+                }
+                return textNodes;
+            }
+
+            function cleanEmptyElements(el) {
+                let children = Array.from(el.childNodes);
+                for (let i = children.length - 1; i >= 0; i--) {
+                    let child = children[i];
+                    if (child.nodeType === Node.ELEMENT_NODE && child.innerHTML.trim() === "") {
+                        child.parentNode.removeChild(child);
+                    } else if (child.nodeType === Node.TEXT_NODE && child.nodeValue.trim() === "") {
+                        child.parentNode.removeChild(child);
+                    } else {
+                        break;
+                    }
+                }
+            }
+
+            function removeLeadingChars(node, count) {
+                if (count <= 0) return count;
+                let textNodes = getTextNodes(node);
+                
+                for (let textNode of textNodes) {
+                    let len = textNode.nodeValue.replace(/\s+/g, '').length;
+                    if (count >= len) {
+                        count -= len;
+                        let p = textNode.parentNode;
+                        textNode.parentNode.removeChild(textNode);
+                    } else {
+                        let rawText = textNode.nodeValue;
+                        let textIndex = 0;
+                        let netCount = 0;
+                        while (netCount < count && textIndex < rawText.length) {
+                            if (!rawText[textIndex].match(/\s/)) {
+                                netCount++;
+                            }
+                            textIndex++;
+                        }
+                        textNode.nodeValue = rawText.substring(textIndex);
+                        count = 0;
+                        break;
+                    }
+                }
+                return count;
+            }
+        });
+    </script>
+</body>
+</html>

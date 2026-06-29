@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <style>
+        #__calcCanvas { display: none; }
+        #myMessage { font-family: 'Courier New', Courier, monospace }
+        body { margin: 20px; }
+    </style>
+</head>
+
+<body>
+    <div id="myMessage">myMessage</div>
+    <canvas id="calcCanvas" width="1200" height="400">Your browser does not support the HTML canvas tag.</canvas>
+    <script>
+
+        var fontName = "OHamburgC-Regular";
+        var canvas = document.querySelector('#calcCanvas');
+        var myFont = new FontFace( fontName, 'url(../fonts/ttf/OHamburgC-Italic.ttf)'); // myFont
+
+        myFont.load().then(function(font){
+            document.fonts.add(font);
+
+            var ctx = canvas.getContext("2d");
+            ctx.font = "1000px " + fontName;
+            ctx.fillText("nn", 0, 180);
+            ctx.font = "48px " + fontName;
+            ctx.fillText("OHamburgefontsiv", 0, 300);
+
+            const imgData = ctx.getImageData(0, 0, 1200, 1);
+            var pixData = "";
+            var oldNum = 0;
+            var cSteps = [];
+
+            for (let i = 3; i < imgData.data.length; i += 4) {
+                let currentVal = Math.round((imgData.data[i] + 1) / 256, 0);
+                pixData += currentVal;
+                if (currentVal != oldNum) {
+                    cSteps.push(Math.round(i / 4));
+                    oldNum = currentVal;
+                }
+            }
+
+            stemWidth = cSteps[1] - cSteps[0];
+            stemInterval = cSteps[2] - cSteps[0];
+            perUnit = stemWidth / 4;
+            cadencesPerInterval = Math.round(stemInterval / perUnit);
+
+            validCadences = [];
+            for (let j = 1; j <= cadencesPerInterval * 4; j++) {
+                validCadences.push(Math.round(j * perUnit));
+            }
+
+            document.getElementById("myMessage").innerHTML 
+                = "fontName: " + fontName
+                + "<br/>Steps ‰: " + cSteps.join(", ")
+                + "<br/>stemWidth ‰: " + stemWidth
+                + "<br/>stemInterval ‰: " + stemInterval
+                + "<br/>perUnit ‰: " + perUnit
+                + "<br/>cadencesPerInterval: " + cadencesPerInterval
+                + "<br/>raw n-width ‰: " + (stemInterval * 2)
+                + "<br/>validCadences ‰: " + validCadences.join(", ")
+
+            var response = {
+                fontName: fontName,
+                cSteps: cSteps,
+                stemWidth: stemWidth,
+                stemInterval: stemInterval,
+                perUnit: perUnit,
+                cadencesPerInterval: cadencesPerInterval,
+                validCadences: validCadences
+            };
+
+            console.log(response);
+
+        });	
+
+    </script>
+</body>
+
+</html>

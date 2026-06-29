@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+
+        <style>
+                @font-face {
+                        font-family: TESTFONT;
+                        src: url("*");
+                }
+
+                @page {
+                        size: 210mm 297mm;
+                        margin: 15mm;
+                }
+
+                body {
+                        margin: 0;
+                }
+
+                p,
+                body {
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                }
+
+                .section {
+                        page-break-before: always;
+                }
+
+                .fullbox {
+                        display: flex;
+                        flex-wrap: wrap;
+                        page-break-before: always;
+                }
+
+                .fullbox>* {
+                        margin-left: 5mm;
+                        margin-bottom: 10mm;
+                        page-break-inside: avoid;
+                        text-align: left;
+                }
+
+                .halfbox {
+                        display: flex;
+                        flex-wrap: wrap;
+                        page-break-before: always;
+                }
+
+                .halfbox>* {
+                        flex: 0 0 100mm;
+                        margin-left: 5mm;
+                        margin-bottom: 10mm;
+                        page-break-inside: avoid;
+                        border-top: 1pt solid black;
+                        text-align: left;
+                        __overflow: hidden;
+                }
+
+                .thirdbox {
+                        display: flex;
+                        flex-wrap: wrap;
+                        page-break-before: always;
+                }
+
+                .thirdbox>* {
+                        flex: 0 0 65mm;
+                        margin-left: 5mm;
+                        margin-bottom: 10mm;
+                        page-break-inside: avoid;
+                        border-top: 1pt solid black;
+                        text-align: left;
+                        __overflow: hidden;
+                }
+
+                p.info {
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        font-size: 8pt;
+                        line-height: 10pt;
+                        margin-top: 3pt;
+                        margin-bottom: 10pt;
+                        font-variation-settings: 'wght' 300;
+                        letter-spacing: 0;
+                        word-spacing: 0;
+                        color: brown;
+                }
+
+                .test {
+                        font-family: 'TESTFONT';
+                        font-size: 12pt;
+                        line-height: 13.5pt;
+                        _font-variation-settings: 'wght' 300;
+                          text-transform: capitalize;
+
+                        letter-spacing: 0;
+                        word-spacing: 0;
+                        color: black;
+                }
+        </style>
+</head>
+
+<body>
+
+    <div class="fullbox section">
+        <div class="block"-->
+                        <div class="test" lang="nl">
+                                <p>Aalmoezenierstraat
+Admiraal de Boisotstraat
+Adriaan Brouwerstraat
+Allewaertstraat
+Ambtmanstraat
+Amerikalei
+Amsterdamstraat
+André Delvauxpad
+Ankerrui
+Ann Salenspad
+Apostelstraat
+Architect Hugo Van Kuycktuin
+Arenbergstraat
+Armeduivelstraat
+Arsenaalstraat
+August Michielsstraat
+Augustijnenstraat
+Baeckelmansstraat
+Baron Dhanislaan
+Bataviastraat
+Beddenstraat
+Beeldhouwersstraat
+Beggaardenstraat
+Begijnenstraat
+Begijnenvest
+Bergstraat
+Bervoetstraat
+Binnenvaartstraat
+Blauwbroekstraat
+Blauwmoezelstraat
+Blauwtorenplein
+Blindestraat
+Bogaardeplein
+Bogaardestraat
+Bolivarplaats
+Bolivartunnel
+Bollandusstraat
+Bombaystraat
+Bonapartedok
+Bontwerkersplaats
+Boogkeers
+Bordeauxstraat
+Borzestraat
+Boterhamstraat
+Bourlastraat
+Bouwmeestersstraat
+Brabantstraat
+Braderijstraat
+Braziliëstraat
+Bredestraat
+Britselei
+Brouwersvliet
+Bullinckplaats
+Burchtgracht
+Cadixstraat
+Calcuttastraat
+Catharina Pepijnstraat
+Cellebroedersstraat
+Clara Goessenplaats
+Clara Peetershof
+Cockerillkaai
+Coppenolstraat
+Coquilhatstraat
+Crauwelengang
+De Burburestraat
+De Gerlachekaai
+De Vrièrestraat
+Dinantstraat
+Driehespenstraat
+Dries
+Drukkerijstraat
+Edith Kielpad
+Edward Pecherstraat
+Eiermarkt
+Eikenstraat
+Emiel Banningstraat
+Emile Thielenspad
+Engelse Beurs
+Entrepotkaai
+Entrepotplaats
+Ernest Van Dijckkaai
+Eva Fastagtuin
+Everdijstraat
+Falco de Lampageplein
+Falconplein
+Falconpoort
+Falconrui
+Fortuinstraat
+Franckenstraat
+Frankrijklei
+Frans Buyensstraat
+Frans Halsplein
+Geefsstraat
+Generaal Belliardstraat
+Gentplaats
+Genuastraat
+Geuzenstraat
+Gierstraat
+Gijzelaarsstraat
+Gildekamersstraat
+Gillisplaats
+Giststraat
+Godefriduskaai
+Goedehoopstraat
+Gorterstraat
+Graaf van Egmontstraat
+Graaf van Hoornestraat
+Graanmarkt
+Gramayestraat
+Gratiekapelstraat
+Groendalstraat
+Groenkerkhofstraat
+Groenplaats
+Grote Goddaard
+Grote Kauwenberg
+Grote Koraalberg
+Grote Kraaiwijk
+Grote Markt
+Grote Pieter Potstraat
+Guldenberg
+Haarstraat
+Halfmanengang
+Hamerplaats
+Hamerstraat
+Handschoenmarkt
+Hanzestedenplaats
+Happaertstraat
+Haverstraat
+Heilige Geeststraat
+Hendrik Conscienceplein
+Henri Storckpad
+Henri Van Heurckstraat
+Hessenbrug
+Hessenplein
+Hessenstraatje
+Hofstraat
+Hoofdkerkstraat
+Hoogstraat
+Hoornstraat
+Hopland
+Houtdok-Zuidkaai
+Houtenbrug
+Huidevettersstraat
+Huikstraat
+IJzerenpoortkaai
+IJzerenwaag
+Indiëstraat
+Israelietenstraat
+Italiëlei
+Jan Blomstraat
+Jan Van Asperenpad
+Jan van Gentstraat
+Jan van Lierstraat
+Jan Vanhoenackerstraat
+Jeanne Brabantstunnel
+Jef Cassiersstraat
+Jeruzalemstraat
+Jezuïetenrui
+Jezusstraat
+Jodenstraat
+Johan Westerlundplein
+Jordaenskaai
+Jos Brabantstunnel
+Jos Smolderenstraat
+Jozef de Hasquestraat
+Kaasbrug
+Kaasrui
+Kaasstraat
+Kammenstraat
+Kapucinessenstraat
+Karel Rogierstraat
+Kasteelpleinstraat
+Kasteelstraat
+Kattendijkdok-Oostkaai
+Kattendijkdok-Westkaai
+Kattenstraat
+Kauwenstraatje
+Keistraat
+Keizerstraat
+Kelderstraat
+Kempischdok-Westkaai
+Kempischplein
+Ketelstraat
+Kiliaanstraat
+Kipdorp
+Kipdorpbrug
+Kipdorpvest
+Klapdorp
+Kleine Goddaard
+Kleine Kauwenberg
+Kleine Koraalberg
+Kleine Kraaiwijk
+Kleine Markt
+Kleine Pieter Potstraat
+Kloosterstraat
+Koeikensgracht
+Koepoortbrug
+Kolveniersstraat
+Komedieplaats
+Kommekensstraat
+Koninginnestraat
+Koningstraat
+Koolkaai
+Kopstraatje
+Korte Brilstraat
+Korte Doornikstraat
+Korte Gasthuisstraat
+Korte Klarenstraat
+Korte Koepoortstraat
+Korte Nieuwstraat
+Korte Noordstraat
+Korte Riddersstraat
+Korte Schipperskapelstraat
+Korte Sint-Annastraat
+Korte Vlierstraat
+Korte Winkelstraat
+Korte Zeevaartstraat
+Krabbenstraat
+Kribbestraat
+Kriekenstraat
+Kromme-Elleboogstraat
+Kronenburgstraat
+Kuipersstraat
+Lakenstraat
+Lambermontplaats
+Lambermontstraat
+Lammekensraamveld
+Lange Brilstraat
+Lange Doornikstraat
+Lange Gasthuisstraat
+Lange Klarenstraat
+Lange Koepoortstraat
+Lange Nieuwstraat
+Lange Noordstraat
+Lange Riddersstraat
+Lange Schipperskapelstraat
+Lange Sint-Annastraat
+Lange Vlierstraat
+Lange Winkelstraat
+Langegang
+Lansstraat
+Ledeganckkaai
+Leeuw van Vlaanderenstraat
+Leeuwenstraat
+Leguit
+Léon Stynenstraat
+Leonie Glassplein
+Leopold de Waelplaats
+Leopold de Waelstraat
+Leopoldplaats
+Leopoldstraat
+Leuvenstraat
+Leysstraat
+Lijnwaadmarkt
+Limaplein
+Limastraat
+Lode Sebregtsparkje
+Lombardenstraat
+Lombardenvest
+Londenbrug
+Londenstraat
+Louizastraat
+Luikstraat
+Maalderijstraat
+Maarschalk Gérardstraat
+Maarten Lutherplein
+Makelarenplaats
+Marcel Louettetuin
+Marguerie Schuilhaven
+Maria Pijpelincxstraat
+Markgravestraat
+Marnixplaats
+Mechelseplein
+Meir
+Meirbrug
+Meistraat
+Melkmarkt
+Mexicoplein
+Michel De Braeystraat
+Minderbroedersrui
+Minderbroedersstraat
+Molenbergstraat
+Montevideostraat
+Morgenstraat
+Moriaanstraat
+Moriaanstraatje
+Munthof
+Muntstraat
+Museumstraat
+Mutsaardstraat
+Namenstraat
+Napelsstraat
+Napoleonkaai
+Nassaubrug
+Nassaustraat
+Nationalestraat
+New Yorkkaai
+Nicole Van Goethempad
+Nieuwe Gang
+Nieuwpoortkaai
+Nieuwstad
+Noorderplaats
+Nosestraat
+Oever
+Oostendekaai
+Operaplein
+Orgelstraat
+Orteliuskaai
+Ossenmarkt
+Otto Veniusstraat
+Oudaan
+Oude Beurs
+Oude Koornmarkt
+Oude Waag
+Oudeleeuwenrui
+Oudemansstraat
+Oudevaartplaats
+Paardenmarkt
+Pachtstraat
+Pacificatiestraat
+Palingbrug
+Panamarenkoplein
+Pandstraat
+Papenstraatje
+Paradijsstraat
+Parochiaanstraat
+Pastoor Visschersplein
+Paternosterstraat
+Paul Smekensplein
+Pelgrimstraat
+Peterseliestraat
+Pieter van Hobokenstraat
+Piraeusstraat
+Plaatsnijdersstraat
+Plantinkaai
+Pompstraat
+Portostraat
+Pottenbrug
+Pourbusstraat
+Predikerinnenstraat
+Prekersstraat
+Prinsesstraat
+Prinsstraat
+Prior Peltiersplaats
+Pruynenstraat
+Quinten Matsijsdoorgang
+Raapstraat
+Repenstraat
+Reyndersstraat
+Riemstraat
+Rigastraat
+Rijke Beukelaarstraat
+Rijkenhoek
+Rijnkaai
+Rijnpoortvest
+Rodestraat
+Roland Verhavertpad
+Rosier
+Roskamgang
+Rouaanse Kaai
+Rozenstraat
+Ruckersplaats
+Salm-Salmstraat
+Sandersstraatje
+Sasdok-Zuidkaai
+Saucierstraat
+Schaliënstraat
+Scheldeken
+Scheldestraat
+Schengenplein
+Schermersstraat
+Schildersstraat
+Schippersstraat
+Schoenmakersstraat
+Schoenmarkt
+Schoytestraat
+Schrijnwerkersstraat
+Schuttershofstraat
+Senne Rouffaerplein
+Sint-Aldegondiskaai
+Sint-Andriesplaats
+Sint-Andriesstraat
+Sint-Antoniusstraat
+Sint-Jacobsmarkt
+Sint-Jacobstraat
+Sint-Jansvliet
+Sint-Jorispoort
+Sint-Katelijnevest
+Sint-Laureiskaai
+Sint-Maartenstraat
+Sint-Michielskaai
+Sint-Michielstraat
+Sint-Nicolaasplaats
+Sint-Paulusplaats
+Sint-Paulusstraat
+Sint-Pieter-en-Paulusstraat
+Sint-Pieterstraat
+Sint-Pietersvliet
+Sint-Rochusstraat
+Sleutelstraat
+Spanjaardsteeg
+Spanjepandsteeg
+Stadswaag
+Steegsken
+Steenbergstraat
+Steenhouwersvest
+Steenplein
+Stijfselrui
+Stijfselstraat
+Stoelstraat
+Stoofstraat
+Stoopstraat
+Sudermanstraat
+Suikerrui
+Tabakvest
+Tallinnstraat
+Tavernierkaai
+Tempelstraat
+Teniersplaats
+Terninckgang
+Terninckstraat
+Theaterplein
+Theodoor Van Rijswijckplaats
+Timmerwerfstraat
+Tolstraat
+Toog
+Torfbrug
+Tunnelplaats
+Twaalfmaandenstraat
+Ulrikstraat
+Van Boendalestraat
+Van Craesbeeckstraat
+Van Cuyckstraat
+Van der Sweepstraat
+Van Meterenkaai
+Van Schoonbekeplein
+Varkensmarkt
+Veemarkt
+Vekestraat
+Venusstraat
+Verbindingsdok
+Verbindingsdok-Oostkaai
+Verbindingsdok-Westkaai
+Verbondstraat
+Verbrande-Entrepotstraat
+Verlatstraat
+Verschansingstraat
+Verversrui
+Verviersstraat
+Veurnekaai
+Vingerlingstraat
+Visserskaai
+Vlaaikensgang
+Vlaamsekaai
+Vlaanderenstraat
+Vlasmarkt
+Vleeshouwersstraat
+Vleeshuisstraat
+Vleminckstraat
+Vleminckveld
+Vlissingenstraat
+Volkstraat
+Vorstermanstraat
+Vrijdagmarkt
+Vrijdagmarktstraatje
+Vrijheidstraat
+Waaistraat
+Waalsekaai
+Wapenstraat
+Wapper
+Welvaartstraat
+Wiegstraat
+Wijngaardbrug
+Wijngaardstraat
+Willem Lepelstraat
+Willem Ogierplaats
+Willem Tellstraat
+Wisselstraat
+Wolstraat
+Zakstraat
+Zand
+Zeevaartstraat
+Zillionpad
+Zilversmidstraat
+Zirkstraat
+Zuidpark
+Zwaardstraat
+Zwaluwstraat
+Zwanengang
+Zwartzustersstraat
+Zwedenstraat
+Zwijgerstraat
+Aarschotplaats
+Aarschotstraat
+Albert Claudestraat
+Albert Grisarstraat
+Albertstraat
+Anselmostraat
+Antoon van Dyckstraat
+Appelmansstraat
+Arendstraat
+Arthur Goemaerelei
+Artsen zonder Grenzenstraat
+Augustinessenplein
+Balansstraat
+Ballaarstraat
+Baron Joostensstraat
+Belegstraat
+Belgiëlei
+Bestormingstraat
+Bexstraat
+Biartstraat
+Bolwerkstraat
+Bosduifstraat
+Bosmanslei
+Boudewijnssteeg
+Boudewijnsstraat
+Brederodestraat
+Bresstraat
+Breughelstraat
+Breydelstraat
+Brialmontlei
+Broederminstraat
+Bronstraat
+Brusselstraat
+Catharina Beersmansstraat
+Charlottalei
+Clément van Bogaerttunnel
+Clementinastraat
+Cobdenstraat
+Coebergerstraat
+Consciencestraat
+Constantia Teichmannplaats
+Copernicuslaan
+Cuperusstraat
+Cuylitsstraat
+Dageraadplaats
+De Beuckerstraat
+De Boeystraat
+De Braekeleerstraat
+De Damhouderestraat
+De Keyserlei
+De Moystraat
+Delacenseriestraat
+Dendermondestraat
+Desguinlei
+Diamantstraat
+Diercxsensstraat
+Dolfijnstraat
+Door Verstraeteplaats
+Doornelei
+Draakplaats
+Draakstraat
+Durletstraat
+Edelinckstraat
+Filomenastraat
+Flamingoplein
+Florisstraat
+Fourmentstraat
+Francis Wellesplein
+Fransenplaats
+Gelijkheidstraat
+Giraffenplein
+Gounodstraat
+Grétrystraat
+Grotebeerstraat
+Grotehondstraat
+Haantjeslei
+Halfmaanpleintje
+Halvemaanstraat
+Haringrodestraat
+Harmoniepark
+Harmoniestraat
+Helenalei
+Hemelstraat
+Henri La Fontainestraat
+Hertoginstraat
+Hertsdeinstraat
+Hof ter Bekestraat
+Hospitaalplein
+Hoveniersstraat
+Ieperstraat
+Infirmerieplein
+Isabella Brantstraat
+Isabellalei
+Jacob Jacobsstraat
+Jacob Jordaensstraat
+Jan Blockxstraat
+Jan Frans Willemsstraat
+Jan Van Beersstraat
+Jonghelinckstraat
+Jozef De Bomstraat
+Jozef Liesstraat
+Jules Bordetstraat
+Juliaan Dillensstraat
+Justitiestraat
+Karel Oomsstraat
+Kielsevest
+Kievitplein
+Kleinebeerstraat
+Kleinehondstraat
+Koning Albertparkweg
+Koningin Astridplein
+Koningin Elisabethlei
+Korte Achteromstraat
+Korte Altaarstraat
+Korte Herentalsestraat
+Korte Leemstraat
+Korte Lozanastraat
+Korte Van Peltstraat
+Korte Van Ruusbroecstraat
+Kreeftstraat
+Kruikstraat
+Lamorinièrestraat
+Lange Achteromstraat
+Lange Altaarstraat
+Lange Batterijstraat
+Lange Elzenstraat
+Lange Herentalsestraat
+Lange Kievitstraat
+Lange Leemstraat
+Lange Lozanastraat
+Lange Van Ruusbroecstraat
+Leeuwerikstraat
+Lemméstraat
+Lentestraat
+Lokkaardstraat
+Loosplaats
+Louiza-Marialei
+Maanstraat
+Magdalenastraat
+Maria-Henriëttalei
+Maria-Theresialei
+Marialei
+Markgravelei
+Maurice Verbaetsteeg
+Mediaplein
+Memlingstraat
+Mercatorstraat
+Mertens en Torfsstraat
+Minckelersstraat
+Miraeusstraat
+Molenstraat
+Montebellostraat
+Moonsstraat
+Mozartstraat
+Nerviërsstraat
+Nottebohmstraat
+Omheining Statie van Borgerhout
+Ommeganckstraat
+Oostenstraat
+Oudekerkstraat
+Paleisstraat
+Paradeplein
+Pater Pirestraat
+Pelikaanstraat
+Peter Benoitstraat
+Ploegstraat
+Politeshofstraat
+Professor Claraplein
+Provincieplaats
+Provinciestraat
+Pyckestraat
+Quellinstraat
+Quinten Matsijslei
+Raafstraat
+Ramstraat
+Regine Beerplein
+Rembrandtstraat
+Rijfstraat
+Robert Molsstraat
+Rolwagenstraat
+Rubenslei
+Rudolfstraat
+Sanderusstraat
+Schorpioenstraat
+Schulstraat
+Schupstraat
+Simonsstraat
+Singel
+Sint-Jozefstraat
+Sint-Laureisstraat
+Sint-Thomasstraat
+Sint-Vincentiusstraat
+Smyrnaplaats
+Snijdersstraat
+Solvynsstraat
+Somersstraat
+Stadsbalkon
+Stanleystraat
+Statiestraat
+Steenbokstraat
+Stefaniestraat
+Sterstraat
+Stierstraat
+Stockmansstraat
+Teichmannstraat
+Terliststraat
+Troonplaats
+Tweelingenstraat
+Valkenburgstraat
+Van Beethovenstraat
+Van Breestraat
+Van den Nestlei
+Van Diepenbeeckstraat
+Van Eycklei
+Van Immerseelstraat
+Van Leriusstraat
+Van Luppenstraat
+Van Noortstraat
+Van Peltstraat
+Van Putlei
+Van Schoonbekestraat
+Van Spangenstraat
+Van Trierstraat
+Verdraagzaamheidsplein
+Verdussenstraat
+Vestingstraat
+Victor Driessensstraat
+Vinkenstraat
+Wachthuisplein
+Walvisstraat
+Wambachstraat
+Werkstraat
+Wezenbergpad
+Wipstraat
+Wolfstraat
+Zénobe Grammestraat
+Zonnewijzerstraat
+Zuidervelodroom
+Zurenborgstraat
+4 septemberpad
+Abdijstraat
+Alfons De Cockstraat
+Alfred Coolsstraat
+Aloïs De Laetstraat
+Atletenstraat
+August Leyweg
+Auguste Oleffestraat
+Beerschotstraat
+Benzineweg
+Berendrechtstraat
+Beschavingstraat
+Beukenlaan
+Boomsesteenweg
+Camille Huysmanslaan
+Constant Permekestraat
+Cyriel Buyssestraat
+De Bosschaertstraat
+De Nelisplein
+Della Faillelaan
+Edgard Casteleinstraat
+Eric Sasselaan
+Eugeen Laermansstraat
+Evert Larockstraat
+Floris Primsstraat
+Frans Hensstraat
+Gabriëllastraat
+Generaal Armstrongweg
+Generaal Cabrastraat
+Generaal Robertsplantsoen
+Geothermiestraat
+Hans Van Mildertplein
+Hazelarenstraat
+Henri Evenepoelstraat
+Herenpolderbrug
+Hockeystraat
+Hortensiastraat
+Jaak Gorusstraat
+Jacob le Mairestraat
+James Ensorstraat
+Jan Baptist Verlooystraat
+Jan Davidlei
+Jan De Voslei
+Jan Denucéstraat
+Jan Frans Van de Gaerstraat
+Jan Ligthartplein
+Jasmijnstraat
+Jef Lambeauxstraat
+Jules De Bruyckerstraat
+Kampioenstraat
+Kanunnikenstraat
+Karel Mertensstraat
+Karel Mirystraat
+Karel Weylerstraat
+Kielpark
+Kielplein
+Kielsbroek
+Lakweg
+Landbouwstraat
+Limburgstraat
+Lindendreef
+Lodewijk De Raetstraat
+Louis Straussstraat
+Luxemburgstraat
+Magnoliadreef
+Marathonstraat
+Maria Telkesstraat
+Maurits Sabbelaan
+Max Elskampstraat
+Max Roosesstraat
+Mazoutweg
+Middelheimlaan
+Naftaweg
+Olieweg
+Olympiadepark
+Onafhankelijkheidslaan
+Oude Veer
+Palmenlaan
+Pestalozzistraat
+Pierenbergstraat
+Piet Verhaertstraat
+Pieter Coeckelaan
+Pieter Génardstraat
+Pieter Rottiestraat
+Pol de Montstraat
+Populierenlaan
+Richard Baseleerstraat
+Rik Schaefelsstraat
+Rik Woutersstraat
+Rockoxplein
+Russel Ohlstraat
+Ryckmansstraat
+Scheibeekstraat
+Schijfstraat
+Schijfwerpersstraat
+Schroeiweg
+Serigiersstraat
+Seringenlaan
+Sint-Catharinaplein
+Solventweg
+Sparrenstraat
+Speerstraat
+Stadionstraat
+Stijgbeugelstraat
+Sus Van den Eyndestraat
+Tentoonstellingslaan
+Tirstraat
+Turnersstraat
+Valerius De Saedeleerstraat
+Van Halmalestraat
+Van Peenestraat
+Van Varickstraat
+VIIde-Olympiadelaan
+Vijfkampstraat
+Vlaamsekunstlaan
+Vogelzanglaan
+Volhardingstraat
+Vuurkruisenplein
+Waarlooshofstraat
+Waelrantstraat
+Werbrouckstraat
+Willem Eekelersstraat
+Windturbineweg
+Wittestraat
+Zaanstraat
+Zamenhofstraat
+Zandvlietstraat
+Zonnestroomstraat
+Albertdok
+Albertdok-Oostkaai
+Albertdok-Westkaai
+Allegondaplein
+Amerikadok
+Amerikadok-Noordkaai
+Amerikadok-Zuidkaai
+Amicalpad
+Argentiniëlaan
+Asiabrug
+Asiadok-Oostkaai
+Asiadok-Westkaai
+Asiadok-Zuidkaai
+Azobestraat
+Baanbrekerstraat
+Bakeetjeplein
+Baltimorestraat
+Belfaststraat
+Beliweg
+Bellestraat
+Bermstraat
+Blauwe Weg
+Boerinnestraat
+Bostonstraat
+Boterhamvaartweg
+Boudewijnbrug
+Boudewijnsluis
+Boudewijnweg
+Bremenstraat
+Bristolstraat
+Brooklynstraat
+Bunderdijkweg
+Bunkerschipplein
+Buurtweg nr 11
+Canadalaan
+Cardiffstraat
+Céphéeplein
+Chicagostraat
+Churchilldok
+Churchilldok-Noordkaai
+Churchilldok-Zuidkaai
+Columbiastraat
+Courlisplein
+Derde Havendok
+Derde Havendok-Noordkaai
+Derde Havendok-Zuidkaai
+Doctor Decrolystraat
+Doverplein
+Droogdokken
+Droogdokkenweg
+Dublinstraat
+Elzasweg
+Emdenweg
+Ettenhovendijkweg
+Ferdinanduspolder
+Fluitenkruidpad
+Galjoenstraat
+Generaal Simondslaan
+Glasgowstraat
+Goteborgweg
+Graandokkaai
+Grevendilf
+Grimsbystraat
+Groeneweg
+Haïfastraat
+Halifaxstraat
+Hamburgstraat
+Haminastraat
+Hansadok
+Hansadok-Oostkaai
+Hansadok-Westkaai
+Havanastraat
+Havenwerken Noord
+Heizegemweg
+Henry Fordlaan
+Hondurasstraat
+Houstonstraat
+Houtdok
+Houtdok-Noordkaai
+Illexpad
+Industriedok
+Industrieweg
+Innovatiestraat
+Kambalastraat
+Kanaaldok B1
+Kanaaldok B1-Oostkaai
+Karveelstraat
+Kastelweg
+Kauwenstein
+Kempenaarweg
+Kempenstraat
+Kempischdok-Oostkaai
+Kempischdok-Zuidkaai
+Kempische Brug
+Ketelhof
+Klein Zuidland
+Klipperstraat
+Kluiverplein
+Koordekenshoef
+Korte Wielenstraat
+Kotterstraat
+Kragenweg
+Kruisschansbrug
+Kruisschansweg
+Lefebvrebrug
+Leon Bonnetweg
+Leopolddok
+Letlandstraat
+Lichterweg
+Limbastraat
+Liomarplein
+Litouwenstraat
+Liverpoollaan
+Loodglansstraat
+Lubeckweg
+Luithagen-Haven
+Malachietstraat
+Malagastraat
+Manchesterlaan
+Mannheimweg
+Marshalldok
+Meestoof
+Meestoofbrug
+Melkschoor
+Merantistraat
+Messingstraat
+Mexicobruggen
+Mexicostraat
+Michiganstraat
+Moerstraat
+Moleneind
+Montrealstraat
+Muisbroeklaan
+Mulhouselaan-Noord
+Mulhouselaan-Zuid
+Narvikstraat
+Nietweg
+Nieuwelandenweg
+Noordkasteel-Oost
+Noordkasteel-Zuid
+Noordkasteelbruggen
+Oesterstraat
+Ohapad
+Oosterweelbrug
+Oosterweelsteenweg
+Ordamdijkweg
+Ordamstraat
+Oregonstraat
+Ouderhoekplein
+Ouland
+Pegaseplein
+Perustraat
+Philadelphiastraat
+Polarrevplein
+Polderdijkweg
+Poldervlietweg
+Quebecstraat
+Rangoonstraat
+Rijstweg
+Rode Weel
+Romeynsweel
+Rostockweg
+Royersbrug
+Rozenhoedweg
+Sandvikstraat
+Santiagostraat
+Sasdok-Noordkaai
+Schenkeldijk
+Scheurweg
+Schomhoeveweg
+Schouwkensstraat
+Schuildok voor Lichters
+Schuildokweg
+Seattlestraat
+Shanghaistraat
+Siberiabruggen
+Siberiastraat
+Singaporestraat
+Slepersweg
+Sloepenweg
+Sluisstraat
+Smalleweg
+Spitsenstraat
+Stannietstraat
+Straatsburgbrug
+Straatsburgdok
+Straatsburgdok-Noordkaai
+Straatsburgdok-Zuidkaai
+Stralsundweg
+Suezdok
+Symboleplein
+Tampicoplein
+Tjalkstraat
+Toppilastraat
+Torniostraat
+Treurenborg
+Tristanpad
+Van Cauwelaertbrug
+Van Cauwelaertsluis
+Vancouverstraat
+Venezuelastraat
+Verbindingsgeul
+Vierde Havendok
+Vierde Havendok-Noordkaai
+Vierde Havendok-Zuidkaai
+Vijfde Havendok
+Vijfde Havendok-Noordkaai
+Vijfde Havendok-Zuidkaai
+Vosseschijnstraat
+Vrieskaai
+Watergang
+Westeind
+Wijnweg
+Wijtvliet
+Williwawplein
+Wilmarsdonkbrug
+Wilmarsdonksteenweg
+Wilmarsstraat
+Wilmingtonstraat
+Zaha Hadidplein
+Zandvoort
+Zeebruggestraat
+Zesde Havendok
+Zesde Havendok-Noordkaai
+Zesde Havendok-Zuidkaai
+Zomerweg
+Zwarteweg
+Aakstraat
+Abtenstraat
+Achter 't hof
+Antwerpsebaan
+Armenstraatje
+Averbodestraat
+Begankenisplein
+Begijnhoeve
+Berendrechtbrug
+Berendrechtse Dijk
+Berendrechtsluis
+Berendrechtsvoetpad
+Berendrechtweg
+Bergenhoeve
+Bergske af
+Bevrijdingsdok
+Biestraatje
+Binnenpad
+Blauwhoefstraat
+Boeierstraat
+Bokspane
+Booswegske
+Bosstraat
+Botermarkt
+Boterstraatje
+Brazilianenstraat
+Breedsteert
+Bremstraat
+Buitenmolenweg
+Bullesteeg
+Burgemeester Verhulstplein
+Cecilianenstraat
+Conterscherp
+De Bergen
+De Keyserhoeve
+De Roet
+De Vest
+Derdeweg
+Doggenlaan
+Dominicanenstraat
+Dopheidestraat
+Dorpendijkweg
+Dorpsbeekstraat
+Dorpstraat
+Duinenpoortweg
+Emelinusstraat
+Franciscanenstraat
+Frans Brandsstraat
+Frans Tijsmanstunnel
+Frederik-Hendrikbrug
+Frederik-Hendrikstraat
+Fregatstraat
+Gansrijdersstraat
+Gaspeldoornstraat
+Gillis Damaesstraat
+Goudhoekstraat
+Grote Klospad
+Grote Stoppelbergen
+Hagelberg
+Haven Lillo
+Havenmarkt
+Heesterbos
+Heiblokken
+Heidestraat
+Henri Deckerspad
+Het Voorhof
+Hoefbladstraat
+Hollandseweg
+Hulkstraat
+IJzerenwegstraat
+Insteekdok Albatros
+Insteekdok Monsanto
+Insteekdok Solvay
+Joanna Van Obbuerenpad
+Julien Douwsstraat
+Kabeljauwdijk
+Kalmthoutsebaan
+Kanaaldok B2
+Kanaaldok B2-Oostkaai
+Kanaaldok B2-Westkaai
+Kanaaldok B3
+Kanaaldok B3-Oostkaai
+Kanaaldok B3-Westkaai
+Kapelstraat
+Kazerneplein
+Keyserstraatje
+Kleine Bredestraat
+Kleine Stoppelbergen
+Kluisdijk
+Koeleweg
+Kommershoek
+Konijnendreef
+Kraaienberg
+Kraakstraat
+Krommeweg
+Kruisbos
+Kruisweg
+Kuifmeespad
+Laageind
+Liefkenshoektunnel
+Lillobrug
+Magershoek
+Martinussteeg
+Middelburgstraat
+Molenakker
+Monnikenhofstraat
+Neerhoefstraat
+Nieuwe Westweg
+Noordland
+Noordlandbrug
+Norbertijnenstraat
+Omwentelingstraat
+Oostmolengeest
+Opstalpad
+Otterstraat
+Oude Papenstraat
+Oudebroeksestraat
+Oudedijkweg
+Oudendijkbrug
+Papeweg
+Pastoor Verlindenstraat
+Piep-in-'t-Riet
+Pierre Colspad
+Pootersstraat
+Potpolderweg
+Predikherenbos
+Prelatenstraat
+Putsebaan
+Raapakker
+Reigersbosdreef
+Rietbank
+Ruige Heide
+Ruytermansweg
+Scheidreef
+Schouwvegerstraat
+Sint-Jan Baptiststraat
+Smidseweg
+Snellekreekstraat
+Solferinostraat
+Solftplaats
+Solftstraat
+Spaansemolenstraat
+Staf De Liepad
+Steenovenstraat
+Stroomstraat
+Suikervoetpad
+Tijsmanstunnel-West
+Tolhuisstraat
+Tongerlostraat
+Toon Verbraakpad
+Tramspoor
+Triangel
+Valeriaanstraat
+Van Couwervenstraat
+Van der Sterrestraat
+Van Gistelstraat
+Varendonckstraat
+Verbrandstraatje
+Vestingstraat
+Viswaterpad
+Vossestaartstraat
+Walenhoek
+Waltmanstraat
+Waterstraatje
+Weeltjens
+Westmolengeest
+Weverstraat
+Windhalmstraat
+Windmolenweg
+Witherenstraat
+Wollegrasstraat
+Zandkeet
+Zandvlietbrug
+Zandvlietse Dorpstraat
+Zandvlietse Varkensmarkt
+Zandvlietsesteenweg
+Zandvlietsluis
+Zandvlietweg
+Zandweg
+Zevenbergen
+Zevensterstraat
+Zoetebeekstraat
+Zoutedijk
+Zoutestraat
+Zuidhavendijk
+Zuidvest
+Aalscholverlaan
+Abraham Verhoevenlaan
+Adolf Menystraat
+Aernout en Willemlaan
+Akkerwindestraat
+Albrecht Dürerstraat
+Alexander Farneseplein
+Alphonse Hertogsstraat
+Alsemstraat
+Amand De Lattinlaan
+Anatoolpad
+Ann Christystraat
+Annemiekepad
+Antoinette Feuerwerkerstraat
+Anton van Duinkerkenstraat
+Antoon Marstboomstraat
+Arabella Pottpad
+August Van Cauwelaertlaan
+August Vermeylenlaan
+Beatrijslaan
+Belgicaplein
+Bellapad
+Bessypad
+Blancefloerlaan
+Bouvaertlaan
+Brilduikerstraat
+Burchtse Weel
+Busken Huetstraat
+Cadetstraat
+Caravellestraat
+Carel van Manderstraat
+Charles de Costerlaan
+Constantijn Huygensstraat
+Cornellielaan
+Corry Lievensstraat
+De 7 schakenpad
+De Heemlaan
+Demoniahpad
+Dwarslaan
+Edmond de Coussemakerstraat
+Eiderstraat
+Elegastplein
+Elodie Van Stiepelteenpad
+Emile Dancolaan
+Emile Verhaerenlaan
+Eric Antonisstraat
+Ernest Claesstraat
+Esmoreitlaan
+Eulalia Cambierstraat
+Eulalie Van Treurwilgepad
+Filiberkepad
+Flippad
+François Pelsaertstraat
+Frans Detiègestraat
+Frédéric Bruynseelslaan
+Frederik van Eedenplein
+Fromentinstraat
+Galaxapad
+Galgenweellaan
+Garmt Stuivelingstraat
+Gaston Burssenslaan
+Georges Eekhoudlaan
+Gloriantlaan
+Goethestraat
+Guicciardinistraat
+Gustaaf Wappersstraat
+Halewijnlaan
+Hanegraefstraat
+Hector Lebonstraat
+Heer van Bergenstraat
+Het Eiland Amoraspad
+Hubert Lampolaan
+Hugo Schiltzplein
+Hugues C. Pernathlaan
+Imalsoplein
+Isabelle Valaeysstraat
+Ivonne Julliamsstraat
+Ivonne Lexstraat
+Jachthavenweg
+Jan van Brabantlaan
+Jan van Heelulaan
+Jan Van Mirlostraat
+Jeanne Delhezstraat
+Jef Blaaskoppad
+Jef Geeraertsplein
+Jeremias Gobelijnpad
+Jerompad
+Joekipad
+Johan Jongkindstraat
+Jommekepad
+Jonker van der Nootstraat
+Joris van Spilbergenstraat
+Jos Hendrickxstraat
+Josephina De Bakker-Breugelmansstraat
+Julius Vuylstekelaan
+Juul Persijnstraat
+Kanoetstraat
+Kastanjedreef
+Katwilgweg
+Kaypad
+Kielzoglaan
+Knobbelzwaanstraat
+Koggelaan
+Krimsonpad
+Kwak en Boemelpad
+La Esterellastraat
+Lambikpad
+Le Corbusierlaan
+Leo J. Krynlaan
+Léon Huybrechtsstraat
+Lepelaarstraat
+Liane Bruylantslaan
+Lode Zielenslaan
+Lodewijk van Velthemlaan
+Loefpad
+Louis Franckstraat
+Louis Frarynlaan
+Louis Paul Boonstraat
+Ludwig Burchardstraat
+Mac Leodplein
+Marguerite Raesstraat
+Maria Claessensplein
+Maria de Lannoyplein
+Maria Louisa Gheysstraat
+Maria Meerbergen-De Visserstraat
+Maria Van De Weygaertstraat
+Maria Van Genechten - Hauquierstraat
+Maria Van Sinaplein
+Mariette Druartstraat
+Marleen Van Ouytselstraat
+Mathilde Schroyensstraat
+Meerkoetstraat
+Meeuwstraat
+Melis Stokelaan
+Mic Mac Jampuddingpad
+Micheletstraat
+Mirzapad
+Multatuliplein
+Neel Dofflaan
+Noordscheldeweg
+Octavie Belloystraat
+Olga Lefeberplein
+Olivier Brunelstraat
+Optimiststraat
+Oscar De Gruyterlaan
+Parallelweg Noord
+Parallelweg Noord
+Parallelweg Zuid
+Paul Housmansstraat
+Paul Lebeaustraat
+Paul van Ostaijenlaan
+Philippe Vermoelenstraat
+Pieter Doorlantlaan
+Pluvierstraat
+Prosper van Langendonckstraat
+Reigerstraat
+Reinaartlaan
+Richard Declerckstraat
+Rika De Backerplein
+Rikkipad
+Roald Amundsenstraat
+Robert de Wavrinstraat
+Robert en Bertrandpad
+Rode Ridderpad
+Roemer Visscherstraat
+Roerdompstraat
+Romain Looymansstraat
+Rose Grononstraat
+Rozemiekepad
+Safaripad
+Schamelhoutstraat
+Schanullekepad
+Schillerstraat
+Seppekepad
+Sint-Annastrand
+Spinnakerlaan
+Sus Antigoonpad
+Suske en Wiskepad
+Tante Sidoniapad
+Theofiel Boemerangpad
+Theophile Gautierstraat
+Thomas Morusplein
+Thonetlaan
+Tijl Uilenspiegellaan
+Titspad
+Tureluurstraat
+Urbain Reniersstraat
+Van Averbekelaan
+Victor dela Montagnestraat
+Victor Delhezstraat
+Victor Hugostraat
+Visarendstraat
+Vlaamshoofdlaan
+Vliegende Bolpad
+Walter Scottstraat
+Walter Vaesstraat
+Wandeldijk
+Waterhoenlaan
+Watersnipstraat
+Watervogelplein
+Waterwilgweg
+Wilhelm Raabestraat
+Willem Elsschotstraat
+Willem Gijsselsstraat
+Willem Klooslaan
+Willem van Haechtlaan
+Willy de Roosstraat
+Yasminestraat
+Zeilsportplein
+Zonnedorppad
+Abattoirstraat
+Adolphe Meurissestraat
+Alfons Engelsstraat
+August Sniedersstraat
+Biekorfstraat
+Bisschopstraat
+Boerhaavestraat
+Bredastraat
+Brugstraat
+Burgerwelzijn
+Carnotstraat
+Cassiersstraat
+Ceulemansstraat
+Chocoladegang
+Congresstraat
+Constitutiestraat
+Dahliastraat
+Dambruggestraat
+Damplein
+De Coninckplein
+De Marbaixstraat
+De Pretstraat
+De Waghemakerestraat
+Delinstraat
+Demerstraat
+Denderstraat
+Diepestraat
+Dijlestraat
+Driesnellenstraat
+Duboisstraat
+Duinplak
+Duinsteeg
+Duinstraat
+Eendrachtstraat
+Eggestraat
+Ellermanstraat
+Erwtenstraat
+Essenstraat
+Eugène De Plynstraat
+Everaertsstraat
+Familiestraat
+Franklin Rooseveltplaats
+Frans de Cortstraat
+Fuggerstraat
+Gasstraat
+Geelhandplaats
+Gemeentestraat
+Geraniumstraat
+Geulincxstraat
+Goudbloemstraat
+Greinstraat
+Halenstraat
+Handelsteeg
+Handelstraat
+Hardenvoort
+Herderinstraat
+Herderstraat
+Hof ter Elst
+Hof Van Camp
+Hollandstraat
+Hortensia Sillisplein
+Houwerstraat
+IJzerlaan
+Jan Palfijnstraat
+Joannasteeg
+Joossensgang
+Jos Verhelstplein
+Kalkstraat
+Kalverstraat
+Kalverwei
+Kerkstraat
+Klamperstraat
+Klappeistraat
+Klipstraat
+Korte Beeldekensstraat
+Korte Dijkstraat
+Korte Kongostraat
+Korte Lobroekstraat
+Korte Scholiersstraat
+Korte Slachterijstraat
+Korte Stuivenbergstraat
+Korte Van Bloerstraat
+Korte Van Sterbeeckstraat
+Korte Winkelhaakstraat
+Korte Ypermanstraat
+Korte Zavelstraat
+Lange Beeldekensstraat
+Lange Dijkstraat
+Lange Lobroekstraat
+Lange Scholiersstraat
+Lange Slachterijstraat
+Lange Stuivenbergstraat
+Lange Van Bloerstraat
+Lange Van Sterbeeckstraat
+Lange Winkelhaakstraat
+Lange Ypermanstraat
+Lange Zavelstraat
+Lavendelstraat
+Lindeboomstraat
+Lobroekdok
+Louizaplaats
+Lovelingstraat
+Maaldersstraat
+Maasstraat
+Maatsstraat
+Maatsweg
+Marnixstraat
+Matigheidstraat
+Meetingstraat
+Meloenstraat
+Merksemsestraat
+Moeke Bitterpeeënplein
+Moeke Bitterpeeënstraat
+Mouterijsteeg
+Muizenstraat
+Nachtegaalstraat
+Natiestraat
+Neefsteeg
+Nijverheidstraat
+Nikkelstraat
+Noordschippersdok
+Offerandestraat
+Olijftakstraat
+Onderwijsstraat
+Ooievaarstraat
+Oranjestraat
+Osystraat
+Oudesteenweg
+Pastorijstraat
+Perenstraat
+Pesthofstraat
+Pieter Densplein
+Pijlstraat
+Pionierstraat
+Pollepelstraat
+Pompoenstraat
+Potgieterstraat
+Pothoekstraat
+Regentstraat
+Richardstraat
+Rotterdamstraat
+Rupelstraat
+Samberstraat
+Schaafstraat
+Schoolplak
+Schoolstraat
+Selderstraat
+Sentensteeg
+Sint-Amandusstraat
+Sint-Elisabethstraat
+Sint-Gummarusstraat
+Sint-Jansplein
+Sint-Jobstraat
+Sint-Lazarusstraat
+Sint-Norbertusstraat
+Sint-Willibrordusstraat
+Slachthuislaan
+Sleeckxstraat
+Smallestraat
+Spaarstraat
+Spoorstraat
+Steenborgerweert
+Stuivenbergplein
+Tante Terryplein
+Tien-Gebodensteeg
+Touwstraat
+Trapstraat
+Tulpstraat
+Twee Netenstraat
+Twee Stierenstraat
+Van Aerdtstraat
+Van Arteveldestraat
+Van Campstraat
+Van de Wervestraat
+Van Helmontstraat
+Van Kerckhovenstraat
+Van Maerlantstraat
+Van Schoonhovenstraat
+Van Stralenstraat
+Van Urselstraat
+Van Wesenbekestraat
+Veldstraat
+Vetten Osplein
+Viaduct-Dam
+Vincent van Goghplein
+Violetstraat
+Violierstraat
+Viséstraat
+Vliegenstraat
+Vondelstraat
+Walenstraat
+Weilandstraat
+Wetstraat
+Wilgenstraat
+Willem Linnigstraat
+Willibrordusplein
+Willy Vandersteenplein
+Zeilstraat
+Zetternamstraat
+Zusters-der-Armenplein
+</p>
+                        </div>
+                </div>
+        </div>
+
+
+<script>
+window.__proofReady = false;   // signals printProof.js to wait until build() finishes
+(function () {
+    // ── A4 layout (mm) ────────────────────────────────────────────────────
+    const MARGIN      = 15;
+    const PAGE_W      = 210;
+    const PAGE_H      = 297;
+    const COL_GAP     = 8;   // gap between columns
+    const COLS        = 3;
+    const SIDE_BUFFER = 2;   // padding left+right of each page div so that glyphs
+                              // with negative side-bearings stay inside the content
+                              // area and are not clipped by the PDF renderer
+    const CONTENT_W   = PAGE_W - 2 * MARGIN;                                  // 180 mm
+    const COL_W       = (CONTENT_W - 2 * SIDE_BUFFER - (COLS - 1) * COL_GAP) / COLS; // 50.667 mm
+    const CONTENT_H   = PAGE_H - 2 * MARGIN;                                  // 267 mm
+    const LH_FACTOR   = 1.15;
+
+    // Extract street names RIGHT NOW at parse time, before any DOM changes.
+    // This survives even if build() is called after the original block is removed.
+    const pEl    = document.querySelector('.test p');
+    const streets = pEl
+        ? pEl.textContent.split(/\r?\n/).map(s => s.trim()).filter(Boolean)
+        : [];
+
+    // ── Build ──────────────────────────────────────────────────────────────
+    function build() {
+        if (!streets.length) {
+            console.error('Straaten: no street names found – aborting.');
+            return;
+        }
+
+        // Page height in px
+        const phEl = document.createElement('div');
+        phEl.style.cssText =
+            'position:absolute;top:0;left:0;visibility:hidden;' +
+            'width:1px;height:' + CONTENT_H + 'mm;';
+        document.body.appendChild(phEl);
+        const pageHpx = phEl.getBoundingClientRect().height;
+        document.body.removeChild(phEl);
+
+        // Hidden measurement structure – identical to the output layout so the
+        // browser computes column width under the same flex constraints.
+        // SIDE_BUFFER padding mirrors what the real page wrapper has, so that
+        // colWpx is measured under exactly the same box model.
+        const msWrap = document.createElement('div');
+        msWrap.style.cssText =
+            'position:absolute;top:0;left:-9999px;overflow:visible;' +
+            'box-sizing:border-box;' +
+            'width:' + CONTENT_W + 'mm;' +
+            'padding:0 ' + SIDE_BUFFER + 'mm;';
+        document.body.appendChild(msWrap);
+
+        const msPage = document.createElement('div');
+        msPage.style.cssText = 'display:flex;gap:' + COL_GAP + 'mm;overflow:visible;';
+        msWrap.appendChild(msPage);
+
+        const msCol = document.createElement('div');
+        msCol.style.cssText = 'width:' + COL_W + 'mm;flex-shrink:0;overflow:visible;';
+        msPage.appendChild(msCol);
+
+        const msLine = document.createElement('div');
+        msLine.style.cssText =
+            'font-family:TESTFONT;font-style:normal;font-weight:normal;' +
+            'white-space:nowrap;text-transform:capitalize;' +
+            'letter-spacing:0;word-spacing:0;';
+        msCol.appendChild(msLine);
+
+        // Actual column width from the live flex layout
+        const colWpx = msCol.getBoundingClientRect().width;
+        console.log('Straaten: colWpx =', colWpx.toFixed(3), 'px  (' + COL_W.toFixed(3) + ' mm)');
+
+        // Text advance width via Range – measured inside the real column div
+        function measureWidth(sizePx) {
+            msLine.style.fontSize = sizePx + 'px';
+            const range = document.createRange();
+            range.selectNodeContents(msLine);
+            return range.getBoundingClientRect().width;
+        }
+
+        const REF = 100;
+
+        const items = streets.map(name => {
+            msLine.textContent = name;
+
+            const wRef = measureWidth(REF);
+            if (wRef === 0) {
+                // Font not rendered yet – return fallback so columns still appear
+                console.warn('Straaten: zero width for "' + name + '" – font not loaded?');
+                return { name, fs: 12, lh: 12 * LH_FACTOR };
+            }
+
+            // Pass 1: estimate
+            const fsEst = (colWpx / wRef) * REF;
+
+            // Pass 2: correct for sub-pixel/hinting differences at target size
+            const wActual = measureWidth(fsEst);
+            const fs      = wActual > 0 ? fsEst * (colWpx / wActual) : fsEst;
+
+            // Pass 3: debug
+            const wFinal = measureWidth(fs);
+            console.log(
+                name.padEnd(40) +
+                '  fs='    + fs.toFixed(3).padStart(8) + 'px' +
+                '  colWpx='+ colWpx.toFixed(3)         + 'px' +
+                '  rendW=' + wFinal.toFixed(3)           + 'px' +
+                '  diff='  + (wFinal - colWpx).toFixed(3) + 'px'
+            );
+
+            return { name, fs, lh: fs * LH_FACTOR };
+        });
+
+        document.body.removeChild(msWrap);
+
+        // Distribute items into columns by accumulated line-height
+        const allCols = [];
+        let cur = [], curH = 0;
+        items.forEach(item => {
+            if (curH + item.lh > pageHpx && cur.length) {
+                allCols.push(cur); cur = []; curH = 0;
+            }
+            cur.push(item);
+            curH += item.lh;
+        });
+        if (cur.length) allCols.push(cur);
+
+        // Group columns into pages (COLS per page)
+        const pages = [];
+        for (let i = 0; i < allCols.length; i += COLS) {
+            pages.push(allCols.slice(i, i + COLS));
+        }
+        console.log('Straaten:', allCols.length, 'columns,', pages.length, 'pages');
+
+        // Remove original preview block (safe: streets already saved above)
+        const old = document.querySelector('.fullbox.section');
+        if (old) old.remove();
+
+        // Outer wrapper: SIDE_BUFFER padding left+right keeps glyphs with negative
+        // side-bearings inside the 180 mm content area so the PDF renderer does not
+        // clip them at the content-box boundary.
+        const outerWrap = document.createElement('div');
+        outerWrap.style.cssText =
+            'box-sizing:border-box;width:' + CONTENT_W + 'mm;' +
+            'padding:0 ' + SIDE_BUFFER + 'mm;overflow:visible;';
+        document.body.appendChild(outerWrap);
+
+        // Render pages into the wrapper
+        pages.forEach((pageCols, pi) => {
+            const page = document.createElement('div');
+            page.style.cssText =
+                'display:flex;gap:' + COL_GAP + 'mm;align-items:flex-start;overflow:visible;' +
+                (pi > 0 ? 'page-break-before:always;break-before:page;' : '');
+
+            pageCols.forEach(lines => {
+                const col = document.createElement('div');
+                // overflow:visible: glyphs with negative side-bearings must not be clipped
+                col.style.cssText = 'width:' + COL_W + 'mm;flex-shrink:0;overflow:visible;';
+
+                lines.forEach(item => {
+                    const d = document.createElement('div');
+                    d.textContent   = item.name;
+                    d.style.cssText =
+                        'font-family:TESTFONT;font-style:normal;font-weight:normal;' +
+                        'font-size:'   + item.fs + 'px;' +
+                        'line-height:' + item.lh + 'px;' +
+                        'white-space:nowrap;text-transform:capitalize;' +
+                        'letter-spacing:0;word-spacing:0;';
+                    col.appendChild(d);
+                });
+
+                page.appendChild(col);
+            });
+
+            outerWrap.appendChild(page);
+        });
+    }
+
+    // ── Font loading ───────────────────────────────────────────────────────
+    // Each fonts.load() has its own .catch() so a missing/placeholder URL
+    // never rejects the whole chain and silently prevents build() from running.
+    const sizes = ['12px', '20px', '50px', '100px', '150px'];
+    const loads = sizes.map(s =>
+        document.fonts.load(s + ' TESTFONT').catch(() => {})
+    );
+
+    // Poll until TESTFONT is actually available (fonts.load returns non-empty).
+    // This replaces a fixed timeout so that Puppeteer's addStyleTag is detected
+    // within ~100 ms instead of waiting a fixed 2 s that exceeds the print delay.
+    function waitForTestFont(timeout) {
+        return new Promise(function (resolve) {
+            var deadline = Date.now() + timeout;
+            function attempt() {
+                document.fonts.load('100px TESTFONT')
+                    .then(function (fonts) {
+                        if (fonts.length > 0) {
+                            console.log('Straaten: TESTFONT confirmed loaded');
+                            resolve();
+                        } else if (Date.now() < deadline) {
+                            setTimeout(attempt, 100);
+                        } else {
+                            console.log('Straaten: font wait timeout – proceeding anyway');
+                            resolve();
+                        }
+                    })
+                    .catch(function () {
+                        if (Date.now() < deadline) { setTimeout(attempt, 100); }
+                        else { resolve(); }
+                    });
+            }
+            attempt();
+        });
+    }
+
+    Promise.all([document.fonts.ready, ...loads])
+        .catch(() => {})
+        .then(function () {
+            console.log('Straaten: font phase done – polling for TESTFONT…');
+            return waitForTestFont(5000);
+        })
+        .then(function () {
+            try { build(); window.__proofReady = true; }
+            catch (e) { console.error('Straaten build() error:', e); }
+        });
+})();
+</script>
+
+</body>
+
+</html>

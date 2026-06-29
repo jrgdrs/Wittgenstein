@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        @font-face {
+            font-family: TESTFONT;
+            src: url("*");
+        }
+
+        @font-face {
+            font-family: LEERFONT;
+            src: url("assets/Empty-Regular.ttf");
+        }
+
+        @media print {}
+
+        @page {
+            size: 2048px 1024px;
+            margin: 0px;
+        }
+
+        body {}
+
+        p {}
+
+        .sheet {
+            background-color: #bb0000;
+            color: #ffffff;
+            size: 2048px 1024px;
+            margin: 0;
+            padding: 0;
+            padding-left: 120px;
+            padding-top: 100px;
+            border: 0;
+        }
+
+        .sample {
+            font-family: TESTFONT, LEERFONT;
+            font-size: 480px;
+            line-height: 500px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            width: 300000px;
+            word-spacing: 4em;
+        }
+
+        .alfa {
+            font-family: TESTFONT, LEERFONT;
+            font-size: 96px;
+            line-height: 112px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            width: 300000px;
+        }
+
+        .top {
+            font-family: Helvetica;
+            font-size: 48px;
+            margin: 0;
+            border: 0;
+            padding: 0;
+            padding-bottom: 12px;
+            _border-bottom: 4px solid white;
+            width: 100%;
+        }
+
+        .bottom {
+            font-family: Helvetica;
+            font-size: 48px;
+            margin: 0;
+            border: 0;
+            padding: 0;
+            margin-top: 6px;
+            padding-top: 12px;
+            border-top: 4px solid white;
+            width: 100%;
+        }
+
+        .block {
+            padding: 8px;
+            width: 1808px;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .left {
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+        }
+
+        .right {
+            display: inline-block;
+            width: 100%;
+            text-align: right;
+            float: right;
+            position: absolute;
+            right: 0;
+        }
+
+    </style>
+</head>
+
+<body class="sheet">
+    <div class="block">
+        <p class="top">
+            <span class="left FONT_NAME"></span>
+            <!--span class="right FONT_VERSION"></span-->
+        </p>
+    </div>
+
+    <p class="sample FONT_NAME">Imperial</p>
+    <div class="block">
+
+        <p class="alfa">abcdefghijklmnopqrstuvwxyz 0123456789<br/>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+
+        <!--p class="bottom">
+            <span class="left">Jörg Drees on www.typobold.com</span>
+            <span class="right">2026</span>
+        </p-->
+    </div>
+</body>
+
+</html>

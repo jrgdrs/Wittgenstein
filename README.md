@@ -72,16 +72,10 @@ Nowadays, he works with news publishers and explores the cutting edge of AI in l
 
 The font interprets the serifs with clear, sharp forms. Based on the quote from Ludwig Wittgenstein that what can be said can be said clearly, it bears his name. The style consists of different weights also in italic, prepared as variable fonts as weight axis.
 
-![Sample Image](documentation/image-Regular.png)
-![Sample Image](documentation/image-Italic.png)
-![Sample Image](documentation/image-SemiBold.png)
-![Sample Image](documentation/image-SemiBoldItalic.png)
-![Sample Image](documentation/image-Bold.png)
-![Sample Image](documentation/image-BoldItalic.png)
-![Sample Image](documentation/image-ExtraBold.png)
-![Sample Image](documentation/image-ExtraBoldItalic.png)
-![Sample Image](documentation/image-Black.png)
-![Sample Image](documentation/image-BlackItalic.png)
+![Sample Image](documentation/images/Image-Wittgenstein-Regular.png)
+![Sample Image](documentation/images/Image-Wittgenstein-Italic.png)
+![Sample Image](documentation/images/Image-Wittgenstein-Black.png)
+![Sample Image](documentation/images/Image-Wittgenstein-BlackItalic.png)
 
 Find specimen and language samples as pdf file in subfolder documentation.
 
@@ -99,10 +93,9 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 
 ## Build
 
-make build
-bash make.sh
+make build; bash make.sh;
 
 
 ## Version
 
-1.514 on June 23nd 2026
+1.516 on June 27, 2026

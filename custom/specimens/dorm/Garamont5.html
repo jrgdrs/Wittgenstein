@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--link rel="stylesheet" href="css/stylesheet.css"-->
+	
+		    <!--script src="assets/JustWithUnits.js"></script-->
+
+   <style>
+
+
+@font-face { font-family: Regular; src: url("../../fonts/ttf/KierkegaardSerifText-Regular.ttf");}
+@font-face { font-family: Italic; src: url("../../fonts/ttf/KierkegaardSerifText-Italic.ttf");}
+@font-face { font-family: Bold; src: url("../../fonts/ttf/KierkegaardSerifText-Bold.ttf");}
+@font-face { font-family: SC; src: url("../../fonts/ttf/KierkegaardSerifTextSC-Regular.ttf");}
+
+@font-face { font-family: DRegular; src: url("../../fonts/ttf/KierkegaardSerifDisplay-Regular.ttf");}
+@font-face { font-family: DItalic; src: url("../../fonts/ttf/KierkegaardSerifDisplay-Italic.ttf");}
+@font-face { font-family: DBold; src: url("../../fonts/ttf/KierkegaardSerifDisplay-Bold.ttf");}
+@font-face { font-family: DBoldItalic; src: url("../../fonts/ttf/KierkegaardSerifDisplay-BoldItalic.ttf");}
+@font-face { font-family: DSC; src: url("../../fonts/ttf/KierkegaardSerifDisplaySC-Regular.ttf");}
+
+
+
+@media print {
+
+    #intro {
+      page: titelei;
+    }
+
+    @page {
+      size: 125mm 198mm;
+      margin: 14mm;
+      margin-bottom: 28mm;
+      background-color: linen;
+    }
+
+    @page:first {
+      size: 125mm 198mm;
+      margin: 7mm 7mm 0mm 7mm;
+      background-color: rgb(184, 0, 125);
+    }
+
+    @page titelei {
+      @bottom-left {
+        content: '';
+      }
+
+      @bottom-right {
+        content: '';
+      }
+    }
+
+    @page :right {
+      margin: 14mm 16mm 21mm 12mm;
+
+      @bottom-left {
+        content: counter(page);
+        font-family: Regular;
+        font-size: 10pt;
+        text-align: right;
+        border: 6pt solid transparent;
+        margin-bottom: 18pt;
+      }
+    }
+
+    @page :left {
+      margin: 14mm 12mm 21mm 16mm;
+
+      @bottom-right {
+        content: counter(page);
+        font-family: Regular;
+        font-size: 10pt;
+        text-align: left;
+        border: 6pt solid transparent;
+        padding-bottom: 18pt;
+      }
+    }
+  }
+
+.title {
+    color: whitesmoke;
+        font-family: DBold;
+
+    font-size: 60pt;
+    line-height: 54pt;
+    margin-top: 0;
+    padding-top: 12pt;
+    border-top: 2pt solid white;
+  }
+
+  body {}
+
+
+
+  h1 {
+    padding-top: calc(1.25em * 3);
+    font-family: DBold;
+    font-weight: normal;
+    font-size: 15spt;
+    line-height: 1.2em;
+    letter-spacing: .02em;
+  }
+
+
+
+  h2 {
+    font-family: DBold;
+    line-height: 1.25em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: SC;
+    line-height: 1.25em;
+    text-align: center;
+    letter-spacing: .08em;;
+  }
+
+  /*
+  p,
+  .par {
+    font-family: TESTFONT;
+    font-size: 8.5pt;
+    line-height: 12em;
+    margin: 0;
+    text-indent: 1em;
+    text-align: justify;
+    hyphens: auto;
+    font-feature-settings: "liga", "onum";
+  }*/
+
+
+  .ini,
+  .first {
+    __font-family: DRegular;
+    text-indent: 0;
+    padding-top: calc(1.25em * 7);
+    page-break-before: always;
+  }
+
+  .ini::first-letter,
+  .first::first-letter {
+    font-family: DRegular;
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+    padding-right: 3pt;
+  }
+
+  table.poem {
+    font-family: Italic;
+    font-size: 11pt;
+    line-height: 1.35em;
+    margin: 0;
+    text-align: left;
+    margin: 1em;
+  }
+
+  .head,
+  section {
+    page-break-after: always;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .left {
+    text-align: left;
+    text-indent: 0;
+  }
+
+  .center {
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .brand {
+    position: absolute;
+    top: 132mm;
+    width: 109mm;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  pre {
+    display: none;
+  }
+
+  .pagenum {
+    display: none;
+  }
+
+  .footnotes {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  h2.main {
+    display: none;
+  }
+
+
+
+
+        p {
+            font-family: Regular;
+            font-size: 14pt;
+            line-height: 1.15em;
+            margin: 0;
+            text-indent: 1em;
+            text-align: justify;
+            hyphens: auto;
+            word-spacing: .007em;
+            font-variant-numeric: oldstyle-nums;
+            /* <numeric-figure-values> */
+        }
+
+        i { font-family: Italic}
+
+
+        .ini {
+            text-indent: 0;
+            padding-top: calc(1.25em * 10);
+        }
+
+        .ini::first-letter {
+            -webkit-initial-letter: 3;
+            initial-letter: 3;
+            padding-right: 3pt;
+        }
+
+		.contentflow { width: 95mm; }
+
+</style>
+</head>
+
+<body>
+
+	    <section id="intro">
+        <div class="head">
+            <h2 class="title"><span style="color:black;">Claude Garamont</span><br />Printing Isn't Enough</h2>
+        </div>
+        <div class="brand"> <img src="assets/typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);" />
+            <p class="center">Type specimen in English language<br /> set
+                in Kierkegaard-Regular 14/15pt<br /></p>
+        </div>
+        <div class="head"></div>
+        <div class="head">
+            <h3 class="author">Claude Garamont<br />Printing Isn't Enough</h2>
+        </div>
+        <div class="head"></div>
+    </section>
+   
+    <section class="contentflow">
+            			
+			<p class="ini">Only in hindsight do I realize that Master
+Augereau, in everything he told me, always kept my young age in mind. He was
+careful about what he shared with me regarding the books he read — or rather,
+his feelings while reading them — and what he held back. At the same time, he
+encouraged me to read, and he often lent me books he had already finished
+himself.</p>
+
+<p class="mid">But I have to admit: in the early days of
+my apprenticeship, books interested me more as objects — from a technical
+standpoint — than for their content. I loved running errands for my master. An
+apprentice was expected to have the quickest feet in the shop, and it thrilled
+me to pass all the bookstores along the way. They sold what would soon be the
+product of my own work, and the simple fact that they existed fascinated me
+enormously. I would have to get to know them. But I didn't pay much attention
+to what they actually sold.</p>
+
+<p class="mid">Of course, I couldn't know them all — not
+those on the streets leading down to the Seine, nor those near the churches of
+Saint-Yves, Saint-Mathurin, Saint-Étienne, or Saint-Hilaire, nor those around
+the schools or our own shop's sign. In the university quarter, there was
+practically no building that didn't house a printing press or a bookstore.</p>
+
+<p class="mid">My journey of discovery began in our
+immediate neighborhood. To the right of our house, on the Saint-Hilaire side,
+stood Thibault Charron's bookshop in the house called “At the Sign of
+Saint Claude.” To the left hung the signs “At the Basel Coat of
+Arms,” “At the Green Tree,” “At the Flying Heart,“
+“At the Image of Saint Christopher,” “At the Deer Horn,“
+“At the Samaritan Woman,” and many others.</p>
+
+<p class="mid">Behind the Rue Saint-Jean-de-Beauvais lay
+the Rue des Carmes, where my father owned a house — one of the few without a
+print shop, though that street was crawling with booksellers too. “At the
+Good Heart,” “At the Red House,” “At the Pinecone,“
+“At the Golden Lion Cubs,” “At the Silver Griffin” ... </p>
+
+<p class="mid">The center of it all, however, was and
+still is the Grand-Rue Saint-Jacques, where there were not just one but several
+booksellers per building. I never counted them, but I estimate there were nine
+or ten dozen printer-booksellers on that street alone back then. “At the
+Lattice,” “At the Unicorn,” “At the White Rose with the
+Crown,” run by the Le Noir family; in the house “At the
+Salamander” worked the great Josse Bade, or Badius; then “At the
+Blooming Lily,” “At the Golden Sun,” “At the Coat of Arms
+of Burgundy,” “Brittany,” “Cologne,“
+“France,” “At the Green Oak,” “At the Pelican” —
+there's no point going on, I couldn't list them all anyway. On the bridges
+you'd find mainly sellers: “At the White Rose” on the Pont
+Saint-Michel, “At the Wild Man” on the Pont au Change — a bookshop
+where you could buy almost anything in print, as had been the case for decades.
+I rarely had business at the Palais; they almost never sent me there. But even
+there, every pillar had one — or several — booksellers.</p>
+
+<p class="mid">The only places I didn't like were the
+execution sites, which lined my routes everywhere. Iron wheels, stone gallows,
+and pillories could be found all over Paris: at the Place de Grève, near the
+Halles, at the Croix-du-Trahoir, at the pig market, in Montfaucon, at the
+Place-aux-Chats, at the Porte Saint-Denis, and especially close to us, at the
+Porte Saint-Jacques. I can't even count them all. I didn't like passing those
+places, so with the innocence of a child I would simply close my eyes and try
+to think about something else. I figured they had nothing to do with me. Now,
+having watched so many innocent people die there — including friends of mine —
+I can only think back on them with dread.</p>
+
+<p class="mid">From my errands, which I always stretched
+out as long as I could without risking a scolding, and which I varied from time
+to time, I always returned with a head full of images, colors, and sounds. And
+unlike some of the fellow apprentices I came across on my wanderings, I was
+always glad to come back. Master Antoine had passed his love of the trade on to
+me.</p>
+
+<p class="mid">Strangely enough, it was through
+typography that I discovered what passion burned inside him.</p>
+
+<p class="mid">One evening, after I had retreated to my
+little nook, the lights were out and the household — I thought — was settling
+in for the night. That was when Master Estienne and Master Antoine entered the
+room next door, which was the proofreaders' room and doubtless the best place
+in the house for a serious conversation. I quickly realized that Robert — the
+Estienne son who had chosen the printing trade — was with them. As I listened
+(entirely against my will, since their voices were loud enough to carry through
+to me no matter how hard I pressed my hands over my ears trying to sleep), I
+understood that Master Antoine found the books Master Estienne printed boring.
+At the Estiennes', people spoke Latin as often as possible. Mistress Guyone,
+Master Henri's wife, spoke it as fluently as her husband; the children had
+learned it practically from the cradle, and even the servants used it —
+sometimes among themselves. But this particular conversation was happening in
+French, for once.</p>
+
+<p class="mid">“We never get away from the endless
+theological annotations and the inevitable Latin commentaries on
+Aristotle.”</p>
+
+<p class="mid">“But what are you saying? Those sell.
+Very well, in fact.”</p>
+
+<p class="mid">“That's true. But I wouldn't mind if
+we printed things other than scholarly treatises on mathematics and
+theology.”</p>
+
+<p class="mid">“And what exactly do you mean by
+'other things,' my dear friend?”</p>
+
+<p class="mid">“Books people will actually
+remember!”</p>
+
+<p class="mid">“So you're saying that books used to
+train doctors, theologians, lawyers, and physicians aren't worth
+remembering?”</p>
+
+<p class="mid">“You know that's not the kind of
+remembering I mean. I'm talking about truly immortal books — like the works of
+Aristotle himself.”</p>
+
+<p class="mid">“Didn't you just say you were tired
+of Aristotle?”</p>
+
+<p class="mid">“I revere Aristotle. What I'm tired
+of are the useless and often idiotic commentaries on Aristotle — they seem
+designed to obscure his texts rather than illuminate them. But there's more
+than just Aristotle. Haven't you seen the books arriving from Venice at the
+Pont au Change? Aristophanes, Hesiod, Homer, Virgil... And then there are the
+great Italian poets who wrote in the vernacular: Dante with his magnificent&nbsp;<i>Divine Comedy</i>,
+Petrarch and his poems, Boccaccio and his stories. We produce magnificent
+books, with admirable care, but we're working with our presses instead of our
+heads.”</p>
+
+<p class="mid">“Boccaccio's stories, Father...”</p>
+
+<p class="mid">“Please be quiet. I told you to go to
+bed.”</p>
+
+<p class="mid">“Now isn't the time to send this boy
+to bed, with all due respect. He's our reader of tomorrow — we'll need to
+educate him and get him interested in what gets printed.”</p>
+
+<p class="mid">“Fine. In that case, go ahead and
+bring in the apprentices while you're at it.”</p>
+
+<p class="mid">“I suspect Claude is already
+listening — he's right on the other side of that wall. Aren't you,
+Claude?”</p>
+
+<p class="mid">I quickly pulled my pants on over my shirt
+and went out, disheveled and barefoot.</p>
+
+<p class="mid">“So now I'm being flooded with
+youth,” Master Estienne said with a sarcastic edge. “Do you have
+something to say, Claude?”</p>
+
+<p class="mid">“N... No.”</p>
+
+<p class="mid">I felt like I was letting Master Antoine
+down — my mind had gone blank. But Master Antoine was perfectly capable of
+holding his own; he didn't need me.</p>
+
+<p class="mid">“Why don't we print anything in the
+vernacular, anyway?”</p>
+
+<p class="mid">“My dear friend, nobody's asking for
+it, and besides, the faculty wouldn't exactly welcome it.”</p>
+
+<p class="mid">“You know very well what Jacques
+Lefèvre d'Étaples is doing over at the Abbey of Saint-Germain! He's translating
+the Bible. Just yesterday he was here and brought us his&nbsp;<i>Commentary on the Epistles of
+Paul</i>, which I'm preparing for the press, and he told us how happy he
+was at the thought of Scripture soon being accessible to everyone. Yes, he's
+translating the Bible into French, drawing on the most reliable sources. He has
+freed it from the distortions that centuries of scribes layered onto the
+original texts. The New World has been discovered — surely we can also discover
+what the sacred texts actually say. Then we can be done with chasing four
+different senses of Scripture.”</p>
+
+<p class="mid">“Where did you get such a foolish
+idea? 'Done with the fourfold sense'!”</p>
+
+<p class="mid">“From Lefèvre himself, and from his
+writings. It's right there in his&nbsp;<i>Commentary on the Epistles of Paul</i>. For Lefèvre, only
+the literal meaning counts — the one that opens up the deep spiritual sense of
+the text. Who could possibly object to that?”</p>
+
+<p class="mid">“The entire Sorbonne, with a few
+exceptions! And—”</p>
+
+<p class="mid">“I go to Mass every Sunday like every
+good Christian, and Sunday after Sunday I have to sit and watch these
+blockheads twist Scripture every which way until it fits whatever they want it
+to say. Soon enough they'll have to answer to their flocks for what they've
+been telling them.” He laughed without any warmth. “I understand that
+unsettles them a little — they're not used to it.”</p>
+
+<p class="mid">“You're saying outrageous things.
+I'll stick to printing the books people ask me to print.”</p>
+
+<p class="mid">Master Antoine burst out laughing — and
+there was, in fact, something to laugh about. Master Henri was a great scholar
+with vast knowledge, and before deciding to print a book, he would discuss it
+at length with the author, or with the commentator if it was a classic. But
+right now he was angry, and he continued as if Master Antoine had said nothing
+at all.</p>
+
+<p class="mid">“It's not my place to make choices
+about content. And quite a few scholars have honored me with their friendship
+because of that stance: the Briçonnets, the du Bellays, Guillaume Budé...”</p>
+
+<p class="mid">“I'm not saying anything against your
+work, Master. God forbid. Or against any of those learned gentlemen, of course.
+Who in Paris prints more beautiful books than you? No one, I'd dare say — with
+the occasional exception of Josse Badius, perhaps. And things can absolutely
+continue that way. But alongside all that, there's room to do something
+more.”</p>
+
+<p class="mid">“Like what, for example?”</p>
+
+<p class="mid">“For starters, we should use Roman
+type of the finest quality.”</p>
+
+<p class="mid">“There it is. Are you talking about
+type or about content?”</p>
+
+<p class="mid">“The two go together. New subject
+matter needs a new form. And since we're on the topic, we could also create
+Greek type.”</p>
+
+<p class="mid">“And who would do that?”</p>
+
+<p class="mid">“I would. Who else?”</p>
+
+<p class="mid">“That requires specialized
+expertise...”</p>
+
+<p class="mid">“May I remind you, Master Estienne,
+that I learned Greek as a young child, completed a long apprenticeship as a
+goldsmith, and ever since I've been here with you I've been cutting type that
+you use every single day. I don't particularly like it anymore, I should add. I
+want to do better. You've never had cause to complain about my work, as far as
+I know. I wanted to become a printer — and I did. But I started out as a
+theologian, and only then became a type-cutter and type-caster.”</p>
+
+<p class="mid">Master Estienne looked at him
+thoughtfully.</p>
+
+<p class="mid">“You never do anything quite the way
+everyone else does, Antoine. No — don't argue. You simply approach things
+differently, without any bad intention, without even thinking about it. You
+don't try to stand out from others; you just give yourself completely to your
+work. And yet you're recognizable. There are people like that, and you're one
+of them. So what exactly are you proposing?”</p>
+
+<p class="mid">“That we go looking for new
+texts.”</p>
+
+<p class="mid">“What kind of new texts?”</p>
+
+<p class="mid">Master Antoine picked up the book he had
+been absently playing with throughout the conversation.</p>
+
+<p class="mid">“A book like this one. Unfortunately,
+someone got there before us — it's already been published. So we won't be the
+ones getting rich off it.”</p>
+
+<p class="mid">Master Estienne touched it as if it were a
+live coal. He opened it.</p>
+
+<p class="mid">“<i>Encomium Moriae</i>. In Praise of Folly. Just what we
+needed.”</p>
+
+<p class="mid">“Read it, Master. You'll be
+amazed.”</p>
+
+<p class="mid">“I've already read it,” Robert
+put in. “It's brilliant.”</p>
+
+<p class="mid">“What's that to me? And anyway — who
+gave you this book? I'd wager it was you.” Master Estienne pointed an
+accusing finger at Master Antoine.</p>
+
+<p class="mid">“Certainly not. My apprentice is my
+witness that I never try to indoctrinate anyone.&nbsp;<i>In Praise of Folly</i>&nbsp;is
+on everyone's lips right now — that's simply the truth.”</p>
+
+<p class="mid">“I read it at the Palais, at Master
+La Garde's. His wife lets me read books sometimes.”</p>
+
+<p class="mid">Henri Estienne looked at his son as if he
+were a rare species.</p>
+
+<p class="mid">“You never stop surprising me, my
+son. At six he was writing Latin essays; at eight he's reading new
+releases.”</p>
+
+<p class="mid">“He'd like to print them too,“
+Robert said with a pointed tone.</p>
+
+<p class="mid">“Look at this little wise guy!
+Enough, young man — I don't want to hear another word from you.”</p>
+
+<p class="mid">He turned back to Master Antoine.</p>
+
+<p class="mid">“I've been thinking.” That was
+one of Master Estienne's particular talents: he could hold a conversation while
+simultaneously working through the hardest problems with the other half of his
+mind. “For a long time I've been planning a trip to Venice and Padua in
+search of books worth printing. But I've come to see that I can't leave. Go in
+my place. I'll write to Aldo Manuzio to announce your arrival and ask him to
+teach you his style of type-cutting. Monsignor Briçonnet spoke of it with great
+admiration just a few days ago. And when you're back, we'll see where things
+stand.”</p>
+
+<p class="mid">“Venice?” Master Antoine was
+speechless. He had been prepared for anything — just not that. “For how
+long?”</p>
+
+<p class="mid">“A year should be enough to see
+everything, learn something, and find fine texts worth publishing.”</p>
+
+<p class="mid">Master Antoine looked at him for a long
+moment without saying anything.</p>
+
+<p class="mid">“Are you sure you're not just trying
+to get rid of me?” he finally said with a half-smile.</p>
+
+<p class="mid">“No, my friend — because now that
+we've bought another press, I'll have to hire someone to fill in for you, and
+that's a risk I'd rather not take. But you're probably right. One needs to
+renew oneself from time to time. I have the greatest confidence in you. Go to
+Venice. And if Master Garamont agrees to let his son travel, take Claude with
+you.”</p>
+
+<p class="mid"><i>Me?</i>”</p>
+
+<p class="mid">“Yes, you. Is there another Claude
+Garamont in this room?”</p>
+
+<p class="mid">Venice! They said it was the most
+beautiful city in the world. They said the greatest scholars of all could be
+found there. They said... They said... I tried to remember everything I knew
+about Venice, but I had never paid much attention to it — not even in my
+wildest dreams had I imagined actually going there one day.</p>
+
+<p class="mid">“Are you listening to me?”</p>
+
+<p class="mid">“Um...”</p>
+
+<p class="mid">“Honestly, you just can't count on
+young people anymore. No brain.”</p>
+
+<p class="mid">“Forgive me, Master Estienne, I'm
+listening very carefully.”</p>
+
+<p class="mid">“Tomorrow you'll go to your father
+and talk to him. Actually — no, tell him to come see me instead. And don't say
+anything else to him. Judging by your expression, you'd be willing to go?”</p>
+
+<p class="mid">“Oh, yes.”</p>
+
+<p class="mid">That made both masters laugh. Robert
+didn't laugh. He gave me a sideways look, and as if it were written on his
+face, I knew exactly what he was thinking: what would it take to get to Venice?
+At his age, he clearly didn't stand a chance.</p>
+
+<p class="mid">“All right then, everyone to bed.
+We'll sort out the rest tomorrow. Let's all sleep on it.”</p>
+
+<p class="mid">To give weight to his words, he picked up
+the only candle and headed resolutely toward the door. In the half-dark, Master
+Antoine smiled and winked at me; without saying a word, he left too.</p>
+
+<p class="mid">Robert hung back a little. I was heading
+back to my nook, but in the darkness he grabbed my sleeve.</p>
+
+<p class="mid">“Do you see any way I could travel
+with you?”</p>
+
+<p class="mid">“Honestly? Not the slightest. They'll
+say you're too young. Then again, we're not leaving tomorrow. By the time this
+all gets off the ground, you might have grown a bit.”</p>
+
+<p class="mid">I heard him sigh.</p>
+
+<p class="mid">“What's the point of being 'this
+exceptional child,' as everyone keeps saying, if I still have to act like a
+perfectly ordinary one?”</p>
+
+<p class="mid">I had no idea what to say to that. Into
+the silence, the door suddenly flew open and Master Estienne appeared, candle
+in hand.</p>
+
+<p class="mid">“What are you still doing here,
+Robert? It's well past time you were in bed, at your age.”</p>
+
+<p class="mid">Robert drew himself up to his full height
+— at that point he barely reached my shoulder — walked to the door, and
+whispered so only I could hear: “What did I tell you?”</p>
+
+<p class="mid">The next day, of course, nothing unusual
+happened. It was almost as if the evening's conversation had never taken place.
+Master Antoine didn't look up from his work; the&nbsp;<i>Commentary on the Epistles of
+Paul</i>&nbsp;had his complete attention. I went about my errands. I
+wouldn't have dared to bring up the previous evening myself.</p>
+
+<p class="mid">Only when I ran into Robert in a gloomy
+corner of the shop did I venture a single question:</p>
+
+<p class="mid">“That&nbsp;<i>Praise of Folly</i>&nbsp;— did you
+really read it?”</p>
+
+<p class="mid">“Halfway through. It's
+brilliant.”</p>
+
+<p class="mid">“Was it really at the Palais?”</p>
+
+<p class="mid">“Yes. If you ask Mistress La Garde
+politely and wash your hands before touching the book, she'll definitely let
+you read it. She's very nice.”</p>
+
+<p class="mid">“I'll give it a try.”</p>
+
+<p class="mid">I wasn't entirely sure about that.</p>
+
+<p class="mid">But Mistress La Garde — a round, very
+lively woman — was in a good mood. “Let me see your hands,” she said
+that following Saturday, when I slipped out of the workshop after the workday
+ended. That's what it means to be well-informed: I held out two hands that —
+which was rare enough — showed no sign of coming from a print shop. They were a
+genuinely clean pink; I had scrubbed hard for that.</p>
+
+<p class="mid">So I was allowed to sit down and leaf
+through the precious work. I have to admit I was initially disappointed. I had
+been expecting a fiery polemic, but this was actually a perfectly respectable
+book, despite its irony. The author, Desiderius Erasmus of Rotterdam — a name I
+was hearing for the first time that day — teaches us that Folly is mistress of
+everything and everyone, not Wisdom. The wise man retreats to the books of the
+ancients and learns nothing but how to shuffle words around; the fool dives straight
+into things and wrestles with them, and in doing so acquires what I call true
+wisdom.</p>
+
+<p class="mid">That reminded me of the conversation
+between my two masters about Scripture.</p>
+
+<p class="mid">Reading an entire book in one evening was
+impossible; I had to settle for skimming and browsing. But even so, I could
+tell that this was a work fundamentally different from anything we dealt with
+day to day.</p>
+
+<p class="mid">I had told my father that Master Estienne
+had a personal proposal to make to him, and I believe they met — but we all
+just kept on working as if nothing had happened. No one spoke to me about a
+trip to Venice anymore, not at the Estiennes' and not at home. From experience,
+I knew it was pointless to pester my father with questions. I didn't dare ask
+Master Estienne, and I didn't ask Robert either, though we talked privately on
+a regular basis.</p>
+
+<p class="mid">Then one day, Master Antoine asked me to
+accompany him to Master Jacques Lefèvre's for proofreading that would go faster
+with two people. Since Master Lefèvre lived at the Abbey of Saint-Germain,
+there was a good stretch of road ahead of us, and I would have plenty of time
+to raise the subject. As it turned out, I didn't need to bring it up at all.</p>
+
+<p class="mid">“Can you ride a horse?” Master
+Antoine asked.</p>
+
+<p class="mid">“Not very well. I've never had the
+chance to do much long-distance traveling.”</p>
+
+<p class="mid">“And can you fight?”</p>
+
+<p class="mid">“What do you mean by that?”</p>
+
+<p class="mid">“Can you handle a blade? A
+dagger?”</p>
+
+<p class="mid">“Not like others can. I never really
+learned.”</p>
+
+<p class="mid">“You'll need to start, if you want to
+travel safely.”</p>
+
+<p class="mid">“Do I have enough time before we
+leave?” That was my most pressing question — asked without sounding
+directly like one.</p>
+
+<p class="mid">“Yes, you have some time. After
+endless back-and-forth that I'm honestly tired of by now, Master Estienne
+finally decided we should travel to Venice by a roundabout route. Your father
+seems to be on board. You weren't supposed to know yet — why, I don't know —
+which is exactly why I'm telling you, and asking you to keep it to
+yourself.”</p>
+
+<p class="mid">I wanted to thank him for the relief I
+felt, but he pushed on without giving me the chance.</p>
+
+<p class="mid">“First we'll travel to Basel. One of
+the proofreaders from the shop, Beat Bildt, who left before you arrived, is now
+working for a respected printer there — Johannes Froben, or Frobenius. He might
+be able to help us find books. From Basel we'll head on to Venice, which makes
+the trip a bit longer but also more interesting. I've always wanted to see the
+Rhine — they say it's even wider than the Seine.”</p>
+
+<p class="mid">A deep sigh.</p>
+
+<p class="mid">“If it were up to me, we would have
+left long ago. But in the end it's Master Estienne who's paying for the trip,
+and when he insists on managing every last detail himself, I'd rather let him.
+If I had pushed, it would only have annoyed him.”</p>
+
+<p class="mid">We walked in silence for a while. The
+Porte Saint-Germain was already behind us and we were approaching the Abbey.</p>
+
+<p class="mid">“How old are you?” Master
+Antoine suddenly asked.</p>
+
+<p class="mid">“How... um... I'm almost
+fourteen.”</p>
+
+<p class="mid">“And what do you think about
+theology?”</p>
+
+<p class="mid">That truly embarrassed me. I didn't think
+anything about theology; up to that point, I had never been interested in it.</p>
+
+<p class="mid">“I... don't know what to make of it,
+Master. I see people arguing over words that, to my mind, aren't worth the time
+it takes to build learned arguments around them.”</p>
+
+<p class="mid">He sighed.</p>
+
+<p class="mid">“You know what? You're an innocent.
+You're sensible.”</p>
+
+<p class="mid">“Speaking of which, I wanted to ask
+you something.”</p>
+
+<p class="mid">“Go ahead.”</p>
+
+<p class="mid">“What exactly is the fourfold sense
+of Scripture? It keeps coming up, but I've never understood it...”</p>
+
+<p class="mid">That made him laugh.</p>
+
+<p class="mid">“That cuts right to the heart of it,
+my dear Claude. According to the theologians at the Sorbonne, Scripture has
+four separate meanings — which only the most highly educated can truly grasp,
+and only after years of study: the literal sense, the allegorical sense, the
+tropological sense, and the anagogical sense.”</p>
+
+<p class="mid">“Tropological?”</p>
+
+<p class="mid">“You could also say symbolic. But
+scholars say tropological. Always prefer the learned term — that's the rule of
+those gentlemen — otherwise people might understand too easily. The difference
+between allegorical, tropological, and anagogical is rather small, isn't it?
+Which suits those scholars just fine: it gives them work to do, something to
+argue about, and above all, the freedom to say about the sacred texts exactly
+what they want. 'Vaguely,' I should actually say. That's why I chose not to make
+theology my career. Commentary is not my thing.”</p>
+
+<p class="mid">He patted the bundle of papers I was
+carrying on my shoulder.</p>
+
+<p class="mid">“For Master Lefèvre, what's in here
+is clear as black and white. For him, Scripture has only one meaning: the
+christological. In other words, you try to read from it what Christ actually
+said — to restore its true religious substance, and to free it from the
+accumulated weight of more than a millennium of accumulated debris that has
+made it so hard to understand.”</p>
+
+<p class="mid">He glanced at me with the hint of a smile.</p>
+
+<p class="mid">“Did you ever feel drawn to entering
+a religious order?”</p>
+
+<p class="mid">“Me? No — that was never a question
+for me.”</p>
+
+<p class="mid">“It's true, you don't seem to have a
+mystical temperament. That's the difference between you and me. At fifteen I
+wanted to become a priest; I am a cleric and received the same training as the
+doctors of the Sorbonne — though mine was from monks who are certainly every
+bit as learned as those who trained those gentlemen who think so highly of
+themselves. I quickly realized that the whole thing, in this form, was absurd.
+That's why I chose to apprentice with a goldsmith. But perhaps I should never have
+switched to the printing trade — certain texts bother me too much.”</p>
+
+<p class="mid">“But you are devout?”</p>
+
+<p class="mid">“Of course! I believe in a purer,
+simpler form of prayer. I believe that the servants of the Church must set an
+example in piety and self-denial — that they should do good instead of
+enriching themselves at any cost. But what do I see, wherever I look? Armies of
+churchmen doing the exact opposite: giving themselves over to vice, forgetting
+God, and thinking a brief prayer is enough for God to forgive their worst
+outrages. They live as parasites off the people and off their simple faith. I'm
+not talking about morality here — you can witness that I rarely speak to you in
+terms of right and wrong. But you can't ask me not to see what's staring me in
+the face.”</p>
+
+<p class="mid">All of this was still happening before the
+wars of religion — before Martin Luther had appeared on the scene. It was a
+time when Lefèvre d'Étaples was not yet seen as an enemy of the Sorbonne and
+the Church, and was saved from the stake — which he would otherwise have
+reached ten times over — only by the protection of the king and especially his
+sister, the future Queen of Navarre. I often think back on this conversation —
+or rather, on Master Antoine's monologue. There was nothing Protestant about
+it, since the Protestants didn't yet exist, but it's fair to say that he
+expressed, almost word for word, the very ideas that a few years later would
+bring fire and blood down on the kingdom.</p>
+
+<p class="mid">While I was at Master Lefèvre d'Étaples's
+— either handing over proofs to Master Antoine or passing them to the young man
+I took to be the master's secretary — I tried to follow what was being said.</p>
+
+<p class="mid">Even back then, Master Lefèvre struck me
+as an old man with snow-white hair, his gaze radiating from sky-blue eyes with
+the brightness of a child's. He was one of those rare men who wore no beard. I
+was told later that he had lost it in a fire. It had left no mark on his face;
+the beard had simply never grown back.</p>
+
+<p class="mid">“I spent my childhood in a world
+where everything was still written by hand,” he explained to me between
+two rounds of corrections. “It was a world in which nothing ever seemed to
+change. But since I've been an adult, that world has grown — doubled in size,
+in fact. There's even talk that the Earth might not be as flat and as narrowly
+bounded as everyone always said. There was mention of a Polish monk, a certain
+Copernicus... And as if all that weren't enough, people have found ways to spread
+ideas at lightning speed.”</p>
+
+<p class="mid">Personally, it still seemed to me that
+printing a book required a great deal of work — though I understood it was much
+faster than the old way, when books were copied by hand, one by one.</p>
+
+<p class="mid">“Look,” Master Lefèvre
+continued, speaking more to Master Antoine than to me, “what you are doing
+here is very good. Now that the Word can be spread, it must be purified — which
+we are doing — but it must also become easier to read. The signs of the times
+announce that a renewal is coming.”</p>
+
+<p class="mid">After that, the two masters seemed to
+forget I was there entirely. Instead of correcting texts, they began sketching
+letterforms. This gave me the chance to observe with some astonishment that
+Master Antoine — whom I saw all day at nothing but his printing press, and
+whose work maintaining type I had never stopped to think about — handled a pen
+like an artist.</p>
+
+<p class="mid">“This is how Petrarch wrote his
+lowercase&nbsp;<i>a</i>,“
+said Master Lefèvre. “I've seen his manuscripts in Italy. The humanist
+hand is a clear script. And the decision to use the Roman alphabet for the
+capital letters is excellent.”</p>
+
+<p class="mid">“Did you know that in Poitiers I
+spent entire Sundays copying Roman inscriptions? They're found all over the
+city.”</p>
+
+<p class="mid">With swift strokes he sketched letterforms
+on paper: MISET... BALI... RIBITORIAD... </p>
+
+<p class="mid">“That was on a broken stone — the
+rest was missing. I was particularly drawn to those proportions. At the time,
+though, I had never heard of humanist lettering. The most I knew of was
+typography.”</p>
+
+<p class="mid">Master Lefèvre studied the letters
+admiringly, first up close, then from farther back.</p>
+
+<p class="mid">“And now they're sending you to
+Venice. I think that's an excellent idea.”</p>
+
+<p class="mid">“Exclusively for the purpose of
+tracking down texts we can publish.”</p>
+
+<p class="mid">“Take full advantage of the
+opportunity and learn everything Venice has to offer. Then bring back to France
+what our countryman Nicolas Jenson — who left Paris to learn the printing trade
+and never returned — left there.” He suddenly remembered I was in the
+room. “You're going to Venice too, it seems. Don't forget this, my
+children: the way a typeface sits on the page — whether it reads easily or not
+— is just as important as the purity of the text itself.”</p>
+
+<p class="mid">He searched through his papers.</p>
+
+<p class="mid">“<i>Let the farmer sing it at his plow, let the weaver hum it to the
+rhythm of his shuttle, let the traveler ease the road with its stories; and may
+these become a topic of conversation for all Christians.</i>&nbsp;Beautiful,
+isn't it? My friend Erasmus of Rotterdam wrote that to me. The lesson applies
+equally to the form of letters.”</p>
+
+<p class="mid">“You should tell that to Master
+Estienne,” Master Antoine remarked. “I don't think he's fully grasped
+it.”</p>
+
+<p class="mid">“The fact that he's sending you to
+Venice proves he understands enough.”</p>
+
+<p class="mid">We went back to the proofreading. I'll
+admit I wasn't entirely focused. What had been said — the weight Master Lefèvre
+gave to typography — had thrown me off balance. The trade I was in the process
+of learning appeared to me suddenly, and for the first time, not as a craft,
+but as an adventure of the mind.</p>
+
+    </section>
+
+
+    <!--script type="text/javascript">
+        window.onload = function () {
+            let a = new JustWithUnits('.contentflow p.mid', {
+                overshootPercentage: 100,
+                scaling: "none",
+                algorithm: "knuth-and-plass",
+            });
+        }
+    </script-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Alphabet for Review</title>
+    <style>
+        @font-face {
+                font-family: TESTFONT;
+                src: url("*");
+        }
+
+        @page {
+    size: A4 landscape;
+    margin: 20mm;
+}
+
+body {
+    margin: 0;
+    font-family: TESTFONT;
+    font-weight: 300;
+    font-style: regular;
+}
+
+.page {
+    page-break-after: always;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Allgemeine große Zeichen */
+.big-text {
+    padding-top:2cm;
+    font-size: 3cm;
+    line-height: 4cm;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Seite 4 Layout */
+.columns {
+    display: flex;
+    gap: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.col-1 { width: 20%; }
+.col-2 { width: 30%; }
+.col-3 { width: 50%; }
+
+.sample {
+
+    font-size: 10pt;
+}
+
+.lh-small { line-height: 0.95; }
+.lh-medium { line-height: 1; }
+.lh-large { line-height: 1.15; }
+.lh-xl { line-height: 1.3; }
+</style>
+</head>
+
+<body>
+
+<!-- Seite 1: Großbuchstaben -->
+<div class="page big-text">
+A B C D E F G H <br>
+I J K L M N O P Q <br>
+R S T U V W X Y Z
+</div>
+
+<!-- Seite 2: Kleinbuchstaben -->
+<div class="page big-text">
+a b c d e f g h <br>
+i j k l m n o p q <br/>
+r s t u v w x y z
+</div>
+
+<!-- Seite 3: Zahlen & Interpunktion -->
+<div class="page big-text">
+0 1 2 3 4 5 6 7 8 9<br>
+. , ; : ! ? " ' ( ) [ ] { }<br>
+- _ / \ @ # € % & *
+</div>
+
+<!-- Seite 4: Lauftext -->
+<div class="page">
+<div class="columns">
+
+<div class="col col-1">
+<div class="sample lh-small">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQR STUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+  </div>
+<div class="sample lh-medium">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQR STUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+
+</div>
+
+<div class="col col-2">
+<div class="sample lh-small">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+<div class="sample lh-medium">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+<div class="sample lh-large">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+</div>
+
+<div class="col col-3">
+<div class="sample lh-small">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+<div class="sample lh-medium">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+<div class="sample lh-large">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div>
+<div class="sample lh-xl">
+abcdefghijklmnopqrsßtuvwxyz In every type design the basic character is determined by the uniform design characteristics of all letters in the alphabet. Bei jeder Schriftgestaltung wird der Grundcharakter eines Alphaets von einheitlichen Formmerkmalen der Buchstaben bestimmt. ABCDEFGHIJKLMNOPQR STUVWXYZ 1234567890 .,:;!?"'()[]{}-/\@€%& *    
+</div></div>
+
+</div>
+</div>
+
+</body>
+</html>

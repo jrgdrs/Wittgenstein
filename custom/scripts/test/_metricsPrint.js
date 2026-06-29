@@ -1,0 +1,19 @@
+
+
+
+const data = [ { '0': [ 'uni0308', 'uni0307', 'gravecomb', 'acutecomb', 'uni030B', 'uni030C.alt', 'uni0302', 'uni030C', 'uni0306', 'uni030A', 'tildecomb', 'uni0304', 'uni0312', 'uni0326', 'uni0327', 'uni0328', 'uni0308.case', 'uni0307.case', 'gravecomb.case', 'acutecomb.case', 'uni030B.case', 'uni030C.alt.case', 'uni0302.case', 'uni030C.case', 'uni0306.case', 'uni030A.case', 'tildecomb.case', 'uni0304.case', 'uni0312.case', 'uni0326.case', 'uni0327.case', 'uni0328.case' ], intervallDown: 0, intervallUp: 216 }, { '216': [ 'j', 'l', 'exclam', 'exclamdown' ], intervallDown: 216, intervallUp: 18 }, { '234': [ 'i', 'period', 'colon', 'periodcentered', 'quotesingle' ], intervallDown: 18, intervallUp: 18 }, { '252': [ 'comma', 'semicolon', 'quotesinglbase', 'quoteleft', 'quoteright' ], intervallDown: 18, intervallUp: 18 }, { '270': [ 'J', 'parenleft', 'parenright' ], intervallDown: 18, intervallUp: 18 }, { '288': [ 'I', 't' ], intervallDown: 18, intervallUp: 18 }, { '306': [ 'f', 'bracketleft', 'bracketright', 'guilsinglleft', 'guilsinglright' ], intervallDown: 18, intervallUp: 18 }, { '324': [ 'r', 'asterisk', 'hyphen' ], intervallDown: 18, intervallUp: 18 }, { '342': [ 's', 'degree' ], intervallDown: 18, intervallUp: 18 }, { '360': [ 'braceleft', 'braceright' ], intervallDown: 18, intervallUp: 18 }, { '378': [ 'backslash', 'quotedbl' ], intervallDown: 18, intervallUp: 18 }, { '396': [ 'a', 'c', 'e', 'question', 'questiondown', 'bullet', 'slash' ], intervallDown: 18, intervallUp: 18 }, { '414': [ 'g', 'z' ], intervallDown: 18, intervallUp: 18 }, { '432': [ 'v', 'x', 'y', 'quotedblbase', 'quotedblleft', 'quotedblright', 'asciicircum' ], intervallDown: 18, intervallUp: 36 }, { '468': [ 'k', 'two' ], intervallDown: 36, intervallUp: 18 }, { '486': [ 'F', 'S', 'b', 'd', 'h', 'n', 'o', 'p', 'q', 'u', 'zero', 'one', 'three',  'endash', 'currency', 'dollar' ], intervallDown: 18, intervallUp: 18 }, { '504': [ 'P', 'germandbls', 'f_i', 'f_l', 'six', 'seven' ], intervallDown: 18, intervallUp: 18 }, { '522': [ 'four', 'five', 'eight', 'guillemotleft', 'guillemotright', 'paragraph', 'section' ], intervallDown: 18, intervallUp: 18 }, { '540': [ 'Y', 'nine', 'numbersign' ], intervallDown: 18, intervallUp: 36 }, { '576': [ 'B', 'E', 'uni2766', 'yen' ], intervallDown: 36, intervallUp: 18 }, { '594': [ 'uni1E9E',  'ae',  'f_f', 'zero.tf',  'one.tf',  'two.tf', 'three.tf', 'four.tf', 'five.tf', 'six.tf', 'seven.tf', 'eight.tf', 'nine.tf',  'underscore', 'plus', 'minus', 'multiply', 'divide', 'equal', 'notequal', 'greater', 'less',  'greaterequal', 'lessequal', 'plusminus',  'approxequal',  'asciitilde', 'logicalnot', 'infinity', 'emptyset' ], intervallDown: 18, intervallUp: 18 }, { '612': [ 'L', 'T' ], intervallDown: 18, intervallUp: 18 }, { '630': [ 'K', 'R', 'X', 'w', 's_t' ], intervallDown: 18, intervallUp: 18 }, { '648': [ 'U', 'Z', 'Euro' ], intervallDown: 18, intervallUp: 36 }, { '684': [ 'c_t' ], intervallDown: 36, intervallUp: 18 }, { '702': [ 'A', 'D', 'V', 'emdash' ], intervallDown: 18, intervallUp: 18 }, { '720': [ 'C', 'G' ], intervallDown: 18, intervallUp: 18 }, { '738': [ 'N', 'm', 'oe' ], intervallDown: 18, intervallUp: 18 }, { '756': [ 'H', 'O', 'Q', 'ellipsis', 'ampersand' ], intervallDown: 18, intervallUp: 18 }, { '774': [ 'at' ], intervallDown: 18, intervallUp: 18 }, { '792': [ 'f_f_i', 'f_f_l' ], intervallDown: 18, intervallUp: 18 }, { '810': [ 'u2740' ], intervallDown: 18, intervallUp: 54 }, { '864': [ 'M' ], intervallDown: 54, intervallUp: 36 }, { '900': [ 'AE' ], intervallDown: 36, intervallUp: 54 }, { '954': [ 'W' ], intervallDown: 54, intervallUp: 126 }, { '1080': [ 'OE' ], intervallDown: 126, intervallUp: 54 }, { '1134': [ 'u2619', 'u2767' ] } ];
+
+
+
+data.forEach( dat => {
+    var text = "";
+
+    for (let [width, list, ip0, ip1] of Object.entries(dat)) {
+        text += "<p>" + width + ": " + list + "</p>";
+      }
+      
+      console.log( text );
+})
+
+
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Festes Layout - Letzte Zeile Justified</title>
+    <style>
+        /* PDF-Druck-Konfiguration */
+        @page {
+            size: A4 portrait;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        /* Feste A4 Arbeitsfläche */
+        .page {
+            width: 210mm;
+            height: 297mm;
+            box-sizing: border-box;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* DIE TEXTRAHMEN */
+        .box {
+            position: absolute;
+            border: 1px dashed #999;
+            box-sizing: border-box;
+            overflow: hidden;
+            text-align: justify;
+            padding: 0;
+            margin: 0;
+        }
+
+        .box p {
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* Einzug von 1em für Folgende Absätze */
+        .box p + p {
+            text-indent: 1em;
+        }
+
+        /* 
+           WICHTIG: Erwirkt Blocksatz für die letzte Zeile eines Absatzes, 
+           wenn dieser am Rahmenende abgeschnitten wurde.
+        */
+        .box p.force-justify {
+            text-align-last: justify;
+        }
+
+        /* Individuelle Dimensionen & Positionen der Rahmen */
+        #rahmen-1 {
+            top: 25mm;
+            left: 20mm;
+            width: 80mm;
+            height: 110mm;
+            background-color: #fcfcfc;
+        }
+
+        #rahmen-2 {
+            top: 25mm;
+            left: 110mm;
+            width: 80mm;
+            height: 70mm;
+        }
+
+        #rahmen-3 {
+            top: 150mm;
+            left: 20mm;
+            width: 170mm;
+            height: 120mm;
+            border: 2px solid #333;
+        }
+
+        #source-text {
+            display: none;
+        }
+
+        @media screen {
+            body {
+                background-color: #e0e0e0;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .page {
+                background-color: white;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <!-- Ziel-Rahmen -->
+        <div id="rahmen-1" class="box" data-flow></div>
+        <div id="rahmen-2" class="box" data-flow></div>
+        <div id="rahmen-3" class="box" data-flow></div>
+    </div>
+
+    <!-- DER INHALT -->
+    <div id="source-text">
+        <p><strong>Start des Dokuments:</strong> Dieser erste Absatz hat absichtlich keinen Einzug an der ersten Zeile. Das Skript sorgt dafür, dass dieser Text nun exakt Wort für Wort in die Boxen gefüllt wird. Sobald eine Zeile das Höhenlimit überschreitet, wird das Trennwort exakt abgeschnitten und nahtlos in der nächsten Box weitergeführt.</p>
+        <p>Dies ist der zweite Absatz des Dokuments. Wie gewünscht besitzt er einen Einzug von exakt 1em an seiner ersten Zeile. Der Blocksatz sorgt für saubere, bündige Außenkanten an allen Rändern. Da wir sämtliche Paddings und Margins auf Null gesetzt haben, klebt der Text mathematisch exakt an den definierten CSS-Grenzen.</p>
+        <p>Hier folgt der dritte Absatz des Textes, um den fortlaufenden Fluss über alle drei Rahmen zu demonstrieren. Auch dieser Absatz beginnt automatisch mit einem Einzug von 1em, da er nicht der erste Absatz des Dokuments ist. Wenn der Text den Rahmen wechselt, wird das Absatz-Tag im Hintergrund geschlossen und im neuen Rahmen unsichtbar wieder geöffnet, damit die CSS-Einzugsregeln fehlerfrei greifen.</p>
+        <p>Vierter Absatz zur Kontrolle. Öffnen Sie die Datei im Browser und drücken Sie <code>Strg + P</code>, um das erzeugte Dokument anzusehen. Die Wort-Wiederholungen sind nun komplett eliminiert.</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const source = document.getElementById("source-text");
+            const targets = document.querySelectorAll("[data-flow]");
+            
+            const nodes = [];
+            source.childNodes.forEach(child => {
+                if (child.nodeType === Node.ELEMENT_NODE && child.tagName === 'P') {
+                    nodes.push({ type: 'p-start' });
+                    const words = child.innerHTML.split(/(\s+)/g).filter(Boolean);
+                    words.forEach(w => nodes.push({ type: 'word', content: w }));
+                    nodes.push({ type: 'p-end' });
+                }
+            });
+
+            let currentTargetIdx = 0;
+            let currentTarget = targets[currentTargetIdx];
+            if (!currentTarget) return;
+
+            let openParagraph = false;
+
+            for (let i = 0; i < nodes.length; i++) {
+                const node = nodes[i];
+                let backupHTML = currentTarget.innerHTML;
+                let testHTML = backupHTML;
+
+                if (node.type === 'p-start') {
+                    testHTML += "<p>";
+                    openParagraph = true;
+                } else if (node.type === 'p-end') {
+                    testHTML += "</p>";
+                    openParagraph = false;
+                } else if (node.type === 'word') {
+                    if (openParagraph && testHTML.endsWith("</p>")) {
+                        testHTML = testHTML.slice(0, -4) + node.content + "</p>";
+                    } else if (openParagraph) {
+                        if (!testHTML.includes("<p>")) {
+                            testHTML += "<p>" + node.content + "</p>";
+                        } else {
+                            let lastPIdx = testHTML.lastIndexOf("</p>");
+                            if (lastPIdx !== -1) {
+                                testHTML = testHTML.slice(0, lastPIdx) + node.content + "</p>";
+                            } else {
+                                testHTML += node.content;
+                            }
+                        }
+                    } else {
+                        testHTML += node.content;
+                    }
+                }
+
+                currentTarget.innerHTML = testHTML;
+
+                // Prüfen auf Zeilenüberlauf
+                if (currentTarget.scrollHeight > currentTarget.clientHeight) {
+                    // Zurücksetzen auf den Zustand vor dem Überlauf
+                    currentTarget.innerHTML = backupHTML;
+                    
+                    if (openParagraph && currentTarget.innerHTML.includes("<p>")) {
+                        // Der Absatz bricht hier ab -> Letzte Zeile im Rahmen künstlich auf Blocksatz zwingen
+                        if (!currentTarget.innerHTML.endsWith("</p>")) {
+                            currentTarget.innerHTML += "</p>";
+                        }
+                        
+                        // Finde den letzten Absatz in diesem Rahmen und füge die CSS-Klasse hinzu
+                        const paragraphs = currentTarget.querySelectorAll("p");
+                        if (paragraphs.length > 0) {
+                            paragraphs[paragraphs.length - 1].classList.add("force-justify");
+                        }
+                    }
+
+                    // Wechsel zur nächsten Box
+                    currentTargetIdx++;
+                    if (currentTargetIdx < targets.length) {
+                        currentTarget = targets[currentTargetIdx];
+                        
+                        if (openParagraph) {
+                            currentTarget.innerHTML = "<p>";
+                            if (node.type === 'word') {
+                                currentTarget.innerHTML += node.content + "</p>";
+                            }
+                        } else {
+                            i--; 
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

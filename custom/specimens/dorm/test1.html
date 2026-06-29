@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Festes Layout - Manueller Textfluss</title>
+    <style>
+        /* PDF-Druck-Konfiguration */
+        @page {
+            size: A4 portrait;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        /* Feste A4 Arbeitsfläche */
+        .page {
+            width: 210mm;
+            height: 297mm;
+            box-sizing: border-box;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Titel-Element außerhalb des Flusstextes */
+        .main-title {
+            position: absolute;
+            top: 105mm;
+            left: 110mm;
+            width: 80mm;
+            font-size: 18pt;
+            font-weight: bold;
+            line-height: 1.2;
+            color: #c00;
+        }
+
+        /* DIE TEXTRAHMEN: Völlig freie, individuelle Platzierung */
+        .box {
+            position: absolute;
+            border: 1px dashed #999; /* Sichtbare Layout-Rahmen */
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden; /* Wichtig: Verhindert, dass Text unten rausquillt */
+        }
+
+        /* Individuelle Dimensionen & Positionen der Rahmen */
+        #rahmen-1 {
+            top: 25mm;
+            left: 20mm;
+            width: 80mm;
+            height: 110mm;
+            background-color: #fcfcfc;
+        }
+
+        #rahmen-2 {
+            top: 25mm;
+            left: 110mm;
+            width: 80mm;
+            height: 70mm;
+        }
+
+        #rahmen-3 {
+            top: 150mm;
+            left: 20mm;
+            width: 170mm;
+            height: 120mm;
+            border: 2px solid #333;
+        }
+
+        /* Quelltext unsichtbar machen */
+        #source-text {
+            display: none;
+        }
+
+        /* Browser-Vorschau (Beeinflusst den PDF-Druck nicht) */
+        @media screen {
+            body {
+                background-color: #e0e0e0;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .page {
+                background-color: white;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <!-- Fixer Titel -->
+        <div class="main-title">Wichtiger<br>Zwischenruf!</div>
+
+        <!-- Ziel-Rahmen (Reihenfolge im DOM bestimmt den Textfluss) -->
+        <div id="rahmen-1" class="box" data-flow></div>
+        <div id="rahmen-2" class="box" data-flow></div>
+        <div id="rahmen-3" class="box" data-flow></div>
+    </div>
+
+    <!-- DER INHALT: Reiner Fließtext (Wird per Skript aufgeteilt) -->
+    <div id="source-text">
+        <p><strong>Start des Dokuments:</strong> Dieser Text wurde komplett separat im HTML-Code definiert. Das integrierte Skript sucht sich nun ganz alleine den Weg durch die oben definierten, absolut positionierten Boxen.</p>
+        <p style="text-indent: 1em;">Sobald der Platz im ersten, schmalen Rahmen auf der linken Seite erschöpft ist, springt das Wort genau an der Trennkante in den zweiten <b>TTUU </b>Rahmen oben rechts. Dadurch lassen sich hochkomplexe Magazin-Layouts abbilden, die mit normalen Spaltensystemen unmöglich wären.</p>
+        <p>Hier im Textfluss können Sie ganz normal mit Absätzen, Fettungen oder Kursivschrift arbeiten. Das System berechnet die Umbrüche dynamisch während des Rendervorgangs.</p>
+        <p>Nun sollte der Text langsam den dritten, großen Rahmen im unteren Bereich der A4-Seite erreichen. Wenn Sie das Dokument im Browser öffnen, sehen Sie die gestrichelten Linien der Boxen. Drücken Sie einfach <code>Strg + P</code> (bzw. <code>Cmd + P</code> am Mac), um das exakte Druck-PDF zu generieren.</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const source = document.getElementById("source-text");
+            // Wandelt den Text in ein Array aus einzelnen Wörtern und HTML-Tags um
+            const words = source.innerHTML.split(/(\s+|<[^>]+>)/g).filter(Boolean);
+            const targets = document.querySelectorAll("[data-flow]");
+            
+            let currentTargetIdx = 0;
+            let currentTarget = targets[currentTargetIdx];
+            
+            if (!currentTarget) return;
+
+            let buffer = "";
+
+            for (let i = 0; i < words.length; i++) {
+                let token = words[i];
+                
+                // Text testweise in die aktuelle Box einfügen
+                currentTarget.innerHTML = buffer + token;
+
+                // Prüfen, ob die Box überläuft (scrollHeight > clientHeight)
+                if (currentTarget.scrollHeight > currentTarget.clientHeight) {
+
+                    // Box ist voll! Gehe zur nächsten Box
+                    currentTargetIdx++;
+                    if (currentTargetIdx < targets.length) {
+                        currentTarget = targets[currentTargetIdx];
+                        buffer = token; // Token wandert in die neue Box
+                        currentTarget.innerHTML = buffer;
+                    } else {
+                        // Keine Boxen mehr übrig, Rest abschneiden oder verwerfen
+                        break;
+                    }
+                } else {
+                    buffer += token;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
