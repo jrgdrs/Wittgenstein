@@ -93,9 +93,9 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 
 ## Build
 
-make build; bash make.sh;
+make build; 
 
 
 ## Version
 
-1.516 on June 27, 2026
+1.517 on July 8, 2026

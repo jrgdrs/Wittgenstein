@@ -58,8 +58,8 @@ rule copy
       -m gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpuxpkiqhk
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpuxpkiqhk: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpjaimdhpv
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpjaimdhpv: $
     buildVariable Wittgenstein.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -114,8 +114,8 @@ build instance_ufos/Wittgenstein-Black.ufo.json: instantiateUfo $
   fontmake_type = -g
   fontmake_args =  --verbose WARNING 
   args =  --ufo-structure=json --instance-dir instance_ufos
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkhgkh71k
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkhgkh71k: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpms8x5h8g
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpms8x5h8g: $
     buildVariable Wittgenstein-Italic.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -176,15 +176,15 @@ build ../fonts/webfonts/Wittgenstein[wght].woff2: compress $
   operation = compress
 # Postprocessing  with BuildSTAT
 build $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpeiowwogn.buildStatstamp: $
-    buildSTAT-postprocess ../fonts/variable/Wittgenstein[wght].ttf $
-    ../fonts/variable/Wittgenstein-Italic[wght].ttf | $
-    ../fonts/variable/Wittgenstein[wght].ttf $
-    ../fonts/variable/Wittgenstein-Italic[wght].ttf
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvo9bq7h2.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/variable/Wittgenstein-Italic[wght].ttf $
+    ../fonts/variable/Wittgenstein[wght].ttf | $
+    ../fonts/variable/Wittgenstein-Italic[wght].ttf $
+    ../fonts/variable/Wittgenstein[wght].ttf
   stamp =  && touch $
-      /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpeiowwogn.buildStatstamp
+      /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvo9bq7h2.buildStatstamp
   postprocess = buildStat
-  args = --src /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplyc7x_r5
+  args = --src /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpebjwutjq
 # Generating ../fonts/webfonts/Wittgenstein-Italic[wght].woff2
 build ../fonts/webfonts/Wittgenstein-Italic[wght].woff2: compress $
     ../fonts/variable/Wittgenstein-Italic[wght].ttf
@@ -239,232 +239,232 @@ build ../fonts/webfonts/Wittgenstein-BlackItalic.woff2: compress $
   operation = compress
 # Generating ../fonts/variable/Wittgenstein[wght].ttf
 build ../fonts/variable/Wittgenstein[wght].ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpuxpkiqhk
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpjaimdhpv
   operation = fix
   args = 
 # Generating ../fonts/variable/Wittgenstein-Italic[wght].ttf
 build ../fonts/variable/Wittgenstein-Italic[wght].ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpkhgkh71k
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpms8x5h8g
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph6u6dt1y
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph6u6dt1y: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvhfan9r2
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvhfan9r2: $
     buildTTF instance_ufos/Wittgenstein-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplgbjrnt7
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplgbjrnt7: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmph6u6dt1y
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_r99ndnk
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_r99ndnk: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvhfan9r2
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Regular.ttf
 build ../fonts/ttf/Wittgenstein-Regular.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmplgbjrnt7
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp_r99ndnk
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpal7gdmjk
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpal7gdmjk: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpacra5z5v
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpacra5z5v: $
     buildTTF instance_ufos/Wittgenstein-Medium.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphjpz_i4v
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphjpz_i4v: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpal7gdmjk
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbms3r9x5
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbms3r9x5: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpacra5z5v
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Medium.ttf
 build ../fonts/ttf/Wittgenstein-Medium.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphjpz_i4v
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbms3r9x5
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppab6def6
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppab6def6: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphhx4xq4y
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphhx4xq4y: $
     buildTTF instance_ufos/Wittgenstein-SemiBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpwxbr4ws4
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpwxbr4ws4: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmppab6def6
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpimt5wvyl
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpimt5wvyl: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphhx4xq4y
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-SemiBold.ttf
 build ../fonts/ttf/Wittgenstein-SemiBold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpwxbr4ws4
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpimt5wvyl
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmem4y88z
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmem4y88z: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpnm_epkds
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpnm_epkds: $
     buildTTF instance_ufos/Wittgenstein-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9wntslxl
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9wntslxl: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmem4y88z
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmc66anil
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmc66anil: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpnm_epkds
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Bold.ttf
 build ../fonts/ttf/Wittgenstein-Bold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp9wntslxl
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpmc66anil
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2ga8m0k3
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2ga8m0k3: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1t5d935g
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1t5d935g: $
     buildTTF instance_ufos/Wittgenstein-ExtraBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe9q4e_l1
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe9q4e_l1: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2ga8m0k3
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpn17lb3it
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpn17lb3it: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1t5d935g
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-ExtraBold.ttf
 build ../fonts/ttf/Wittgenstein-ExtraBold.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpe9q4e_l1
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpn17lb3it
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpyat_pefq
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpyat_pefq: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpyg_1zalw
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpyg_1zalw: $
     buildTTF instance_ufos/Wittgenstein-Black.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxiu26ny7
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxiu26ny7: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpyat_pefq
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptnee9rhf
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptnee9rhf: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpyg_1zalw
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Black.ttf
 build ../fonts/ttf/Wittgenstein-Black.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxiu26ny7
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptnee9rhf
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprnvueddy
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprnvueddy: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5xk2hsqx
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5xk2hsqx: $
     buildTTF instance_ufos/Wittgenstein-Italic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7gak1g9z
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7gak1g9z: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprnvueddy
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpoqxqtzsa
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpoqxqtzsa: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp5xk2hsqx
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-Italic.ttf
 build ../fonts/ttf/Wittgenstein-Italic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7gak1g9z
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpoqxqtzsa
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvxt8erz4
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvxt8erz4: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7yo7x5t8
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7yo7x5t8: $
     buildTTF instance_ufos/Wittgenstein-MediumItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpep6_kzex
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpep6_kzex: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvxt8erz4
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3flmlcer
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3flmlcer: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp7yo7x5t8
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-MediumItalic.ttf
 build ../fonts/ttf/Wittgenstein-MediumItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpep6_kzex
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3flmlcer
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1rtjsmne
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1rtjsmne: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp25xt1wx_
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp25xt1wx_: $
     buildTTF instance_ufos/Wittgenstein-SemiBoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpy00dw_6f
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpy00dw_6f: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1rtjsmne
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprftqhgyw
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprftqhgyw: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp25xt1wx_
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf
 build ../fonts/ttf/Wittgenstein-SemiBoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpy00dw_6f
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmprftqhgyw
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbrk5n3d9
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbrk5n3d9: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2qghcegb
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2qghcegb: $
     buildTTF instance_ufos/Wittgenstein-BoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0q5gsfnt
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0q5gsfnt: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpbrk5n3d9
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1o6i8w2l
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1o6i8w2l: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp2qghcegb
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-BoldItalic.ttf
 build ../fonts/ttf/Wittgenstein-BoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp0q5gsfnt
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp1o6i8w2l
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp36edzqel
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp36edzqel: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8tsk67o1
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8tsk67o1: $
     buildTTF instance_ufos/Wittgenstein-ExtraBoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd6vc2beg
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd6vc2beg: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp36edzqel
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptp5q3i3c
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptp5q3i3c: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp8tsk67o1
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf
 build ../fonts/ttf/Wittgenstein-ExtraBoldItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpd6vc2beg
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmptp5q3i3c
   operation = fix
   args = 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphcqeilwx
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphcqeilwx: $
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3cescx78
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3cescx78: $
     buildTTF instance_ufos/Wittgenstein-BlackItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4w1fefjl
-build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4w1fefjl: $
-    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmphcqeilwx
+# Generating /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxcbhc1i3
+build /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxcbhc1i3: $
+    autohint /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp3cescx78
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Wittgenstein-BlackItalic.ttf
 build ../fonts/ttf/Wittgenstein-BlackItalic.ttf: fix $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmp4w1fefjl
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpxcbhc1i3
   operation = fix
   args = 
 default ../fonts/webfonts/Wittgenstein[wght].woff2 $
-    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpeiowwogn.buildStatstamp $
+    /var/folders/4b/lw_1rmtj7cx_zm2rhgk1tw0h0000gn/T/tmpvo9bq7h2.buildStatstamp $
     ../fonts/webfonts/Wittgenstein-Italic[wght].woff2 $
     ../fonts/webfonts/Wittgenstein-Regular.woff2 $
     ../fonts/webfonts/Wittgenstein-Medium.woff2 $
