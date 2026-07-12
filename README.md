@@ -98,4 +98,4 @@ make build;
 
 ## Version
 
-1.518 on July 10, 2026
+1.521 on July 12, 2026

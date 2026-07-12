@@ -7,6 +7,7 @@ axisOrder:
 familyName: Wittgenstein
 
 buildOTF: false
+buildTTF: true
 buildSmallCap: false
 
 stat:
